@@ -85,8 +85,6 @@ def remove_emojis(text):
         "\U00002600-\U000026FF"  # Miscellaneous Symbols
         "\U00002700-\U000027BF"  # Dingbats
         "\U0000FE00-\U0000FE0F"  # Variation Selectors
-        "\U0001F900-\U0001F9FF"  # Supplemental Symbols and Pictographs
-        "\U0001FA70-\U0001FAFF"  # Symbols and Pictographs Extended-A
         "\u200d"                 # Zero Width Joiner
         "\u2640-\u2642"          # Gender symbols
         "\u2600-\u2B55"          # Miscellaneous symbols
@@ -133,8 +131,9 @@ def parse_repos(readme_content):
                 name = match.group(1)
                 url = match.group(2)
                 
-                # Only process GitHub URLs
-                if 'github.com' in url:
+                # Only process GitHub URLs - check that github.com is the domain
+                # Handle both http and https, with or without www
+                if '://github.com/' in url or '://www.github.com/' in url or url.startswith('github.com/'):
                     owner, repo = parse_github_url(url)
                     if owner and repo:
                         # Extract description (text after closing `)` or after language tag)
