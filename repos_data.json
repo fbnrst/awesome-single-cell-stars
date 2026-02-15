@@ -1,6 +1,15 @@
 {
   "repos": [
     {
+      "name": "Seurat",
+      "url": "https://github.com/satijalab/seurat",
+      "owner": "satijalab",
+      "repo": "seurat",
+      "category": "RNA-seq",
+      "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
+      "stars": 2649
+    },
+    {
       "name": "Scanpy",
       "url": "https://github.com/theislab/scanpy",
       "owner": "theislab",
@@ -2629,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-15 10:09:09 UTC"
+  "updated": "2026-02-15 11:20:10 UTC"
 }
