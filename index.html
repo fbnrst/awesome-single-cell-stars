@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Single Cell - Sorted by Stars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            line-height: 1.5;
+            color: #24292e;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #586069;
+        }
+
+        .controls {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        label {
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        select {
+            padding: 5px 12px;
+            font-size: 14px;
+            line-height: 20px;
+            color: #24292e;
+            background-color: #fafbfc;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #0366d6;
+            box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+        }
+
+        .stats {
+            font-size: 14px;
+            color: #586069;
+            margin-bottom: 16px;
+        }
+
+        .repo-list {
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .repo-item {
+            padding: 16px;
+            border-bottom: 1px solid #e1e4e8;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .repo-item:last-child {
+            border-bottom: none;
+        }
+
+        .repo-item:hover {
+            background-color: #f6f8fa;
+        }
+
+        .repo-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .repo-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 4px;
+            flex-wrap: wrap;
+        }
+
+        .repo-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .repo-name:hover {
+            text-decoration: underline;
+        }
+
+        .repo-category {
+            font-size: 12px;
+            padding: 2px 8px;
+            background-color: #f1f8ff;
+            color: #0366d6;
+            border-radius: 12px;
+            border: 1px solid #c8e1ff;
+        }
+
+        .repo-description {
+            font-size: 14px;
+            color: #586069;
+            margin-bottom: 4px;
+            word-break: break-word;
+        }
+
+        .repo-url {
+            font-size: 12px;
+            color: #586069;
+        }
+
+        .repo-url a {
+            color: #586069;
+            text-decoration: none;
+        }
+
+        .repo-url a:hover {
+            text-decoration: underline;
+        }
+
+        .repo-stars {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 14px;
+            color: #586069;
+            white-space: nowrap;
+        }
+
+        .star-icon {
+            width: 16px;
+            height: 16px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #586069;
+        }
+
+        .error {
+            padding: 16px;
+            background-color: #ffeef0;
+            border: 1px solid #d73a49;
+            border-radius: 6px;
+            color: #d73a49;
+            margin: 20px 0;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e1e4e8;
+            text-align: center;
+            font-size: 14px;
+            color: #586069;
+        }
+
+        footer a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .repo-item {
+                flex-direction: column;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .control-group {
+                width: 100%;
+            }
+
+            select {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Awesome Single Cell</h1>
+            <p class="subtitle">Software packages for single-cell data analysis - sorted by GitHub stars</p>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="categoryFilter">Category:</label>
+                <select id="categoryFilter">
+                    <option value="all">All Categories</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label for="sortOrder">Sort:</label>
+                <select id="sortOrder">
+                    <option value="stars-desc">Most Stars</option>
+                    <option value="stars-asc">Least Stars</option>
+                    <option value="name-asc">Name (A-Z)</option>
+                    <option value="name-desc">Name (Z-A)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="stats" id="stats">Loading...</div>
+
+        <div id="repoContainer">
+            <div class="loading">Loading repositories...</div>
+        </div>
+
+        <footer>
+            <p>
+                Data source: <a href="https://github.com/seandavi/awesome-single-cell" target="_blank">seandavi/awesome-single-cell</a>
+                <br>
+                Last updated: <span id="lastUpdated">-</span>
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        let allRepos = [];
+        let filteredRepos = [];
+
+        // Star icon SVG
+        const starIcon = '<svg class="star-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>';
+
+        async function loadData() {
+            try {
+                const response = await fetch('repos_data.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load data');
+                }
+                const data = await response.json();
+                allRepos = data.repos;
+                
+                // Update last updated time
+                document.getElementById('lastUpdated').textContent = data.updated;
+                
+                // Populate category filter
+                populateCategoryFilter();
+                
+                // Initial render
+                filterAndSort();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('repoContainer').innerHTML = 
+                    '<div class="error">Failed to load repository data. Please try again later.</div>';
+            }
+        }
+
+        function populateCategoryFilter() {
+            const categories = [...new Set(allRepos.map(r => r.category))].sort();
+            const select = document.getElementById('categoryFilter');
+            
+            categories.forEach(category => {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                select.appendChild(option);
+            });
+        }
+
+        function filterAndSort() {
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            const sortOrder = document.getElementById('sortOrder').value;
+
+            // Filter
+            if (categoryFilter === 'all') {
+                filteredRepos = [...allRepos];
+            } else {
+                filteredRepos = allRepos.filter(repo => repo.category === categoryFilter);
+            }
+
+            // Sort
+            const [sortBy, direction] = sortOrder.split('-');
+            filteredRepos.sort((a, b) => {
+                let comparison = 0;
+                if (sortBy === 'stars') {
+                    comparison = a.stars - b.stars;
+                } else if (sortBy === 'name') {
+                    comparison = a.name.toLowerCase().localeCompare(b.name.toLowerCase());
+                }
+                return direction === 'desc' ? -comparison : comparison;
+            });
+
+            renderRepos();
+            updateStats();
+        }
+
+        function renderRepos() {
+            const container = document.getElementById('repoContainer');
+            
+            if (filteredRepos.length === 0) {
+                container.innerHTML = '<div class="loading">No repositories found.</div>';
+                return;
+            }
+
+            const repoList = document.createElement('div');
+            repoList.className = 'repo-list';
+
+            filteredRepos.forEach(repo => {
+                const item = document.createElement('div');
+                item.className = 'repo-item';
+                
+                item.innerHTML = `
+                    <div class="repo-info">
+                        <div class="repo-header">
+                            <a href="${repo.url}" class="repo-name" target="_blank">${repo.name}</a>
+                            <span class="repo-category">${repo.category}</span>
+                        </div>
+                        <div class="repo-description">${repo.description || 'No description'}</div>
+                        <div class="repo-url">
+                            <a href="${repo.url}" target="_blank">${repo.owner}/${repo.repo}</a>
+                        </div>
+                    </div>
+                    <div class="repo-stars">
+                        ${starIcon}
+                        ${repo.stars.toLocaleString()}
+                    </div>
+                `;
+                
+                repoList.appendChild(item);
+            });
+
+            container.innerHTML = '';
+            container.appendChild(repoList);
+        }
+
+        function updateStats() {
+            const stats = document.getElementById('stats');
+            const totalStars = filteredRepos.reduce((sum, repo) => sum + repo.stars, 0);
+            stats.textContent = `Showing ${filteredRepos.length} repositories with ${totalStars.toLocaleString()} total stars`;
+        }
+
+        // Event listeners
+        document.getElementById('categoryFilter').addEventListener('change', filterAndSort);
+        document.getElementById('sortOrder').addEventListener('change', filterAndSort);
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>
