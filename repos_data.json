@@ -433,21 +433,21 @@
       "stars": 260
     },
     {
-      "name": "MOFA",
-      "url": " https://github.com/bioFAM/MOFA",
-      "owner": "bioFAM",
-      "repo": "MOFA",
-      "category": "Multi-assay data integration",
-      "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 258
-    },
-    {
       "name": "BPCells",
       "url": "https://github.com/bnprks/BPCells",
       "owner": "bnprks",
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
+      "stars": 259
+    },
+    {
+      "name": "MOFA",
+      "url": " https://github.com/bioFAM/MOFA",
+      "owner": "bioFAM",
+      "repo": "MOFA",
+      "category": "Multi-assay data integration",
+      "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
       "stars": 258
     },
     {
@@ -2143,6 +2143,15 @@
       "stars": 15
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 15
+    },
+    {
       "name": "embeddr",
       "url": "https://github.com/kieranrcampbell/embeddr",
       "owner": "kieranrcampbell",
@@ -2167,15 +2176,6 @@
       "repo": "trapes",
       "category": "Immune receptor profiling",
       "description": "TRAPeS (TCR Reconstruction Algorithm for Paired-End Single-cell), a software for reconstruction of T cell receptors (TCR) using short, paired-end single-cell RNA-sequencing.",
-      "stars": 14
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 14
     },
     {
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-15 11:20:10 UTC"
+  "updated": "2026-02-16 02:41:03 UTC"
 }
