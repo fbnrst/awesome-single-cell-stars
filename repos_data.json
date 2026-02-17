@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2345
+      "stars": 2346
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1474
+      "stars": 1475
     },
     {
       "name": "gget",
@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 617
+      "stars": 618
     },
     {
       "name": "ffq",
@@ -349,7 +349,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 333
+      "stars": 334
     },
     {
       "name": "slingshot",
@@ -385,7 +385,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 298
+      "stars": 299
     },
     {
       "name": "Palantir",
@@ -439,7 +439,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 259
+      "stars": 260
     },
     {
       "name": "MOFA",
@@ -592,7 +592,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 186
+      "stars": 187
     },
     {
       "name": "kb-python",
@@ -1096,7 +1096,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 92
+      "stars": 93
     },
     {
       "name": "SLAT",
@@ -1132,7 +1132,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 83
+      "stars": 84
     },
     {
       "name": "SCALEX",
@@ -1378,6 +1378,15 @@
       "stars": 48
     },
     {
+      "name": "psupertime",
+      "url": "https://github.com/wmacnair/psupertime",
+      "owner": "wmacnair",
+      "repo": "psupertime",
+      "category": "Pseudotime and trajectory inference",
+      "description": "psupertime is an R package which uses single cell RNAseq data, where the cells have labels following a known sequence (e.g. a time series), to identify a small number of genes which place cells in that known order. It can be used for discovery of relevant genes, for exploration of unlabelled data, and assessment of one dataset with respect to the labels known for another dataset. - [preprint](https://www.biorxiv.org/content/10.1101/622001v1)",
+      "stars": 48
+    },
+    {
       "name": "MetaNeighbor",
       "url": "github.com/maggiecrow/MetaNeighbor",
       "owner": "maggiecrow",
@@ -1393,15 +1402,6 @@
       "repo": "NetworkInference.jl",
       "category": "RNA-seq",
       "description": "Fast implementation of single-cell network inference algorithms: <a href=\"https://www.sciencedirect.com/science/article/pii/S2405471217303861\">Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures</a>",
-      "stars": 47
-    },
-    {
-      "name": "psupertime",
-      "url": "https://github.com/wmacnair/psupertime",
-      "owner": "wmacnair",
-      "repo": "psupertime",
-      "category": "Pseudotime and trajectory inference",
-      "description": "psupertime is an R package which uses single cell RNAseq data, where the cells have labels following a known sequence (e.g. a time series), to identify a small number of genes which place cells in that known order. It can be used for discovery of relevant genes, for exploration of unlabelled data, and assessment of one dataset with respect to the labels known for another dataset. - [preprint](https://www.biorxiv.org/content/10.1101/622001v1)",
       "stars": 47
     },
     {
@@ -1783,6 +1783,15 @@
       "stars": 27
     },
     {
+      "name": "dropkick",
+      "url": "https://github.com/KenLauLab/dropkick",
+      "owner": "KenLauLab",
+      "repo": "dropkick",
+      "category": "RNA-seq",
+      "description": "Automated cell filtering for single-cell RNA sequencing data.",
+      "stars": 26
+    },
+    {
       "name": "scSemiProfiler",
       "url": "https://github.com/mcgilldinglab/scSemiProfiler",
       "owner": "mcgilldinglab",
@@ -1808,15 +1817,6 @@
       "category": "Cell type identification and classification",
       "description": "Signac classifies the cellular phenotype for each individual cell in scRNA-seq data using neural networks trained with sorted bulk gene expression data from the Human Primary Cell Atlas. Signac can: map cells from one data set to another, classify non-human single cell data, identify novel cell types, and classify single cell data across many tissues, diseases and technologies. [Cell type classification and discovery across diseases, technologies and tissues reveals conserved gene signatures and enables standardized single-cell readouts](https://www.biorxiv.org/content/10.1101/2021.02.01.429207v3.full)",
       "stars": 26
-    },
-    {
-      "name": "dropkick",
-      "url": "https://github.com/KenLauLab/dropkick",
-      "owner": "KenLauLab",
-      "repo": "dropkick",
-      "category": "RNA-seq",
-      "description": "Automated cell filtering for single-cell RNA sequencing data.",
-      "stars": 25
     },
     {
       "name": "Ibex",
@@ -2071,6 +2071,15 @@
       "stars": 16
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 16
+    },
+    {
       "name": "robustSingleCell",
       "url": "https://github.com/asmagen/robustSingleCell",
       "owner": "asmagen",
@@ -2140,15 +2149,6 @@
       "repo": "SCRAT",
       "category": "Epigenomics",
       "description": "SCRAT provides essential tools for users to read in single-cell regulome data (ChIP-seq, ATAC-seq, DNase-seq) and summarize into different types of features. It also allows users to visualize the features, cluster samples and identify key features. [Single-cell regulome data analysis by SCRAT](https://academic.oup.com/bioinformatics/article/33/18/2930/3823309)",
-      "stars": 15
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 15
     },
     {
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-16 02:41:03 UTC"
+  "updated": "2026-02-17 02:37:19 UTC"
 }
