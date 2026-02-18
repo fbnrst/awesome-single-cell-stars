@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2346
+      "stars": 2347
     },
     {
       "name": "STAR",
@@ -331,7 +331,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 338
+      "stars": 339
     },
     {
       "name": "immunarch",
@@ -538,7 +538,7 @@
       "repo": "dittoSeq",
       "category": "RNA-seq",
       "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
-      "stars": 213
+      "stars": 214
     },
     {
       "name": "cellassign",
@@ -592,7 +592,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 187
+      "stars": 189
     },
     {
       "name": "kb-python",
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-17 02:37:19 UTC"
+  "updated": "2026-02-18 02:40:26 UTC"
 }
