@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 721
+      "stars": 722
     },
     {
       "name": "GSEApy",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 631
+      "stars": 632
     },
     {
       "name": "SCP",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 523
+      "stars": 524
     },
     {
       "name": "dynamo",
@@ -430,7 +430,7 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 260
+      "stars": 261
     },
     {
       "name": "BPCells",
@@ -439,7 +439,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 260
+      "stars": 261
     },
     {
       "name": "MOFA",
@@ -547,7 +547,7 @@
       "repo": "cellassign",
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
-      "stars": 210
+      "stars": 211
     },
     {
       "name": "Numbat",
@@ -556,7 +556,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 203
+      "stars": 204
     },
     {
       "name": "SPOTlight",
@@ -577,21 +577,21 @@
       "stars": 201
     },
     {
-      "name": "Spectra",
-      "url": "https://github.com/dpeerlab/spectra/",
-      "owner": "dpeerlab",
-      "repo": "spectra",
-      "category": "Gene regulatory network identification",
-      "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 189
-    },
-    {
       "name": "torchdr",
       "url": "https://github.com/TorchDR/TorchDR",
       "owner": "TorchDR",
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 191
+    },
+    {
+      "name": "Spectra",
+      "url": "https://github.com/dpeerlab/spectra/",
+      "owner": "dpeerlab",
+      "repo": "spectra",
+      "category": "Gene regulatory network identification",
+      "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
       "stars": 189
     },
     {
@@ -964,6 +964,15 @@
       "stars": 106
     },
     {
+      "name": "Snakemake single-cell-rna-seq workflow",
+      "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
+      "owner": "snakemake-workflows",
+      "repo": "single-cell-rna-seq",
+      "category": "Other applications",
+      "description": "An automated pipeline for single cell RNA-seq analysis.",
+      "stars": 106
+    },
+    {
       "name": "RNAnorm",
       "url": "https://github.com/genialis/RNAnorm",
       "owner": "genialis",
@@ -973,13 +982,13 @@
       "stars": 105
     },
     {
-      "name": "Snakemake single-cell-rna-seq workflow",
-      "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
-      "owner": "snakemake-workflows",
-      "repo": "single-cell-rna-seq",
-      "category": "Other applications",
-      "description": "An automated pipeline for single cell RNA-seq analysis.",
-      "stars": 105
+      "name": "CyteType",
+      "url": "https://github.com/NygenAnalytics/CyteType",
+      "owner": "NygenAnalytics",
+      "repo": "CyteType",
+      "category": "Cell type identification and classification",
+      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
+      "stars": 104
     },
     {
       "name": "SCALE",
@@ -989,15 +998,6 @@
       "category": "Epigenomics",
       "description": "SCALE is a deeplearning tool combining GMM with VAE for single-cell ATAC-seq analysis (visualization, clustering, imputation, batch effect removal, downstream analysis for celltype-specific TFs). [SCALE method for single-cell ATAC-seq analysis via latent feature extraction](https://www.nature.com/articles/s41467-019-12630-7)",
       "stars": 104
-    },
-    {
-      "name": "CyteType",
-      "url": "https://github.com/NygenAnalytics/CyteType",
-      "owner": "NygenAnalytics",
-      "repo": "CyteType",
-      "category": "Cell type identification and classification",
-      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 103
     },
     {
       "name": "bustools",
@@ -1015,7 +1015,7 @@
       "repo": "HoneyBADGER",
       "category": "Copy number analysis",
       "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
-      "stars": 100
+      "stars": 101
     },
     {
       "name": "PASTE",
@@ -1411,7 +1411,7 @@
       "repo": "SCODE",
       "category": "RNA-seq",
       "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
-      "stars": 46
+      "stars": 47
     },
     {
       "name": "scExtract",
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-18 02:40:26 UTC"
+  "updated": "2026-02-19 02:40:29 UTC"
 }
