@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1567
+      "stars": 1569
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1567
+      "stars": 1569
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1567
+      "stars": 1569
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1567
+      "stars": 1569
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1567
+      "stars": 1569
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1567
+      "stars": 1569
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1098
+      "stars": 1099
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 762
+      "stars": 763
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 721
+      "stars": 722
     },
     {
       "name": "GSEApy",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 632
+      "stars": 633
     },
     {
       "name": "SCP",
@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 618
+      "stars": 619
     },
     {
       "name": "ffq",
@@ -169,7 +169,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 594
+      "stars": 595
     },
     {
       "name": "squidpy",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 465
+      "stars": 466
     },
     {
       "name": "GLUE",
@@ -295,7 +295,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 362
+      "stars": 363
     },
     {
       "name": "Giotto Suite",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 361
+      "stars": 362
     },
     {
       "name": "Tangram",
@@ -340,7 +340,7 @@
       "repo": "immunarch",
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
-      "stars": 337
+      "stars": 338
     },
     {
       "name": "GEARS",
@@ -385,7 +385,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 299
+      "stars": 300
     },
     {
       "name": "Palantir",
@@ -424,21 +424,21 @@
       "stars": 263
     },
     {
-      "name": "MAST",
-      "url": "https://github.com/RGLab/MAST",
-      "owner": "RGLab",
-      "repo": "MAST",
-      "category": "Count modelling and normalization",
-      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 261
-    },
-    {
       "name": "BPCells",
       "url": "https://github.com/bnprks/BPCells",
       "owner": "bnprks",
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
+      "stars": 262
+    },
+    {
+      "name": "MAST",
+      "url": "https://github.com/RGLab/MAST",
+      "owner": "RGLab",
+      "repo": "MAST",
+      "category": "Count modelling and normalization",
+      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
       "stars": 261
     },
     {
@@ -595,6 +595,15 @@
       "stars": 189
     },
     {
+      "name": "kb-python",
+      "url": "https://github.com/pachterlab/kb_python",
+      "owner": "pachterlab",
+      "repo": "kb_python",
+      "category": "RNA-seq",
+      "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
+      "stars": 183
+    },
+    {
       "name": "SpatialDe",
       "url": "https://github.com/Teichlab/SpatialDE",
       "owner": "Teichlab",
@@ -604,22 +613,13 @@
       "stars": 183
     },
     {
-      "name": "kb-python",
-      "url": "https://github.com/pachterlab/kb_python",
-      "owner": "pachterlab",
-      "repo": "kb_python",
-      "category": "RNA-seq",
-      "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 182
-    },
-    {
       "name": "inferCNVpy",
       "url": "https://github.com/icbi-lab/infercnvpy",
       "owner": "icbi-lab",
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 180
+      "stars": 181
     },
     {
       "name": "SCDE",
@@ -811,6 +811,15 @@
       "stars": 128
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 127
+    },
+    {
       "name": "Dictys",
       "url": "https://github.com/pinellolab/dictys",
       "owner": "pinellolab",
@@ -818,15 +827,6 @@
       "category": "Gene regulatory network identification",
       "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
       "stars": 127
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 126
     },
     {
       "name": "flotilla",
@@ -988,7 +988,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 104
+      "stars": 105
     },
     {
       "name": "SCALE",
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-20 02:34:42 UTC"
+  "updated": "2026-02-21 02:28:01 UTC"
 }
