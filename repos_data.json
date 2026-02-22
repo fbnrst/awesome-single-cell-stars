@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2348
+      "stars": 2349
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1475
+      "stars": 1476
     },
     {
       "name": "gget",
@@ -205,7 +205,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 490
+      "stars": 489
     },
     {
       "name": "scVelo",
@@ -694,6 +694,24 @@
       "stars": 144
     },
     {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Gene regulatory network identification",
+      "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 140
+    },
+    {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Dimension reduction",
+      "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 140
+    },
+    {
       "name": "singleCellNet",
       "url": "https://github.com/pcahan1/singleCellNet/",
       "owner": "pcahan1",
@@ -707,27 +725,9 @@
       "url": "https://github.com/cantinilab/scPRINT",
       "owner": "cantinilab",
       "repo": "scPRINT",
-      "category": "Gene regulatory network identification",
-      "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 139
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
-      "category": "Dimension reduction",
-      "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 139
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from  any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 139
+      "stars": 140
     },
     {
       "name": "scPRINT",
@@ -736,7 +736,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 139
+      "stars": 140
     },
     {
       "name": "TraCeR",
@@ -754,7 +754,7 @@
       "repo": "demuxlet",
       "category": "Doublet Identification",
       "description": "[Multiplexed droplet single-cell RNA-sequencing using natural genetic variation](https://www.nature.com/articles/nbt.4042)",
-      "stars": 132
+      "stars": 133
     },
     {
       "name": "AtacWorks",
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-21 02:28:01 UTC"
+  "updated": "2026-02-22 02:40:32 UTC"
 }
