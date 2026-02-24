@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2650
+      "stars": 2652
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2350
+      "stars": 2353
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1477
+      "stars": 1478
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 763
+      "stars": 764
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 722
+      "stars": 723
     },
     {
       "name": "GSEApy",
@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 619
+      "stars": 621
     },
     {
       "name": "ffq",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 552
+      "stars": 553
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 454
+      "stars": 455
     },
     {
       "name": "RCTD",
@@ -466,7 +466,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 245
+      "stars": 246
     },
     {
       "name": "Scirpy",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 191
+      "stars": 192
     },
     {
       "name": "Spectra",
@@ -712,6 +712,15 @@
       "stars": 141
     },
     {
+      "name": "singleCellNet",
+      "url": "https://github.com/pcahan1/singleCellNet/",
+      "owner": "pcahan1",
+      "repo": "singleCellNet",
+      "category": "Cell type identification and classification",
+      "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
+      "stars": 141
+    },
+    {
       "name": "scPRINT",
       "url": "https://github.com/cantinilab/scPRINT",
       "owner": "cantinilab",
@@ -730,22 +739,13 @@
       "stars": 141
     },
     {
-      "name": "singleCellNet",
-      "url": "https://github.com/pcahan1/singleCellNet/",
-      "owner": "pcahan1",
-      "repo": "singleCellNet",
-      "category": "Cell type identification and classification",
-      "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
-      "stars": 140
-    },
-    {
       "name": "TraCeR",
       "url": "http://github.com/teichlab/tracer",
       "owner": "teichlab",
       "repo": "tracer",
       "category": "Immune receptor profiling",
       "description": "Reconstruction of T-Cell receptor sequences from single-cell RNA-seq data.",
-      "stars": 134
+      "stars": 135
     },
     {
       "name": "demuxlet",
@@ -793,6 +793,15 @@
       "stars": 129
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 128
+    },
+    {
       "name": "memento-de",
       "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
       "owner": "yelabucsf",
@@ -809,15 +818,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 128
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 127
     },
     {
       "name": "Dictys",
@@ -919,21 +919,21 @@
       "stars": 110
     },
     {
-      "name": "HTSeq",
-      "url": "https://github.com/htseq/htseq",
-      "owner": "htseq",
-      "repo": "htseq",
-      "category": "RNA-seq",
-      "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
-      "stars": 107
-    },
-    {
       "name": "SCCAF",
       "url": "https://github.com/SCCAF/sccaf",
       "owner": "SCCAF",
       "repo": "sccaf",
       "category": "RNA-seq",
       "description": "",
+      "stars": 108
+    },
+    {
+      "name": "HTSeq",
+      "url": "https://github.com/htseq/htseq",
+      "owner": "htseq",
+      "repo": "htseq",
+      "category": "RNA-seq",
+      "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
       "stars": 107
     },
     {
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-02-23 02:41:15 UTC"
+  "updated": "2026-02-24 02:37:12 UTC"
 }
