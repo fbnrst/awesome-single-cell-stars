@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2149
+      "stars": 2150
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1573
+      "stars": 1574
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1573
+      "stars": 1574
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1573
+      "stars": 1574
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1573
+      "stars": 1574
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1573
+      "stars": 1574
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1573
+      "stars": 1574
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1482
+      "stars": 1483
     },
     {
       "name": "gget",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit).  Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 652
+      "stars": 654
     },
     {
       "name": "mLLMCelltype",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 634
+      "stars": 635
     },
     {
       "name": "SCP",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 391
+      "stars": 392
     },
     {
       "name": "MAGIC",
@@ -349,7 +349,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 336
+      "stars": 337
     },
     {
       "name": "slingshot",
@@ -358,7 +358,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 324
+      "stars": 325
     },
     {
       "name": "octopus",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 312
+      "stars": 313
     },
     {
       "name": "RAPIDS-singlecell",
@@ -511,7 +511,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 225
+      "stars": 226
     },
     {
       "name": "Muscat",
@@ -556,7 +556,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 205
+      "stars": 206
     },
     {
       "name": "alevin-fry",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 193
+      "stars": 195
     },
     {
       "name": "Spectra",
@@ -595,6 +595,15 @@
       "stars": 189
     },
     {
+      "name": "SpatialDe",
+      "url": "https://github.com/Teichlab/SpatialDE",
+      "owner": "Teichlab",
+      "repo": "SpatialDE",
+      "category": "Spatial transcriptomics",
+      "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
+      "stars": 184
+    },
+    {
       "name": "kb-python",
       "url": "https://github.com/pachterlab/kb_python",
       "owner": "pachterlab",
@@ -604,22 +613,13 @@
       "stars": 183
     },
     {
-      "name": "SpatialDe",
-      "url": "https://github.com/Teichlab/SpatialDE",
-      "owner": "Teichlab",
-      "repo": "SpatialDE",
-      "category": "Spatial transcriptomics",
-      "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
-      "stars": 183
-    },
-    {
       "name": "inferCNVpy",
       "url": "https://github.com/icbi-lab/infercnvpy",
       "owner": "icbi-lab",
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 181
+      "stars": 182
     },
     {
       "name": "SCDE",
@@ -2035,21 +2035,21 @@
       "stars": 18
     },
     {
-      "name": "scMalignantFinder",
-      "url": "https://github.com/Jonyyqn/scMalignantFinder",
-      "owner": "Jonyyqn",
-      "repo": "scMalignantFinder",
-      "category": "Malignant cell identification",
-      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
-      "stars": 17
-    },
-    {
       "name": "ChatSpatial",
       "url": "https://github.com/cafferychen777/ChatSpatial",
       "owner": "cafferychen777",
       "repo": "ChatSpatial",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 18
+    },
+    {
+      "name": "scMalignantFinder",
+      "url": "https://github.com/Jonyyqn/scMalignantFinder",
+      "owner": "Jonyyqn",
+      "repo": "scMalignantFinder",
+      "category": "Malignant cell identification",
+      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
       "stars": 17
     },
     {
@@ -2206,6 +2206,15 @@
       "stars": 13
     },
     {
+      "name": "FlashDeconv",
+      "url": "https://github.com/cafferychen777/flashdeconv",
+      "owner": "cafferychen777",
+      "repo": "flashdeconv",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 13
+    },
+    {
       "name": "MetaMarkers",
       "url": "https://github.com/gillislab/MetaMarkers",
       "owner": "gillislab",
@@ -2275,15 +2284,6 @@
       "repo": "COMUNET",
       "category": "Cellular interactions/communication",
       "description": "It streamlines the interpretation of the results from cell-cell communication analyses by using multiplex networks to represent and cluster all potential communication pathways between cell types. [Paper](https://academic.oup.com/bioinformatics/article/36/15/4296/5836497)",
-      "stars": 12
-    },
-    {
-      "name": "FlashDeconv",
-      "url": "https://github.com/cafferychen777/flashdeconv",
-      "owner": "cafferychen777",
-      "repo": "flashdeconv",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 12
     },
     {
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-02 02:35:51 UTC"
+  "updated": "2026-03-03 02:37:50 UTC"
 }
