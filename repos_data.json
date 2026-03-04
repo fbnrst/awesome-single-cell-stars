@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2662
+      "stars": 2665
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2150
+      "stars": 2151
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1574
+      "stars": 1575
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1574
+      "stars": 1575
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1574
+      "stars": 1575
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1574
+      "stars": 1575
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1574
+      "stars": 1575
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1574
+      "stars": 1575
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1483
+      "stars": 1484
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 765
+      "stars": 766
     },
     {
       "name": "kallisto",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 690
+      "stars": 691
     },
     {
       "name": "inferCNV",
@@ -199,6 +199,15 @@
       "stars": 525
     },
     {
+      "name": "scVelo",
+      "url": "https://github.com/theislab/scvelo",
+      "owner": "theislab",
+      "repo": "scvelo",
+      "category": "Pseudotime and trajectory inference",
+      "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
+      "stars": 490
+    },
+    {
       "name": "dynamo",
       "url": "https://github.com/aristoteleo/dynamo-release",
       "owner": "aristoteleo",
@@ -206,15 +215,6 @@
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
       "stars": 489
-    },
-    {
-      "name": "scVelo",
-      "url": "https://github.com/theislab/scvelo",
-      "owner": "theislab",
-      "repo": "scvelo",
-      "category": "Pseudotime and trajectory inference",
-      "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 488
     },
     {
       "name": "SCENIC",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 455
+      "stars": 456
     },
     {
       "name": "RCTD",
@@ -286,7 +286,7 @@
       "repo": "MAGIC",
       "category": "Feature (Gene) imputation",
       "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 378
+      "stars": 379
     },
     {
       "name": "scRepertoire",
@@ -385,7 +385,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 303
+      "stars": 304
     },
     {
       "name": "Palantir",
@@ -502,7 +502,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 232
+      "stars": 233
     },
     {
       "name": "BayesPrism",
@@ -511,7 +511,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 226
+      "stars": 227
     },
     {
       "name": "Muscat",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 195
+      "stars": 196
     },
     {
       "name": "Spectra",
@@ -595,21 +595,21 @@
       "stars": 189
     },
     {
-      "name": "SpatialDe",
-      "url": "https://github.com/Teichlab/SpatialDE",
-      "owner": "Teichlab",
-      "repo": "SpatialDE",
-      "category": "Spatial transcriptomics",
-      "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
-      "stars": 184
-    },
-    {
       "name": "kb-python",
       "url": "https://github.com/pachterlab/kb_python",
       "owner": "pachterlab",
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
+      "stars": 183
+    },
+    {
+      "name": "SpatialDe",
+      "url": "https://github.com/Teichlab/SpatialDE",
+      "owner": "Teichlab",
+      "repo": "SpatialDE",
+      "category": "Spatial transcriptomics",
+      "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
       "stars": 183
     },
     {
@@ -646,7 +646,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 163
+      "stars": 164
     },
     {
       "name": "ceLLama",
@@ -811,6 +811,15 @@
       "stars": 128
     },
     {
+      "name": "Dictys",
+      "url": "https://github.com/pinellolab/dictys",
+      "owner": "pinellolab",
+      "repo": "dictys",
+      "category": "Gene regulatory network identification",
+      "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
+      "stars": 128
+    },
+    {
       "name": "CellTrek",
       "url": "https://github.com/navinlabcode/CellTrek",
       "owner": "navinlabcode",
@@ -818,15 +827,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 128
-    },
-    {
-      "name": "Dictys",
-      "url": "https://github.com/pinellolab/dictys",
-      "owner": "pinellolab",
-      "repo": "dictys",
-      "category": "Gene regulatory network identification",
-      "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
-      "stars": 127
     },
     {
       "name": "flotilla",
@@ -844,7 +844,7 @@
       "repo": "SCEVAN",
       "category": "Copy number analysis",
       "description": "Easy-to-use package that starting from the raw count matrix of scRNA data automatically classifies the cells present in the biopsy by segregating non-malignant cells of tumor microenviroment from the malignant cells, outperforms *copyKAT*. It also infers the copy number profile of malignant cells, identifies subclonal structures and automatically analyses the specific and shared alterations of each subpopulation. [Preprint](https://www.biorxiv.org/content/10.1101/2021.11.20.469390v1)",
-      "stars": 122
+      "stars": 123
     },
     {
       "name": "MetaCell",
@@ -856,21 +856,21 @@
       "stars": 120
     },
     {
-      "name": "Clustergrammer2",
-      "url": "https://github.com/ismms-himc/clustergrammer2",
-      "owner": "ismms-himc",
-      "repo": "clustergrammer2",
-      "category": "RNA-seq",
-      "description": "Interative WebGL web-based heatmap for visualizing and analyzing single-cell high-dimensional and location-based biological data. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [case studies](https://clustergrammer.readthedocs.io/case_studies.html).",
-      "stars": 119
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 120
+    },
+    {
+      "name": "Clustergrammer2",
+      "url": "https://github.com/ismms-himc/clustergrammer2",
+      "owner": "ismms-himc",
+      "repo": "clustergrammer2",
+      "category": "RNA-seq",
+      "description": "Interative WebGL web-based heatmap for visualizing and analyzing single-cell high-dimensional and location-based biological data. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [case studies](https://clustergrammer.readthedocs.io/case_studies.html).",
       "stars": 119
     },
     {
@@ -1072,21 +1072,21 @@
       "stars": 96
     },
     {
-      "name": "Cell\\_BLAST",
-      "url": "https://github.com/gao-lab/Cell_BLAST",
-      "owner": "gao-lab",
-      "repo": "Cell_BLAST",
-      "category": "RNA-seq",
-      "description": "A BLAST-like toolkit for scRNA-seq data querying and automated annotation.",
-      "stars": 95
-    },
-    {
       "name": "geneformer",
       "url": "https://github.com/jkobject/geneformer",
       "owner": "jkobject",
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
+      "stars": 96
+    },
+    {
+      "name": "Cell\\_BLAST",
+      "url": "https://github.com/gao-lab/Cell_BLAST",
+      "owner": "gao-lab",
+      "repo": "Cell_BLAST",
+      "category": "RNA-seq",
+      "description": "A BLAST-like toolkit for scRNA-seq data querying and automated annotation.",
       "stars": 95
     },
     {
@@ -1153,21 +1153,21 @@
       "stars": 80
     },
     {
-      "name": "dynverse",
-      "url": "https://github.com/dynverse/dynverse/",
-      "owner": "dynverse",
-      "repo": "dynverse",
-      "category": "Pseudotime and trajectory inference",
-      "description": "[A comparison of single-cell trajectory inference methods: towards more accurate and robust tools](https://www.nature.com/articles/s41587-019-0071-9)",
-      "stars": 77
-    },
-    {
       "name": "SCope",
       "url": "https://github.com/aertslab/SCope",
       "owner": "aertslab",
       "repo": "SCope",
       "category": "Other applications",
       "description": "SCope is a fast visualization tool for large-scale and high dimensional scRNA-seq datasets. Publication [here](https://doi.org/10.1016/j.cell.2018.05.057).",
+      "stars": 78
+    },
+    {
+      "name": "dynverse",
+      "url": "https://github.com/dynverse/dynverse/",
+      "owner": "dynverse",
+      "repo": "dynverse",
+      "category": "Pseudotime and trajectory inference",
+      "description": "[A comparison of single-cell trajectory inference methods: towards more accurate and robust tools](https://www.nature.com/articles/s41587-019-0071-9)",
       "stars": 77
     },
     {
@@ -2008,6 +2008,15 @@
       "stars": 19
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 19
+    },
+    {
       "name": "gene_network_evaluation",
       "url": "https://github.com/EngreitzLab/gene_network_evaluation/",
       "owner": "EngreitzLab",
@@ -2032,15 +2041,6 @@
       "repo": "sisua",
       "category": "Multi-assay data integration",
       "description": "In this study, we propose models based on the Bayesian generative approach, where protein quantification available as CITE-seq counts from the same cells are used to constrain the learning process, thus forming a semi-supervised model. The generative model is based on the deep variational autoencoder (VAE) neural network architecture. [bioRxiv](https://www.biorxiv.org/content/10.1101/631382v1)",
-      "stars": 18
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 18
     },
     {
@@ -2638,5 +2638,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-03 02:37:50 UTC"
+  "updated": "2026-03-04 02:30:59 UTC"
 }
