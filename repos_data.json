@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2665
+      "stars": 2667
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2360
+      "stars": 2362
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2151
+      "stars": 2150
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1484
+      "stars": 1490
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 691
+      "stars": 692
     },
     {
       "name": "inferCNV",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 627
+      "stars": 628
     },
     {
       "name": "NicheNet",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 525
+      "stars": 526
     },
     {
       "name": "scVelo",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 438
+      "stars": 439
     },
     {
       "name": "LIGER",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 392
+      "stars": 393
     },
     {
       "name": "MAGIC",
@@ -295,7 +295,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 363
+      "stars": 364
     },
     {
       "name": "Giotto Suite",
@@ -334,6 +334,15 @@
       "stars": 339
     },
     {
+      "name": "GEARS",
+      "url": "https://github.com/snap-stanford/GEARS",
+      "owner": "snap-stanford",
+      "repo": "GEARS",
+      "category": "Cellular interactions/communication",
+      "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
+      "stars": 339
+    },
+    {
       "name": "immunarch",
       "url": "https://github.com/immunomind/immunarch",
       "owner": "immunomind",
@@ -341,15 +350,6 @@
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
       "stars": 338
-    },
-    {
-      "name": "GEARS",
-      "url": "https://github.com/snap-stanford/GEARS",
-      "owner": "snap-stanford",
-      "repo": "GEARS",
-      "category": "Cellular interactions/communication",
-      "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 337
     },
     {
       "name": "slingshot",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 313
+      "stars": 315
     },
     {
       "name": "RAPIDS-singlecell",
@@ -448,7 +448,7 @@
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 259
+      "stars": 260
     },
     {
       "name": "SpaGCN",
@@ -1060,7 +1060,7 @@
       "repo": "solo",
       "category": "Doublet Identification",
       "description": "Doublet detection via semi-supervised deep learning.",
-      "stars": 96
+      "stars": 97
     },
     {
       "name": "geosketch",
@@ -1612,21 +1612,21 @@
       "stars": 34
     },
     {
-      "name": "CountClust",
-      "url": "https://github.com/kkdey/CountClust",
-      "owner": "kkdey",
-      "repo": "CountClust",
-      "category": "RNA-seq",
-      "description": "Functions for fitting Grade-of-Membership models, also known as \"Topic models\", to RNA-seq counts. These models generalize clustering methods to allow that each cell may belong to more than one cluster/topic.",
-      "stars": 33
-    },
-    {
       "name": "scE2G",
       "url": "https://github.com/EngreitzLab/scE2G",
       "owner": "EngreitzLab",
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 34
+    },
+    {
+      "name": "CountClust",
+      "url": "https://github.com/kkdey/CountClust",
+      "owner": "kkdey",
+      "repo": "CountClust",
+      "category": "RNA-seq",
+      "description": "Functions for fitting Grade-of-Membership models, also known as \"Topic models\", to RNA-seq counts. These models generalize clustering methods to allow that each cell may belong to more than one cluster/topic.",
       "stars": 33
     },
     {
@@ -2512,6 +2512,15 @@
       "stars": 4
     },
     {
+      "name": "mtSC",
+      "url": "https://github.com/bm2-lab/mtSC",
+      "owner": "bm2-lab",
+      "repo": "mtSC",
+      "category": "Cell type identification and classification",
+      "description": "A multitask deep metric learning framework that integrates multiple references for single-cell assignment, including cross-species settings. [Integrating multiple references for single-cell assignment](https://doi.org/10.1093/nar/gkab380).",
+      "stars": 4
+    },
+    {
       "name": "Phenotype Cover",
       "url": "https://github.com/euxhenh/phenotype-cover",
       "owner": "euxhenh",
@@ -2638,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-04 02:30:59 UTC"
+  "updated": "2026-03-05 02:33:54 UTC"
 }
