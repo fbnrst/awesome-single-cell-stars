@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2671
+      "stars": 2672
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2362
+      "stars": 2363
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2151
+      "stars": 2152
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1490
+      "stars": 1492
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1102
+      "stars": 1105
     },
     {
       "name": "CellChat",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 725
+      "stars": 727
     },
     {
       "name": "GSEApy",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 477
+      "stars": 478
     },
     {
       "name": "CellPhoneDB",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 440
+      "stars": 441
     },
     {
       "name": "LIGER",
@@ -268,7 +268,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 417
+      "stars": 418
     },
     {
       "name": "scFoundation",
@@ -325,21 +325,21 @@
       "stars": 343
     },
     {
-      "name": "TRUST4",
-      "url": "https://github.com/liulab-dfci/TRUST4",
-      "owner": "liulab-dfci",
-      "repo": "TRUST4",
-      "category": "Immune receptor profiling",
-      "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 339
-    },
-    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
+      "stars": 341
+    },
+    {
+      "name": "TRUST4",
+      "url": "https://github.com/liulab-dfci/TRUST4",
+      "owner": "liulab-dfci",
+      "repo": "TRUST4",
+      "category": "Immune receptor profiling",
+      "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
       "stars": 339
     },
     {
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 264
+      "stars": 265
     },
     {
       "name": "Sopa",
@@ -547,7 +547,7 @@
       "repo": "cellassign",
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
-      "stars": 211
+      "stars": 212
     },
     {
       "name": "Numbat",
@@ -565,7 +565,7 @@
       "repo": "SPOTlight",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 201
+      "stars": 202
     },
     {
       "name": "alevin-fry",
@@ -601,7 +601,7 @@
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 183
+      "stars": 184
     },
     {
       "name": "SpatialDe",
@@ -874,6 +874,15 @@
       "stars": 119
     },
     {
+      "name": "CyteType",
+      "url": "https://github.com/NygenAnalytics/CyteType",
+      "owner": "NygenAnalytics",
+      "repo": "CyteType",
+      "category": "Cell type identification and classification",
+      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
+      "stars": 115
+    },
+    {
       "name": "scTE",
       "url": "https://github.com/JiekaiLab/scTE",
       "owner": "JiekaiLab",
@@ -898,15 +907,6 @@
       "repo": "SIMLR",
       "category": "RNA-seq",
       "description": "SIMLR (Single-cell Interpretation via Multi-kernel LeaRning) learns an appropriate distance metric from the data for dimension reduction, clustering and visualization. SIMLR is capable of separating known subpopulations more accurately in single-cell data sets than do existing dimension reduction methods.",
-      "stars": 114
-    },
-    {
-      "name": "CyteType",
-      "url": "https://github.com/NygenAnalytics/CyteType",
-      "owner": "NygenAnalytics",
-      "repo": "CyteType",
-      "category": "Cell type identification and classification",
-      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
       "stars": 114
     },
     {
@@ -1024,7 +1024,7 @@
       "repo": "paste",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 100
+      "stars": 101
     },
     {
       "name": "scImpute",
@@ -1069,7 +1069,7 @@
       "repo": "geosketch",
       "category": "Cell subsampling",
       "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 96
+      "stars": 97
     },
     {
       "name": "geneformer",
@@ -1213,7 +1213,7 @@
       "repo": "dsb",
       "category": "Count modelling and normalization",
       "description": "a method for normalizing and denoising protein data from antibody derived tags (ADT). Compatible with CITE-seq, ASAP-seq, TEA-seq, ICICLE-seq, MissionBio etc. Removes ambient and cell to cell technical noise from ADTs see vignettes on [CRAN](https://CRAN.R-project.org/package=dsb). Manuscript open access: [Normalizing and denoising protein expression data from droplet-sed single cell profiling. *Nature Communications* (2022)](https://www.nature.com/articles/s41467-022-29356-8)",
-      "stars": 68
+      "stars": 69
     },
     {
       "name": "outrigger",
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-06 02:32:25 UTC"
+  "updated": "2026-03-07 02:25:33 UTC"
 }
