@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1492
+      "stars": 1494
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 766
+      "stars": 765
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 727
+      "stars": 737
     },
     {
       "name": "GSEApy",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 692
+      "stars": 691
     },
     {
       "name": "inferCNV",
@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 621
+      "stars": 622
     },
     {
       "name": "ffq",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 469
+      "stars": 468
     },
     {
       "name": "GLUE",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 441
+      "stars": 442
     },
     {
       "name": "LIGER",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 393
+      "stars": 394
     },
     {
       "name": "MAGIC",
@@ -313,7 +313,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 355
+      "stars": 356
     },
     {
       "name": "ivis",
@@ -331,7 +331,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 341
+      "stars": 342
     },
     {
       "name": "TRUST4",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 315
+      "stars": 314
     },
     {
       "name": "RAPIDS-singlecell",
@@ -385,7 +385,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 305
+      "stars": 306
     },
     {
       "name": "Palantir",
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms *inferCNV*. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 271
+      "stars": 272
     },
     {
       "name": "BPCells",
@@ -574,7 +574,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 200
+      "stars": 201
     },
     {
       "name": "torchdr",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 197
+      "stars": 199
     },
     {
       "name": "Spectra",
@@ -1069,7 +1069,7 @@
       "repo": "geosketch",
       "category": "Cell subsampling",
       "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 97
+      "stars": 96
     },
     {
       "name": "geneformer",
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-07 02:25:33 UTC"
+  "updated": "2026-03-08 02:36:55 UTC"
 }
