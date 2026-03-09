@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2672
+      "stars": 2673
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2363
+      "stars": 2364
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1494
+      "stars": 1495
     },
     {
       "name": "gget",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 737
+      "stars": 739
     },
     {
       "name": "GSEApy",
@@ -313,7 +313,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 356
+      "stars": 357
     },
     {
       "name": "ivis",
@@ -385,7 +385,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 306
+      "stars": 310
     },
     {
       "name": "Palantir",
@@ -955,21 +955,21 @@
       "stars": 107
     },
     {
-      "name": "ICGS",
-      "url": "https://github.com/nsalomonis/altanalyze",
-      "owner": "nsalomonis",
-      "repo": "altanalyze",
-      "category": "RNA-seq",
-      "description": "Iterative Clustering and Guide-gene Selection (Olsson et al. Nature 2016). Identify discrete, transitional and mixed-lineage states from diverse single-cell transcriptomics platforms. Integrated FASTQ pseudoalignment /quantification (Kallisto), differential expression, cell-type prediction and optional cell cycle exclusion analyses. Specialized methods for processing BAM and 10X Genomics spares matrix files. Associated single-cell splicing PSI methods (MultIPath-PSI). Apart of the AltAnalyze toolkit along with accompanying visualization methods (e.g., heatmap, t-SNE, SashimiPlots, network graphs). Easy-to-use graphical user and commandline interfaces.",
-      "stars": 106
-    },
-    {
       "name": "DeepSort",
       "url": "https://github.com/ZJUFanLab/DeepSort",
       "owner": "ZJUFanLab",
       "repo": "DeepSort",
       "category": "Cell type identification and classification",
       "description": "A reference-free  cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive  single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
+      "stars": 107
+    },
+    {
+      "name": "ICGS",
+      "url": "https://github.com/nsalomonis/altanalyze",
+      "owner": "nsalomonis",
+      "repo": "altanalyze",
+      "category": "RNA-seq",
+      "description": "Iterative Clustering and Guide-gene Selection (Olsson et al. Nature 2016). Identify discrete, transitional and mixed-lineage states from diverse single-cell transcriptomics platforms. Integrated FASTQ pseudoalignment /quantification (Kallisto), differential expression, cell-type prediction and optional cell cycle exclusion analyses. Specialized methods for processing BAM and 10X Genomics spares matrix files. Associated single-cell splicing PSI methods (MultIPath-PSI). Apart of the AltAnalyze toolkit along with accompanying visualization methods (e.g., heatmap, t-SNE, SashimiPlots, network graphs). Easy-to-use graphical user and commandline interfaces.",
       "stars": 106
     },
     {
@@ -1063,21 +1063,21 @@
       "stars": 97
     },
     {
-      "name": "geosketch",
-      "url": "https://github.com/brianhie/geosketch",
-      "owner": "brianhie",
-      "repo": "geosketch",
-      "category": "Cell subsampling",
-      "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 96
-    },
-    {
       "name": "geneformer",
       "url": "https://github.com/jkobject/geneformer",
       "owner": "jkobject",
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
+      "stars": 97
+    },
+    {
+      "name": "geosketch",
+      "url": "https://github.com/brianhie/geosketch",
+      "owner": "brianhie",
+      "repo": "geosketch",
+      "category": "Cell subsampling",
+      "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
       "stars": 96
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-08 02:36:55 UTC"
+  "updated": "2026-03-09 02:38:32 UTC"
 }
