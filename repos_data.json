@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2681
+      "stars": 2682
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2367
+      "stars": 2368
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2155
+      "stars": 2156
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1499
+      "stars": 1500
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1107
+      "stars": 1108
     },
     {
       "name": "CellChat",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 442
+      "stars": 443
     },
     {
       "name": "LIGER",
@@ -313,7 +313,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 357
+      "stars": 358
     },
     {
       "name": "ivis",
@@ -331,7 +331,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 342
+      "stars": 343
     },
     {
       "name": "TRUST4",
@@ -385,7 +385,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 314
+      "stars": 315
     },
     {
       "name": "Palantir",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 266
+      "stars": 268
     },
     {
       "name": "Sopa",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 263
+      "stars": 265
     },
     {
       "name": "MAST",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 219
+      "stars": 221
     },
     {
       "name": "SComatic",
@@ -529,7 +529,7 @@
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
-      "stars": 217
+      "stars": 218
     },
     {
       "name": "dittoSeq",
@@ -565,7 +565,7 @@
       "repo": "SPOTlight",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 202
+      "stars": 203
     },
     {
       "name": "alevin-fry",
@@ -604,6 +604,15 @@
       "stars": 184
     },
     {
+      "name": "inferCNVpy",
+      "url": "https://github.com/icbi-lab/infercnvpy",
+      "owner": "icbi-lab",
+      "repo": "infercnvpy",
+      "category": "Copy number analysis",
+      "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
+      "stars": 183
+    },
+    {
       "name": "SpatialDe",
       "url": "https://github.com/Teichlab/SpatialDE",
       "owner": "Teichlab",
@@ -611,15 +620,6 @@
       "category": "Spatial transcriptomics",
       "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
       "stars": 183
-    },
-    {
-      "name": "inferCNVpy",
-      "url": "https://github.com/icbi-lab/infercnvpy",
-      "owner": "icbi-lab",
-      "repo": "infercnvpy",
-      "category": "Copy number analysis",
-      "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 182
     },
     {
       "name": "SCDE",
@@ -847,21 +847,21 @@
       "stars": 124
     },
     {
-      "name": "MetaCell",
-      "url": "https://github.com/tanaylab/metacell",
-      "owner": "tanaylab",
-      "repo": "metacell",
-      "category": "RNA-seq",
-      "description": "Analysis of single cell RNA-seq data by computing partitions of a cell similarity graph into small homogeneous groups of cells called metacells.",
-      "stars": 120
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 121
+    },
+    {
+      "name": "MetaCell",
+      "url": "https://github.com/tanaylab/metacell",
+      "owner": "tanaylab",
+      "repo": "metacell",
+      "category": "RNA-seq",
+      "description": "Analysis of single cell RNA-seq data by computing partitions of a cell similarity graph into small homogeneous groups of cells called metacells.",
       "stars": 120
     },
     {
@@ -880,7 +880,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 117
+      "stars": 118
     },
     {
       "name": "scTE",
@@ -964,21 +964,21 @@
       "stars": 107
     },
     {
-      "name": "ICGS",
-      "url": "https://github.com/nsalomonis/altanalyze",
-      "owner": "nsalomonis",
-      "repo": "altanalyze",
-      "category": "RNA-seq",
-      "description": "Iterative Clustering and Guide-gene Selection (Olsson et al. Nature 2016). Identify discrete, transitional and mixed-lineage states from diverse single-cell transcriptomics platforms. Integrated FASTQ pseudoalignment /quantification (Kallisto), differential expression, cell-type prediction and optional cell cycle exclusion analyses. Specialized methods for processing BAM and 10X Genomics spares matrix files. Associated single-cell splicing PSI methods (MultIPath-PSI). Apart of the AltAnalyze toolkit along with accompanying visualization methods (e.g., heatmap, t-SNE, SashimiPlots, network graphs). Easy-to-use graphical user and commandline interfaces.",
-      "stars": 106
-    },
-    {
       "name": "Snakemake single-cell-rna-seq workflow",
       "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
       "owner": "snakemake-workflows",
       "repo": "single-cell-rna-seq",
       "category": "Other applications",
       "description": "An automated pipeline for single cell RNA-seq analysis.",
+      "stars": 107
+    },
+    {
+      "name": "ICGS",
+      "url": "https://github.com/nsalomonis/altanalyze",
+      "owner": "nsalomonis",
+      "repo": "altanalyze",
+      "category": "RNA-seq",
+      "description": "Iterative Clustering and Guide-gene Selection (Olsson et al. Nature 2016). Identify discrete, transitional and mixed-lineage states from diverse single-cell transcriptomics platforms. Integrated FASTQ pseudoalignment /quantification (Kallisto), differential expression, cell-type prediction and optional cell cycle exclusion analyses. Specialized methods for processing BAM and 10X Genomics spares matrix files. Associated single-cell splicing PSI methods (MultIPath-PSI). Apart of the AltAnalyze toolkit along with accompanying visualization methods (e.g., heatmap, t-SNE, SashimiPlots, network graphs). Easy-to-use graphical user and commandline interfaces.",
       "stars": 106
     },
     {
@@ -1132,7 +1132,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 85
+      "stars": 86
     },
     {
       "name": "SCALEX",
@@ -1150,7 +1150,7 @@
       "repo": "Sanity",
       "category": "Count modelling and normalization",
       "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. *Nature Biotechnology* (2021](https://doi.org/10.1038/s41587-021-00875-x)",
-      "stars": 80
+      "stars": 81
     },
     {
       "name": "SCope",
@@ -2215,6 +2215,15 @@
       "stars": 13
     },
     {
+      "name": "scDiagnostics",
+      "url": "https://github.com/ccb-hms/scDiagnostics",
+      "owner": "ccb-hms",
+      "repo": "scDiagnostics",
+      "category": "Quality control",
+      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
+      "stars": 12
+    },
+    {
       "name": "MetaMarkers",
       "url": "https://github.com/gillislab/MetaMarkers",
       "owner": "gillislab",
@@ -2294,15 +2303,6 @@
       "category": "Spatial transcriptomics",
       "description": "The method is proposed in [Slide-seq](https://science.sciencemag.org/content/363/6434/1463) paper and reconstructs expression of each Slide-seq bead as a weighted combination of metagene factors, each corresponding to the expression signature of an individual cell type, defined from scRNA-seq.",
       "stars": 12
-    },
-    {
-      "name": "scDiagnostics",
-      "url": "https://github.com/ccb-hms/scDiagnostics",
-      "owner": "ccb-hms",
-      "repo": "scDiagnostics",
-      "category": "Quality control",
-      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
-      "stars": 11
     },
     {
       "name": "IA-SVA",
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-13 02:33:21 UTC"
+  "updated": "2026-03-14 02:31:45 UTC"
 }
