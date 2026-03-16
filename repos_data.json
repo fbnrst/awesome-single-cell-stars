@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2368
+      "stars": 2369
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1500
+      "stars": 1502
     },
     {
       "name": "gget",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 748
+      "stars": 750
     },
     {
       "name": "GSEApy",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 693
+      "stars": 694
     },
     {
       "name": "inferCNV",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 554
+      "stars": 555
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 531
+      "stars": 532
     },
     {
       "name": "scVelo",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 492
+      "stars": 493
     },
     {
       "name": "dynamo",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 468
+      "stars": 469
     },
     {
       "name": "GLUE",
@@ -259,7 +259,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 424
+      "stars": 425
     },
     {
       "name": "cell2location",
@@ -268,7 +268,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 420
+      "stars": 421
     },
     {
       "name": "scFoundation",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 394
+      "stars": 395
     },
     {
       "name": "MAGIC",
@@ -637,7 +637,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 168
+      "stars": 169
     },
     {
       "name": "Scrublet",
@@ -790,7 +790,7 @@
       "repo": "inmoose",
       "category": "RNA-seq",
       "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 129
+      "stars": 130
     },
     {
       "name": "SC3",
@@ -937,6 +937,15 @@
       "stars": 108
     },
     {
+      "name": "Snakemake single-cell-rna-seq workflow",
+      "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
+      "owner": "snakemake-workflows",
+      "repo": "single-cell-rna-seq",
+      "category": "Other applications",
+      "description": "An automated pipeline for single cell RNA-seq analysis.",
+      "stars": 108
+    },
+    {
       "name": "HTSeq",
       "url": "https://github.com/htseq/htseq",
       "owner": "htseq",
@@ -961,15 +970,6 @@
       "repo": "DeepSort",
       "category": "Cell type identification and classification",
       "description": "A reference-free  cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive  single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
-      "stars": 107
-    },
-    {
-      "name": "Snakemake single-cell-rna-seq workflow",
-      "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
-      "owner": "snakemake-workflows",
-      "repo": "single-cell-rna-seq",
-      "category": "Other applications",
-      "description": "An automated pipeline for single cell RNA-seq analysis.",
       "stars": 107
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-15 02:51:59 UTC"
+  "updated": "2026-03-16 02:53:00 UTC"
 }
