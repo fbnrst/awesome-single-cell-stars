@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 627
+      "stars": 630
     },
     {
       "name": "ffq",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 493
+      "stars": 494
     },
     {
       "name": "dynamo",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 469
+      "stars": 470
     },
     {
       "name": "GLUE",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 443
+      "stars": 444
     },
     {
       "name": "LIGER",
@@ -259,7 +259,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 425
+      "stars": 426
     },
     {
       "name": "cell2location",
@@ -268,7 +268,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 421
+      "stars": 423
     },
     {
       "name": "scFoundation",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 342
+      "stars": 343
     },
     {
       "name": "immunarch",
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms *inferCNV*. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 272
+      "stars": 273
     },
     {
       "name": "BPCells",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 265
+      "stars": 266
     },
     {
       "name": "MAST",
@@ -466,7 +466,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 246
+      "stars": 247
     },
     {
       "name": "Scirpy",
@@ -538,7 +538,7 @@
       "repo": "dittoSeq",
       "category": "RNA-seq",
       "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
-      "stars": 214
+      "stars": 215
     },
     {
       "name": "cellassign",
@@ -556,7 +556,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 206
+      "stars": 207
     },
     {
       "name": "SPOTlight",
@@ -601,7 +601,7 @@
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 185
+      "stars": 186
     },
     {
       "name": "inferCNVpy",
@@ -853,7 +853,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 121
+      "stars": 122
     },
     {
       "name": "MetaCell",
@@ -1180,21 +1180,21 @@
       "stars": 75
     },
     {
-      "name": "SpaTalk",
-      "url": "https://github.com/ZJUFanLab/SpaTalk",
-      "owner": "ZJUFanLab",
-      "repo": "SpaTalk",
-      "category": "Spatial transcriptomics",
-      "description": "[SpaTalk](https://www.nature.com/articles/s41467-022-32111-8) is a cell-cell communication inference method for either single-cell or spot-based spatially resolved transcriptomic data, e.g., STARmap, MERFISH, seqFISH, Slide-seq, 10X Visium.",
-      "stars": 75
-    },
-    {
       "name": "SCINA",
       "url": "https://github.com/jcao89757/SCINA",
       "owner": "jcao89757",
       "repo": "SCINA",
       "category": "RNA-seq",
       "description": "A semi-supervised category identification and assignment tool.",
+      "stars": 74
+    },
+    {
+      "name": "SpaTalk",
+      "url": "https://github.com/ZJUFanLab/SpaTalk",
+      "owner": "ZJUFanLab",
+      "repo": "SpaTalk",
+      "category": "Spatial transcriptomics",
+      "description": "[SpaTalk](https://www.nature.com/articles/s41467-022-32111-8) is a cell-cell communication inference method for either single-cell or spot-based spatially resolved transcriptomic data, e.g., STARmap, MERFISH, seqFISH, Slide-seq, 10X Visium.",
       "stars": 74
     },
     {
@@ -1918,6 +1918,15 @@
       "stars": 22
     },
     {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 22
+    },
+    {
       "name": "GPfates",
       "url": "https://github.com/Teichlab/GPfates",
       "owner": "Teichlab",
@@ -1945,12 +1954,12 @@
       "stars": 21
     },
     {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 21
     },
     {
@@ -1969,15 +1978,6 @@
       "repo": "MEDALT",
       "category": "Copy number analysis",
       "description": "This package performs lineage tracing using copy number profile from single cell sequencing technology. It will infer: 1. An rooted directed minimal spanning tree (RDMST) to represent aneuploidy evolution of tumor cells. 2. The focal and broad copy number alterations associated with lineage expansion.",
-      "stars": 20
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 20
     },
     {
@@ -2575,6 +2575,15 @@
       "stars": 2
     },
     {
+      "name": "VisCello",
+      "url": "https://github.com/qinzhu/VisCello",
+      "owner": "qinzhu",
+      "repo": "VisCello",
+      "category": "Other applications",
+      "description": "VisCello for C.elegans embryogenesis.",
+      "stars": 2
+    },
+    {
       "name": "bigSCale",
       "url": "https://github.com/dfajar2/bigSCale",
       "owner": "dfajar2",
@@ -2620,15 +2629,6 @@
       "stars": 1
     },
     {
-      "name": "VisCello",
-      "url": "https://github.com/qinzhu/VisCello",
-      "owner": "qinzhu",
-      "repo": "VisCello",
-      "category": "Other applications",
-      "description": "VisCello for C.elegans embryogenesis.",
-      "stars": 1
-    },
-    {
       "name": "CellPLM",
       "url": "https://github.com/OmicsML/CellPLM?tab=readme-ov-file",
       "owner": "OmicsML",
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-16 02:53:00 UTC"
+  "updated": "2026-03-17 02:35:23 UTC"
 }
