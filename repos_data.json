@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2688
+      "stars": 2689
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2380
+      "stars": 2383
     },
     {
       "name": "STAR",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 364
+      "stars": 365
     },
     {
       "name": "Tangram",
@@ -358,7 +358,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 335
+      "stars": 336
     },
     {
       "name": "slingshot",
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms *inferCNV*. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 274
+      "stars": 275
     },
     {
       "name": "BPCells",
@@ -439,7 +439,7 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 261
+      "stars": 262
     },
     {
       "name": "MOFA",
@@ -502,7 +502,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 234
+      "stars": 235
     },
     {
       "name": "BayesPrism",
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-21 02:28:34 UTC"
+  "updated": "2026-03-22 02:43:44 UTC"
 }
