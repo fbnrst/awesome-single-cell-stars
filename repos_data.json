@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2386
+      "stars": 2388
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1512
+      "stars": 1514
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 772
+      "stars": 773
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 753
+      "stars": 754
     },
     {
       "name": "GSEApy",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 636
+      "stars": 635
     },
     {
       "name": "SCP",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 539
+      "stars": 540
     },
     {
       "name": "DoubletFinder",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 396
+      "stars": 397
     },
     {
       "name": "MAGIC",
@@ -343,6 +343,15 @@
       "stars": 343
     },
     {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
+      "stars": 338
+    },
+    {
       "name": "immunarch",
       "url": "https://github.com/immunomind/immunarch",
       "owner": "immunomind",
@@ -350,15 +359,6 @@
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
       "stars": 338
-    },
-    {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 337
     },
     {
       "name": "slingshot",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 299
+      "stars": 300
     },
     {
       "name": "zUMIs",
@@ -502,7 +502,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 235
+      "stars": 236
     },
     {
       "name": "BayesPrism",
@@ -637,7 +637,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 169
+      "stars": 171
     },
     {
       "name": "Scrublet",
@@ -1027,21 +1027,21 @@
       "stars": 101
     },
     {
-      "name": "scImpute",
-      "url": "https://github.com/Vivianstats/scImpute",
-      "owner": "Vivianstats",
-      "repo": "scImpute",
-      "category": "Feature (Gene) imputation",
-      "description": "[scImpute: Accurate And Robust Imputation For Single Cell RNA-Seq Data](doi:10.1038/s41467-018-03405-7)",
-      "stars": 98
-    },
-    {
       "name": "geneformer",
       "url": "https://github.com/jkobject/geneformer",
       "owner": "jkobject",
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
+      "stars": 100
+    },
+    {
+      "name": "scImpute",
+      "url": "https://github.com/Vivianstats/scImpute",
+      "owner": "Vivianstats",
+      "repo": "scImpute",
+      "category": "Feature (Gene) imputation",
+      "description": "[scImpute: Accurate And Robust Imputation For Single Cell RNA-Seq Data](doi:10.1038/s41467-018-03405-7)",
       "stars": 98
     },
     {
@@ -1252,6 +1252,15 @@
       "stars": 66
     },
     {
+      "name": "CellNEST",
+      "url": "https://github.com/schwartzlab-methods/CellNEST",
+      "owner": "schwartzlab-methods",
+      "repo": "CellNEST",
+      "category": "Cellular interactions/communication",
+      "description": "Cell Neural Networks on Spatial Transcriptomics (CellNEST) deciphers patterns of cell-cell communication by introducing relay-network detection that identifies ligand-receptor-ligand-receptor communication chains. Uses attention mechanisms to analyze spatial transcriptomics data, detect T cell homing signals, and predict new communication patterns in various cancer types. [Paper](https://www.nature.com/articles/s41592-025-02721-3)",
+      "stars": 62
+    },
+    {
       "name": "knn-smoothing",
       "url": "https://github.com/yanailab/knn-smoothing",
       "owner": "yanailab",
@@ -1267,15 +1276,6 @@
       "repo": "cerebra",
       "category": "Variant calling",
       "description": "Cerebra is a tool for high-throughput summarizing of vcf entries following traditional variant calling for a sequencing experiment. Helps to extract relevant mutation information from among tens of thousands of vcf lines.",
-      "stars": 61
-    },
-    {
-      "name": "CellNEST",
-      "url": "https://github.com/schwartzlab-methods/CellNEST",
-      "owner": "schwartzlab-methods",
-      "repo": "CellNEST",
-      "category": "Cellular interactions/communication",
-      "description": "Cell Neural Networks on Spatial Transcriptomics (CellNEST) deciphers patterns of cell-cell communication by introducing relay-network detection that identifies ligand-receptor-ligand-receptor communication chains. Uses attention mechanisms to analyze spatial transcriptomics data, detect T cell homing signals, and predict new communication patterns in various cancer types. [Paper](https://www.nature.com/articles/s41592-025-02721-3)",
       "stars": 61
     },
     {
@@ -1324,6 +1324,15 @@
       "stars": 53
     },
     {
+      "name": "FigR",
+      "url": "https://github.com/buenrostrolab/FigR",
+      "owner": "buenrostrolab",
+      "repo": "FigR",
+      "category": "Multi-assay data integration",
+      "description": "FigR (Functional inference of gene Regulation) is a computational framework for supporting the integration of single cell chromatin accessibility and gene expression data to infer transcriptional regulators of target genes. [Functional inference of gene regulation using single-cell multi-omics](https://www.sciencedirect.com/science/article/pii/S2666979X22001082)",
+      "stars": 52
+    },
+    {
       "name": "trendsceek",
       "url": "https://github.com/edsgard/trendsceek",
       "owner": "edsgard",
@@ -1339,15 +1348,6 @@
       "repo": "SCnorm",
       "category": "Count modelling and normalization",
       "description": "A quantile regression based approach for robust normalization of single cell RNA-seq data.",
-      "stars": 51
-    },
-    {
-      "name": "FigR",
-      "url": "https://github.com/buenrostrolab/FigR",
-      "owner": "buenrostrolab",
-      "repo": "FigR",
-      "category": "Multi-assay data integration",
-      "description": "FigR (Functional inference of gene Regulation) is a computational framework for supporting the integration of single cell chromatin accessibility and gene expression data to infer transcriptional regulators of target genes. [Functional inference of gene regulation using single-cell multi-omics](https://www.sciencedirect.com/science/article/pii/S2666979X22001082)",
       "stars": 51
     },
     {
@@ -1774,6 +1774,15 @@
       "stars": 27
     },
     {
+      "name": "SignacX",
+      "url": "https://github.com/mathewchamberlain/SignacX",
+      "owner": "mathewchamberlain",
+      "repo": "SignacX",
+      "category": "Cell type identification and classification",
+      "description": "Signac classifies the cellular phenotype for each individual cell in scRNA-seq data using neural networks trained with sorted bulk gene expression data from the Human Primary Cell Atlas. Signac can: map cells from one data set to another, classify non-human single cell data, identify novel cell types, and classify single cell data across many tissues, diseases and technologies. [Cell type classification and discovery across diseases, technologies and tissues reveals conserved gene signatures and enables standardized single-cell readouts](https://www.biorxiv.org/content/10.1101/2021.02.01.429207v3.full)",
+      "stars": 27
+    },
+    {
       "name": "FiRE",
       "url": "https://github.com/princethewinner/FiRE",
       "owner": "princethewinner",
@@ -1816,15 +1825,6 @@
       "repo": "zinbwaveZinger",
       "category": "Count modelling and normalization",
       "description": "We introduce a weighting strategy, based on a zero-inflated negative binomial model, that identifies excess zero counts and generates gene- and cell-specific weights to unlock bulk RNA-seq DE pipelines for zero-inflated data, boosting performance for scRNA-seq. https://doi.org/10.1186/s13059-018-1406-4",
-      "stars": 26
-    },
-    {
-      "name": "SignacX",
-      "url": "https://github.com/mathewchamberlain/SignacX",
-      "owner": "mathewchamberlain",
-      "repo": "SignacX",
-      "category": "Cell type identification and classification",
-      "description": "Signac classifies the cellular phenotype for each individual cell in scRNA-seq data using neural networks trained with sorted bulk gene expression data from the Human Primary Cell Atlas. Signac can: map cells from one data set to another, classify non-human single cell data, identify novel cell types, and classify single cell data across many tissues, diseases and technologies. [Cell type classification and discovery across diseases, technologies and tissues reveals conserved gene signatures and enables standardized single-cell readouts](https://www.biorxiv.org/content/10.1101/2021.02.01.429207v3.full)",
       "stars": 26
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-23 02:44:34 UTC"
+  "updated": "2026-03-24 02:35:13 UTC"
 }
