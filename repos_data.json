@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2690
+      "stars": 2692
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2388
+      "stars": 2391
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2162
+      "stars": 2163
     },
     {
       "name": "scVI",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1108
+      "stars": 1109
     },
     {
       "name": "CellChat",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 540
+      "stars": 541
     },
     {
       "name": "DoubletFinder",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 533
+      "stars": 534
     },
     {
       "name": "scVelo",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 444
+      "stars": 445
     },
     {
       "name": "LIGER",
@@ -268,7 +268,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 422
+      "stars": 423
     },
     {
       "name": "scFoundation",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 397
+      "stars": 398
     },
     {
       "name": "MAGIC",
@@ -313,7 +313,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 359
+      "stars": 360
     },
     {
       "name": "GEARS",
@@ -349,7 +349,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 338
+      "stars": 339
     },
     {
       "name": "immunarch",
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms *inferCNV*. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 275
+      "stars": 276
     },
     {
       "name": "BPCells",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 271
+      "stars": 272
     },
     {
       "name": "Sopa",
@@ -610,7 +610,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 183
+      "stars": 184
     },
     {
       "name": "SpatialDe",
@@ -757,6 +757,15 @@
       "stars": 133
     },
     {
+      "name": "Sinto",
+      "url": "https://github.com/timoast/sinto",
+      "owner": "timoast",
+      "repo": "sinto",
+      "category": "Other applications",
+      "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
+      "stars": 133
+    },
+    {
       "name": "novoSpaRc",
       "url": "https://github.com/rajewsky-lab/novosparc",
       "owner": "rajewsky-lab",
@@ -772,15 +781,6 @@
       "repo": "AtacWorks",
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
-      "stars": 132
-    },
-    {
-      "name": "Sinto",
-      "url": "https://github.com/timoast/sinto",
-      "owner": "timoast",
-      "repo": "sinto",
-      "category": "Other applications",
-      "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
       "stars": 132
     },
     {
@@ -853,7 +853,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 123
+      "stars": 124
     },
     {
       "name": "MetaCell",
@@ -1018,6 +1018,15 @@
       "stars": 102
     },
     {
+      "name": "geneformer",
+      "url": "https://github.com/jkobject/geneformer",
+      "owner": "jkobject",
+      "repo": "geneformer",
+      "category": "Single cell large model",
+      "description": "",
+      "stars": 102
+    },
+    {
       "name": "PASTE",
       "url": "https://github.com/raphael-group/paste",
       "owner": "raphael-group",
@@ -1025,15 +1034,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 101
-    },
-    {
-      "name": "geneformer",
-      "url": "https://github.com/jkobject/geneformer",
-      "owner": "jkobject",
-      "repo": "geneformer",
-      "category": "Single cell large model",
-      "description": "",
-      "stars": 100
     },
     {
       "name": "scImpute",
@@ -1132,7 +1132,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 86
+      "stars": 85
     },
     {
       "name": "SCALEX",
@@ -1360,6 +1360,15 @@
       "stars": 50
     },
     {
+      "name": "MetaNeighbor",
+      "url": "github.com/maggiecrow/MetaNeighbor",
+      "owner": "maggiecrow",
+      "repo": "MetaNeighbor",
+      "category": "Other applications",
+      "description": "[MetaNeighbor: a method to rapidly assess cell type identity using both functional and random gene sets](https://doi.org/10.1101/150524)",
+      "stars": 49
+    },
+    {
       "name": "STAGATE",
       "url": "https://github.com/QIFEIDKN/STAGATE",
       "owner": "QIFEIDKN",
@@ -1384,15 +1393,6 @@
       "repo": "psupertime",
       "category": "Pseudotime and trajectory inference",
       "description": "psupertime is an R package which uses single cell RNAseq data, where the cells have labels following a known sequence (e.g. a time series), to identify a small number of genes which place cells in that known order. It can be used for discovery of relevant genes, for exploration of unlabelled data, and assessment of one dataset with respect to the labels known for another dataset. - [preprint](https://www.biorxiv.org/content/10.1101/622001v1)",
-      "stars": 48
-    },
-    {
-      "name": "MetaNeighbor",
-      "url": "github.com/maggiecrow/MetaNeighbor",
-      "owner": "maggiecrow",
-      "repo": "MetaNeighbor",
-      "category": "Other applications",
-      "description": "[MetaNeighbor: a method to rapidly assess cell type identity using both functional and random gene sets](https://doi.org/10.1101/150524)",
       "stars": 48
     },
     {
@@ -1855,6 +1855,15 @@
       "stars": 24
     },
     {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 24
+    },
+    {
       "name": "ChatSpatial",
       "url": "https://github.com/cafferychen777/ChatSpatial",
       "owner": "cafferychen777",
@@ -1888,15 +1897,6 @@
       "repo": "MATCHER",
       "category": "Multi-assay data integration",
       "description": "[MATCHER: An algorithm for integrating single cell transcriptomic and epigenomic data using manifold alignment. MATCHER takes multiple types of single cell measurements performed on distinct single cells and infers single cell multi-omic profiles.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1269-0)",
-      "stars": 23
-    },
-    {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
       "stars": 23
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-24 02:35:13 UTC"
+  "updated": "2026-03-25 02:41:11 UTC"
 }
