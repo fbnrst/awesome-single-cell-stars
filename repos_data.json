@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2692
+      "stars": 2694
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2163
+      "stars": 2165
     },
     {
       "name": "scVI",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1109
+      "stars": 1111
     },
     {
       "name": "CellChat",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 488
+      "stars": 487
     },
     {
       "name": "SCENIC",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 457
+      "stars": 458
     },
     {
       "name": "RCTD",
@@ -268,7 +268,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 423
+      "stars": 424
     },
     {
       "name": "scFoundation",
@@ -313,7 +313,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 360
+      "stars": 361
     },
     {
       "name": "GEARS",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 291
+      "stars": 292
     },
     {
       "name": "CopyKAT",
@@ -457,7 +457,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 257
+      "stars": 259
     },
     {
       "name": "SCENIC+",
@@ -466,7 +466,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 248
+      "stars": 249
     },
     {
       "name": "Scirpy",
@@ -493,7 +493,7 @@
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 238
+      "stars": 239
     },
     {
       "name": "LIANA",
@@ -766,6 +766,15 @@
       "stars": 133
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 132
+    },
+    {
       "name": "novoSpaRc",
       "url": "https://github.com/rajewsky-lab/novosparc",
       "owner": "rajewsky-lab",
@@ -782,15 +791,6 @@
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
       "stars": 132
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 130
     },
     {
       "name": "SC3",
@@ -1180,21 +1180,21 @@
       "stars": 75
     },
     {
-      "name": "SCINA",
-      "url": "https://github.com/jcao89757/SCINA",
-      "owner": "jcao89757",
-      "repo": "SCINA",
-      "category": "RNA-seq",
-      "description": "A semi-supervised category identification and assignment tool.",
-      "stars": 74
-    },
-    {
       "name": "SpaTalk",
       "url": "https://github.com/ZJUFanLab/SpaTalk",
       "owner": "ZJUFanLab",
       "repo": "SpaTalk",
       "category": "Spatial transcriptomics",
       "description": "[SpaTalk](https://www.nature.com/articles/s41467-022-32111-8) is a cell-cell communication inference method for either single-cell or spot-based spatially resolved transcriptomic data, e.g., STARmap, MERFISH, seqFISH, Slide-seq, 10X Visium.",
+      "stars": 75
+    },
+    {
+      "name": "SCINA",
+      "url": "https://github.com/jcao89757/SCINA",
+      "owner": "jcao89757",
+      "repo": "SCINA",
+      "category": "RNA-seq",
+      "description": "A semi-supervised category identification and assignment tool.",
       "stars": 74
     },
     {
@@ -1567,6 +1567,15 @@
       "stars": 37
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 37
+    },
+    {
       "name": "FastProject",
       "url": "https://github.com/yoseflab/fastproject",
       "owner": "yoseflab",
@@ -1582,15 +1591,6 @@
       "repo": "GiniClust",
       "category": "Marker and differential gene expression identification",
       "description": "GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data.  GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.",
-      "stars": 36
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
       "stars": 36
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-25 02:41:11 UTC"
+  "updated": "2026-03-26 02:47:57 UTC"
 }
