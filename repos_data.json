@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2391
+      "stars": 2392
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2165
+      "stars": 2166
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1514
+      "stars": 1515
     },
     {
       "name": "gget",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 754
+      "stars": 755
     },
     {
       "name": "GSEApy",
@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 630
+      "stars": 631
     },
     {
       "name": "ffq",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 534
+      "stars": 535
     },
     {
       "name": "scVelo",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 479
+      "stars": 480
     },
     {
       "name": "CellPhoneDB",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 365
+      "stars": 366
     },
     {
       "name": "Tangram",
@@ -322,7 +322,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 347
+      "stars": 348
     },
     {
       "name": "TRUST4",
@@ -502,7 +502,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 236
+      "stars": 237
     },
     {
       "name": "BayesPrism",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 191
+      "stars": 192
     },
     {
       "name": "kb-python",
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-03-26 02:47:57 UTC"
+  "updated": "2026-03-27 02:49:49 UTC"
 }
