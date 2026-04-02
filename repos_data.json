@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2697
+      "stars": 2698
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2397
+      "stars": 2399
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1520
+      "stars": 1522
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 696
+      "stars": 697
     },
     {
       "name": "inferCNV",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 635
+      "stars": 636
     },
     {
       "name": "NicheNet",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 458
+      "stars": 459
     },
     {
       "name": "RCTD",
@@ -331,6 +331,15 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
+      "stars": 346
+    },
+    {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
       "stars": 345
     },
     {
@@ -340,15 +349,6 @@
       "repo": "ivis",
       "category": "RNA-seq",
       "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
-      "stars": 343
-    },
-    {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
       "stars": 343
     },
     {
@@ -367,7 +367,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 326
+      "stars": 327
     },
     {
       "name": "octopus",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 266
+      "stars": 267
     },
     {
       "name": "MAST",
@@ -511,7 +511,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 229
+      "stars": 228
     },
     {
       "name": "Muscat",
@@ -1837,21 +1837,21 @@
       "stars": 26
     },
     {
-      "name": "SCIPhi",
-      "url": "https://github.com/cbg-ethz/SCIPhI",
-      "owner": "cbg-ethz",
-      "repo": "SCIPhI",
-      "category": "Variant calling",
-      "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
-      "stars": 25
-    },
-    {
       "name": "ChatSpatial",
       "url": "https://github.com/cafferychen777/ChatSpatial",
       "owner": "cafferychen777",
       "repo": "ChatSpatial",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 26
+    },
+    {
+      "name": "SCIPhi",
+      "url": "https://github.com/cbg-ethz/SCIPhI",
+      "owner": "cbg-ethz",
+      "repo": "SCIPhI",
+      "category": "Variant calling",
+      "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
       "stars": 25
     },
     {
@@ -2224,15 +2224,6 @@
       "stars": 13
     },
     {
-      "name": "PhenoPath",
-      "url": "https://github.com/kieranrcampbell/phenopath",
-      "owner": "kieranrcampbell",
-      "repo": "phenopath",
-      "category": "Pseudotime and trajectory inference",
-      "description": "Single-cell pseudotime with heterogeneous genetic and environmental backgrounds, including Bayesian significance testing of iteractions.",
-      "stars": 13
-    },
-    {
       "name": "MetaMarkers",
       "url": "https://github.com/gillislab/MetaMarkers",
       "owner": "gillislab",
@@ -2248,6 +2239,15 @@
       "repo": "ouijaflow",
       "category": "Pseudotime and trajectory inference",
       "description": "[A descriptive marker gene approach to single-cell pseudotime inference](https://doi.org/10.1101/060442)",
+      "stars": 12
+    },
+    {
+      "name": "PhenoPath",
+      "url": "https://github.com/kieranrcampbell/phenopath",
+      "owner": "kieranrcampbell",
+      "repo": "phenopath",
+      "category": "Pseudotime and trajectory inference",
+      "description": "Single-cell pseudotime with heterogeneous genetic and environmental backgrounds, including Bayesian significance testing of iteractions.",
       "stars": 12
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-01 03:20:11 UTC"
+  "updated": "2026-04-02 02:45:35 UTC"
 }
