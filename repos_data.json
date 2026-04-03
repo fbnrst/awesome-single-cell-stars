@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2169
+      "stars": 2171
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1522
+      "stars": 1525
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 774
+      "stars": 776
     },
     {
       "name": "kallisto",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 633
+      "stars": 634
     },
     {
       "name": "SCP",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 541
+      "stars": 542
     },
     {
       "name": "DoubletFinder",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 446
+      "stars": 447
     },
     {
       "name": "LIGER",
@@ -457,7 +457,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 259
+      "stars": 260
     },
     {
       "name": "SCENIC+",
@@ -502,7 +502,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 237
+      "stars": 238
     },
     {
       "name": "BayesPrism",
@@ -547,7 +547,7 @@
       "repo": "cellassign",
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
-      "stars": 212
+      "stars": 213
     },
     {
       "name": "Numbat",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 198
+      "stars": 199
     },
     {
       "name": "Spectra",
@@ -646,7 +646,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 167
+      "stars": 168
     },
     {
       "name": "ceLLama",
@@ -856,6 +856,15 @@
       "stars": 124
     },
     {
+      "name": "CyteType",
+      "url": "https://github.com/NygenAnalytics/CyteType",
+      "owner": "NygenAnalytics",
+      "repo": "CyteType",
+      "category": "Cell type identification and classification",
+      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
+      "stars": 122
+    },
+    {
       "name": "Clustergrammer2",
       "url": "https://github.com/ismms-himc/clustergrammer2",
       "owner": "ismms-himc",
@@ -871,15 +880,6 @@
       "repo": "metacell",
       "category": "RNA-seq",
       "description": "Analysis of single cell RNA-seq data by computing partitions of a cell similarity graph into small homogeneous groups of cells called metacells.",
-      "stars": 120
-    },
-    {
-      "name": "CyteType",
-      "url": "https://github.com/NygenAnalytics/CyteType",
-      "owner": "NygenAnalytics",
-      "repo": "CyteType",
-      "category": "Cell type identification and classification",
-      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
       "stars": 120
     },
     {
@@ -1117,6 +1117,15 @@
       "stars": 87
     },
     {
+      "name": "CASSIA",
+      "url": "https://github.com/ElliotXie/CASSIA",
+      "owner": "ElliotXie",
+      "repo": "CASSIA",
+      "category": "Cell type identification and classification",
+      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
+      "stars": 87
+    },
+    {
       "name": "CITE-seq-Count",
       "url": "https://github.com/Hoohm/CITE-seq-Count",
       "owner": "Hoohm",
@@ -1124,15 +1133,6 @@
       "category": "Multi-assay data integration",
       "description": "",
       "stars": 87
-    },
-    {
-      "name": "CASSIA",
-      "url": "https://github.com/ElliotXie/CASSIA",
-      "owner": "ElliotXie",
-      "repo": "CASSIA",
-      "category": "Cell type identification and classification",
-      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 85
     },
     {
       "name": "SCALEX",
@@ -1378,6 +1378,15 @@
       "stars": 49
     },
     {
+      "name": "SCODE",
+      "url": "https://github.com/hmatsu1226/SCODE",
+      "owner": "hmatsu1226",
+      "repo": "SCODE",
+      "category": "RNA-seq",
+      "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
+      "stars": 48
+    },
+    {
       "name": "scDEED",
       "url": "https://github.com/JSB-UCLA/scDEED",
       "owner": "JSB-UCLA",
@@ -1402,15 +1411,6 @@
       "repo": "NetworkInference.jl",
       "category": "RNA-seq",
       "description": "Fast implementation of single-cell network inference algorithms: <a href=\"https://www.sciencedirect.com/science/article/pii/S2405471217303861\">Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures</a>",
-      "stars": 47
-    },
-    {
-      "name": "SCODE",
-      "url": "https://github.com/hmatsu1226/SCODE",
-      "owner": "hmatsu1226",
-      "repo": "SCODE",
-      "category": "RNA-seq",
-      "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
       "stars": 47
     },
     {
@@ -2098,6 +2098,15 @@
       "stars": 15
     },
     {
+      "name": "SINCERITIES",
+      "url": "https://github.com/CABSEL/SINCERITIES",
+      "owner": "CABSEL",
+      "repo": "SINCERITIES",
+      "category": "Gene regulatory network identification",
+      "description": "[Inferring gene regulatory networks from time-stamped single cell transcriptional expression profiles](https://academic.oup.com/bioinformatics/article/34/2/258/4158033)",
+      "stars": 15
+    },
+    {
       "name": "DECENT",
       "url": "https://github.com/cz-ye/DECENT",
       "owner": "cz-ye",
@@ -2158,15 +2167,6 @@
       "repo": "embeddr",
       "category": "RNA-seq",
       "description": "Embeddr creates a reduced dimensional representation of the gene space using a high-variance gene correlation graph and laplacian eigenmaps. It then fits a smooth pseudotime trajectory using principal curves.",
-      "stars": 14
-    },
-    {
-      "name": "SINCERITIES",
-      "url": "https://github.com/CABSEL/SINCERITIES",
-      "owner": "CABSEL",
-      "repo": "SINCERITIES",
-      "category": "Gene regulatory network identification",
-      "description": "[Inferring gene regulatory networks from time-stamped single cell transcriptional expression profiles](https://academic.oup.com/bioinformatics/article/34/2/258/4158033)",
       "stars": 14
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-02 02:45:35 UTC"
+  "updated": "2026-04-03 02:48:06 UTC"
 }
