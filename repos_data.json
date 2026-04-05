@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2401
+      "stars": 2402
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2171
+      "stars": 2172
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1526
+      "stars": 1525
     },
     {
       "name": "gget",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 447
+      "stars": 448
     },
     {
       "name": "LIGER",
@@ -268,7 +268,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 426
+      "stars": 427
     },
     {
       "name": "scFoundation",
@@ -466,7 +466,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 249
+      "stars": 250
     },
     {
       "name": "Scirpy",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 222
+      "stars": 223
     },
     {
       "name": "SComatic",
@@ -757,6 +757,15 @@
       "stars": 133
     },
     {
+      "name": "AtacWorks",
+      "url": "https://github.com/clara-parabricks/AtacWorks",
+      "owner": "clara-parabricks",
+      "repo": "AtacWorks",
+      "category": "Epigenomics",
+      "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
+      "stars": 133
+    },
+    {
       "name": "Sinto",
       "url": "https://github.com/timoast/sinto",
       "owner": "timoast",
@@ -781,15 +790,6 @@
       "repo": "novosparc",
       "category": "RNA-seq",
       "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
-      "stars": 132
-    },
-    {
-      "name": "AtacWorks",
-      "url": "https://github.com/clara-parabricks/AtacWorks",
-      "owner": "clara-parabricks",
-      "repo": "AtacWorks",
-      "category": "Epigenomics",
-      "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
       "stars": 132
     },
     {
@@ -1042,6 +1042,15 @@
       "repo": "scImpute",
       "category": "Feature (Gene) imputation",
       "description": "[scImpute: Accurate And Robust Imputation For Single Cell RNA-Seq Data](doi:10.1038/s41467-018-03405-7)",
+      "stars": 99
+    },
+    {
+      "name": "DoubletDetection",
+      "url": "https://github.com/JonathanShor/DoubletDetection",
+      "owner": "JonathanShor",
+      "repo": "DoubletDetection",
+      "category": "Doublet Identification",
+      "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
       "stars": 98
     },
     {
@@ -1051,15 +1060,6 @@
       "repo": "MIMOSCA",
       "category": "RNA-seq",
       "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 97
-    },
-    {
-      "name": "DoubletDetection",
-      "url": "https://github.com/JonathanShor/DoubletDetection",
-      "owner": "JonathanShor",
-      "repo": "DoubletDetection",
-      "category": "Doublet Identification",
-      "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
       "stars": 97
     },
     {
@@ -1576,6 +1576,15 @@
       "stars": 37
     },
     {
+      "name": "clonealign",
+      "url": "https://github.com/kieranrcampbell/clonealign/",
+      "owner": "kieranrcampbell",
+      "repo": "clonealign",
+      "category": "Multi-assay data integration",
+      "description": "Integrate single-cell RNA and single-cell DNA-seq measured in separate cells from the same tumour to infer cancer-clone-specific gene expression profiles [clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers, Genome Biology 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z)",
+      "stars": 37
+    },
+    {
       "name": "FastProject",
       "url": "https://github.com/yoseflab/fastproject",
       "owner": "yoseflab",
@@ -1591,15 +1600,6 @@
       "repo": "GiniClust",
       "category": "Marker and differential gene expression identification",
       "description": "GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data.  GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.",
-      "stars": 36
-    },
-    {
-      "name": "clonealign",
-      "url": "https://github.com/kieranrcampbell/clonealign/",
-      "owner": "kieranrcampbell",
-      "repo": "clonealign",
-      "category": "Multi-assay data integration",
-      "description": "Integrate single-cell RNA and single-cell DNA-seq measured in separate cells from the same tumour to infer cancer-clone-specific gene expression profiles [clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers, Genome Biology 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z)",
       "stars": 36
     },
     {
@@ -1792,6 +1792,15 @@
       "stars": 27
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 27
+    },
+    {
       "name": "dropkick",
       "url": "https://github.com/KenLauLab/dropkick",
       "owner": "KenLauLab",
@@ -1834,15 +1843,6 @@
       "repo": "cobolt",
       "category": "Multi-assay data integration",
       "description": "Cobolt is a novel method that not only allows for analyzing the data from joint-modality platforms, but provides a coherent framework for the integration of multiple datasets measured on different modalities. [Cobolt: integrative analysis of multimodal single-cell sequencing data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02706-x)",
-      "stars": 26
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 26
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-04 02:38:03 UTC"
+  "updated": "2026-04-05 02:56:08 UTC"
 }
