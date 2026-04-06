@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2172
+      "stars": 2174
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1592
+      "stars": 1591
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1592
+      "stars": 1591
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1592
+      "stars": 1591
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1592
+      "stars": 1591
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1592
+      "stars": 1591
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1592
+      "stars": 1591
     },
     {
       "name": "scGPT",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 559
+      "stars": 560
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 488
+      "stars": 489
     },
     {
       "name": "SCENIC",
@@ -331,7 +331,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 348
+      "stars": 349
     },
     {
       "name": "TRUST4",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 267
+      "stars": 268
     },
     {
       "name": "MAST",
@@ -646,7 +646,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 168
+      "stars": 169
     },
     {
       "name": "ceLLama",
@@ -838,21 +838,21 @@
       "stars": 125
     },
     {
-      "name": "SCEVAN",
-      "url": "https://github.com/AntonioDeFalco/SCEVAN",
-      "owner": "AntonioDeFalco",
-      "repo": "SCEVAN",
-      "category": "Copy number analysis",
-      "description": "Easy-to-use package that starting from the raw count matrix of scRNA data automatically classifies the cells present in the biopsy by segregating non-malignant cells of tumor microenviroment from the malignant cells, outperforms *copyKAT*. It also infers the copy number profile of malignant cells, identifies subclonal structures and automatically analyses the specific and shared alterations of each subpopulation. [Preprint](https://www.biorxiv.org/content/10.1101/2021.11.20.469390v1)",
-      "stars": 124
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 125
+    },
+    {
+      "name": "SCEVAN",
+      "url": "https://github.com/AntonioDeFalco/SCEVAN",
+      "owner": "AntonioDeFalco",
+      "repo": "SCEVAN",
+      "category": "Copy number analysis",
+      "description": "Easy-to-use package that starting from the raw count matrix of scRNA data automatically classifies the cells present in the biopsy by segregating non-malignant cells of tumor microenviroment from the malignant cells, outperforms *copyKAT*. It also infers the copy number profile of malignant cells, identifies subclonal structures and automatically analyses the specific and shared alterations of each subpopulation. [Preprint](https://www.biorxiv.org/content/10.1101/2021.11.20.469390v1)",
       "stars": 124
     },
     {
@@ -988,6 +988,15 @@
       "repo": "RNAnorm",
       "category": "RNA-seq",
       "description": "Python implementation of common RNA-seq normalization methods (CPM, FPKM, TPM, UQ, CUF, TMM, CTF).",
+      "stars": 106
+    },
+    {
+      "name": "geneformer",
+      "url": "https://github.com/jkobject/geneformer",
+      "owner": "jkobject",
+      "repo": "geneformer",
+      "category": "Single cell large model",
+      "description": "",
       "stars": 105
     },
     {
@@ -997,15 +1006,6 @@
       "repo": "SCALE",
       "category": "Epigenomics",
       "description": "SCALE is a deeplearning tool combining GMM with VAE for single-cell ATAC-seq analysis (visualization, clustering, imputation, batch effect removal, downstream analysis for celltype-specific TFs). [SCALE method for single-cell ATAC-seq analysis via latent feature extraction](https://www.nature.com/articles/s41467-019-12630-7)",
-      "stars": 104
-    },
-    {
-      "name": "geneformer",
-      "url": "https://github.com/jkobject/geneformer",
-      "owner": "jkobject",
-      "repo": "geneformer",
-      "category": "Single cell large model",
-      "description": "",
       "stars": 104
     },
     {
@@ -2647,5 +2647,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-05 02:56:08 UTC"
+  "updated": "2026-04-06 02:57:13 UTC"
 }
