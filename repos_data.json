@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2405
+      "stars": 2408
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1596
+      "stars": 1597
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1596
+      "stars": 1597
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1596
+      "stars": 1597
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1596
+      "stars": 1597
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1596
+      "stars": 1597
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1596
+      "stars": 1597
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1526
+      "stars": 1529
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1115
+      "stars": 1116
     },
     {
       "name": "CellChat",
@@ -160,7 +160,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 632
+      "stars": 633
     },
     {
       "name": "ffq",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 538
+      "stars": 540
     },
     {
       "name": "scVelo",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 460
+      "stars": 461
     },
     {
       "name": "RCTD",
@@ -316,6 +316,15 @@
       "stars": 361
     },
     {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
+      "stars": 353
+    },
+    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
@@ -325,22 +334,13 @@
       "stars": 353
     },
     {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 351
-    },
-    {
       "name": "TRUST4",
       "url": "https://github.com/liulab-dfci/TRUST4",
       "owner": "liulab-dfci",
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 346
+      "stars": 347
     },
     {
       "name": "ivis",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 301
+      "stars": 303
     },
     {
       "name": "zUMIs",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 292
+      "stars": 293
     },
     {
       "name": "CopyKAT",
@@ -430,16 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 270
-    },
-    {
-      "name": "MOFA",
-      "url": " https://github.com/bioFAM/MOFA",
-      "owner": "bioFAM",
-      "repo": "MOFA",
-      "category": "Multi-assay data integration",
-      "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 263
+      "stars": 271
     },
     {
       "name": "MAST",
@@ -448,6 +439,15 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
+      "stars": 262
+    },
+    {
+      "name": "MOFA",
+      "url": " https://github.com/bioFAM/MOFA",
+      "owner": "bioFAM",
+      "repo": "MOFA",
+      "category": "Multi-assay data integration",
+      "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
       "stars": 262
     },
     {
@@ -511,7 +511,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 230
+      "stars": 231
     },
     {
       "name": "Muscat",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 199
+      "stars": 200
     },
     {
       "name": "Spectra",
@@ -829,21 +829,21 @@
       "stars": 128
     },
     {
-      "name": "flotilla",
-      "url": "https://github.com/yeolab/flotilla",
-      "owner": "yeolab",
-      "repo": "flotilla",
-      "category": "RNA-seq",
-      "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
-      "stars": 125
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 126
+    },
+    {
+      "name": "flotilla",
+      "url": "https://github.com/yeolab/flotilla",
+      "owner": "yeolab",
+      "repo": "flotilla",
+      "category": "RNA-seq",
+      "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
       "stars": 125
     },
     {
@@ -1033,7 +1033,7 @@
       "repo": "paste",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 101
+      "stars": 102
     },
     {
       "name": "scImpute",
@@ -1105,7 +1105,7 @@
       "repo": "SLAT",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 91
+      "stars": 92
     },
     {
       "name": "CASSIA",
@@ -1114,7 +1114,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 88
+      "stars": 89
     },
     {
       "name": "BASiCS",
@@ -1357,7 +1357,7 @@
       "repo": "STAGATE",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 50
+      "stars": 51
     },
     {
       "name": "STAligner",
@@ -1702,21 +1702,21 @@
       "stars": 29
     },
     {
-      "name": "netSmooth",
-      "url": "https://github.com/BIMSBbioinfo/netSmooth",
-      "owner": "BIMSBbioinfo",
-      "repo": "netSmooth",
-      "category": "RNA-seq",
-      "description": "netSmooth is a network-diffusion based method that uses priors for the covariance structure of gene expression profiles on scRNA-seq experiments in order to smooth expression values. We demonstrate that netSmooth improves clustering results of scRNA-seq experiments from distinct cell populations, time-course experiments, and cancer genomics.",
-      "stars": 28
-    },
-    {
       "name": "scGEAToolbox",
       "url": "https://github.com/jamesjcai/scGEAToolbox",
       "owner": "jamesjcai",
       "repo": "scGEAToolbox",
       "category": "RNA-seq",
       "description": "a Matlab toolbox for single-cell RNA-seq data analyses.",
+      "stars": 29
+    },
+    {
+      "name": "netSmooth",
+      "url": "https://github.com/BIMSBbioinfo/netSmooth",
+      "owner": "BIMSBbioinfo",
+      "repo": "netSmooth",
+      "category": "RNA-seq",
+      "description": "netSmooth is a network-diffusion based method that uses priors for the covariance structure of gene expression profiles on scRNA-seq experiments in order to smooth expression values. We demonstrate that netSmooth improves clustering results of scRNA-seq experiments from distinct cell populations, time-course experiments, and cancer genomics.",
       "stars": 28
     },
     {
@@ -1855,21 +1855,21 @@
       "stars": 25
     },
     {
-      "name": "cyclum",
-      "url": "https://github.com/KChen-lab/cyclum",
-      "owner": "KChen-lab",
-      "repo": "cyclum",
-      "category": "RNA-seq",
-      "description": "Cyclum is a novel AutoEncoder approach that characterizes circular trajectories in the high-dimensional gene expression space. Applying Cyclum to removing cell-cycle effects leads to substantially improved delineations of cell subpopulations, which is useful for establishing various cell atlases and studying tumor heterogeneity. [bioRxiv](https://www.biorxiv.org/content/10.1101/625566v1)",
-      "stars": 24
-    },
-    {
       "name": "Celcomen",
       "url": "https://github.com/Teichlab/celcomen",
       "owner": "Teichlab",
       "repo": "celcomen",
       "category": "Cellular interactions/communication",
       "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 25
+    },
+    {
+      "name": "cyclum",
+      "url": "https://github.com/KChen-lab/cyclum",
+      "owner": "KChen-lab",
+      "repo": "cyclum",
+      "category": "RNA-seq",
+      "description": "Cyclum is a novel AutoEncoder approach that characterizes circular trajectories in the high-dimensional gene expression space. Applying Cyclum to removing cell-cycle effects leads to substantially improved delineations of cell subpopulations, which is useful for establishing various cell atlases and studying tumor heterogeneity. [bioRxiv](https://www.biorxiv.org/content/10.1101/625566v1)",
       "stars": 24
     },
     {
@@ -2665,5 +2665,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-09 02:46:56 UTC"
+  "updated": "2026-04-10 02:58:28 UTC"
 }
