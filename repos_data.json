@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2698
+      "stars": 2699
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2409
+      "stars": 2410
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2176
+      "stars": 2177
     },
     {
       "name": "scVI",
@@ -136,6 +136,15 @@
       "stars": 662
     },
     {
+      "name": "mLLMCelltype",
+      "url": "https://github.com/cafferychen777/mLLMCelltype",
+      "owner": "cafferychen777",
+      "repo": "mLLMCelltype",
+      "category": "Cell type identification and classification",
+      "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
+      "stars": 637
+    },
+    {
       "name": "NicheNet",
       "url": "https://github.com/saeyslab/nichenetr",
       "owner": "saeyslab",
@@ -143,15 +152,6 @@
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
       "stars": 637
-    },
-    {
-      "name": "mLLMCelltype",
-      "url": "https://github.com/cafferychen777/mLLMCelltype",
-      "owner": "cafferychen777",
-      "repo": "mLLMCelltype",
-      "category": "Cell type identification and classification",
-      "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 636
     },
     {
       "name": "SCP",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 303
+      "stars": 304
     },
     {
       "name": "zUMIs",
@@ -748,21 +748,21 @@
       "stars": 136
     },
     {
-      "name": "demuxlet",
-      "url": "https://github.com/statgen/demuxlet",
-      "owner": "statgen",
-      "repo": "demuxlet",
-      "category": "Doublet Identification",
-      "description": "[Multiplexed droplet single-cell RNA-sequencing using natural genetic variation](https://www.nature.com/articles/nbt.4042)",
-      "stars": 133
-    },
-    {
       "name": "AtacWorks",
       "url": "https://github.com/clara-parabricks/AtacWorks",
       "owner": "clara-parabricks",
       "repo": "AtacWorks",
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
+      "stars": 134
+    },
+    {
+      "name": "demuxlet",
+      "url": "https://github.com/statgen/demuxlet",
+      "owner": "statgen",
+      "repo": "demuxlet",
+      "category": "Doublet Identification",
+      "description": "[Multiplexed droplet single-cell RNA-sequencing using natural genetic variation](https://www.nature.com/articles/nbt.4042)",
       "stars": 133
     },
     {
@@ -1513,6 +1513,15 @@
       "stars": 40
     },
     {
+      "name": "bindSC",
+      "url": "https://github.com/KChen-lab/bindSC",
+      "owner": "KChen-lab",
+      "repo": "bindSC",
+      "category": "Multi-assay data integration",
+      "description": "bindSC (Bi-dimensional INtegration of multi-omics Data from Single Cell sequencing technologies) is an R package for single cell multi-omic integration analysis, developed and maintained by Ken chen's lab in MDACC. bindSC is developed to address the challenge of single-cell multi-omic data integration that consists of unpaired cells measured with unmatched features across modalities. [Bi-order multimodal integration of single-cell data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02679-x)",
+      "stars": 40
+    },
+    {
       "name": "DSTG",
       "url": "https://github.com/Su-informatics-lab/DSTG",
       "owner": "Su-informatics-lab",
@@ -1546,15 +1555,6 @@
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
-      "stars": 39
-    },
-    {
-      "name": "bindSC",
-      "url": "https://github.com/KChen-lab/bindSC",
-      "owner": "KChen-lab",
-      "repo": "bindSC",
-      "category": "Multi-assay data integration",
-      "description": "bindSC (Bi-dimensional INtegration of multi-omics Data from Single Cell sequencing technologies) is an R package for single cell multi-omic integration analysis, developed and maintained by Ken chen's lab in MDACC. bindSC is developed to address the challenge of single-cell multi-omic data integration that consists of unpaired cells measured with unmatched features across modalities. [Bi-order multimodal integration of single-cell data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02679-x)",
       "stars": 39
     },
     {
@@ -1666,6 +1666,15 @@
       "stars": 31
     },
     {
+      "name": "SCALE",
+      "url": "https://github.com/yuchaojiang/SCALE",
+      "owner": "yuchaojiang",
+      "repo": "SCALE",
+      "category": "RNA-seq",
+      "description": "SCALE is a statistical framework for Single Cell ALlelic Expression analysis. SCALE estimates kinetic parameters that characterize the transcriptional bursting process at the allelic level, while accounting for technical bias.",
+      "stars": 30
+    },
+    {
       "name": "scTCRseq",
       "url": "https://github.com/ElementoLab/scTCRseq",
       "owner": "ElementoLab",
@@ -1690,15 +1699,6 @@
       "repo": "sake",
       "category": "RNA-seq",
       "description": "Single-cell RNA-Seq Analysis and Clustering Evaluation.",
-      "stars": 29
-    },
-    {
-      "name": "SCALE",
-      "url": "https://github.com/yuchaojiang/SCALE",
-      "owner": "yuchaojiang",
-      "repo": "SCALE",
-      "category": "RNA-seq",
-      "description": "SCALE is a statistical framework for Single Cell ALlelic Expression analysis. SCALE estimates kinetic parameters that characterize the transcriptional bursting process at the allelic level, while accounting for technical bias.",
       "stars": 29
     },
     {
@@ -1735,6 +1735,15 @@
       "repo": "SCICoNE",
       "category": "Copy number analysis",
       "description": "Single-cell copy number calling and event history reconstruction. SCICoNE reconstructs the history of copy number events in the tumour and uses these evolutionary relationships to identify the copy number profiles of the individual cells.",
+      "stars": 28
+    },
+    {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 28
     },
     {
@@ -1789,15 +1798,6 @@
       "repo": "FiRE",
       "category": "Rare cell detection",
       "description": "Finder of rare entities (FiRE) helps identify rare cell types in voluminous single-cell datasets. Design of FiRE is inspired by the observation that rareness estimation of a particular data point is the flip side of measuring the density around it. In principle, FiRE uses the Sketching technique, a variant of locality sensitive hashing, to assign rareness score to every cell.",
-      "stars": 27
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 27
     },
     {
@@ -1963,6 +1963,15 @@
       "stars": 21
     },
     {
+      "name": "MEDALT",
+      "url": "https://github.com/KChen-lab/MEDALT",
+      "owner": "KChen-lab",
+      "repo": "MEDALT",
+      "category": "Copy number analysis",
+      "description": "This package performs lineage tracing using copy number profile from single cell sequencing technology. It will infer: 1. An rooted directed minimal spanning tree (RDMST) to represent aneuploidy evolution of tumor cells. 2. The focal and broad copy number alterations associated with lineage expansion.",
+      "stars": 21
+    },
+    {
       "name": "Splotch",
       "url": "https://github.com/tare/Splotch",
       "owner": "tare",
@@ -1978,15 +1987,6 @@
       "repo": "normalisr",
       "category": "Gene regulatory network identification",
       "description": "Normalisr infers Gene Regulatory Networks from Perturb-seq and other single-cell CRISPR screens. Its normalization and statistical association testing framework also unifies single-cell differential expression and co-expression. [Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr](https://doi.org/10.1038/s41467-021-26682-1).",
-      "stars": 20
-    },
-    {
-      "name": "MEDALT",
-      "url": "https://github.com/KChen-lab/MEDALT",
-      "owner": "KChen-lab",
-      "repo": "MEDALT",
-      "category": "Copy number analysis",
-      "description": "This package performs lineage tracing using copy number profile from single cell sequencing technology. It will infer: 1. An rooted directed minimal spanning tree (RDMST) to represent aneuploidy evolution of tumor cells. 2. The focal and broad copy number alterations associated with lineage expansion.",
       "stars": 20
     },
     {
@@ -2008,12 +2008,30 @@
       "stars": 19
     },
     {
+      "name": "aneufinder",
+      "url": "https://github.com/ataudt/aneufinder",
+      "owner": "ataudt",
+      "repo": "aneufinder",
+      "category": "Copy number analysis",
+      "description": "Bioconductor module for copy-number detection in single-cell whole genome sequencing (scWGS) and strand-seq data using a Hidden Markov Model or binary bisection method.",
+      "stars": 19
+    },
+    {
       "name": "gene_network_evaluation",
       "url": "https://github.com/EngreitzLab/gene_network_evaluation/",
       "owner": "EngreitzLab",
       "repo": "gene_network_evaluation",
       "category": "Quality control",
       "description": "A flexible framework to evaluate the plausibility of gene programs inferred from single-cell genomic data. The assessment is broken down into themes such as goodness of fit (ability to explain the data), co-regulation, mechanistic interactions etc. Under each theme, multiple evaluation tasks are conceptualised and implemented using appropriate statistical tests.",
+      "stars": 18
+    },
+    {
+      "name": "scMalignantFinder",
+      "url": "https://github.com/Jonyyqn/scMalignantFinder",
+      "owner": "Jonyyqn",
+      "repo": "scMalignantFinder",
+      "category": "Malignant cell identification",
+      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
       "stars": 18
     },
     {
@@ -2026,15 +2044,6 @@
       "stars": 18
     },
     {
-      "name": "aneufinder",
-      "url": "https://github.com/ataudt/aneufinder",
-      "owner": "ataudt",
-      "repo": "aneufinder",
-      "category": "Copy number analysis",
-      "description": "Bioconductor module for copy-number detection in single-cell whole genome sequencing (scWGS) and strand-seq data using a Hidden Markov Model or binary bisection method.",
-      "stars": 18
-    },
-    {
       "name": "SISUA",
       "url": "https://github.com/trungnt13/sisua",
       "owner": "trungnt13",
@@ -2044,12 +2053,12 @@
       "stars": 18
     },
     {
-      "name": "scMalignantFinder",
-      "url": "https://github.com/Jonyyqn/scMalignantFinder",
-      "owner": "Jonyyqn",
-      "repo": "scMalignantFinder",
-      "category": "Malignant cell identification",
-      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
+      "name": "BPSC",
+      "url": "https://github.com/nghiavtr/BPSC",
+      "owner": "nghiavtr",
+      "repo": "BPSC",
+      "category": "Count modelling and normalization",
+      "description": "Beta-Poisson model for single-cell RNA-seq data analyses",
       "stars": 17
     },
     {
@@ -2071,12 +2080,21 @@
       "stars": 16
     },
     {
-      "name": "BPSC",
-      "url": "https://github.com/nghiavtr/BPSC",
-      "owner": "nghiavtr",
-      "repo": "BPSC",
-      "category": "Count modelling and normalization",
-      "description": "Beta-Poisson model for single-cell RNA-seq data analyses",
+      "name": "Melissa",
+      "url": "https://github.com/andreaskapou/Melissa",
+      "owner": "andreaskapou",
+      "repo": "Melissa",
+      "category": "Epigenomics",
+      "description": "Melissa (MEthyLation Inference for Single cell Analysis), a Bayesian hierarchical method to quantify spatially-varying methylation profiles across genomic regions from single-cell bisulfite sequencing data (scBS-seq). Melissa clusters individual cells based on local methylation patterns, enabling the discovery of epigenetic differences and similarities among individual cells. The clustering also acts as an effective regularisation method for imputation of methylation on unassayed CpG sites, enabling transfer of information between individual cells. [BioRxiv](https://doi.org/10.1101/312025)",
+      "stars": 16
+    },
+    {
+      "name": "SCRAT",
+      "url": "https://github.com/zji90/SCRAT",
+      "owner": "zji90",
+      "repo": "SCRAT",
+      "category": "Epigenomics",
+      "description": "SCRAT provides essential tools for users to read in single-cell regulome data (ChIP-seq, ATAC-seq, DNase-seq) and summarize into different types of features. It also allows users to visualize the features, cluster samples and identify key features. [Single-cell regulome data analysis by SCRAT](https://academic.oup.com/bioinformatics/article/33/18/2930/3823309)",
       "stars": 16
     },
     {
@@ -2140,24 +2158,6 @@
       "repo": "SLICER",
       "category": "Pseudotime and trajectory inference",
       "description": "Selective Locally linear Inference of Cellular Expression Relationships (SLICER) algorithm for inferring cell trajectories.",
-      "stars": 15
-    },
-    {
-      "name": "Melissa",
-      "url": "https://github.com/andreaskapou/Melissa",
-      "owner": "andreaskapou",
-      "repo": "Melissa",
-      "category": "Epigenomics",
-      "description": "Melissa (MEthyLation Inference for Single cell Analysis), a Bayesian hierarchical method to quantify spatially-varying methylation profiles across genomic regions from single-cell bisulfite sequencing data (scBS-seq). Melissa clusters individual cells based on local methylation patterns, enabling the discovery of epigenetic differences and similarities among individual cells. The clustering also acts as an effective regularisation method for imputation of methylation on unassayed CpG sites, enabling transfer of information between individual cells. [BioRxiv](https://doi.org/10.1101/312025)",
-      "stars": 15
-    },
-    {
-      "name": "SCRAT",
-      "url": "https://github.com/zji90/SCRAT",
-      "owner": "zji90",
-      "repo": "SCRAT",
-      "category": "Epigenomics",
-      "description": "SCRAT provides essential tools for users to read in single-cell regulome data (ChIP-seq, ATAC-seq, DNase-seq) and summarize into different types of features. It also allows users to visualize the features, cluster samples and identify key features. [Single-cell regulome data analysis by SCRAT](https://academic.oup.com/bioinformatics/article/33/18/2930/3823309)",
       "stars": 15
     },
     {
@@ -2665,5 +2665,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-11 02:43:27 UTC"
+  "updated": "2026-04-12 03:21:44 UTC"
 }
