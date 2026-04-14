@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2700
+      "stars": 2703
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2413
+      "stars": 2416
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2177
+      "stars": 2178
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1597
+      "stars": 1599
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1597
+      "stars": 1599
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1597
+      "stars": 1599
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1597
+      "stars": 1599
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1597
+      "stars": 1599
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1597
+      "stars": 1599
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1531
+      "stars": 1536
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1117
+      "stars": 1118
     },
     {
       "name": "CellChat",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit).  Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 662
+      "stars": 663
     },
     {
       "name": "mLLMCelltype",
@@ -169,7 +169,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 598
+      "stars": 597
     },
     {
       "name": "squidpy",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 559
+      "stars": 560
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 402
+      "stars": 404
     },
     {
       "name": "MAGIC",
@@ -295,7 +295,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 369
+      "stars": 370
     },
     {
       "name": "scRepertoire",
@@ -367,7 +367,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 327
+      "stars": 328
     },
     {
       "name": "octopus",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 273
+      "stars": 276
     },
     {
       "name": "Sopa",
@@ -478,21 +478,21 @@
       "stars": 247
     },
     {
-      "name": "Clustergrammer",
-      "url": "https://github.com/maayanlab/clustergrammer",
-      "owner": "maayanlab",
-      "repo": "clustergrammer",
-      "category": "RNA-seq",
-      "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
-      "stars": 239
-    },
-    {
       "name": "scCATCH",
       "url": "https://github.com/ZJUFanLab/scCATCH",
       "owner": "ZJUFanLab",
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
+      "stars": 240
+    },
+    {
+      "name": "Clustergrammer",
+      "url": "https://github.com/maayanlab/clustergrammer",
+      "owner": "maayanlab",
+      "repo": "clustergrammer",
+      "category": "RNA-seq",
+      "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
       "stars": 239
     },
     {
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 201
+      "stars": 202
     },
     {
       "name": "Spectra",
@@ -610,7 +610,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 185
+      "stars": 186
     },
     {
       "name": "SpatialDe",
@@ -700,7 +700,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 143
+      "stars": 144
     },
     {
       "name": "scPRINT",
@@ -709,7 +709,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 143
+      "stars": 144
     },
     {
       "name": "scPRINT",
@@ -718,7 +718,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from  any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 143
+      "stars": 144
     },
     {
       "name": "scPRINT",
@@ -727,7 +727,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 143
+      "stars": 144
     },
     {
       "name": "singleCellNet",
@@ -799,7 +799,7 @@
       "repo": "scrna-parameter-estimation",
       "category": "RNA-seq",
       "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9).",
-      "stars": 129
+      "stars": 130
     },
     {
       "name": "SC3",
@@ -889,7 +889,7 @@
       "repo": "scTE",
       "category": "Other applications",
       "description": "Quantifying transposable element expression from single-cell sequencing data.",
-      "stars": 117
+      "stars": 118
     },
     {
       "name": "SIMLR",
@@ -937,6 +937,15 @@
       "stars": 108
     },
     {
+      "name": "DeepSort",
+      "url": "https://github.com/ZJUFanLab/DeepSort",
+      "owner": "ZJUFanLab",
+      "repo": "DeepSort",
+      "category": "Cell type identification and classification",
+      "description": "A reference-free  cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive  single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
+      "stars": 108
+    },
+    {
       "name": "Snakemake single-cell-rna-seq workflow",
       "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
       "owner": "snakemake-workflows",
@@ -952,15 +961,6 @@
       "repo": "swne",
       "category": "Dimension reduction",
       "description": "[Visualizing single-cell RNA-seq datasets with Similarity Weighted Nonnegative Embedding (SWNE)](https://www.biorxiv.org/content/early/2018/03/05/276261)",
-      "stars": 107
-    },
-    {
-      "name": "DeepSort",
-      "url": "https://github.com/ZJUFanLab/DeepSort",
-      "owner": "ZJUFanLab",
-      "repo": "DeepSort",
-      "category": "Cell type identification and classification",
-      "description": "A reference-free  cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive  single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
       "stars": 107
     },
     {
@@ -1171,21 +1171,21 @@
       "stars": 77
     },
     {
-      "name": "DoubletDecon",
-      "url": "https://github.com/EDePasquale/DoubletDecon",
-      "owner": "EDePasquale",
-      "repo": "DoubletDecon",
-      "category": "Doublet Identification",
-      "description": "Cell-State Aware Removal of Single-Cell RNA-Seq Doublets. [BioRxiv](DoubletDecon: Cell-State Aware Removal of Single-Cell RNA-Seq Doublets)",
-      "stars": 75
-    },
-    {
       "name": "SpaTalk",
       "url": "https://github.com/ZJUFanLab/SpaTalk",
       "owner": "ZJUFanLab",
       "repo": "SpaTalk",
       "category": "Spatial transcriptomics",
       "description": "[SpaTalk](https://www.nature.com/articles/s41467-022-32111-8) is a cell-cell communication inference method for either single-cell or spot-based spatially resolved transcriptomic data, e.g., STARmap, MERFISH, seqFISH, Slide-seq, 10X Visium.",
+      "stars": 76
+    },
+    {
+      "name": "DoubletDecon",
+      "url": "https://github.com/EDePasquale/DoubletDecon",
+      "owner": "EDePasquale",
+      "repo": "DoubletDecon",
+      "category": "Doublet Identification",
+      "description": "Cell-State Aware Removal of Single-Cell RNA-Seq Doublets. [BioRxiv](DoubletDecon: Cell-State Aware Removal of Single-Cell RNA-Seq Doublets)",
       "stars": 75
     },
     {
@@ -1258,16 +1258,7 @@
       "repo": "CellNEST",
       "category": "Cellular interactions/communication",
       "description": "Cell Neural Networks on Spatial Transcriptomics (CellNEST) deciphers patterns of cell-cell communication by introducing relay-network detection that identifies ligand-receptor-ligand-receptor communication chains. Uses attention mechanisms to analyze spatial transcriptomics data, detect T cell homing signals, and predict new communication patterns in various cancer types. [Paper](https://www.nature.com/articles/s41592-025-02721-3)",
-      "stars": 63
-    },
-    {
-      "name": "knn-smoothing",
-      "url": "https://github.com/yanailab/knn-smoothing",
-      "owner": "yanailab",
-      "repo": "knn-smoothing",
-      "category": "RNA-seq",
-      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
-      "stars": 61
+      "stars": 64
     },
     {
       "name": "cerebra",
@@ -1276,6 +1267,15 @@
       "repo": "cerebra",
       "category": "Variant calling",
       "description": "Cerebra is a tool for high-throughput summarizing of vcf entries following traditional variant calling for a sequencing experiment. Helps to extract relevant mutation information from among tens of thousands of vcf lines.",
+      "stars": 62
+    },
+    {
+      "name": "knn-smoothing",
+      "url": "https://github.com/yanailab/knn-smoothing",
+      "owner": "yanailab",
+      "repo": "knn-smoothing",
+      "category": "RNA-seq",
+      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
       "stars": 61
     },
     {
@@ -1711,6 +1711,15 @@
       "stars": 29
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 29
+    },
+    {
       "name": "netSmooth",
       "url": "https://github.com/BIMSBbioinfo/netSmooth",
       "owner": "BIMSBbioinfo",
@@ -1735,15 +1744,6 @@
       "repo": "SCICoNE",
       "category": "Copy number analysis",
       "description": "Single-cell copy number calling and event history reconstruction. SCICoNE reconstructs the history of copy number events in the tumour and uses these evolutionary relationships to identify the copy number profiles of the individual cells.",
-      "stars": 28
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 28
     },
     {
@@ -2107,15 +2107,6 @@
       "stars": 15
     },
     {
-      "name": "scbean",
-      "url": "https://github.com/jhu99/scbean",
-      "owner": "jhu99",
-      "repo": "scbean",
-      "category": "RNA-seq",
-      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
-      "stars": 15
-    },
-    {
       "name": "SINCERITIES",
       "url": "https://github.com/CABSEL/SINCERITIES",
       "owner": "CABSEL",
@@ -2167,6 +2158,15 @@
       "repo": "embeddr",
       "category": "RNA-seq",
       "description": "Embeddr creates a reduced dimensional representation of the gene space using a high-variance gene correlation graph and laplacian eigenmaps. It then fits a smooth pseudotime trajectory using principal curves.",
+      "stars": 14
+    },
+    {
+      "name": "scbean",
+      "url": "https://github.com/jhu99/scbean",
+      "owner": "jhu99",
+      "repo": "scbean",
+      "category": "RNA-seq",
+      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
       "stars": 14
     },
     {
@@ -2557,6 +2557,15 @@
       "stars": 3
     },
     {
+      "name": "MINGL",
+      "url": "https://github.com/HickeyLab/Mingl/tree/main",
+      "owner": "HickeyLab",
+      "repo": "Mingl",
+      "category": "Spatial transcriptomics",
+      "description": "MINGL (Mixture-based Identification of Neighborhood Gradients with Likelihood estimates), a probabilistic framework that converts existing neighborhood annotations into continuous measures of tissue architecture.",
+      "stars": 3
+    },
+    {
       "name": "Marlene",
       "url": "https://github.com/euxhenh/Marlene",
       "owner": "euxhenh",
@@ -2665,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-13 03:28:07 UTC"
+  "updated": "2026-04-14 02:59:19 UTC"
 }
