@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2703
+      "stars": 2705
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2416
+      "stars": 2417
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1599
+      "stars": 1600
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1599
+      "stars": 1600
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1599
+      "stars": 1600
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1599
+      "stars": 1600
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1599
+      "stars": 1600
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1599
+      "stars": 1600
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1536
+      "stars": 1537
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 697
+      "stars": 696
     },
     {
       "name": "inferCNV",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 637
+      "stars": 638
     },
     {
       "name": "NicheNet",
@@ -160,7 +160,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 633
+      "stars": 635
     },
     {
       "name": "ffq",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 540
+      "stars": 541
     },
     {
       "name": "scVelo",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 489
+      "stars": 490
     },
     {
       "name": "SCENIC",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 404
+      "stars": 405
     },
     {
       "name": "MAGIC",
@@ -295,7 +295,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 370
+      "stars": 371
     },
     {
       "name": "scRepertoire",
@@ -316,6 +316,15 @@
       "stars": 361
     },
     {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
+      "stars": 354
+    },
+    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
@@ -323,15 +332,6 @@
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
       "stars": 354
-    },
-    {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 353
     },
     {
       "name": "TRUST4",
@@ -595,21 +595,21 @@
       "stars": 193
     },
     {
-      "name": "kb-python",
-      "url": "https://github.com/pachterlab/kb_python",
-      "owner": "pachterlab",
-      "repo": "kb_python",
-      "category": "RNA-seq",
-      "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 186
-    },
-    {
       "name": "inferCNVpy",
       "url": "https://github.com/icbi-lab/infercnvpy",
       "owner": "icbi-lab",
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
+      "stars": 187
+    },
+    {
+      "name": "kb-python",
+      "url": "https://github.com/pachterlab/kb_python",
+      "owner": "pachterlab",
+      "repo": "kb_python",
+      "category": "RNA-seq",
+      "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
       "stars": 186
     },
     {
@@ -646,7 +646,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 170
+      "stars": 171
     },
     {
       "name": "ceLLama",
@@ -1513,6 +1513,15 @@
       "stars": 40
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 40
+    },
+    {
       "name": "bindSC",
       "url": "https://github.com/KChen-lab/bindSC",
       "owner": "KChen-lab",
@@ -1546,15 +1555,6 @@
       "repo": "SCell",
       "category": "RNA-seq",
       "description": "SCell is an integrated software tool for quality filtering, normalization, feature selection, iterative dimensionality reduction, clustering and the estimation of gene-expression gradients from large ensembles of single-cell RNA-seq datasets. SCell is open source, and implemented with an intuitive graphical interface.",
-      "stars": 39
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
       "stars": 39
     },
     {
@@ -1609,7 +1609,7 @@
       "repo": "scDD",
       "category": "Marker and differential gene expression identification",
       "description": "scDD (Single-Cell Differential Distributions) is a framework to identify genes with different expression patterns between biological groups of interest.  In addition to traditional differential expression, it can detect differences that are more complex and subtle than a mean shift.",
-      "stars": 34
+      "stars": 35
     },
     {
       "name": "SSrGE",
@@ -1648,6 +1648,15 @@
       "stars": 32
     },
     {
+      "name": "ouija",
+      "url": "https://github.com/kieranrcampbell/ouija",
+      "owner": "kieranrcampbell",
+      "repo": "ouija",
+      "category": "Pseudotime and trajectory inference",
+      "description": "[A descriptive marker gene approach to single-cell pseudotime inference](https://doi.org/10.1101/060442)",
+      "stars": 31
+    },
+    {
       "name": "BIRD",
       "url": "https://github.com/WeiqiangZhou/BIRD",
       "owner": "WeiqiangZhou",
@@ -1684,12 +1693,12 @@
       "stars": 30
     },
     {
-      "name": "ouija",
-      "url": "https://github.com/kieranrcampbell/ouija",
-      "owner": "kieranrcampbell",
-      "repo": "ouija",
-      "category": "Pseudotime and trajectory inference",
-      "description": "[A descriptive marker gene approach to single-cell pseudotime inference](https://doi.org/10.1101/060442)",
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 30
     },
     {
@@ -1708,15 +1717,6 @@
       "repo": "scGEAToolbox",
       "category": "RNA-seq",
       "description": "a Matlab toolbox for single-cell RNA-seq data analyses.",
-      "stars": 29
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 29
     },
     {
@@ -1846,21 +1846,21 @@
       "stars": 26
     },
     {
-      "name": "SCIPhi",
-      "url": "https://github.com/cbg-ethz/SCIPhI",
-      "owner": "cbg-ethz",
-      "repo": "SCIPhI",
-      "category": "Variant calling",
-      "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
-      "stars": 25
-    },
-    {
       "name": "Celcomen",
       "url": "https://github.com/Teichlab/celcomen",
       "owner": "Teichlab",
       "repo": "celcomen",
       "category": "Cellular interactions/communication",
       "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 26
+    },
+    {
+      "name": "SCIPhi",
+      "url": "https://github.com/cbg-ethz/SCIPhI",
+      "owner": "cbg-ethz",
+      "repo": "SCIPhI",
+      "category": "Variant calling",
+      "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
       "stars": 25
     },
     {
@@ -2521,6 +2521,15 @@
       "stars": 4
     },
     {
+      "name": "MINGL",
+      "url": "https://github.com/HickeyLab/Mingl/tree/main",
+      "owner": "HickeyLab",
+      "repo": "Mingl",
+      "category": "Spatial transcriptomics",
+      "description": "MINGL (Mixture-based Identification of Neighborhood Gradients with Likelihood estimates), a probabilistic framework that converts existing neighborhood annotations into continuous measures of tissue architecture.",
+      "stars": 4
+    },
+    {
       "name": "Phenotype Cover",
       "url": "https://github.com/euxhenh/phenotype-cover",
       "owner": "euxhenh",
@@ -2554,15 +2563,6 @@
       "repo": "sasc",
       "category": "Other applications",
       "description": "sasc stands for Simulated Annealing Single-Cell, an algorithm for performing phylogenetic analysis of single-cell cancer samples.  Manuscript [here](https://www.biorxiv.org/content/early/2018/02/20/268243).",
-      "stars": 3
-    },
-    {
-      "name": "MINGL",
-      "url": "https://github.com/HickeyLab/Mingl/tree/main",
-      "owner": "HickeyLab",
-      "repo": "Mingl",
-      "category": "Spatial transcriptomics",
-      "description": "MINGL (Mixture-based Identification of Neighborhood Gradients with Likelihood estimates), a probabilistic framework that converts existing neighborhood annotations into continuous measures of tissue architecture.",
       "stars": 3
     },
     {
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-14 02:59:19 UTC"
+  "updated": "2026-04-15 02:57:42 UTC"
 }
