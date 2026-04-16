@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2705
+      "stars": 2706
     },
     {
       "name": "Scanpy",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1537
+      "stars": 1538
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 777
+      "stars": 776
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 756
+      "stars": 757
     },
     {
       "name": "GSEApy",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 637
+      "stars": 636
     },
     {
       "name": "SCP",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 560
+      "stars": 562
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 541
+      "stars": 540
     },
     {
       "name": "scVelo",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 470
+      "stars": 469
     },
     {
       "name": "GLUE",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 461
+      "stars": 462
     },
     {
       "name": "RCTD",
@@ -253,21 +253,21 @@
       "stars": 448
     },
     {
-      "name": "LIGER",
-      "url": "https://github.com/welch-lab/liger",
-      "owner": "welch-lab",
-      "repo": "liger",
-      "category": "Multi-assay data integration",
-      "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 427
-    },
-    {
       "name": "cell2location",
       "url": "https://github.com/BayraktarLab/cell2location",
       "owner": "BayraktarLab",
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 428
+    },
+    {
+      "name": "LIGER",
+      "url": "https://github.com/welch-lab/liger",
+      "owner": "welch-lab",
+      "repo": "liger",
+      "category": "Multi-assay data integration",
+      "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
       "stars": 427
     },
     {
@@ -286,7 +286,7 @@
       "repo": "MAGIC",
       "category": "Feature (Gene) imputation",
       "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 379
+      "stars": 380
     },
     {
       "name": "Giotto Suite",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 347
+      "stars": 346
     },
     {
       "name": "ivis",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 272
+      "stars": 273
     },
     {
       "name": "MOFA",
@@ -799,7 +799,7 @@
       "repo": "scrna-parameter-estimation",
       "category": "RNA-seq",
       "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9).",
-      "stars": 130
+      "stars": 131
     },
     {
       "name": "SC3",
@@ -1054,21 +1054,21 @@
       "stars": 98
     },
     {
-      "name": "MIMOSCA",
-      "url": "https://github.com/asncd/MIMOSCA",
-      "owner": "asncd",
-      "repo": "MIMOSCA",
-      "category": "RNA-seq",
-      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 97
-    },
-    {
       "name": "solo",
       "url": "https://github.com/calico/solo",
       "owner": "calico",
       "repo": "solo",
       "category": "Doublet Identification",
       "description": "Doublet detection via semi-supervised deep learning.",
+      "stars": 98
+    },
+    {
+      "name": "MIMOSCA",
+      "url": "https://github.com/asncd/MIMOSCA",
+      "owner": "asncd",
+      "repo": "MIMOSCA",
+      "category": "RNA-seq",
+      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
       "stars": 97
     },
     {
@@ -1366,7 +1366,7 @@
       "repo": "STAligner",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 50
+      "stars": 51
     },
     {
       "name": "MetaNeighbor",
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-15 02:57:42 UTC"
+  "updated": "2026-04-16 03:24:05 UTC"
 }
