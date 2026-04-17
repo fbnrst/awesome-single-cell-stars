@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2706
+      "stars": 2707
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2417
+      "stars": 2419
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2178
+      "stars": 2180
     },
     {
       "name": "scVI",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 636
+      "stars": 637
     },
     {
       "name": "SCP",
@@ -160,7 +160,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 635
+      "stars": 636
     },
     {
       "name": "ffq",
@@ -313,7 +313,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 361
+      "stars": 362
     },
     {
       "name": "RAPIDS-singlecell",
@@ -322,7 +322,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 354
+      "stars": 355
     },
     {
       "name": "GEARS",
@@ -385,7 +385,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 319
+      "stars": 320
     },
     {
       "name": "Palantir",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 304
+      "stars": 306
     },
     {
       "name": "zUMIs",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 276
+      "stars": 277
     },
     {
       "name": "Sopa",
@@ -997,7 +997,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 105
+      "stars": 106
     },
     {
       "name": "SCALE",
@@ -1801,6 +1801,15 @@
       "stars": 27
     },
     {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 27
+    },
+    {
       "name": "dropkick",
       "url": "https://github.com/KenLauLab/dropkick",
       "owner": "KenLauLab",
@@ -1843,15 +1852,6 @@
       "repo": "cobolt",
       "category": "Multi-assay data integration",
       "description": "Cobolt is a novel method that not only allows for analyzing the data from joint-modality platforms, but provides a coherent framework for the integration of multiple datasets measured on different modalities. [Cobolt: integrative analysis of multimodal single-cell sequencing data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02706-x)",
-      "stars": 26
-    },
-    {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
       "stars": 26
     },
     {
@@ -1945,6 +1945,15 @@
       "stars": 21
     },
     {
+      "name": "Normalisr",
+      "url": "https://github.com/lingfeiwang/normalisr",
+      "owner": "lingfeiwang",
+      "repo": "normalisr",
+      "category": "Gene regulatory network identification",
+      "description": "Normalisr infers Gene Regulatory Networks from Perturb-seq and other single-cell CRISPR screens. Its normalization and statistical association testing framework also unifies single-cell differential expression and co-expression. [Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr](https://doi.org/10.1038/s41467-021-26682-1).",
+      "stars": 21
+    },
+    {
       "name": "APackOfTheClones",
       "url": "https://github.com/Qile0317/APackOfTheClones",
       "owner": "Qile0317",
@@ -1979,15 +1988,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 21
-    },
-    {
-      "name": "Normalisr",
-      "url": "https://github.com/lingfeiwang/normalisr",
-      "owner": "lingfeiwang",
-      "repo": "normalisr",
-      "category": "Gene regulatory network identification",
-      "description": "Normalisr infers Gene Regulatory Networks from Perturb-seq and other single-cell CRISPR screens. Its normalization and statistical association testing framework also unifies single-cell differential expression and co-expression. [Single-cell normalization and association testing unifying CRISPR screen and gene co-expression analyses with Normalisr](https://doi.org/10.1038/s41467-021-26682-1).",
-      "stars": 20
     },
     {
       "name": "DESCEND",
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-16 03:24:05 UTC"
+  "updated": "2026-04-17 03:19:46 UTC"
 }
