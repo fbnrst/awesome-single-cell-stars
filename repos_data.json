@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2708
+      "stars": 2707
     },
     {
       "name": "Scanpy",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1602
+      "stars": 1601
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1602
+      "stars": 1601
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1602
+      "stars": 1601
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1602
+      "stars": 1601
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1602
+      "stars": 1601
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1602
+      "stars": 1601
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1118
+      "stars": 1119
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 776
+      "stars": 777
     },
     {
       "name": "kallisto",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 638
+      "stars": 639
     },
     {
       "name": "SCP",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 540
+      "stars": 541
     },
     {
       "name": "scVelo",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 448
+      "stars": 449
     },
     {
       "name": "cell2location",
@@ -295,7 +295,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 371
+      "stars": 372
     },
     {
       "name": "scRepertoire",
@@ -304,7 +304,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 366
+      "stars": 367
     },
     {
       "name": "Tangram",
@@ -331,7 +331,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 354
+      "stars": 355
     },
     {
       "name": "TRUST4",
@@ -367,7 +367,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 328
+      "stars": 327
     },
     {
       "name": "octopus",
@@ -385,7 +385,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 320
+      "stars": 321
     },
     {
       "name": "Palantir",
@@ -430,16 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 274
-    },
-    {
-      "name": "MOFA",
-      "url": " https://github.com/bioFAM/MOFA",
-      "owner": "bioFAM",
-      "repo": "MOFA",
-      "category": "Multi-assay data integration",
-      "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 263
+      "stars": 275
     },
     {
       "name": "MAST",
@@ -448,6 +439,15 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
+      "stars": 262
+    },
+    {
+      "name": "MOFA",
+      "url": " https://github.com/bioFAM/MOFA",
+      "owner": "bioFAM",
+      "repo": "MOFA",
+      "category": "Multi-assay data integration",
+      "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
       "stars": 262
     },
     {
@@ -511,7 +511,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 232
+      "stars": 233
     },
     {
       "name": "Muscat",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 223
+      "stars": 224
     },
     {
       "name": "SComatic",
@@ -556,7 +556,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 211
+      "stars": 212
     },
     {
       "name": "SPOTlight",
@@ -700,7 +700,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 144
+      "stars": 143
     },
     {
       "name": "scPRINT",
@@ -709,7 +709,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 144
+      "stars": 143
     },
     {
       "name": "scPRINT",
@@ -718,7 +718,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from  any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 144
+      "stars": 143
     },
     {
       "name": "scPRINT",
@@ -727,7 +727,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 144
+      "stars": 143
     },
     {
       "name": "singleCellNet",
@@ -754,6 +754,15 @@
       "repo": "AtacWorks",
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
+      "stars": 135
+    },
+    {
+      "name": "Sinto",
+      "url": "https://github.com/timoast/sinto",
+      "owner": "timoast",
+      "repo": "sinto",
+      "category": "Other applications",
+      "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
       "stars": 134
     },
     {
@@ -763,15 +772,6 @@
       "repo": "demuxlet",
       "category": "Doublet Identification",
       "description": "[Multiplexed droplet single-cell RNA-sequencing using natural genetic variation](https://www.nature.com/articles/nbt.4042)",
-      "stars": 133
-    },
-    {
-      "name": "Sinto",
-      "url": "https://github.com/timoast/sinto",
-      "owner": "timoast",
-      "repo": "sinto",
-      "category": "Other applications",
-      "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
       "stars": 133
     },
     {
@@ -871,7 +871,7 @@
       "repo": "clustergrammer2",
       "category": "RNA-seq",
       "description": "Interative WebGL web-based heatmap for visualizing and analyzing single-cell high-dimensional and location-based biological data. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [case studies](https://clustergrammer.readthedocs.io/case_studies.html).",
-      "stars": 120
+      "stars": 121
     },
     {
       "name": "MetaCell",
@@ -910,13 +910,13 @@
       "stars": 114
     },
     {
-      "name": "ZIFA",
-      "url": "https://github.com/epierson9/ZIFA",
-      "owner": "epierson9",
-      "repo": "ZIFA",
-      "category": "Dimension reduction",
-      "description": "Zero-inflated dimensionality reduction algorithm for single-cell data.",
-      "stars": 111
+      "name": "SCCAF",
+      "url": "https://github.com/SCCAF/sccaf",
+      "owner": "SCCAF",
+      "repo": "sccaf",
+      "category": "RNA-seq",
+      "description": "",
+      "stars": 110
     },
     {
       "name": "scLVM",
@@ -928,13 +928,13 @@
       "stars": 110
     },
     {
-      "name": "SCCAF",
-      "url": "https://github.com/SCCAF/sccaf",
-      "owner": "SCCAF",
-      "repo": "sccaf",
-      "category": "RNA-seq",
-      "description": "",
-      "stars": 109
+      "name": "ZIFA",
+      "url": "https://github.com/epierson9/ZIFA",
+      "owner": "epierson9",
+      "repo": "ZIFA",
+      "category": "Dimension reduction",
+      "description": "Zero-inflated dimensionality reduction algorithm for single-cell data.",
+      "stars": 110
     },
     {
       "name": "DeepSort",
@@ -997,7 +997,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 106
+      "stars": 105
     },
     {
       "name": "SCALE",
@@ -1168,7 +1168,7 @@
       "repo": "dynverse",
       "category": "Pseudotime and trajectory inference",
       "description": "[A comparison of single-cell trajectory inference methods: towards more accurate and robust tools](https://www.nature.com/articles/s41587-019-0071-9)",
-      "stars": 77
+      "stars": 76
     },
     {
       "name": "SpaTalk",
@@ -1501,7 +1501,16 @@
       "repo": "monet",
       "category": "Cell projection and unimodal integration",
       "description": "A package for analyzing and integrating scRNA-Seq data using PCA-based latent spaces.",
-      "stars": 40
+      "stars": 41
+    },
+    {
+      "name": "bindSC",
+      "url": "https://github.com/KChen-lab/bindSC",
+      "owner": "KChen-lab",
+      "repo": "bindSC",
+      "category": "Multi-assay data integration",
+      "description": "bindSC (Bi-dimensional INtegration of multi-omics Data from Single Cell sequencing technologies) is an R package for single cell multi-omic integration analysis, developed and maintained by Ken chen's lab in MDACC. bindSC is developed to address the challenge of single-cell multi-omic data integration that consists of unpaired cells measured with unmatched features across modalities. [Bi-order multimodal integration of single-cell data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02679-x)",
+      "stars": 41
     },
     {
       "name": "pseudodynamics",
@@ -1519,15 +1528,6 @@
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
-      "stars": 40
-    },
-    {
-      "name": "bindSC",
-      "url": "https://github.com/KChen-lab/bindSC",
-      "owner": "KChen-lab",
-      "repo": "bindSC",
-      "category": "Multi-assay data integration",
-      "description": "bindSC (Bi-dimensional INtegration of multi-omics Data from Single Cell sequencing technologies) is an R package for single cell multi-omic integration analysis, developed and maintained by Ken chen's lab in MDACC. bindSC is developed to address the challenge of single-cell multi-omic data integration that consists of unpaired cells measured with unmatched features across modalities. [Bi-order multimodal integration of single-cell data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02679-x)",
       "stars": 40
     },
     {
@@ -1729,6 +1729,15 @@
       "stars": 28
     },
     {
+      "name": "scSVA",
+      "url": "https://github.com/klarman-cell-observatory/scSVA",
+      "owner": "klarman-cell-observatory",
+      "repo": "scSVA",
+      "category": "RNA-seq",
+      "description": "An R package for interactive two- and three-dimensional visualization and exploration of massive single-cell omics data (2-10^9 cells). scSVA supports interactive analytics in a cloud with containerized tools. It contains optimized implementation of diffusion maps and multi-threaded 3D force-directed layout (ForceAtlas2).",
+      "stars": 28
+    },
+    {
       "name": "SCDIFF",
       "url": "https://github.com/phoenixding/scdiff",
       "owner": "phoenixding",
@@ -1762,15 +1771,6 @@
       "repo": "RSCORE",
       "category": "RNA-seq",
       "description": "[Enhancing single-cell cellular state inference by incorporating molecular network features](https://www.biorxiv.org/content/10.1101/699959v1).",
-      "stars": 27
-    },
-    {
-      "name": "scSVA",
-      "url": "https://github.com/klarman-cell-observatory/scSVA",
-      "owner": "klarman-cell-observatory",
-      "repo": "scSVA",
-      "category": "RNA-seq",
-      "description": "An R package for interactive two- and three-dimensional visualization and exploration of massive single-cell omics data (2-10^9 cells). scSVA supports interactive analytics in a cloud with containerized tools. It contains optimized implementation of diffusion maps and multi-threaded 3D force-directed layout (ForceAtlas2).",
       "stars": 27
     },
     {
@@ -2230,7 +2230,7 @@
       "repo": "MetaMarkers",
       "category": "Marker and differential gene expression identification",
       "description": "MetaMarkers proposes a simple methodology to pool marker information across dataset while keeping dataset independents to identify robust marker signatures from single-cell data. [How many markers are needed to robustly determine a cell's type?](https://www.sciencedirect.com/science/article/pii/S258900422101261X)",
-      "stars": 12
+      "stars": 13
     },
     {
       "name": "ouijaflow",
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-18 02:51:01 UTC"
+  "updated": "2026-04-19 03:26:22 UTC"
 }
