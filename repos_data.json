@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2707
+      "stars": 2706
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2423
+      "stars": 2424
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1601
+      "stars": 1600
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1601
+      "stars": 1600
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1601
+      "stars": 1600
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1601
+      "stars": 1600
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1601
+      "stars": 1600
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1601
+      "stars": 1600
     },
     {
       "name": "scGPT",
@@ -142,7 +142,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 639
+      "stars": 640
     },
     {
       "name": "NicheNet",
@@ -160,7 +160,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 636
+      "stars": 638
     },
     {
       "name": "ffq",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 543
+      "stars": 544
     },
     {
       "name": "DoubletFinder",
@@ -433,21 +433,21 @@
       "stars": 275
     },
     {
-      "name": "MAST",
-      "url": "https://github.com/RGLab/MAST",
-      "owner": "RGLab",
-      "repo": "MAST",
-      "category": "Count modelling and normalization",
-      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 262
-    },
-    {
       "name": "MOFA",
       "url": " https://github.com/bioFAM/MOFA",
       "owner": "bioFAM",
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
+      "stars": 263
+    },
+    {
+      "name": "MAST",
+      "url": "https://github.com/RGLab/MAST",
+      "owner": "RGLab",
+      "repo": "MAST",
+      "category": "Count modelling and normalization",
+      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
       "stars": 262
     },
     {
@@ -541,6 +541,15 @@
       "stars": 215
     },
     {
+      "name": "Numbat",
+      "url": "https://github.com/kharchenkolab/numbat",
+      "owner": "kharchenkolab",
+      "repo": "numbat",
+      "category": "Copy number analysis",
+      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
+      "stars": 214
+    },
+    {
       "name": "cellassign",
       "url": "https://github.com/irrationone/cellassign/",
       "owner": "irrationone",
@@ -548,15 +557,6 @@
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
       "stars": 213
-    },
-    {
-      "name": "Numbat",
-      "url": "https://github.com/kharchenkolab/numbat",
-      "owner": "kharchenkolab",
-      "repo": "numbat",
-      "category": "Copy number analysis",
-      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 212
     },
     {
       "name": "SPOTlight",
@@ -691,7 +691,7 @@
       "repo": "cisTopic",
       "category": "Epigenomics",
       "description": "A probabilistic framework used to simultaneously discover coaccessible enhancers and stable cell states from sparse single-cell epigenomics data. [cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data](https://www.nature.com/articles/s41592-019-0367-1)",
-      "stars": 145
+      "stars": 146
     },
     {
       "name": "scPRINT",
@@ -763,7 +763,7 @@
       "repo": "sinto",
       "category": "Other applications",
       "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
-      "stars": 134
+      "stars": 135
     },
     {
       "name": "demuxlet",
@@ -784,6 +784,15 @@
       "stars": 132
     },
     {
+      "name": "memento-de",
+      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
+      "owner": "yelabucsf",
+      "repo": "scrna-parameter-estimation",
+      "category": "RNA-seq",
+      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9).",
+      "stars": 132
+    },
+    {
       "name": "novoSpaRc",
       "url": "https://github.com/rajewsky-lab/novosparc",
       "owner": "rajewsky-lab",
@@ -791,15 +800,6 @@
       "category": "RNA-seq",
       "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
       "stars": 132
-    },
-    {
-      "name": "memento-de",
-      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
-      "owner": "yelabucsf",
-      "repo": "scrna-parameter-estimation",
-      "category": "RNA-seq",
-      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9).",
-      "stars": 131
     },
     {
       "name": "SC3",
@@ -1321,7 +1321,7 @@
       "repo": "ginkgo",
       "category": "Copy number analysis",
       "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
-      "stars": 53
+      "stars": 52
     },
     {
       "name": "FigR",
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-19 03:26:22 UTC"
+  "updated": "2026-04-20 03:28:54 UTC"
 }
