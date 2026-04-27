@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2430
+      "stars": 2431
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1607
+      "stars": 1609
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1607
+      "stars": 1609
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1607
+      "stars": 1609
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1607
+      "stars": 1609
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1607
+      "stars": 1609
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1607
+      "stars": 1609
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1547
+      "stars": 1548
     },
     {
       "name": "gget",
@@ -160,7 +160,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 639
+      "stars": 640
     },
     {
       "name": "ffq",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 543
+      "stars": 544
     },
     {
       "name": "scVelo",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 450
+      "stars": 449
     },
     {
       "name": "cell2location",
@@ -1675,6 +1675,15 @@
       "stars": 31
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 31
+    },
+    {
       "name": "SCALE",
       "url": "https://github.com/yuchaojiang/SCALE",
       "owner": "yuchaojiang",
@@ -1690,15 +1699,6 @@
       "repo": "scTCRseq",
       "category": "RNA-seq",
       "description": "Map T-cell receptor (TCR) repertoires from single cell RNAseq.",
-      "stars": 30
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 30
     },
     {
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-26 03:31:05 UTC"
+  "updated": "2026-04-27 03:35:09 UTC"
 }
