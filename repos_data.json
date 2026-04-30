@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2717
+      "stars": 2718
     },
     {
       "name": "Scanpy",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1610
+      "stars": 1611
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1610
+      "stars": 1611
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1610
+      "stars": 1611
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1610
+      "stars": 1611
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1610
+      "stars": 1611
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1610
+      "stars": 1611
     },
     {
       "name": "scGPT",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 780
+      "stars": 781
     },
     {
       "name": "kallisto",
@@ -145,21 +145,21 @@
       "stars": 642
     },
     {
-      "name": "mLLMCelltype",
-      "url": "https://github.com/cafferychen777/mLLMCelltype",
-      "owner": "cafferychen777",
-      "repo": "mLLMCelltype",
-      "category": "Cell type identification and classification",
-      "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 640
-    },
-    {
       "name": "NicheNet",
       "url": "https://github.com/saeyslab/nichenetr",
       "owner": "saeyslab",
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
+      "stars": 641
+    },
+    {
+      "name": "mLLMCelltype",
+      "url": "https://github.com/cafferychen777/mLLMCelltype",
+      "owner": "cafferychen777",
+      "repo": "mLLMCelltype",
+      "category": "Cell type identification and classification",
+      "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
       "stars": 640
     },
     {
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 464
+      "stars": 465
     },
     {
       "name": "RCTD",
@@ -304,7 +304,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 368
+      "stars": 369
     },
     {
       "name": "Tangram",
@@ -448,7 +448,7 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 262
+      "stars": 263
     },
     {
       "name": "SpaGCN",
@@ -559,6 +559,15 @@
       "stars": 213
     },
     {
+      "name": "alevin-fry",
+      "url": "https://github.com/COMBINE-lab/alevin-fry",
+      "owner": "COMBINE-lab",
+      "repo": "alevin-fry",
+      "category": "RNA-seq",
+      "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
+      "stars": 205
+    },
+    {
       "name": "SPOTlight",
       "url": "https://github.com/MarcElosua/SPOTlight",
       "owner": "MarcElosua",
@@ -566,15 +575,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 205
-    },
-    {
-      "name": "alevin-fry",
-      "url": "https://github.com/COMBINE-lab/alevin-fry",
-      "owner": "COMBINE-lab",
-      "repo": "alevin-fry",
-      "category": "RNA-seq",
-      "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 204
     },
     {
       "name": "torchdr",
@@ -820,21 +820,21 @@
       "stars": 129
     },
     {
-      "name": "Dictys",
-      "url": "https://github.com/pinellolab/dictys",
-      "owner": "pinellolab",
-      "repo": "dictys",
-      "category": "Gene regulatory network identification",
-      "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
-      "stars": 128
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 129
+    },
+    {
+      "name": "Dictys",
+      "url": "https://github.com/pinellolab/dictys",
+      "owner": "pinellolab",
+      "repo": "dictys",
+      "category": "Gene regulatory network identification",
+      "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
       "stars": 128
     },
     {
@@ -1504,6 +1504,15 @@
       "stars": 41
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 41
+    },
+    {
       "name": "bindSC",
       "url": "https://github.com/KChen-lab/bindSC",
       "owner": "KChen-lab",
@@ -1519,15 +1528,6 @@
       "repo": "pseudodynamics",
       "category": "Pseudotime and trajectory inference",
       "description": "[Inferring population dynamics from single-cell RNA-sequencing time series data](https://www.nature.com/articles/s41587-019-0088-0)",
-      "stars": 40
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
       "stars": 40
     },
     {
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-29 03:38:59 UTC"
+  "updated": "2026-04-30 03:39:10 UTC"
 }
