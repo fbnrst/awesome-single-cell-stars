@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2432
+      "stars": 2434
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2189
+      "stars": 2190
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1553
+      "stars": 1555
     },
     {
       "name": "gget",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 449
+      "stars": 448
     },
     {
       "name": "cell2location",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 323
+      "stars": 324
     },
     {
       "name": "octopus",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 279
+      "stars": 280
     },
     {
       "name": "Sopa",
@@ -547,7 +547,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 214
+      "stars": 215
     },
     {
       "name": "cellassign",
@@ -565,7 +565,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 205
+      "stars": 206
     },
     {
       "name": "SPOTlight",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 194
+      "stars": 195
     },
     {
       "name": "inferCNVpy",
@@ -910,6 +910,15 @@
       "stars": 114
     },
     {
+      "name": "geneformer",
+      "url": "https://github.com/jkobject/geneformer",
+      "owner": "jkobject",
+      "repo": "geneformer",
+      "category": "Single cell large model",
+      "description": "",
+      "stars": 111
+    },
+    {
       "name": "SCCAF",
       "url": "https://github.com/SCCAF/sccaf",
       "owner": "SCCAF",
@@ -934,15 +943,6 @@
       "repo": "ZIFA",
       "category": "Dimension reduction",
       "description": "Zero-inflated dimensionality reduction algorithm for single-cell data.",
-      "stars": 110
-    },
-    {
-      "name": "geneformer",
-      "url": "https://github.com/jkobject/geneformer",
-      "owner": "jkobject",
-      "repo": "geneformer",
-      "category": "Single cell large model",
-      "description": "",
       "stars": 110
     },
     {
@@ -1639,21 +1639,21 @@
       "stars": 33
     },
     {
-      "name": "M3Drop",
-      "url": "https://github.com/tallulandrews/M3Drop",
-      "owner": "tallulandrews",
-      "repo": "M3Drop",
-      "category": "RNA-seq",
-      "description": "Michaelis-Menten Modelling of Dropouts for scRNASeq.",
-      "stars": 32
-    },
-    {
       "name": "ChatSpatial",
       "url": "https://github.com/cafferychen777/ChatSpatial",
       "owner": "cafferychen777",
       "repo": "ChatSpatial",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 33
+    },
+    {
+      "name": "M3Drop",
+      "url": "https://github.com/tallulandrews/M3Drop",
+      "owner": "tallulandrews",
+      "repo": "M3Drop",
+      "category": "RNA-seq",
+      "description": "Michaelis-Menten Modelling of Dropouts for scRNASeq.",
       "stars": 32
     },
     {
@@ -2674,5 +2674,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-04-30 03:39:10 UTC"
+  "updated": "2026-05-01 03:51:34 UTC"
 }
