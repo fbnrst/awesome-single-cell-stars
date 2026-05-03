@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2435
+      "stars": 2437
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2189
+      "stars": 2190
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1555
+      "stars": 1551
     },
     {
       "name": "gget",
@@ -169,7 +169,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 597
+      "stars": 598
     },
     {
       "name": "squidpy",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 491
+      "stars": 492
     },
     {
       "name": "SCENIC",
@@ -295,7 +295,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 373
+      "stars": 374
     },
     {
       "name": "scRepertoire",
@@ -304,7 +304,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 369
+      "stars": 368
     },
     {
       "name": "Tangram",
@@ -358,7 +358,7 @@
       "repo": "immunarch",
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
-      "stars": 338
+      "stars": 339
     },
     {
       "name": "slingshot",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 293
+      "stars": 294
     },
     {
       "name": "CopyKAT",
@@ -475,7 +475,7 @@
       "repo": "scirpy",
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 250
+      "stars": 251
     },
     {
       "name": "scCATCH",
@@ -1225,21 +1225,21 @@
       "stars": 68
     },
     {
-      "name": "outrigger",
-      "url": "https://github.com/YeoLab/outrigger",
-      "owner": "YeoLab",
-      "repo": "outrigger",
-      "category": "RNA-seq",
-      "description": "Outrigger is a program to calculate alternative splicing scores of RNA-Seq data based on junction reads and a *de novo*, custom annotation created with a graph database, especially made for single-cell analyses.",
-      "stars": 67
-    },
-    {
       "name": "CellNEST",
       "url": "https://github.com/schwartzlab-methods/CellNEST",
       "owner": "schwartzlab-methods",
       "repo": "CellNEST",
       "category": "Cellular interactions/communication",
       "description": "Cell Neural Networks on Spatial Transcriptomics (CellNEST) deciphers patterns of cell-cell communication by introducing relay-network detection that identifies ligand-receptor-ligand-receptor communication chains. Uses attention mechanisms to analyze spatial transcriptomics data, detect T cell homing signals, and predict new communication patterns in various cancer types. [Paper](https://www.nature.com/articles/s41592-025-02721-3)",
+      "stars": 68
+    },
+    {
+      "name": "outrigger",
+      "url": "https://github.com/YeoLab/outrigger",
+      "owner": "YeoLab",
+      "repo": "outrigger",
+      "category": "RNA-seq",
+      "description": "Outrigger is a program to calculate alternative splicing scores of RNA-Seq data based on junction reads and a *de novo*, custom annotation created with a graph database, especially made for single-cell analyses.",
       "stars": 67
     },
     {
@@ -1621,6 +1621,15 @@
       "stars": 34
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 34
+    },
+    {
       "name": "CountClust",
       "url": "https://github.com/kkdey/CountClust",
       "owner": "kkdey",
@@ -1636,15 +1645,6 @@
       "repo": "AMULET",
       "category": "Doublet Identification",
       "description": "A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data. [Genome Biology](https://doi.org/10.1186/s13059-021-02469-x)",
-      "stars": 33
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 33
     },
     {
@@ -1693,6 +1693,15 @@
       "stars": 30
     },
     {
+      "name": "scGEAToolbox",
+      "url": "https://github.com/jamesjcai/scGEAToolbox",
+      "owner": "jamesjcai",
+      "repo": "scGEAToolbox",
+      "category": "RNA-seq",
+      "description": "a Matlab toolbox for single-cell RNA-seq data analyses.",
+      "stars": 30
+    },
+    {
       "name": "scTCRseq",
       "url": "https://github.com/ElementoLab/scTCRseq",
       "owner": "ElementoLab",
@@ -1708,15 +1717,6 @@
       "repo": "sake",
       "category": "RNA-seq",
       "description": "Single-cell RNA-Seq Analysis and Clustering Evaluation.",
-      "stars": 29
-    },
-    {
-      "name": "scGEAToolbox",
-      "url": "https://github.com/jamesjcai/scGEAToolbox",
-      "owner": "jamesjcai",
-      "repo": "scGEAToolbox",
-      "category": "RNA-seq",
-      "description": "a Matlab toolbox for single-cell RNA-seq data analyses.",
       "stars": 29
     },
     {
@@ -2620,6 +2620,15 @@
       "stars": 1
     },
     {
+      "name": "p-SNE",
+      "url": "https://github.com/NogaMudrik/PSNE-Poisson-Stochastic-Neighbor-Embedding",
+      "owner": "NogaMudrik",
+      "repo": "PSNE-Poisson-Stochastic-Neighbor-Embedding",
+      "category": "Dimension reduction",
+      "description": "Poisson Stochastic Neighbor Embedding, a nonlinear dimensionality reduction method for sparse count data using Poisson KL divergence and Hellinger distance. [Paper](https://arxiv.org/abs/2604.16932).",
+      "stars": 1
+    },
+    {
       "name": "ECLAIR",
       "url": "https://github.com/GGiecold/ECLAIR",
       "owner": "GGiecold",
@@ -2674,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-02 03:25:29 UTC"
+  "updated": "2026-05-03 03:43:29 UTC"
 }
