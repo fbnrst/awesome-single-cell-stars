@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2721
+      "stars": 2722
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2442
+      "stars": 2445
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2189
+      "stars": 2190
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1616
+      "stars": 1617
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1616
+      "stars": 1617
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1616
+      "stars": 1617
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1616
+      "stars": 1617
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1616
+      "stars": 1617
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1616
+      "stars": 1617
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1557
+      "stars": 1558
     },
     {
       "name": "gget",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 640
+      "stars": 641
     },
     {
       "name": "ffq",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 546
+      "stars": 547
     },
     {
       "name": "DoubletFinder",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 546
+      "stars": 547
     },
     {
       "name": "scVelo",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 493
+      "stars": 494
     },
     {
       "name": "SCENIC",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 483
+      "stars": 484
     },
     {
       "name": "CellPhoneDB",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 452
+      "stars": 453
     },
     {
       "name": "cell2location",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 432
+      "stars": 433
     },
     {
       "name": "LIGER",
@@ -313,7 +313,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 365
+      "stars": 366
     },
     {
       "name": "Tangram",
@@ -637,7 +637,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 177
+      "stars": 178
     },
     {
       "name": "Scrublet",
@@ -682,7 +682,7 @@
       "repo": "dropSeqPipe",
       "category": "Other applications",
       "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
-      "stars": 148
+      "stars": 149
     },
     {
       "name": "cisTopic",
@@ -844,7 +844,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 127
+      "stars": 128
     },
     {
       "name": "flotilla",
@@ -1621,6 +1621,15 @@
       "stars": 35
     },
     {
+      "name": "AMULET",
+      "url": "https://github.com/UcarLab/AMULET",
+      "owner": "UcarLab",
+      "repo": "AMULET",
+      "category": "Doublet Identification",
+      "description": "A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data. [Genome Biology](https://doi.org/10.1186/s13059-021-02469-x)",
+      "stars": 34
+    },
+    {
       "name": "SSrGE",
       "url": "https://github.com/lanagarmire/SSrGE",
       "owner": "lanagarmire",
@@ -1636,15 +1645,6 @@
       "repo": "CountClust",
       "category": "RNA-seq",
       "description": "Functions for fitting Grade-of-Membership models, also known as \"Topic models\", to RNA-seq counts. These models generalize clustering methods to allow that each cell may belong to more than one cluster/topic.",
-      "stars": 33
-    },
-    {
-      "name": "AMULET",
-      "url": "https://github.com/UcarLab/AMULET",
-      "owner": "UcarLab",
-      "repo": "AMULET",
-      "category": "Doublet Identification",
-      "description": "A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data. [Genome Biology](https://doi.org/10.1186/s13059-021-02469-x)",
       "stars": 33
     },
     {
@@ -2575,6 +2575,15 @@
       "stars": 2
     },
     {
+      "name": "TorchGW",
+      "url": "https://github.com/chansigit/torchgw",
+      "owner": "chansigit",
+      "repo": "torchgw",
+      "category": "Multi-assay data integration",
+      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
+      "stars": 2
+    },
+    {
       "name": "CytoSpill",
       "url": "https://github.com/KChen-lab/CytoSpill",
       "owner": "KChen-lab",
@@ -2590,6 +2599,15 @@
       "repo": "VisCello",
       "category": "Other applications",
       "description": "VisCello for C.elegans embryogenesis.",
+      "stars": 2
+    },
+    {
+      "name": "TorchGW",
+      "url": "https://github.com/chansigit/torchgw",
+      "owner": "chansigit",
+      "repo": "torchgw",
+      "category": "Spatial transcriptomics",
+      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Enables spatial slice alignment and cross-modality integration via graph distance matching. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
       "stars": 2
     },
     {
@@ -2647,24 +2665,6 @@
       "stars": 1
     },
     {
-      "name": "TorchGW",
-      "url": "https://github.com/chansigit/torchgw",
-      "owner": "chansigit",
-      "repo": "torchgw",
-      "category": "Multi-assay data integration",
-      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
-      "stars": 1
-    },
-    {
-      "name": "TorchGW",
-      "url": "https://github.com/chansigit/torchgw",
-      "owner": "chansigit",
-      "repo": "torchgw",
-      "category": "Spatial transcriptomics",
-      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Enables spatial slice alignment and cross-modality integration via graph distance matching. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
-      "stars": 1
-    },
-    {
       "name": "CellPLM",
       "url": "https://github.com/OmicsML/CellPLM?tab=readme-ov-file",
       "owner": "OmicsML",
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-08 03:33:14 UTC"
+  "updated": "2026-05-09 03:32:39 UTC"
 }
