@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2445
+      "stars": 2448
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1617
+      "stars": 1618
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1617
+      "stars": 1618
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1617
+      "stars": 1618
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1617
+      "stars": 1618
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1617
+      "stars": 1618
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1617
+      "stars": 1618
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1558
+      "stars": 1559
     },
     {
       "name": "gget",
@@ -145,15 +145,6 @@
       "stars": 643
     },
     {
-      "name": "SCP",
-      "url": "https://github.com/zhanghao-njmu/SCP",
-      "owner": "zhanghao-njmu",
-      "repo": "SCP",
-      "category": "RNA-seq",
-      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 641
-    },
-    {
       "name": "mLLMCelltype",
       "url": "https://github.com/cafferychen777/mLLMCelltype",
       "owner": "cafferychen777",
@@ -161,6 +152,15 @@
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
       "stars": 641
+    },
+    {
+      "name": "SCP",
+      "url": "https://github.com/zhanghao-njmu/SCP",
+      "owner": "zhanghao-njmu",
+      "repo": "SCP",
+      "category": "RNA-seq",
+      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
+      "stars": 640
     },
     {
       "name": "ffq",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 465
+      "stars": 466
     },
     {
       "name": "RCTD",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 453
+      "stars": 454
     },
     {
       "name": "cell2location",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 228
+      "stars": 229
     },
     {
       "name": "SComatic",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 202
+      "stars": 201
     },
     {
       "name": "Spectra",
@@ -802,6 +802,15 @@
       "stars": 132
     },
     {
+      "name": "CyteType",
+      "url": "https://github.com/NygenAnalytics/CyteType",
+      "owner": "NygenAnalytics",
+      "repo": "CyteType",
+      "category": "Cell type identification and classification",
+      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
+      "stars": 130
+    },
+    {
       "name": "SC3",
       "url": "https://github.com/hemberg-lab/sc3",
       "owner": "hemberg-lab",
@@ -835,15 +844,6 @@
       "repo": "dictys",
       "category": "Gene regulatory network identification",
       "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
-      "stars": 128
-    },
-    {
-      "name": "CyteType",
-      "url": "https://github.com/NygenAnalytics/CyteType",
-      "owner": "NygenAnalytics",
-      "repo": "CyteType",
-      "category": "Cell type identification and classification",
-      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
       "stars": 128
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-09 03:32:39 UTC"
+  "updated": "2026-05-10 03:46:17 UTC"
 }
