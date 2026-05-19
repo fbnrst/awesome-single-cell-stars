@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2729
+      "stars": 2730
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2458
+      "stars": 2461
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2196
+      "stars": 2195
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1563
+      "stars": 1565
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 784
+      "stars": 786
     },
     {
       "name": "kallisto",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 695
+      "stars": 696
     },
     {
       "name": "inferCNV",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 645
+      "stars": 646
     },
     {
       "name": "SCP",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 570
+      "stars": 571
     },
     {
       "name": "DoubletFinder",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 310
+      "stars": 311
     },
     {
       "name": "zUMIs",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 283
+      "stars": 284
     },
     {
       "name": "Sopa",
@@ -448,7 +448,7 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 263
+      "stars": 264
     },
     {
       "name": "SpaGCN",
@@ -487,21 +487,21 @@
       "stars": 241
     },
     {
-      "name": "Clustergrammer",
-      "url": "https://github.com/maayanlab/clustergrammer",
-      "owner": "maayanlab",
-      "repo": "clustergrammer",
-      "category": "RNA-seq",
-      "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
-      "stars": 239
-    },
-    {
       "name": "LIANA",
       "url": "https://github.com/saezlab/liana/",
       "owner": "saezlab",
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
+      "stars": 240
+    },
+    {
+      "name": "Clustergrammer",
+      "url": "https://github.com/maayanlab/clustergrammer",
+      "owner": "maayanlab",
+      "repo": "clustergrammer",
+      "category": "RNA-seq",
+      "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
       "stars": 239
     },
     {
@@ -664,7 +664,7 @@
       "repo": "deepcpg",
       "category": "Epigenomics",
       "description": "DeepCpG is a deep neural network for predicting the methylation state of CpG dinucleotides in multiple cells. It allows to accurately impute incomplete DNA methylation profiles, to discover predictive sequence motifs, and to quantify the effect of sequence mutations.",
-      "stars": 152
+      "stars": 153
     },
     {
       "name": "EpiScanpy",
@@ -1654,7 +1654,7 @@
       "repo": "M3Drop",
       "category": "RNA-seq",
       "description": "Michaelis-Menten Modelling of Dropouts for scRNASeq.",
-      "stars": 32
+      "stars": 33
     },
     {
       "name": "ouija",
@@ -2035,6 +2035,15 @@
       "stars": 18
     },
     {
+      "name": "BPSC",
+      "url": "https://github.com/nghiavtr/BPSC",
+      "owner": "nghiavtr",
+      "repo": "BPSC",
+      "category": "Count modelling and normalization",
+      "description": "Beta-Poisson model for single-cell RNA-seq data analyses",
+      "stars": 18
+    },
+    {
       "name": "VIPER",
       "url": "https://github.com/ChenMengjie/VIPER",
       "owner": "ChenMengjie",
@@ -2060,15 +2069,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 18
-    },
-    {
-      "name": "BPSC",
-      "url": "https://github.com/nghiavtr/BPSC",
-      "owner": "nghiavtr",
-      "repo": "BPSC",
-      "category": "Count modelling and normalization",
-      "description": "Beta-Poisson model for single-cell RNA-seq data analyses",
-      "stars": 17
     },
     {
       "name": "SCMarker",
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-18 04:08:03 UTC"
+  "updated": "2026-05-19 04:01:53 UTC"
 }
