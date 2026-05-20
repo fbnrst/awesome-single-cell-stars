@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2461
+      "stars": 2462
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2195
+      "stars": 2196
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1565
+      "stars": 1566
     },
     {
       "name": "gget",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 760
+      "stars": 761
     },
     {
       "name": "GSEApy",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 642
+      "stars": 643
     },
     {
       "name": "mLLMCelltype",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 484
+      "stars": 485
     },
     {
       "name": "CellPhoneDB",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 277
+      "stars": 278
     },
     {
       "name": "MOFA",
@@ -685,22 +685,13 @@
       "stars": 149
     },
     {
-      "name": "cisTopic",
-      "url": "https://github.com/aertslab/cisTopic",
-      "owner": "aertslab",
-      "repo": "cisTopic",
-      "category": "Epigenomics",
-      "description": "A probabilistic framework used to simultaneously discover coaccessible enhancers and stable cell states from sparse single-cell epigenomics data. [cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data](https://www.nature.com/articles/s41592-019-0367-1)",
-      "stars": 147
-    },
-    {
       "name": "scPRINT",
       "url": "https://github.com/cantinilab/scPRINT",
       "owner": "cantinilab",
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 146
+      "stars": 148
     },
     {
       "name": "scPRINT",
@@ -709,7 +700,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 146
+      "stars": 148
     },
     {
       "name": "scPRINT",
@@ -718,7 +709,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from  any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 146
+      "stars": 148
     },
     {
       "name": "scPRINT",
@@ -727,7 +718,16 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 146
+      "stars": 148
+    },
+    {
+      "name": "cisTopic",
+      "url": "https://github.com/aertslab/cisTopic",
+      "owner": "aertslab",
+      "repo": "cisTopic",
+      "category": "Epigenomics",
+      "description": "A probabilistic framework used to simultaneously discover coaccessible enhancers and stable cell states from sparse single-cell epigenomics data. [cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data](https://www.nature.com/articles/s41592-019-0367-1)",
+      "stars": 147
     },
     {
       "name": "singleCellNet",
@@ -1177,7 +1177,7 @@
       "repo": "SpaTalk",
       "category": "Spatial transcriptomics",
       "description": "[SpaTalk](https://www.nature.com/articles/s41467-022-32111-8) is a cell-cell communication inference method for either single-cell or spot-based spatially resolved transcriptomic data, e.g., STARmap, MERFISH, seqFISH, Slide-seq, 10X Visium.",
-      "stars": 76
+      "stars": 77
     },
     {
       "name": "DoubletDecon",
@@ -1369,6 +1369,15 @@
       "stars": 51
     },
     {
+      "name": "scDEED",
+      "url": "https://github.com/JSB-UCLA/scDEED",
+      "owner": "JSB-UCLA",
+      "repo": "scDEED",
+      "category": "Dimension reduction",
+      "description": "",
+      "stars": 49
+    },
+    {
       "name": "psupertime",
       "url": "https://github.com/wmacnair/psupertime",
       "owner": "wmacnair",
@@ -1393,15 +1402,6 @@
       "repo": "SCODE",
       "category": "RNA-seq",
       "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
-      "stars": 48
-    },
-    {
-      "name": "scDEED",
-      "url": "https://github.com/JSB-UCLA/scDEED",
-      "owner": "JSB-UCLA",
-      "repo": "scDEED",
-      "category": "Dimension reduction",
-      "description": "",
       "stars": 48
     },
     {
@@ -1990,6 +1990,15 @@
       "stars": 21
     },
     {
+      "name": "scMalignantFinder",
+      "url": "https://github.com/Jonyyqn/scMalignantFinder",
+      "owner": "Jonyyqn",
+      "repo": "scMalignantFinder",
+      "category": "Malignant cell identification",
+      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
+      "stars": 20
+    },
+    {
       "name": "DESCEND",
       "url": "https://github.com/jingshuw/descend",
       "owner": "jingshuw",
@@ -2005,15 +2014,6 @@
       "repo": "merlot",
       "category": "Pseudotime and trajectory inference",
       "description": "Reconstructing complex lineage trees from scRNA-seq data using MERLoT.",
-      "stars": 19
-    },
-    {
-      "name": "scMalignantFinder",
-      "url": "https://github.com/Jonyyqn/scMalignantFinder",
-      "owner": "Jonyyqn",
-      "repo": "scMalignantFinder",
-      "category": "Malignant cell identification",
-      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
       "stars": 19
     },
     {
@@ -2557,6 +2557,15 @@
       "stars": 3
     },
     {
+      "name": "TorchGW",
+      "url": "https://github.com/chansigit/torchgw",
+      "owner": "chansigit",
+      "repo": "torchgw",
+      "category": "Multi-assay data integration",
+      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
+      "stars": 3
+    },
+    {
       "name": "sasc",
       "url": "https://github.com/sciccolella/sasc",
       "owner": "sciccolella",
@@ -2566,21 +2575,21 @@
       "stars": 3
     },
     {
+      "name": "TorchGW",
+      "url": "https://github.com/chansigit/torchgw",
+      "owner": "chansigit",
+      "repo": "torchgw",
+      "category": "Spatial transcriptomics",
+      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Enables spatial slice alignment and cross-modality integration via graph distance matching. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
+      "stars": 3
+    },
+    {
       "name": "Marlene",
       "url": "https://github.com/euxhenh/Marlene",
       "owner": "euxhenh",
       "repo": "Marlene",
       "category": "Gene regulatory network identification",
       "description": "Marlene infers dynamic gene regulatory networks from scRNA-seq\u00a0data using an evolving self-attention mechanism and meta-learning for few-shot adaptation to rare cell types. [Recovering time-varying networks from single-cell data](https://academic.oup.com/bioinformatics/article/41/Supplement_1/i628/8199402)",
-      "stars": 2
-    },
-    {
-      "name": "TorchGW",
-      "url": "https://github.com/chansigit/torchgw",
-      "owner": "chansigit",
-      "repo": "torchgw",
-      "category": "Multi-assay data integration",
-      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
       "stars": 2
     },
     {
@@ -2599,15 +2608,6 @@
       "repo": "VisCello",
       "category": "Other applications",
       "description": "VisCello for C.elegans embryogenesis.",
-      "stars": 2
-    },
-    {
-      "name": "TorchGW",
-      "url": "https://github.com/chansigit/torchgw",
-      "owner": "chansigit",
-      "repo": "torchgw",
-      "category": "Spatial transcriptomics",
-      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Enables spatial slice alignment and cross-modality integration via graph distance matching. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
       "stars": 2
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-19 04:01:53 UTC"
+  "updated": "2026-05-20 04:01:57 UTC"
 }
