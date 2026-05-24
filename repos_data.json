@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2730
+      "stars": 2733
     },
     {
       "name": "Scanpy",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1625
+      "stars": 1628
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1625
+      "stars": 1628
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1625
+      "stars": 1628
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1625
+      "stars": 1628
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1625
+      "stars": 1628
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1625
+      "stars": 1628
     },
     {
       "name": "scGPT",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 761
+      "stars": 762
     },
     {
       "name": "GSEApy",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 547
+      "stars": 548
     },
     {
       "name": "DoubletFinder",
@@ -646,7 +646,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 175
+      "stars": 176
     },
     {
       "name": "ceLLama",
@@ -1042,7 +1042,7 @@
       "repo": "scImpute",
       "category": "Feature (Gene) imputation",
       "description": "[scImpute: Accurate And Robust Imputation For Single Cell RNA-Seq Data](doi:10.1038/s41467-018-03405-7)",
-      "stars": 100
+      "stars": 101
     },
     {
       "name": "DoubletDetection",
@@ -1162,21 +1162,21 @@
       "stars": 79
     },
     {
-      "name": "dynverse",
-      "url": "https://github.com/dynverse/dynverse/",
-      "owner": "dynverse",
-      "repo": "dynverse",
-      "category": "Pseudotime and trajectory inference",
-      "description": "[A comparison of single-cell trajectory inference methods: towards more accurate and robust tools](https://www.nature.com/articles/s41587-019-0071-9)",
-      "stars": 77
-    },
-    {
       "name": "SpaTalk",
       "url": "https://github.com/ZJUFanLab/SpaTalk",
       "owner": "ZJUFanLab",
       "repo": "SpaTalk",
       "category": "Spatial transcriptomics",
       "description": "[SpaTalk](https://www.nature.com/articles/s41467-022-32111-8) is a cell-cell communication inference method for either single-cell or spot-based spatially resolved transcriptomic data, e.g., STARmap, MERFISH, seqFISH, Slide-seq, 10X Visium.",
+      "stars": 78
+    },
+    {
+      "name": "dynverse",
+      "url": "https://github.com/dynverse/dynverse/",
+      "owner": "dynverse",
+      "repo": "dynverse",
+      "category": "Pseudotime and trajectory inference",
+      "description": "[A comparison of single-cell trajectory inference methods: towards more accurate and robust tools](https://www.nature.com/articles/s41587-019-0071-9)",
       "stars": 77
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-23 03:42:55 UTC"
+  "updated": "2026-05-24 04:04:56 UTC"
 }
