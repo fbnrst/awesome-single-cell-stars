@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2736
+      "stars": 2738
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2465
+      "stars": 2469
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2198
+      "stars": 2197
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1564
+      "stars": 1567
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 787
+      "stars": 788
     },
     {
       "name": "kallisto",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit).  Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 669
+      "stars": 670
     },
     {
       "name": "NicheNet",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 649
+      "stars": 650
     },
     {
       "name": "SCP",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 643
+      "stars": 644
     },
     {
       "name": "mLLMCelltype",
@@ -169,7 +169,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 598
+      "stars": 599
     },
     {
       "name": "squidpy",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 436
+      "stars": 437
     },
     {
       "name": "LIGER",
@@ -322,7 +322,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 366
+      "stars": 367
     },
     {
       "name": "GEARS",
@@ -478,21 +478,21 @@
       "stars": 252
     },
     {
-      "name": "scCATCH",
-      "url": "https://github.com/ZJUFanLab/scCATCH",
-      "owner": "ZJUFanLab",
-      "repo": "scCATCH",
-      "category": "Cell type identification and classification",
-      "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 241
-    },
-    {
       "name": "LIANA",
       "url": "https://github.com/saezlab/liana/",
       "owner": "saezlab",
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
+      "stars": 242
+    },
+    {
+      "name": "scCATCH",
+      "url": "https://github.com/ZJUFanLab/scCATCH",
+      "owner": "ZJUFanLab",
+      "repo": "scCATCH",
+      "category": "Cell type identification and classification",
+      "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
       "stars": 241
     },
     {
@@ -748,6 +748,15 @@
       "stars": 137
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 136
+    },
+    {
       "name": "TraCeR",
       "url": "http://github.com/teichlab/tracer",
       "owner": "teichlab",
@@ -755,15 +764,6 @@
       "category": "Immune receptor profiling",
       "description": "Reconstruction of T-Cell receptor sequences from single-cell RNA-seq data.",
       "stars": 136
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 135
     },
     {
       "name": "AtacWorks",
@@ -799,7 +799,7 @@
       "repo": "novosparc",
       "category": "RNA-seq",
       "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
-      "stars": 132
+      "stars": 133
     },
     {
       "name": "CyteType",
@@ -817,7 +817,7 @@
       "repo": "CellTrek",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 130
+      "stars": 131
     },
     {
       "name": "Novae",
@@ -1114,7 +1114,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 90
+      "stars": 91
     },
     {
       "name": "BASiCS",
@@ -1378,6 +1378,15 @@
       "stars": 50
     },
     {
+      "name": "SCODE",
+      "url": "https://github.com/hmatsu1226/SCODE",
+      "owner": "hmatsu1226",
+      "repo": "SCODE",
+      "category": "RNA-seq",
+      "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
+      "stars": 49
+    },
+    {
       "name": "scDEED",
       "url": "https://github.com/JSB-UCLA/scDEED",
       "owner": "JSB-UCLA",
@@ -1394,15 +1403,6 @@
       "category": "Other applications",
       "description": "[MetaNeighbor: a method to rapidly assess cell type identity using both functional and random gene sets](https://doi.org/10.1101/150524)",
       "stars": 49
-    },
-    {
-      "name": "SCODE",
-      "url": "https://github.com/hmatsu1226/SCODE",
-      "owner": "hmatsu1226",
-      "repo": "SCODE",
-      "category": "RNA-seq",
-      "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
-      "stars": 48
     },
     {
       "name": "scExtract",
@@ -1558,21 +1558,21 @@
       "stars": 39
     },
     {
-      "name": "Cellity",
-      "url": "https://github.com/teichlab/cellity",
-      "owner": "teichlab",
-      "repo": "cellity",
-      "category": "Quality control",
-      "description": "Classification of low quality cells in scRNA-seq data using R",
-      "stars": 38
-    },
-    {
       "name": "ChatSpatial",
       "url": "https://github.com/cafferychen777/ChatSpatial",
       "owner": "cafferychen777",
       "repo": "ChatSpatial",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 39
+    },
+    {
+      "name": "Cellity",
+      "url": "https://github.com/teichlab/cellity",
+      "owner": "teichlab",
+      "repo": "cellity",
+      "category": "Quality control",
+      "description": "Classification of low quality cells in scRNA-seq data using R",
       "stars": 38
     },
     {
@@ -1657,6 +1657,15 @@
       "stars": 33
     },
     {
+      "name": "Connectome",
+      "url": "https://github.com/msraredon/Connectome",
+      "owner": "msraredon",
+      "repo": "Connectome",
+      "category": "Cellular interactions/communication",
+      "description": "Software package that facilitates calculation and visualization of cell-cell signaling network topologies in single-cell RNA-seq data. Supports analysis of ligand-receptor interactions, differential connectomics between tissue systems, and interactive exploration of cellular communication patterns. [Paper](https://www.nature.com/articles/s41598-022-07959-x)",
+      "stars": 32
+    },
+    {
       "name": "ouija",
       "url": "https://github.com/kieranrcampbell/ouija",
       "owner": "kieranrcampbell",
@@ -1672,15 +1681,6 @@
       "repo": "BIRD",
       "category": "Epigenomics",
       "description": "BIRD is a tool for predicting chromatin accessibility and inferring regulatory element activities in single cells using scRNA-seq. [Global prediction of chromatin accessibility using small-cell-number and single-cell RNA-seq](https://academic.oup.com/nar/article/47/19/e121/5552071)",
-      "stars": 31
-    },
-    {
-      "name": "Connectome",
-      "url": "https://github.com/msraredon/Connectome",
-      "owner": "msraredon",
-      "repo": "Connectome",
-      "category": "Cellular interactions/communication",
-      "description": "Software package that facilitates calculation and visualization of cell-cell signaling network topologies in single-cell RNA-seq data. Supports analysis of ligand-receptor interactions, differential connectomics between tissue systems, and interactive exploration of cellular communication patterns. [Paper](https://www.nature.com/articles/s41598-022-07959-x)",
       "stars": 31
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-26 04:02:06 UTC"
+  "updated": "2026-05-27 04:15:40 UTC"
 }
