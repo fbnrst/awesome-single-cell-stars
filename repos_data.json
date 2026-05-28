@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2738
+      "stars": 2741
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2469
+      "stars": 2470
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2197
+      "stars": 2198
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1631
+      "stars": 1632
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1631
+      "stars": 1632
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1631
+      "stars": 1632
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1631
+      "stars": 1632
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1631
+      "stars": 1632
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1631
+      "stars": 1632
     },
     {
       "name": "scGPT",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 644
+      "stars": 645
     },
     {
       "name": "mLLMCelltype",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 437
+      "stars": 438
     },
     {
       "name": "LIGER",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 313
+      "stars": 315
     },
     {
       "name": "zUMIs",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 285
+      "stars": 286
     },
     {
       "name": "Sopa",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 229
+      "stars": 230
     },
     {
       "name": "SComatic",
@@ -559,6 +559,15 @@
       "stars": 213
     },
     {
+      "name": "SPOTlight",
+      "url": "https://github.com/MarcElosua/SPOTlight",
+      "owner": "MarcElosua",
+      "repo": "SPOTlight",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 208
+    },
+    {
       "name": "alevin-fry",
       "url": "https://github.com/COMBINE-lab/alevin-fry",
       "owner": "COMBINE-lab",
@@ -568,22 +577,13 @@
       "stars": 207
     },
     {
-      "name": "SPOTlight",
-      "url": "https://github.com/MarcElosua/SPOTlight",
-      "owner": "MarcElosua",
-      "repo": "SPOTlight",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 207
-    },
-    {
       "name": "torchdr",
       "url": "https://github.com/TorchDR/TorchDR",
       "owner": "TorchDR",
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 202
+      "stars": 203
     },
     {
       "name": "Spectra",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 196
+      "stars": 197
     },
     {
       "name": "inferCNVpy",
@@ -736,7 +736,7 @@
       "repo": "singleCellNet",
       "category": "Cell type identification and classification",
       "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
-      "stars": 141
+      "stars": 142
     },
     {
       "name": "demuxlet",
@@ -964,6 +964,15 @@
       "stars": 108
     },
     {
+      "name": "HTSeq",
+      "url": "https://github.com/htseq/htseq",
+      "owner": "htseq",
+      "repo": "htseq",
+      "category": "RNA-seq",
+      "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
+      "stars": 107
+    },
+    {
       "name": "SWNE",
       "url": "https://github.com/yanwu2014/swne",
       "owner": "yanwu2014",
@@ -971,15 +980,6 @@
       "category": "Dimension reduction",
       "description": "[Visualizing single-cell RNA-seq datasets with Similarity Weighted Nonnegative Embedding (SWNE)](https://www.biorxiv.org/content/early/2018/03/05/276261)",
       "stars": 107
-    },
-    {
-      "name": "HTSeq",
-      "url": "https://github.com/htseq/htseq",
-      "owner": "htseq",
-      "repo": "htseq",
-      "category": "RNA-seq",
-      "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
-      "stars": 106
     },
     {
       "name": "RNAnorm",
@@ -1078,7 +1078,7 @@
       "repo": "geosketch",
       "category": "Cell subsampling",
       "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 96
+      "stars": 97
     },
     {
       "name": "dropEst",
@@ -1099,6 +1099,15 @@
       "stars": 94
     },
     {
+      "name": "CASSIA",
+      "url": "https://github.com/ElliotXie/CASSIA",
+      "owner": "ElliotXie",
+      "repo": "CASSIA",
+      "category": "Cell type identification and classification",
+      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
+      "stars": 92
+    },
+    {
       "name": "SLAT",
       "url": "https://github.com/gao-lab/SLAT",
       "owner": "gao-lab",
@@ -1106,15 +1115,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 92
-    },
-    {
-      "name": "CASSIA",
-      "url": "https://github.com/ElliotXie/CASSIA",
-      "owner": "ElliotXie",
-      "repo": "CASSIA",
-      "category": "Cell type identification and classification",
-      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 91
     },
     {
       "name": "BASiCS",
@@ -2125,6 +2125,15 @@
       "stars": 15
     },
     {
+      "name": "scbean",
+      "url": "https://github.com/jhu99/scbean",
+      "owner": "jhu99",
+      "repo": "scbean",
+      "category": "RNA-seq",
+      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
+      "stars": 15
+    },
+    {
       "name": "SINCERITIES",
       "url": "https://github.com/CABSEL/SINCERITIES",
       "owner": "CABSEL",
@@ -2167,15 +2176,6 @@
       "repo": "embeddr",
       "category": "RNA-seq",
       "description": "Embeddr creates a reduced dimensional representation of the gene space using a high-variance gene correlation graph and laplacian eigenmaps. It then fits a smooth pseudotime trajectory using principal curves.",
-      "stars": 14
-    },
-    {
-      "name": "scbean",
-      "url": "https://github.com/jhu99/scbean",
-      "owner": "jhu99",
-      "repo": "scbean",
-      "category": "RNA-seq",
-      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
       "stars": 14
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-27 04:15:40 UTC"
+  "updated": "2026-05-28 04:04:25 UTC"
 }
