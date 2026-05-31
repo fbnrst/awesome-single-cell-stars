@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1567
+      "stars": 1568
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 697
+      "stars": 698
     },
     {
       "name": "inferCNV",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit).  Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 670
+      "stars": 671
     },
     {
       "name": "NicheNet",
@@ -322,7 +322,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 367
+      "stars": 368
     },
     {
       "name": "GEARS",
@@ -367,7 +367,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 336
+      "stars": 337
     },
     {
       "name": "soupX",
@@ -457,7 +457,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 261
+      "stars": 262
     },
     {
       "name": "SCENIC+",
@@ -790,7 +790,7 @@
       "repo": "scrna-parameter-estimation",
       "category": "RNA-seq",
       "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9).",
-      "stars": 133
+      "stars": 134
     },
     {
       "name": "novoSpaRc",
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-30 03:53:46 UTC"
+  "updated": "2026-05-31 04:17:35 UTC"
 }
