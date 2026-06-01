@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1568
+      "stars": 1571
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 698
+      "stars": 699
     },
     {
       "name": "inferCNV",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 645
+      "stars": 646
     },
     {
       "name": "mLLMCelltype",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 572
+      "stars": 573
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 499
+      "stars": 500
     },
     {
       "name": "SCENIC",
@@ -457,7 +457,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 262
+      "stars": 263
     },
     {
       "name": "SCENIC+",
@@ -1063,22 +1063,31 @@
       "stars": 98
     },
     {
-      "name": "MIMOSCA",
-      "url": "https://github.com/asncd/MIMOSCA",
-      "owner": "asncd",
-      "repo": "MIMOSCA",
-      "category": "RNA-seq",
-      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 97
-    },
-    {
       "name": "geosketch",
       "url": "https://github.com/brianhie/geosketch",
       "owner": "brianhie",
       "repo": "geosketch",
       "category": "Cell subsampling",
       "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 97
+      "stars": 98
+    },
+    {
+      "name": "MIMOSCA",
+      "url": "https://github.com/asncd/MIMOSCA",
+      "owner": "asncd",
+      "repo": "MIMOSCA",
+      "category": "RNA-seq",
+      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
+      "stars": 96
+    },
+    {
+      "name": "Cell\\_BLAST",
+      "url": "https://github.com/gao-lab/Cell_BLAST",
+      "owner": "gao-lab",
+      "repo": "Cell_BLAST",
+      "category": "RNA-seq",
+      "description": "A BLAST-like toolkit for scRNA-seq data querying and automated annotation.",
+      "stars": 95
     },
     {
       "name": "dropEst",
@@ -1088,15 +1097,6 @@
       "category": "Other applications",
       "description": "High-performance pipeline for initial analysis of droplet-based single-cell RNA-seq data (Drop-seq, inDrop, 10x and some others). Allows to estimate gene count matrix as well as diagnostic stats from fastq files with raw reads. Implements corrections for different noise sources.",
       "stars": 95
-    },
-    {
-      "name": "Cell\\_BLAST",
-      "url": "https://github.com/gao-lab/Cell_BLAST",
-      "owner": "gao-lab",
-      "repo": "Cell_BLAST",
-      "category": "RNA-seq",
-      "description": "A BLAST-like toolkit for scRNA-seq data querying and automated annotation.",
-      "stars": 94
     },
     {
       "name": "CASSIA",
@@ -1261,6 +1261,15 @@
       "stars": 66
     },
     {
+      "name": "knn-smoothing",
+      "url": "https://github.com/yanailab/knn-smoothing",
+      "owner": "yanailab",
+      "repo": "knn-smoothing",
+      "category": "RNA-seq",
+      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
+      "stars": 62
+    },
+    {
       "name": "cerebra",
       "url": "https://github.com/czbiohub/cerebra",
       "owner": "czbiohub",
@@ -1268,15 +1277,6 @@
       "category": "Variant calling",
       "description": "Cerebra is a tool for high-throughput summarizing of vcf entries following traditional variant calling for a sequencing experiment. Helps to extract relevant mutation information from among tens of thousands of vcf lines.",
       "stars": 62
-    },
-    {
-      "name": "knn-smoothing",
-      "url": "https://github.com/yanailab/knn-smoothing",
-      "owner": "yanailab",
-      "repo": "knn-smoothing",
-      "category": "RNA-seq",
-      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
-      "stars": 61
     },
     {
       "name": "BackSPIN",
@@ -2071,6 +2071,15 @@
       "stars": 18
     },
     {
+      "name": "scbean",
+      "url": "https://github.com/jhu99/scbean",
+      "owner": "jhu99",
+      "repo": "scbean",
+      "category": "RNA-seq",
+      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
+      "stars": 16
+    },
+    {
       "name": "SCMarker",
       "url": "https://github.com/KChen-lab/SCMarker",
       "owner": "KChen-lab",
@@ -2122,15 +2131,6 @@
       "repo": "robustSingleCell",
       "category": "RNA-seq",
       "description": "robustSingleCell is a pipeline designed to identify robust cell subpopulations using scRNAseq data and compare population compositions across tissues and experimental models via similarity analysis as described in Magen et al. (2019) bioRxiv.",
-      "stars": 15
-    },
-    {
-      "name": "scbean",
-      "url": "https://github.com/jhu99/scbean",
-      "owner": "jhu99",
-      "repo": "scbean",
-      "category": "RNA-seq",
-      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
       "stars": 15
     },
     {
@@ -2449,6 +2449,15 @@
       "stars": 6
     },
     {
+      "name": "Compocyte",
+      "url": "https://github.com/WALL-E-Lab/Compocyte",
+      "owner": "WALL-E-Lab",
+      "repo": "Compocyte",
+      "category": "Cell type identification and classification",
+      "description": "Compocyte is a composite classifier for modular hierarchical cell type annotation of single cell data. Using Compocyte you can build different hierarchical classifier architectures (local classifier per parent node, local classifer per node and local classifier per level) using all relevant models from pytorch, TensorFlow and keras. Local classifiers can be individually modified to account for alterations in classification taxonomies or selectively improve specific annotations in human-in-the-loop approaches.",
+      "stars": 6
+    },
+    {
       "name": "OEFinder",
       "url": "https://github.com/lengning/OEFinder",
       "owner": "lengning",
@@ -2464,15 +2473,6 @@
       "repo": "SEPA",
       "category": "Marker and differential gene expression identification",
       "description": "SEPA provides convenient functions for users to assign genes into different gene expression patterns such as constant, monotone increasing and increasing then decreasing. SEPA then performs GO enrichment analysis to analysis the functional roles of genes with same or similar patterns.",
-      "stars": 5
-    },
-    {
-      "name": "Compocyte",
-      "url": "https://github.com/WALL-E-Lab/Compocyte",
-      "owner": "WALL-E-Lab",
-      "repo": "Compocyte",
-      "category": "Cell type identification and classification",
-      "description": "Compocyte is a composite classifier for modular hierarchical cell type annotation of single cell data. Using Compocyte you can build different hierarchical classifier architectures (local classifier per parent node, local classifer per node and local classifier per level) using all relevant models from pytorch, TensorFlow and keras. Local classifiers can be individually modified to account for alterations in classification taxonomies or selectively improve specific annotations in human-in-the-loop approaches.",
       "stars": 5
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-05-31 04:17:35 UTC"
+  "updated": "2026-06-01 04:46:31 UTC"
 }
