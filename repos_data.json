@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2478
+      "stars": 2479
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1572
+      "stars": 1571
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 700
+      "stars": 701
     },
     {
       "name": "inferCNV",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 652
+      "stars": 654
     },
     {
       "name": "SCP",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 485
+      "stars": 486
     },
     {
       "name": "CellPhoneDB",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 459
+      "stars": 460
     },
     {
       "name": "cell2location",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 411
+      "stars": 412
     },
     {
       "name": "MAGIC",
@@ -295,7 +295,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 374
+      "stars": 376
     },
     {
       "name": "RAPIDS-singlecell",
@@ -367,7 +367,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 337
+      "stars": 338
     },
     {
       "name": "soupX",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 230
+      "stars": 231
     },
     {
       "name": "SComatic",
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-02 04:25:33 UTC"
+  "updated": "2026-06-03 04:45:10 UTC"
 }
