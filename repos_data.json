@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2479
+      "stars": 2480
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1571
+      "stars": 1572
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1124
+      "stars": 1125
     },
     {
       "name": "CellChat",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 763
+      "stars": 764
     },
     {
       "name": "GSEApy",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 654
+      "stars": 655
     },
     {
       "name": "SCP",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 646
+      "stars": 647
     },
     {
       "name": "mLLMCelltype",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 641
+      "stars": 642
     },
     {
       "name": "ffq",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 574
+      "stars": 575
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 550
+      "stars": 551
     },
     {
       "name": "DoubletFinder",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 467
+      "stars": 468
     },
     {
       "name": "RCTD",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 460
+      "stars": 461
     },
     {
       "name": "cell2location",
@@ -268,7 +268,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 429
+      "stars": 430
     },
     {
       "name": "scFoundation",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 412
+      "stars": 413
     },
     {
       "name": "MAGIC",
@@ -304,7 +304,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 372
+      "stars": 373
     },
     {
       "name": "scRepertoire",
@@ -313,7 +313,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 368
+      "stars": 369
     },
     {
       "name": "Tangram",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 351
+      "stars": 352
     },
     {
       "name": "ivis",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 294
+      "stars": 295
     },
     {
       "name": "CopyKAT",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 286
+      "stars": 287
     },
     {
       "name": "Sopa",
@@ -529,7 +529,7 @@
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
-      "stars": 220
+      "stars": 221
     },
     {
       "name": "Numbat",
@@ -649,15 +649,6 @@
       "stars": 177
     },
     {
-      "name": "ceLLama",
-      "url": "https://github.com/CelVoxes/ceLLama",
-      "owner": "CelVoxes",
-      "repo": "ceLLama",
-      "category": "Cell type identification and classification",
-      "description": "ceLLama is a streamlined automation pipeline for cell type annotations using local large-language models (LLMs).",
-      "stars": 153
-    },
-    {
       "name": "DeepCpg",
       "url": "https://github.com/cangermueller/deepcpg",
       "owner": "cangermueller",
@@ -667,6 +658,15 @@
       "stars": 153
     },
     {
+      "name": "ceLLama",
+      "url": "https://github.com/CelVoxes/ceLLama",
+      "owner": "CelVoxes",
+      "repo": "ceLLama",
+      "category": "Cell type identification and classification",
+      "description": "ceLLama is a streamlined automation pipeline for cell type annotations using local large-language models (LLMs).",
+      "stars": 152
+    },
+    {
       "name": "EpiScanpy",
       "url": "https://github.com/colomemaria/epiScanpy",
       "owner": "colomemaria",
@@ -674,6 +674,15 @@
       "category": "Epigenomics",
       "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
       "stars": 151
+    },
+    {
+      "name": "dropSeqPipe",
+      "url": "https://github.com/Hoohm/dropSeqPipe",
+      "owner": "Hoohm",
+      "repo": "dropSeqPipe",
+      "category": "Other applications",
+      "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
+      "stars": 150
     },
     {
       "name": "scPRINT",
@@ -709,15 +718,6 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 149
-    },
-    {
-      "name": "dropSeqPipe",
-      "url": "https://github.com/Hoohm/dropSeqPipe",
-      "owner": "Hoohm",
-      "repo": "dropSeqPipe",
-      "category": "Other applications",
-      "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
       "stars": 149
     },
     {
@@ -2683,5 +2683,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-03 04:45:10 UTC"
+  "updated": "2026-06-04 04:39:35 UTC"
 }
