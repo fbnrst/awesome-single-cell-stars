@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 787
+      "stars": 788
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 763
+      "stars": 764
     },
     {
       "name": "GSEApy",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 474
+      "stars": 475
     },
     {
       "name": "GLUE",
@@ -316,6 +316,15 @@
       "stars": 369
     },
     {
+      "name": "GEARS",
+      "url": "https://github.com/snap-stanford/GEARS",
+      "owner": "snap-stanford",
+      "repo": "GEARS",
+      "category": "Cellular interactions/communication",
+      "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
+      "stars": 368
+    },
+    {
       "name": "Tangram",
       "url": "https://github.com/broadinstitute/Tangram",
       "owner": "broadinstitute",
@@ -325,22 +334,13 @@
       "stars": 368
     },
     {
-      "name": "GEARS",
-      "url": "https://github.com/snap-stanford/GEARS",
-      "owner": "snap-stanford",
-      "repo": "GEARS",
-      "category": "Cellular interactions/communication",
-      "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 367
-    },
-    {
       "name": "TRUST4",
       "url": "https://github.com/liulab-dfci/TRUST4",
       "owner": "liulab-dfci",
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 352
+      "stars": 353
     },
     {
       "name": "ivis",
@@ -439,7 +439,7 @@
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 266
+      "stars": 267
     },
     {
       "name": "MAST",
@@ -523,6 +523,15 @@
       "stars": 232
     },
     {
+      "name": "Numbat",
+      "url": "https://github.com/kharchenkolab/numbat",
+      "owner": "kharchenkolab",
+      "repo": "numbat",
+      "category": "Copy number analysis",
+      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
+      "stars": 221
+    },
+    {
       "name": "SComatic",
       "url": "https://github.com/cortes-ciriano-lab/SComatic",
       "owner": "cortes-ciriano-lab",
@@ -530,15 +539,6 @@
       "category": "Variant calling",
       "description": "",
       "stars": 221
-    },
-    {
-      "name": "Numbat",
-      "url": "https://github.com/kharchenkolab/numbat",
-      "owner": "kharchenkolab",
-      "repo": "numbat",
-      "category": "Copy number analysis",
-      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 220
     },
     {
       "name": "dittoSeq",
@@ -637,7 +637,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 179
+      "stars": 180
     },
     {
       "name": "Scrublet",
@@ -2692,5 +2692,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-07 04:22:32 UTC"
+  "updated": "2026-06-08 04:26:55 UTC"
 }
