@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2485
+      "stars": 2486
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1638
+      "stars": 1639
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1638
+      "stars": 1639
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1638
+      "stars": 1639
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1638
+      "stars": 1639
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1638
+      "stars": 1639
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1638
+      "stars": 1639
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1575
+      "stars": 1577
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1132
+      "stars": 1145
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 789
+      "stars": 788
     },
     {
       "name": "kallisto",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 575
+      "stars": 577
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 503
+      "stars": 504
     },
     {
       "name": "dynamo",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 461
+      "stars": 462
     },
     {
       "name": "cell2location",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 329
+      "stars": 330
     },
     {
       "name": "octopus",
@@ -475,7 +475,7 @@
       "repo": "scirpy",
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 254
+      "stars": 256
     },
     {
       "name": "LIANA",
@@ -892,6 +892,15 @@
       "stars": 120
     },
     {
+      "name": "geneformer",
+      "url": "https://github.com/jkobject/geneformer",
+      "owner": "jkobject",
+      "repo": "geneformer",
+      "category": "Single cell large model",
+      "description": "",
+      "stars": 116
+    },
+    {
       "name": "SAVER",
       "url": "https://github.com/mohuangx/SAVER",
       "owner": "mohuangx",
@@ -907,15 +916,6 @@
       "repo": "SIMLR",
       "category": "RNA-seq",
       "description": "SIMLR (Single-cell Interpretation via Multi-kernel LeaRning) learns an appropriate distance metric from the data for dimension reduction, clustering and visualization. SIMLR is capable of separating known subpopulations more accurately in single-cell data sets than do existing dimension reduction methods.",
-      "stars": 115
-    },
-    {
-      "name": "geneformer",
-      "url": "https://github.com/jkobject/geneformer",
-      "owner": "jkobject",
-      "repo": "geneformer",
-      "category": "Single cell large model",
-      "description": "",
       "stars": 115
     },
     {
@@ -2692,5 +2692,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-09 03:59:22 UTC"
+  "updated": "2026-06-10 04:10:29 UTC"
 }
