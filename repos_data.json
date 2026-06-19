@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2754
+      "stars": 2756
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2209
+      "stars": 2210
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1584
+      "stars": 1585
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1160
+      "stars": 1161
     },
     {
       "name": "CellChat",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 660
+      "stars": 661
     },
     {
       "name": "SCP",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 463
+      "stars": 464
     },
     {
       "name": "cell2location",
@@ -268,7 +268,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 432
+      "stars": 431
     },
     {
       "name": "scFoundation",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 331
+      "stars": 330
     },
     {
       "name": "octopus",
@@ -565,7 +565,7 @@
       "repo": "SPOTlight",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 209
+      "stars": 210
     },
     {
       "name": "alevin-fry",
@@ -676,15 +676,6 @@
       "stars": 151
     },
     {
-      "name": "dropSeqPipe",
-      "url": "https://github.com/Hoohm/dropSeqPipe",
-      "owner": "Hoohm",
-      "repo": "dropSeqPipe",
-      "category": "Other applications",
-      "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
-      "stars": 150
-    },
-    {
       "name": "scPRINT",
       "url": "https://github.com/cantinilab/scPRINT",
       "owner": "cantinilab",
@@ -718,6 +709,15 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 149
+    },
+    {
+      "name": "dropSeqPipe",
+      "url": "https://github.com/Hoohm/dropSeqPipe",
+      "owner": "Hoohm",
+      "repo": "dropSeqPipe",
+      "category": "Other applications",
+      "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
       "stars": 149
     },
     {
@@ -826,7 +826,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 130
+      "stars": 131
     },
     {
       "name": "SC3",
@@ -1198,21 +1198,21 @@
       "stars": 74
     },
     {
-      "name": "SPRING",
-      "url": "https://github.com/AllonKleinLab/SPRING",
-      "owner": "AllonKleinLab",
-      "repo": "SPRING",
-      "category": "RNA-seq",
-      "description": "SPRING is a collection of pre-processing scripts and a web browser-based tool for visualizing and interacting with high dimensional data. SPRING was developed for single cell RNA-Seq data but can be applied more generally.",
-      "stars": 70
-    },
-    {
       "name": "dsb",
       "url": "https://github.com/niaid/dsb",
       "owner": "niaid",
       "repo": "dsb",
       "category": "Count modelling and normalization",
       "description": "a method for normalizing and denoising protein data from antibody derived tags (ADT). Compatible with CITE-seq, ASAP-seq, TEA-seq, ICICLE-seq, MissionBio etc. Removes ambient and cell to cell technical noise from ADTs see vignettes on [CRAN](https://CRAN.R-project.org/package=dsb). Manuscript open access: [Normalizing and denoising protein expression data from droplet-sed single cell profiling. *Nature Communications* (2022)](https://www.nature.com/articles/s41467-022-29356-8)",
+      "stars": 71
+    },
+    {
+      "name": "SPRING",
+      "url": "https://github.com/AllonKleinLab/SPRING",
+      "owner": "AllonKleinLab",
+      "repo": "SPRING",
+      "category": "RNA-seq",
+      "description": "SPRING is a collection of pre-processing scripts and a web browser-based tool for visualizing and interacting with high dimensional data. SPRING was developed for single cell RNA-Seq data but can be applied more generally.",
       "stars": 70
     },
     {
@@ -1360,6 +1360,15 @@
       "stars": 51
     },
     {
+      "name": "scDEED",
+      "url": "https://github.com/JSB-UCLA/scDEED",
+      "owner": "JSB-UCLA",
+      "repo": "scDEED",
+      "category": "Dimension reduction",
+      "description": "",
+      "stars": 51
+    },
+    {
       "name": "SCnorm",
       "url": "https://github.com/rhondabacher/SCnorm",
       "owner": "rhondabacher",
@@ -1367,15 +1376,6 @@
       "category": "Count modelling and normalization",
       "description": "A quantile regression based approach for robust normalization of single cell RNA-seq data.",
       "stars": 51
-    },
-    {
-      "name": "scDEED",
-      "url": "https://github.com/JSB-UCLA/scDEED",
-      "owner": "JSB-UCLA",
-      "repo": "scDEED",
-      "category": "Dimension reduction",
-      "description": "",
-      "stars": 50
     },
     {
       "name": "psupertime",
@@ -2692,5 +2692,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-18 04:26:08 UTC"
+  "updated": "2026-06-19 04:53:38 UTC"
 }
