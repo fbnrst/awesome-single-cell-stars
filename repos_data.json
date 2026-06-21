@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2210
+      "stars": 2211
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1644
+      "stars": 1645
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1644
+      "stars": 1645
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1644
+      "stars": 1645
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1644
+      "stars": 1645
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1644
+      "stars": 1645
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1644
+      "stars": 1645
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1584
+      "stars": 1585
     },
     {
       "name": "gget",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 415
+      "stars": 417
     },
     {
       "name": "MAGIC",
@@ -298,6 +298,15 @@
       "stars": 377
     },
     {
+      "name": "GEARS",
+      "url": "https://github.com/snap-stanford/GEARS",
+      "owner": "snap-stanford",
+      "repo": "GEARS",
+      "category": "Cellular interactions/communication",
+      "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
+      "stars": 377
+    },
+    {
       "name": "Giotto Suite",
       "url": "https://github.com/drieslab/Giotto",
       "owner": "drieslab",
@@ -305,15 +314,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 377
-    },
-    {
-      "name": "GEARS",
-      "url": "https://github.com/snap-stanford/GEARS",
-      "owner": "snap-stanford",
-      "repo": "GEARS",
-      "category": "Cellular interactions/communication",
-      "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 376
     },
     {
       "name": "scRepertoire",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 295
+      "stars": 296
     },
     {
       "name": "CopyKAT",
@@ -667,22 +667,13 @@
       "stars": 152
     },
     {
-      "name": "EpiScanpy",
-      "url": "https://github.com/colomemaria/epiScanpy",
-      "owner": "colomemaria",
-      "repo": "epiScanpy",
-      "category": "Epigenomics",
-      "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
-      "stars": 151
-    },
-    {
       "name": "scPRINT",
       "url": "https://github.com/cantinilab/scPRINT",
       "owner": "cantinilab",
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 150
+      "stars": 151
     },
     {
       "name": "scPRINT",
@@ -691,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 150
+      "stars": 151
     },
     {
       "name": "scPRINT",
@@ -700,7 +691,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from  any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 150
+      "stars": 151
     },
     {
       "name": "scPRINT",
@@ -709,7 +700,16 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 150
+      "stars": 151
+    },
+    {
+      "name": "EpiScanpy",
+      "url": "https://github.com/colomemaria/epiScanpy",
+      "owner": "colomemaria",
+      "repo": "epiScanpy",
+      "category": "Epigenomics",
+      "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
+      "stars": 151
     },
     {
       "name": "dropSeqPipe",
@@ -1054,6 +1054,15 @@
       "stars": 98
     },
     {
+      "name": "CASSIA",
+      "url": "https://github.com/ElliotXie/CASSIA",
+      "owner": "ElliotXie",
+      "repo": "CASSIA",
+      "category": "Cell type identification and classification",
+      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
+      "stars": 98
+    },
+    {
       "name": "DoubletDetection",
       "url": "https://github.com/JonathanShor/DoubletDetection",
       "owner": "JonathanShor",
@@ -1079,15 +1088,6 @@
       "category": "Cell subsampling",
       "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
       "stars": 98
-    },
-    {
-      "name": "CASSIA",
-      "url": "https://github.com/ElliotXie/CASSIA",
-      "owner": "ElliotXie",
-      "repo": "CASSIA",
-      "category": "Cell type identification and classification",
-      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 97
     },
     {
       "name": "Cell\\_BLAST",
@@ -2692,5 +2692,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-20 04:07:58 UTC"
+  "updated": "2026-06-21 04:49:58 UTC"
 }
