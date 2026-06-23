@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2755
+      "stars": 2757
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2494
+      "stars": 2493
     },
     {
       "name": "STAR",
@@ -96,8 +96,8 @@
       "owner": "pachterlab",
       "repo": "gget",
       "category": "Other applications",
-      "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget`  consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1162
+      "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
+      "stars": 1164
     },
     {
       "name": "CellChat",
@@ -132,7 +132,7 @@
       "owner": "broadinstitute",
       "repo": "inferCNV",
       "category": "Copy number analysis",
-      "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit).  Provides tools for copy-number inference from single-cell RNA-seq data.",
+      "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
       "stars": 675
     },
     {
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 486
+      "stars": 487
     },
     {
       "name": "CellPhoneDB",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 442
+      "stars": 443
     },
     {
       "name": "LIGER",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 368
+      "stars": 369
     },
     {
       "name": "TRUST4",
@@ -411,7 +411,7 @@
       "owner": "navinlabcode",
       "repo": "copykat",
       "category": "Copy number analysis",
-      "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms *inferCNV*. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
+      "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
       "stars": 292
     },
     {
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 289
+      "stars": 290
     },
     {
       "name": "Sopa",
@@ -434,7 +434,7 @@
     },
     {
       "name": "MOFA",
-      "url": " https://github.com/bioFAM/MOFA",
+      "url": "https://github.com/bioFAM/MOFA",
       "owner": "bioFAM",
       "repo": "MOFA",
       "category": "Multi-assay data integration",
@@ -460,6 +460,15 @@
       "stars": 263
     },
     {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
+      "stars": 259
+    },
+    {
       "name": "Scirpy",
       "url": "https://github.com/icbi-lab/scirpy",
       "owner": "icbi-lab",
@@ -467,15 +476,6 @@
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
       "stars": 259
-    },
-    {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 258
     },
     {
       "name": "LIANA",
@@ -496,6 +496,15 @@
       "stars": 241
     },
     {
+      "name": "BayesPrism",
+      "url": "https://github.com/Danko-Lab/BayesPrism",
+      "owner": "Danko-Lab",
+      "repo": "BayesPrism",
+      "category": "RNA-seq",
+      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
+      "stars": 240
+    },
+    {
       "name": "Clustergrammer",
       "url": "https://github.com/maayanlab/clustergrammer",
       "owner": "maayanlab",
@@ -505,22 +514,13 @@
       "stars": 240
     },
     {
-      "name": "BayesPrism",
-      "url": "https://github.com/Danko-Lab/BayesPrism",
-      "owner": "Danko-Lab",
-      "repo": "BayesPrism",
-      "category": "RNA-seq",
-      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 239
-    },
-    {
       "name": "Muscat",
       "url": "https://github.com/HelenaLC/muscat",
       "owner": "HelenaLC",
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 233
+      "stars": 234
     },
     {
       "name": "Numbat",
@@ -574,7 +574,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 208
+      "stars": 209
     },
     {
       "name": "torchdr",
@@ -690,7 +690,7 @@
       "owner": "cantinilab",
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
-      "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from  any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
       "stars": 151
     },
     {
@@ -771,7 +771,7 @@
       "owner": "yelabucsf",
       "repo": "scrna-parameter-estimation",
       "category": "RNA-seq",
-      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9).",
+      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
       "stars": 135
     },
     {
@@ -852,7 +852,7 @@
       "owner": "AntonioDeFalco",
       "repo": "SCEVAN",
       "category": "Copy number analysis",
-      "description": "Easy-to-use package that starting from the raw count matrix of scRNA data automatically classifies the cells present in the biopsy by segregating non-malignant cells of tumor microenviroment from the malignant cells, outperforms *copyKAT*. It also infers the copy number profile of malignant cells, identifies subclonal structures and automatically analyses the specific and shared alterations of each subpopulation. [Preprint](https://www.biorxiv.org/content/10.1101/2021.11.20.469390v1)",
+      "description": "Easy-to-use package that starting from the raw count matrix of scRNA data automatically classifies the cells present in the biopsy by segregating non-malignant cells of tumor microenviroment from the malignant cells, outperforms _copyKAT_. It also infers the copy number profile of malignant cells, identifies subclonal structures and automatically analyses the specific and shared alterations of each subpopulation. [Preprint](https://www.biorxiv.org/content/10.1101/2021.11.20.469390v1)",
       "stars": 127
     },
     {
@@ -863,6 +863,15 @@
       "category": "RNA-seq",
       "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
       "stars": 125
+    },
+    {
+      "name": "clustifyr",
+      "url": "https://github.com/rnabioco/clustifyr",
+      "owner": "rnabioco",
+      "repo": "clustifyr",
+      "category": "Cell type identification and classification",
+      "description": "Classifies cells and clusters in single-cell RNA-seq experiments using external reference data, gene signatures, or marker gene lists.",
+      "stars": 124
     },
     {
       "name": "MetaCell",
@@ -933,7 +942,7 @@
       "owner": "PMBio",
       "repo": "scLVM",
       "category": "RNA-seq",
-      "description": "scLVM is a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources, thereby allowing for the correction of confounding sources of variation.  scLVM was primarily designed to account for cell-cycle induced variations in single-cell RNA-seq data where cell cycle is the primary source of variability.",
+      "description": "scLVM is a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources, thereby allowing for the correction of confounding sources of variation. scLVM was primarily designed to account for cell-cycle induced variations in single-cell RNA-seq data where cell cycle is the primary source of variability.",
       "stars": 110
     },
     {
@@ -951,7 +960,7 @@
       "owner": "ZJUFanLab",
       "repo": "DeepSort",
       "category": "Cell type identification and classification",
-      "description": "A reference-free  cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive  single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
+      "description": "A reference-free cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
       "stars": 108
     },
     {
@@ -1054,6 +1063,15 @@
       "stars": 98
     },
     {
+      "name": "CASSIA",
+      "url": "https://github.com/ElliotXie/CASSIA",
+      "owner": "ElliotXie",
+      "repo": "CASSIA",
+      "category": "Cell type identification and classification",
+      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
+      "stars": 98
+    },
+    {
       "name": "DoubletDetection",
       "url": "https://github.com/JonathanShor/DoubletDetection",
       "owner": "JonathanShor",
@@ -1081,16 +1099,7 @@
       "stars": 98
     },
     {
-      "name": "CASSIA",
-      "url": "https://github.com/ElliotXie/CASSIA",
-      "owner": "ElliotXie",
-      "repo": "CASSIA",
-      "category": "Cell type identification and classification",
-      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for reference free, interpretable, and automated cell annotation of single-cell RNA-sequencing data](https://www.biorxiv.org/content/10.1101/2024.12.04.626476v2)",
-      "stars": 97
-    },
-    {
-      "name": "Cell\\_BLAST",
+      "name": "Cell_BLAST",
       "url": "https://github.com/gao-lab/Cell_BLAST",
       "owner": "gao-lab",
       "repo": "Cell_BLAST",
@@ -1149,7 +1158,7 @@
       "owner": "jmbreda",
       "repo": "Sanity",
       "category": "Count modelling and normalization",
-      "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. *Nature Biotechnology* (2021](https://doi.org/10.1038/s41587-021-00875-x)",
+      "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
       "stars": 81
     },
     {
@@ -1203,7 +1212,7 @@
       "owner": "niaid",
       "repo": "dsb",
       "category": "Count modelling and normalization",
-      "description": "a method for normalizing and denoising protein data from antibody derived tags (ADT). Compatible with CITE-seq, ASAP-seq, TEA-seq, ICICLE-seq, MissionBio etc. Removes ambient and cell to cell technical noise from ADTs see vignettes on [CRAN](https://CRAN.R-project.org/package=dsb). Manuscript open access: [Normalizing and denoising protein expression data from droplet-sed single cell profiling. *Nature Communications* (2022)](https://www.nature.com/articles/s41467-022-29356-8)",
+      "description": "a method for normalizing and denoising protein data from antibody derived tags (ADT). Compatible with CITE-seq, ASAP-seq, TEA-seq, ICICLE-seq, MissionBio etc. Removes ambient and cell to cell technical noise from ADTs see vignettes on [CRAN](https://CRAN.R-project.org/package=dsb). Manuscript open access: [Normalizing and denoising protein expression data from droplet-sed single cell profiling. _Nature Communications_ (2022)](https://www.nature.com/articles/s41467-022-29356-8)",
       "stars": 71
     },
     {
@@ -1239,7 +1248,7 @@
       "owner": "YeoLab",
       "repo": "outrigger",
       "category": "RNA-seq",
-      "description": "Outrigger is a program to calculate alternative splicing scores of RNA-Seq data based on junction reads and a *de novo*, custom annotation created with a graph database, especially made for single-cell analyses.",
+      "description": "Outrigger is a program to calculate alternative splicing scores of RNA-Seq data based on junction reads and a _de novo_, custom annotation created with a graph database, especially made for single-cell analyses.",
       "stars": 67
     },
     {
@@ -1321,7 +1330,7 @@
       "repo": "FigR",
       "category": "Multi-assay data integration",
       "description": "FigR (Functional inference of gene Regulation) is a computational framework for supporting the integration of single cell chromatin accessibility and gene expression data to infer transcriptional regulators of target genes. [Functional inference of gene regulation using single-cell multi-omics](https://www.sciencedirect.com/science/article/pii/S2666979X22001082)",
-      "stars": 53
+      "stars": 54
     },
     {
       "name": "Ginkgo",
@@ -1428,7 +1437,7 @@
       "owner": "jdekanter",
       "repo": "CHETAH",
       "category": "Cell type identification and classification",
-      "description": "CHETAH: a selective, hierarchical cell type identification method for single-cell RNA sequencing.  CHETAH (CHaracterization of cEll Types Aided by Hierarchical clustering) is an accurate cell type identification algorithm that is rapid and selective, including the possibility of intermediate or unassigned categories. Evidence for assignment is based on a classification tree of previously available scRNA-seq reference data and includes a confidence score based on the variance in gene expression per cell type. For cell types represented in the reference data, CHETAH's accuracy is as good as existing methods. Its specificity is superior when cells of an unknown type are encountered, such as malignant cells in tumor samples which it pinpoints as intermediate or unassigned. [bioRxiv](https://doi.org/10.1101/558908)",
+      "description": "CHETAH: a selective, hierarchical cell type identification method for single-cell RNA sequencing. CHETAH (CHaracterization of cEll Types Aided by Hierarchical clustering) is an accurate cell type identification algorithm that is rapid and selective, including the possibility of intermediate or unassigned categories. Evidence for assignment is based on a classification tree of previously available scRNA-seq reference data and includes a confidence score based on the variance in gene expression per cell type. For cell types represented in the reference data, CHETAH's accuracy is as good as existing methods. Its specificity is superior when cells of an unknown type are encountered, such as malignant cells in tumor samples which it pinpoints as intermediate or unassigned. [bioRxiv](https://doi.org/10.1101/558908)",
       "stars": 44
     },
     {
@@ -1608,7 +1617,7 @@
       "owner": "lanjiangboston",
       "repo": "GiniClust",
       "category": "Marker and differential gene expression identification",
-      "description": "GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data.  GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.",
+      "description": "GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data. GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.",
       "stars": 36
     },
     {
@@ -1617,7 +1626,7 @@
       "owner": "kdkorthauer",
       "repo": "scDD",
       "category": "Marker and differential gene expression identification",
-      "description": "scDD (Single-Cell Differential Distributions) is a framework to identify genes with different expression patterns between biological groups of interest.  In addition to traditional differential expression, it can detect differences that are more complex and subtle than a mean shift.",
+      "description": "scDD (Single-Cell Differential Distributions) is a framework to identify genes with different expression patterns between biological groups of interest. In addition to traditional differential expression, it can detect differences that are more complex and subtle than a mean shift.",
       "stars": 35
     },
     {
@@ -1819,6 +1828,15 @@
       "stars": 27
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 27
+    },
+    {
       "name": "dropkick",
       "url": "https://github.com/KenLauLab/dropkick",
       "owner": "KenLauLab",
@@ -1892,7 +1910,7 @@
     },
     {
       "name": "MATCHER",
-      "url": " https://github.com/jw156605/MATCHER",
+      "url": "https://github.com/jw156605/MATCHER",
       "owner": "jw156605",
       "repo": "MATCHER",
       "category": "Multi-assay data integration",
@@ -2305,6 +2323,15 @@
       "stars": 12
     },
     {
+      "name": "Dino",
+      "url": "https://github.com/JBrownBiostat/Dino",
+      "owner": "JBrownBiostat",
+      "repo": "Dino",
+      "category": "Count modelling and normalization",
+      "description": "normalizes single-cell RNA-seq data by constructing a flexible negative-binomial mixture model of gene expression and sampling from the posterior distribution of expected expression conditional on observed sequencing depth. [Normalization by distributional resampling of high throughput single-cell RNA-sequencing data. _Bioinformatics_ (2021)](https://doi.org/10.1093/bioinformatics/btab450)",
+      "stars": 11
+    },
+    {
       "name": "IA-SVA",
       "url": "https://github.com/UcarLab/iasva",
       "owner": "UcarLab",
@@ -2346,7 +2373,7 @@
       "owner": "CABSEL",
       "repo": "CALISTA",
       "category": "Pseudotime and trajectory inference",
-      "description": "CALISTA provides a user-friendly toolbox for the analysis of single cell expression data. CALISTA accomplishes three major tasks: 1)\tIdentification of cell clusters in a cell population based on single-cell gene expression data, 2)\tReconstruction of lineage progression and produce transition genes, and 3)\tPseudotemporal ordering of cells along any given developmental paths in the lineage progression.",
+      "description": "CALISTA provides a user-friendly toolbox for the analysis of single cell expression data. CALISTA accomplishes three major tasks: 1) Identification of cell clusters in a cell population based on single-cell gene expression data, 2) Reconstruction of lineage progression and produce transition genes, and 3) Pseudotemporal ordering of cells along any given developmental paths in the lineage progression.",
       "stars": 10
     },
     {
@@ -2553,7 +2580,7 @@
       "owner": "euxhenh",
       "repo": "phenotype-cover",
       "category": "Marker and differential gene expression identification",
-      "description": "Provides two algorithms for marker selection (G-PC, CEM-PC) introduced in [Multiset multicover methods for discriminative marker selection](https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(22)00229-6). Most marker selection methods focus on differential expression (DE) analysis. Although such methods work well for data with a few non-overlapping marker sets, they are not appropriate for large atlas-size datasets where several cell types and tissues are considered. To address this, we define the phenotype cover (PC) problem for marker selection and present algorithms that can improve the discriminative power of marker sets.",
+      "description": "Provides two algorithms for marker selection (G-PC, CEM-PC) introduced in [Multiset multicover methods for discriminative marker selection](<https://www.cell.com/cell-reports-methods/fulltext/S2667-2375(22)00229-6>). Most marker selection methods focus on differential expression (DE) analysis. Although such methods work well for data with a few non-overlapping marker sets, they are not appropriate for large atlas-size datasets where several cell types and tissues are considered. To address this, we define the phenotype cover (PC) problem for marker selection and present algorithms that can improve the discriminative power of marker sets.",
       "stars": 3
     },
     {
@@ -2580,7 +2607,7 @@
       "owner": "sciccolella",
       "repo": "sasc",
       "category": "Other applications",
-      "description": "sasc stands for Simulated Annealing Single-Cell, an algorithm for performing phylogenetic analysis of single-cell cancer samples.  Manuscript [here](https://www.biorxiv.org/content/early/2018/02/20/268243).",
+      "description": "sasc stands for Simulated Annealing Single-Cell, an algorithm for performing phylogenetic analysis of single-cell cancer samples. Manuscript [here](https://www.biorxiv.org/content/early/2018/02/20/268243).",
       "stars": 3
     },
     {
@@ -2692,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-22 04:57:17 UTC"
+  "updated": "2026-06-23 03:59:29 UTC"
 }
