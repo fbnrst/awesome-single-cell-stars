@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2211
+      "stars": 2212
     },
     {
       "name": "scVI",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1164
+      "stars": 1167
     },
     {
       "name": "CellChat",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 766
+      "stars": 767
     },
     {
       "name": "GSEApy",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 650
+      "stars": 651
     },
     {
       "name": "mLLMCelltype",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 487
+      "stars": 488
     },
     {
       "name": "CellPhoneDB",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 467
+      "stars": 468
     },
     {
       "name": "RCTD",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 464
+      "stars": 465
     },
     {
       "name": "cell2location",
@@ -289,6 +289,15 @@
       "stars": 384
     },
     {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
+      "stars": 378
+    },
+    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
@@ -296,15 +305,6 @@
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
       "stars": 378
-    },
-    {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 377
     },
     {
       "name": "Giotto Suite",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 354
+      "stars": 355
     },
     {
       "name": "ivis",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 319
+      "stars": 320
     },
     {
       "name": "zUMIs",
@@ -448,7 +448,7 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 264
+      "stars": 265
     },
     {
       "name": "SpaGCN",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 234
+      "stars": 235
     },
     {
       "name": "Numbat",
@@ -658,6 +658,24 @@
       "stars": 153
     },
     {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Gene regulatory network identification",
+      "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 152
+    },
+    {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Dimension reduction",
+      "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 152
+    },
+    {
       "name": "ceLLama",
       "url": "https://github.com/CelVoxes/ceLLama",
       "owner": "CelVoxes",
@@ -671,27 +689,9 @@
       "url": "https://github.com/cantinilab/scPRINT",
       "owner": "cantinilab",
       "repo": "scPRINT",
-      "category": "Gene regulatory network identification",
-      "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 151
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
-      "category": "Dimension reduction",
-      "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 151
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 151
+      "stars": 152
     },
     {
       "name": "scPRINT",
@@ -700,7 +700,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 151
+      "stars": 152
     },
     {
       "name": "EpiScanpy",
@@ -745,7 +745,7 @@
       "repo": "inmoose",
       "category": "RNA-seq",
       "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 140
+      "stars": 141
     },
     {
       "name": "demuxlet",
@@ -802,21 +802,21 @@
       "stars": 134
     },
     {
-      "name": "CyteType",
-      "url": "https://github.com/NygenAnalytics/CyteType",
-      "owner": "NygenAnalytics",
-      "repo": "CyteType",
-      "category": "Cell type identification and classification",
-      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 132
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 133
+    },
+    {
+      "name": "CyteType",
+      "url": "https://github.com/NygenAnalytics/CyteType",
+      "owner": "NygenAnalytics",
+      "repo": "CyteType",
+      "category": "Cell type identification and classification",
+      "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
       "stars": 132
     },
     {
@@ -1333,6 +1333,15 @@
       "stars": 54
     },
     {
+      "name": "STAligner",
+      "url": "https://github.com/zhoux85/STAligner",
+      "owner": "zhoux85",
+      "repo": "STAligner",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 53
+    },
+    {
       "name": "Ginkgo",
       "url": "https://github.com/robertaboukhalil/ginkgo",
       "owner": "robertaboukhalil",
@@ -1346,15 +1355,6 @@
       "url": "https://github.com/QIFEIDKN/STAGATE",
       "owner": "QIFEIDKN",
       "repo": "STAGATE",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 52
-    },
-    {
-      "name": "STAligner",
-      "url": "https://github.com/zhoux85/STAligner",
-      "owner": "zhoux85",
-      "repo": "STAligner",
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 52
@@ -1648,6 +1648,15 @@
       "stars": 34
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 34
+    },
+    {
       "name": "CountClust",
       "url": "https://github.com/kkdey/CountClust",
       "owner": "kkdey",
@@ -1825,15 +1834,6 @@
       "repo": "FiRE",
       "category": "Rare cell detection",
       "description": "Finder of rare entities (FiRE) helps identify rare cell types in voluminous single-cell datasets. Design of FiRE is inspired by the observation that rareness estimation of a particular data point is the flip side of measuring the density around it. In principle, FiRE uses the Sketching technique, a variant of locality sensitive hashing, to assign rareness score to every cell.",
-      "stars": 27
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 27
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-23 03:59:29 UTC"
+  "updated": "2026-06-24 04:00:55 UTC"
 }
