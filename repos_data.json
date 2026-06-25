@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2493
+      "stars": 2492
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1585
+      "stars": 1586
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 789
+      "stars": 790
     },
     {
       "name": "kallisto",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 661
+      "stars": 662
     },
     {
       "name": "SCP",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 577
+      "stars": 578
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 465
+      "stars": 466
     },
     {
       "name": "cell2location",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 443
+      "stars": 444
     },
     {
       "name": "LIGER",
@@ -289,21 +289,21 @@
       "stars": 384
     },
     {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 378
-    },
-    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
+      "stars": 379
+    },
+    {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
       "stars": 378
     },
     {
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 292
+      "stars": 293
     },
     {
       "name": "BPCells",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 290
+      "stars": 291
     },
     {
       "name": "Sopa",
@@ -460,6 +460,15 @@
       "stars": 263
     },
     {
+      "name": "Scirpy",
+      "url": "https://github.com/icbi-lab/scirpy",
+      "owner": "icbi-lab",
+      "repo": "scirpy",
+      "category": "Immune receptor profiling",
+      "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
+      "stars": 260
+    },
+    {
       "name": "SCENIC+",
       "url": "https://github.com/aertslab/scenicplus",
       "owner": "aertslab",
@@ -469,13 +478,13 @@
       "stars": 259
     },
     {
-      "name": "Scirpy",
-      "url": "https://github.com/icbi-lab/scirpy",
-      "owner": "icbi-lab",
-      "repo": "scirpy",
-      "category": "Immune receptor profiling",
-      "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 259
+      "name": "scCATCH",
+      "url": "https://github.com/ZJUFanLab/scCATCH",
+      "owner": "ZJUFanLab",
+      "repo": "scCATCH",
+      "category": "Cell type identification and classification",
+      "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
+      "stars": 242
     },
     {
       "name": "LIANA",
@@ -487,22 +496,13 @@
       "stars": 242
     },
     {
-      "name": "scCATCH",
-      "url": "https://github.com/ZJUFanLab/scCATCH",
-      "owner": "ZJUFanLab",
-      "repo": "scCATCH",
-      "category": "Cell type identification and classification",
-      "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 241
-    },
-    {
       "name": "BayesPrism",
       "url": "https://github.com/Danko-Lab/BayesPrism",
       "owner": "Danko-Lab",
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 240
+      "stars": 241
     },
     {
       "name": "Clustergrammer",
@@ -565,7 +565,7 @@
       "repo": "SPOTlight",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 210
+      "stars": 211
     },
     {
       "name": "alevin-fry",
@@ -574,7 +574,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 209
+      "stars": 210
     },
     {
       "name": "torchdr",
@@ -826,7 +826,7 @@
       "repo": "CellTrek",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 131
+      "stars": 132
     },
     {
       "name": "SC3",
@@ -1450,21 +1450,21 @@
       "stars": 44
     },
     {
-      "name": "TSCAN",
-      "url": "https://github.com/zji90/TSCAN",
-      "owner": "zji90",
-      "repo": "TSCAN",
-      "category": "Pseudotime and trajectory inference",
-      "description": "Pseudo-time reconstruction and evaluation in single-cell RNA-seq analysis.",
-      "stars": 43
-    },
-    {
       "name": "scE2G",
       "url": "https://github.com/EngreitzLab/scE2G",
       "owner": "EngreitzLab",
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 44
+    },
+    {
+      "name": "TSCAN",
+      "url": "https://github.com/zji90/TSCAN",
+      "owner": "zji90",
+      "repo": "TSCAN",
+      "category": "Pseudotime and trajectory inference",
+      "description": "Pseudo-time reconstruction and evaluation in single-cell RNA-seq analysis.",
       "stars": 43
     },
     {
@@ -1630,6 +1630,15 @@
       "stars": 35
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 35
+    },
+    {
       "name": "AMULET",
       "url": "https://github.com/UcarLab/AMULET",
       "owner": "UcarLab",
@@ -1645,15 +1654,6 @@
       "repo": "SSrGE",
       "category": "Variant calling",
       "description": "SSrGE is an approach to identify SNVs correlated with Gene Expression using multiple regularized linear regressions. It contains its own pipeline to infer SNVs from scRNA-seq reads and is able to identify and sort genes and SNVs for a given cell subgroup. Nature Communication (2017) [Using single nucleotide variations in single-cell RNA-seq to identify subpopulations and genotype-phenotype linkage](https://www.nature.com/articles/s41467-018-07170-5).",
-      "stars": 34
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 34
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-24 04:00:55 UTC"
+  "updated": "2026-06-25 04:01:47 UTC"
 }
