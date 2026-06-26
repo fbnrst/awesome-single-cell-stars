@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2492
+      "stars": 2493
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2212
+      "stars": 2213
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1586
+      "stars": 1587
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1167
+      "stars": 1168
     },
     {
       "name": "CellChat",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 502
+      "stars": 503
     },
     {
       "name": "SCENIC",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 466
+      "stars": 467
     },
     {
       "name": "cell2location",
@@ -313,7 +313,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 377
+      "stars": 378
     },
     {
       "name": "scRepertoire",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 369
+      "stars": 370
     },
     {
       "name": "TRUST4",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 330
+      "stars": 331
     },
     {
       "name": "octopus",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 282
+      "stars": 283
     },
     {
       "name": "MOFA",
@@ -466,7 +466,7 @@
       "repo": "scirpy",
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 260
+      "stars": 261
     },
     {
       "name": "SCENIC+",
@@ -476,6 +476,15 @@
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
       "stars": 259
+    },
+    {
+      "name": "BayesPrism",
+      "url": "https://github.com/Danko-Lab/BayesPrism",
+      "owner": "Danko-Lab",
+      "repo": "BayesPrism",
+      "category": "RNA-seq",
+      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
+      "stars": 242
     },
     {
       "name": "scCATCH",
@@ -494,15 +503,6 @@
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
       "stars": 242
-    },
-    {
-      "name": "BayesPrism",
-      "url": "https://github.com/Danko-Lab/BayesPrism",
-      "owner": "Danko-Lab",
-      "repo": "BayesPrism",
-      "category": "RNA-seq",
-      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 241
     },
     {
       "name": "Clustergrammer",
@@ -559,21 +559,21 @@
       "stars": 213
     },
     {
-      "name": "SPOTlight",
-      "url": "https://github.com/MarcElosua/SPOTlight",
-      "owner": "MarcElosua",
-      "repo": "SPOTlight",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 211
-    },
-    {
       "name": "alevin-fry",
       "url": "https://github.com/COMBINE-lab/alevin-fry",
       "owner": "COMBINE-lab",
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
+      "stars": 211
+    },
+    {
+      "name": "SPOTlight",
+      "url": "https://github.com/MarcElosua/SPOTlight",
+      "owner": "MarcElosua",
+      "repo": "SPOTlight",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 210
     },
     {
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 198
+      "stars": 199
     },
     {
       "name": "inferCNVpy",
@@ -934,7 +934,7 @@
       "repo": "sccaf",
       "category": "RNA-seq",
       "description": "",
-      "stars": 110
+      "stars": 111
     },
     {
       "name": "scLVM",
@@ -1621,21 +1621,21 @@
       "stars": 36
     },
     {
-      "name": "scDD",
-      "url": "https://github.com/kdkorthauer/scDD",
-      "owner": "kdkorthauer",
-      "repo": "scDD",
-      "category": "Marker and differential gene expression identification",
-      "description": "scDD (Single-Cell Differential Distributions) is a framework to identify genes with different expression patterns between biological groups of interest. In addition to traditional differential expression, it can detect differences that are more complex and subtle than a mean shift.",
-      "stars": 35
-    },
-    {
       "name": "autozyme",
       "url": "https://github.com/ElliotXie/autozyme",
       "owner": "ElliotXie",
       "repo": "autozyme",
       "category": "Other applications",
       "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 36
+    },
+    {
+      "name": "scDD",
+      "url": "https://github.com/kdkorthauer/scDD",
+      "owner": "kdkorthauer",
+      "repo": "scDD",
+      "category": "Marker and differential gene expression identification",
+      "description": "scDD (Single-Cell Differential Distributions) is a framework to identify genes with different expression patterns between biological groups of interest. In addition to traditional differential expression, it can detect differences that are more complex and subtle than a mean shift.",
       "stars": 35
     },
     {
@@ -2044,6 +2044,15 @@
       "stars": 19
     },
     {
+      "name": "FlashDeconv",
+      "url": "https://github.com/cafferychen777/flashdeconv",
+      "owner": "cafferychen777",
+      "repo": "flashdeconv",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 19
+    },
+    {
       "name": "gene_network_evaluation",
       "url": "https://github.com/EngreitzLab/gene_network_evaluation/",
       "owner": "EngreitzLab",
@@ -2077,15 +2086,6 @@
       "repo": "sisua",
       "category": "Multi-assay data integration",
       "description": "In this study, we propose models based on the Bayesian generative approach, where protein quantification available as CITE-seq counts from the same cells are used to constrain the learning process, thus forming a semi-supervised model. The generative model is based on the deep variational autoencoder (VAE) neural network architecture. [bioRxiv](https://www.biorxiv.org/content/10.1101/631382v1)",
-      "stars": 18
-    },
-    {
-      "name": "FlashDeconv",
-      "url": "https://github.com/cafferychen777/flashdeconv",
-      "owner": "cafferychen777",
-      "repo": "flashdeconv",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 18
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-25 04:01:47 UTC"
+  "updated": "2026-06-26 04:08:22 UTC"
 }
