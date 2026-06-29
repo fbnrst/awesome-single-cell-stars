@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1649
+      "stars": 1650
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1649
+      "stars": 1650
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1649
+      "stars": 1650
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1649
+      "stars": 1650
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1649
+      "stars": 1650
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1649
+      "stars": 1650
     },
     {
       "name": "scGPT",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 701
+      "stars": 702
     },
     {
       "name": "inferCNV",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 653
+      "stars": 654
     },
     {
       "name": "mLLMCelltype",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 578
+      "stars": 579
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -466,7 +466,7 @@
       "repo": "scirpy",
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 261
+      "stars": 262
     },
     {
       "name": "SCENIC+",
@@ -476,6 +476,15 @@
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
       "stars": 260
+    },
+    {
+      "name": "LIANA",
+      "url": "https://github.com/saezlab/liana/",
+      "owner": "saezlab",
+      "repo": "liana",
+      "category": "Cellular interactions/communication",
+      "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
+      "stars": 243
     },
     {
       "name": "BayesPrism",
@@ -493,15 +502,6 @@
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 242
-    },
-    {
-      "name": "LIANA",
-      "url": "https://github.com/saezlab/liana/",
-      "owner": "saezlab",
-      "repo": "liana",
-      "category": "Cellular interactions/communication",
-      "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
       "stars": 242
     },
     {
@@ -901,21 +901,21 @@
       "stars": 120
     },
     {
-      "name": "SAVER",
-      "url": "https://github.com/mohuangx/SAVER",
-      "owner": "mohuangx",
-      "repo": "SAVER",
-      "category": "RNA-seq",
-      "description": "SAVER (Single-cell Analysis Via Expression Recovery) implements a regularized regression prediction and empirical Bayes method to recover the true gene expression profile in noisy and sparse single-cell RNA-seq data.",
-      "stars": 116
-    },
-    {
       "name": "geneformer",
       "url": "https://github.com/jkobject/geneformer",
       "owner": "jkobject",
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
+      "stars": 117
+    },
+    {
+      "name": "SAVER",
+      "url": "https://github.com/mohuangx/SAVER",
+      "owner": "mohuangx",
+      "repo": "SAVER",
+      "category": "RNA-seq",
+      "description": "SAVER (Single-cell Analysis Via Expression Recovery) implements a regularized regression prediction and empirical Bayes method to recover the true gene expression profile in noisy and sparse single-cell RNA-seq data.",
       "stars": 116
     },
     {
@@ -1576,6 +1576,15 @@
       "stars": 39
     },
     {
+      "name": "schist",
+      "url": "https://github.com/dawe/schist",
+      "owner": "dawe",
+      "repo": "schist",
+      "category": "RNA-seq",
+      "description": "schist is a scanpy-compatible python library which implements Nested Stochastic Block Models to identify cell groups in single cell experiments.",
+      "stars": 38
+    },
+    {
       "name": "Cellity",
       "url": "https://github.com/teichlab/cellity",
       "owner": "teichlab",
@@ -1583,15 +1592,6 @@
       "category": "Quality control",
       "description": "Classification of low quality cells in scRNA-seq data using R",
       "stars": 38
-    },
-    {
-      "name": "schist",
-      "url": "https://github.com/dawe/schist",
-      "owner": "dawe",
-      "repo": "schist",
-      "category": "RNA-seq",
-      "description": "schist is a scanpy-compatible python library which implements Nested Stochastic Block Models to identify cell groups in single cell experiments.",
-      "stars": 37
     },
     {
       "name": "clonealign",
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-28 04:17:16 UTC"
+  "updated": "2026-06-29 04:23:21 UTC"
 }
