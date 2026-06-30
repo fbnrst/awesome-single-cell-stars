@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2759
+      "stars": 2760
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2496
+      "stars": 2497
     },
     {
       "name": "STAR",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1169
+      "stars": 1171
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 791
+      "stars": 792
     },
     {
       "name": "kallisto",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 675
+      "stars": 676
     },
     {
       "name": "NicheNet",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 646
+      "stars": 647
     },
     {
       "name": "ffq",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 579
+      "stars": 580
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 355
+      "stars": 356
     },
     {
       "name": "ivis",
@@ -358,7 +358,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 339
+      "stars": 340
     },
     {
       "name": "immunarch",
@@ -367,7 +367,7 @@
       "repo": "immunarch",
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
-      "stars": 338
+      "stars": 339
     },
     {
       "name": "soupX",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 321
+      "stars": 322
     },
     {
       "name": "zUMIs",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 297
+      "stars": 298
     },
     {
       "name": "CopyKAT",
@@ -439,7 +439,7 @@
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 267
+      "stars": 268
     },
     {
       "name": "MAST",
@@ -619,7 +619,7 @@
       "repo": "SpatialDE",
       "category": "Spatial transcriptomics",
       "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
-      "stars": 185
+      "stars": 186
     },
     {
       "name": "BayesSpace",
@@ -649,6 +649,42 @@
       "stars": 179
     },
     {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Gene regulatory network identification",
+      "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 153
+    },
+    {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Dimension reduction",
+      "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 153
+    },
+    {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Cell type identification and classification",
+      "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 153
+    },
+    {
+      "name": "scPRINT",
+      "url": "https://github.com/cantinilab/scPRINT",
+      "owner": "cantinilab",
+      "repo": "scPRINT",
+      "category": "Feature (Gene) imputation",
+      "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
+      "stars": 153
+    },
+    {
       "name": "DeepCpg",
       "url": "https://github.com/cangermueller/deepcpg",
       "owner": "cangermueller",
@@ -658,48 +694,12 @@
       "stars": 153
     },
     {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
-      "category": "Gene regulatory network identification",
-      "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 152
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
-      "category": "Dimension reduction",
-      "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 152
-    },
-    {
       "name": "ceLLama",
       "url": "https://github.com/CelVoxes/ceLLama",
       "owner": "CelVoxes",
       "repo": "ceLLama",
       "category": "Cell type identification and classification",
       "description": "ceLLama is a streamlined automation pipeline for cell type annotations using local large-language models (LLMs).",
-      "stars": 152
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
-      "category": "Cell type identification and classification",
-      "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 152
-    },
-    {
-      "name": "scPRINT",
-      "url": "https://github.com/cantinilab/scPRINT",
-      "owner": "cantinilab",
-      "repo": "scPRINT",
-      "category": "Feature (Gene) imputation",
-      "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
       "stars": 152
     },
     {
@@ -730,6 +730,15 @@
       "stars": 147
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 142
+    },
+    {
       "name": "singleCellNet",
       "url": "https://github.com/pcahan1/singleCellNet/",
       "owner": "pcahan1",
@@ -737,15 +746,6 @@
       "category": "Cell type identification and classification",
       "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
       "stars": 142
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 141
     },
     {
       "name": "demuxlet",
@@ -763,6 +763,15 @@
       "repo": "tracer",
       "category": "Immune receptor profiling",
       "description": "Reconstruction of T-Cell receptor sequences from single-cell RNA-seq data.",
+      "stars": 136
+    },
+    {
+      "name": "Novae",
+      "url": "https://github.com/MICS-Lab/novae",
+      "owner": "MICS-Lab",
+      "repo": "novae",
+      "category": "Spatial transcriptomics",
+      "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
       "stars": 136
     },
     {
@@ -790,15 +799,6 @@
       "repo": "sinto",
       "category": "Other applications",
       "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
-      "stars": 135
-    },
-    {
-      "name": "Novae",
-      "url": "https://github.com/MICS-Lab/novae",
-      "owner": "MICS-Lab",
-      "repo": "novae",
-      "category": "Spatial transcriptomics",
-      "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
       "stars": 135
     },
     {
@@ -2233,15 +2233,6 @@
       "stars": 13
     },
     {
-      "name": "scDiagnostics",
-      "url": "https://github.com/ccb-hms/scDiagnostics",
-      "owner": "ccb-hms",
-      "repo": "scDiagnostics",
-      "category": "Quality control",
-      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
-      "stars": 13
-    },
-    {
       "name": "MetaMarkers",
       "url": "https://github.com/gillislab/MetaMarkers",
       "owner": "gillislab",
@@ -2249,6 +2240,15 @@
       "category": "Marker and differential gene expression identification",
       "description": "MetaMarkers proposes a simple methodology to pool marker information across dataset while keeping dataset independents to identify robust marker signatures from single-cell data. [How many markers are needed to robustly determine a cell's type?](https://www.sciencedirect.com/science/article/pii/S258900422101261X)",
       "stars": 13
+    },
+    {
+      "name": "scDiagnostics",
+      "url": "https://github.com/ccb-hms/scDiagnostics",
+      "owner": "ccb-hms",
+      "repo": "scDiagnostics",
+      "category": "Quality control",
+      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
+      "stars": 12
     },
     {
       "name": "ouijaflow",
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-29 04:23:21 UTC"
+  "updated": "2026-06-30 04:03:51 UTC"
 }
