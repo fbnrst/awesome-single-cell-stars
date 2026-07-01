@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2497
+      "stars": 2499
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2216
+      "stars": 2218
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1589
+      "stars": 1590
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 702
+      "stars": 703
     },
     {
       "name": "inferCNV",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 505
+      "stars": 506
     },
     {
       "name": "dynamo",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 487
+      "stars": 488
     },
     {
       "name": "CellPhoneDB",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 469
+      "stars": 470
     },
     {
       "name": "RCTD",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 356
+      "stars": 357
     },
     {
       "name": "ivis",
@@ -349,7 +349,7 @@
       "repo": "ivis",
       "category": "RNA-seq",
       "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
-      "stars": 344
+      "stars": 345
     },
     {
       "name": "slingshot",
@@ -403,7 +403,7 @@
       "repo": "zUMIs",
       "category": "RNA-seq",
       "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 298
+      "stars": 297
     },
     {
       "name": "CopyKAT",
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 294
+      "stars": 296
     },
     {
       "name": "BPCells",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 283
+      "stars": 284
     },
     {
       "name": "MOFA",
@@ -475,7 +475,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 260
+      "stars": 261
     },
     {
       "name": "LIANA",
@@ -565,7 +565,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 211
+      "stars": 212
     },
     {
       "name": "SPOTlight",
@@ -601,7 +601,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 192
+      "stars": 193
     },
     {
       "name": "kb-python",
@@ -757,21 +757,21 @@
       "stars": 137
     },
     {
-      "name": "TraCeR",
-      "url": "http://github.com/teichlab/tracer",
-      "owner": "teichlab",
-      "repo": "tracer",
-      "category": "Immune receptor profiling",
-      "description": "Reconstruction of T-Cell receptor sequences from single-cell RNA-seq data.",
-      "stars": 136
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 137
+    },
+    {
+      "name": "TraCeR",
+      "url": "http://github.com/teichlab/tracer",
+      "owner": "teichlab",
+      "repo": "tracer",
+      "category": "Immune receptor profiling",
+      "description": "Reconstruction of T-Cell receptor sequences from single-cell RNA-seq data.",
       "stars": 136
     },
     {
@@ -1168,7 +1168,7 @@
       "repo": "SCope",
       "category": "Other applications",
       "description": "SCope is a fast visualization tool for large-scale and high dimensional scRNA-seq datasets. Publication [here](https://doi.org/10.1016/j.cell.2018.05.057).",
-      "stars": 79
+      "stars": 80
     },
     {
       "name": "SpaTalk",
@@ -1540,15 +1540,6 @@
       "stars": 40
     },
     {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 40
-    },
-    {
       "name": "DSTG",
       "url": "https://github.com/Su-informatics-lab/DSTG",
       "owner": "Su-informatics-lab",
@@ -1573,6 +1564,15 @@
       "repo": "SCell",
       "category": "RNA-seq",
       "description": "SCell is an integrated software tool for quality filtering, normalization, feature selection, iterative dimensionality reduction, clustering and the estimation of gene-expression gradients from large ensembles of single-cell RNA-seq datasets. SCell is open source, and implemented with an intuitive graphical interface.",
+      "stars": 39
+    },
+    {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 39
     },
     {
@@ -1603,6 +1603,15 @@
       "stars": 37
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 37
+    },
+    {
       "name": "FastProject",
       "url": "https://github.com/yoseflab/fastproject",
       "owner": "yoseflab",
@@ -1618,15 +1627,6 @@
       "repo": "GiniClust",
       "category": "Marker and differential gene expression identification",
       "description": "GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data. GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.",
-      "stars": 36
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 36
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-06-30 04:03:51 UTC"
+  "updated": "2026-07-01 04:19:30 UTC"
 }
