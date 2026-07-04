@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2761
+      "stars": 2762
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2219
+      "stars": 2217
     },
     {
       "name": "scVI",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 654
+      "stars": 655
     },
     {
       "name": "mLLMCelltype",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 506
+      "stars": 507
     },
     {
       "name": "dynamo",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 418
+      "stars": 417
     },
     {
       "name": "MAGIC",
@@ -394,7 +394,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 322
+      "stars": 323
     },
     {
       "name": "zUMIs",
@@ -538,7 +538,7 @@
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
-      "stars": 223
+      "stars": 222
     },
     {
       "name": "dittoSeq",
@@ -754,7 +754,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 139
+      "stars": 140
     },
     {
       "name": "demuxlet",
@@ -775,21 +775,21 @@
       "stars": 136
     },
     {
-      "name": "memento-de",
-      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
-      "owner": "yelabucsf",
-      "repo": "scrna-parameter-estimation",
-      "category": "RNA-seq",
-      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
-      "stars": 135
-    },
-    {
       "name": "AtacWorks",
       "url": "https://github.com/clara-parabricks/AtacWorks",
       "owner": "clara-parabricks",
       "repo": "AtacWorks",
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
+      "stars": 136
+    },
+    {
+      "name": "memento-de",
+      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
+      "owner": "yelabucsf",
+      "repo": "scrna-parameter-estimation",
+      "category": "RNA-seq",
+      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
       "stars": 135
     },
     {
@@ -955,6 +955,15 @@
       "stars": 110
     },
     {
+      "name": "HTSeq",
+      "url": "https://github.com/htseq/htseq",
+      "owner": "htseq",
+      "repo": "htseq",
+      "category": "RNA-seq",
+      "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
+      "stars": 108
+    },
+    {
       "name": "DeepSort",
       "url": "https://github.com/ZJUFanLab/DeepSort",
       "owner": "ZJUFanLab",
@@ -971,15 +980,6 @@
       "category": "Other applications",
       "description": "An automated pipeline for single cell RNA-seq analysis.",
       "stars": 108
-    },
-    {
-      "name": "HTSeq",
-      "url": "https://github.com/htseq/htseq",
-      "owner": "htseq",
-      "repo": "htseq",
-      "category": "RNA-seq",
-      "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
-      "stars": 107
     },
     {
       "name": "SWNE",
@@ -1018,6 +1018,15 @@
       "stars": 104
     },
     {
+      "name": "PASTE",
+      "url": "https://github.com/raphael-group/paste",
+      "owner": "raphael-group",
+      "repo": "paste",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 103
+    },
+    {
       "name": "bustools",
       "url": "https://github.com/BUStools/bustools",
       "owner": "BUStools",
@@ -1033,15 +1042,6 @@
       "repo": "HoneyBADGER",
       "category": "Copy number analysis",
       "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
-      "stars": 102
-    },
-    {
-      "name": "PASTE",
-      "url": "https://github.com/raphael-group/paste",
-      "owner": "raphael-group",
-      "repo": "paste",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 102
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-03 03:43:05 UTC"
+  "updated": "2026-07-04 03:35:50 UTC"
 }
