@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2501
+      "stars": 2503
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1653
+      "stars": 1654
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1653
+      "stars": 1654
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1653
+      "stars": 1654
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1653
+      "stars": 1654
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1653
+      "stars": 1654
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1653
+      "stars": 1654
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1593
+      "stars": 1594
     },
     {
       "name": "gget",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 648
+      "stars": 649
     },
     {
       "name": "ffq",
@@ -187,7 +187,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 555
+      "stars": 557
     },
     {
       "name": "DoubletFinder",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 467
+      "stars": 468
     },
     {
       "name": "cell2location",
@@ -286,7 +286,7 @@
       "repo": "MAGIC",
       "category": "Feature (Gene) imputation",
       "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 384
+      "stars": 385
     },
     {
       "name": "GEARS",
@@ -655,7 +655,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 153
+      "stars": 154
     },
     {
       "name": "scPRINT",
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 153
+      "stars": 154
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 153
+      "stars": 154
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 153
+      "stars": 154
     },
     {
       "name": "DeepCpg",
@@ -1189,6 +1189,15 @@
       "stars": 78
     },
     {
+      "name": "SCINA",
+      "url": "https://github.com/jcao89757/SCINA",
+      "owner": "jcao89757",
+      "repo": "SCINA",
+      "category": "RNA-seq",
+      "description": "A semi-supervised category identification and assignment tool.",
+      "stars": 75
+    },
+    {
       "name": "DoubletDecon",
       "url": "https://github.com/EDePasquale/DoubletDecon",
       "owner": "EDePasquale",
@@ -1196,15 +1205,6 @@
       "category": "Doublet Identification",
       "description": "Cell-State Aware Removal of Single-Cell RNA-Seq Doublets. [BioRxiv](DoubletDecon: Cell-State Aware Removal of Single-Cell RNA-Seq Doublets)",
       "stars": 75
-    },
-    {
-      "name": "SCINA",
-      "url": "https://github.com/jcao89757/SCINA",
-      "owner": "jcao89757",
-      "repo": "SCINA",
-      "category": "RNA-seq",
-      "description": "A semi-supervised category identification and assignment tool.",
-      "stars": 74
     },
     {
       "name": "dsb",
@@ -1540,6 +1540,15 @@
       "stars": 40
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 40
+    },
+    {
       "name": "DSTG",
       "url": "https://github.com/Su-informatics-lab/DSTG",
       "owner": "Su-informatics-lab",
@@ -1564,15 +1573,6 @@
       "repo": "SCell",
       "category": "RNA-seq",
       "description": "SCell is an integrated software tool for quality filtering, normalization, feature selection, iterative dimensionality reduction, clustering and the estimation of gene-expression gradients from large ensembles of single-cell RNA-seq datasets. SCell is open source, and implemented with an intuitive graphical interface.",
-      "stars": 39
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 39
     },
     {
@@ -2395,6 +2395,15 @@
       "stars": 9
     },
     {
+      "name": "scTOP",
+      "url": "https://github.com/Emergent-Behaviors-in-Biology/scTOP",
+      "owner": "Emergent-Behaviors-in-Biology",
+      "repo": "scTOP",
+      "category": "RNA-seq",
+      "description": "Single-cell type order parameters. Physics-inspired method of processing single-cell RNA-seq and identifying cell fate, motivated by the epigenetic landscape.",
+      "stars": 9
+    },
+    {
       "name": "ImmClassifier",
       "url": "https://github.com/xliu-uth/ImmClassifier",
       "owner": "xliu-uth",
@@ -2410,15 +2419,6 @@
       "repo": "SCRL",
       "category": "RNA-seq",
       "description": "[Network embedding-based representation learning for single cell RNA-seq data](https://doi.org/10.1093/nar/gkx750)",
-      "stars": 8
-    },
-    {
-      "name": "scTOP",
-      "url": "https://github.com/Emergent-Behaviors-in-Biology/scTOP",
-      "owner": "Emergent-Behaviors-in-Biology",
-      "repo": "scTOP",
-      "category": "RNA-seq",
-      "description": "Single-cell type order parameters. Physics-inspired method of processing single-cell RNA-seq and identifying cell fate, motivated by the epigenetic landscape.",
       "stars": 8
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-04 03:35:50 UTC"
+  "updated": "2026-07-05 03:54:05 UTC"
 }
