@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2503
+      "stars": 2505
     },
     {
       "name": "STAR",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 663
+      "stars": 664
     },
     {
       "name": "SCP",
@@ -298,6 +298,15 @@
       "stars": 380
     },
     {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
+      "stars": 379
+    },
+    {
       "name": "Giotto Suite",
       "url": "https://github.com/drieslab/Giotto",
       "owner": "drieslab",
@@ -305,15 +314,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 379
-    },
-    {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 378
     },
     {
       "name": "scRepertoire",
@@ -379,6 +379,15 @@
       "stars": 332
     },
     {
+      "name": "Palantir",
+      "url": "https://github.com/dpeerlab/Palantir/",
+      "owner": "dpeerlab",
+      "repo": "Palantir",
+      "category": "Pseudotime and trajectory inference",
+      "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
+      "stars": 324
+    },
+    {
       "name": "octopus",
       "url": "https://github.com/luntergroup/octopus",
       "owner": "luntergroup",
@@ -386,15 +395,6 @@
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
       "stars": 324
-    },
-    {
-      "name": "Palantir",
-      "url": "https://github.com/dpeerlab/Palantir/",
-      "owner": "dpeerlab",
-      "repo": "Palantir",
-      "category": "Pseudotime and trajectory inference",
-      "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 323
     },
     {
       "name": "zUMIs",
@@ -421,7 +421,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 292
+      "stars": 293
     },
     {
       "name": "Sopa",
@@ -583,7 +583,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 205
+      "stars": 206
     },
     {
       "name": "Spectra",
@@ -736,7 +736,7 @@
       "repo": "inmoose",
       "category": "RNA-seq",
       "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 142
+      "stars": 143
     },
     {
       "name": "singleCellNet",
@@ -1576,6 +1576,15 @@
       "stars": 39
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 39
+    },
+    {
       "name": "schist",
       "url": "https://github.com/dawe/schist",
       "owner": "dawe",
@@ -1591,15 +1600,6 @@
       "repo": "cellity",
       "category": "Quality control",
       "description": "Classification of low quality cells in scRNA-seq data using R",
-      "stars": 38
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 38
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-05 03:54:05 UTC"
+  "updated": "2026-07-06 04:01:45 UTC"
 }
