@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2765
+      "stars": 2769
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2506
+      "stars": 2507
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2218
+      "stars": 2219
     },
     {
       "name": "scVI",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 553
+      "stars": 554
     },
     {
       "name": "scVelo",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 417
+      "stars": 418
     },
     {
       "name": "MAGIC",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 332
+      "stars": 333
     },
     {
       "name": "Palantir",
@@ -412,7 +412,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 296
+      "stars": 297
     },
     {
       "name": "BPCells",
@@ -487,6 +487,15 @@
       "stars": 244
     },
     {
+      "name": "BayesPrism",
+      "url": "https://github.com/Danko-Lab/BayesPrism",
+      "owner": "Danko-Lab",
+      "repo": "BayesPrism",
+      "category": "RNA-seq",
+      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
+      "stars": 243
+    },
+    {
       "name": "scCATCH",
       "url": "https://github.com/ZJUFanLab/scCATCH",
       "owner": "ZJUFanLab",
@@ -494,15 +503,6 @@
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
       "stars": 243
-    },
-    {
-      "name": "BayesPrism",
-      "url": "https://github.com/Danko-Lab/BayesPrism",
-      "owner": "Danko-Lab",
-      "repo": "BayesPrism",
-      "category": "RNA-seq",
-      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 242
     },
     {
       "name": "Clustergrammer",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 236
+      "stars": 237
     },
     {
       "name": "Numbat",
@@ -610,7 +610,7 @@
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 189
+      "stars": 190
     },
     {
       "name": "SpatialDe",
@@ -754,7 +754,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 140
+      "stars": 141
     },
     {
       "name": "demuxlet",
@@ -1747,6 +1747,15 @@
       "stars": 29
     },
     {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 29
+    },
+    {
       "name": "scSVA",
       "url": "https://github.com/klarman-cell-observatory/scSVA",
       "owner": "klarman-cell-observatory",
@@ -1771,15 +1780,6 @@
       "repo": "SCICoNE",
       "category": "Copy number analysis",
       "description": "Single-cell copy number calling and event history reconstruction. SCICoNE reconstructs the history of copy number events in the tumour and uses these evolutionary relationships to identify the copy number profiles of the individual cells.",
-      "stars": 28
-    },
-    {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
       "stars": 28
     },
     {
@@ -1990,6 +1990,15 @@
       "stars": 21
     },
     {
+      "name": "scMalignantFinder",
+      "url": "https://github.com/Jonyyqn/scMalignantFinder",
+      "owner": "Jonyyqn",
+      "repo": "scMalignantFinder",
+      "category": "Malignant cell identification",
+      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
+      "stars": 21
+    },
+    {
       "name": "MEDALT",
       "url": "https://github.com/KChen-lab/MEDALT",
       "owner": "KChen-lab",
@@ -2006,15 +2015,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 21
-    },
-    {
-      "name": "scMalignantFinder",
-      "url": "https://github.com/Jonyyqn/scMalignantFinder",
-      "owner": "Jonyyqn",
-      "repo": "scMalignantFinder",
-      "category": "Malignant cell identification",
-      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
-      "stars": 20
     },
     {
       "name": "aneufinder",
@@ -2413,6 +2413,15 @@
       "stars": 9
     },
     {
+      "name": "ChromA",
+      "url": "https://github.com/marianogabitto/ChromA",
+      "owner": "marianogabitto",
+      "repo": "ChromA",
+      "category": "Epigenomics",
+      "description": "Chromatin Accessibility Annotation Tool.",
+      "stars": 9
+    },
+    {
       "name": "SCRL",
       "url": "https://github.com/SuntreeLi/SCRL",
       "owner": "SuntreeLi",
@@ -2428,15 +2437,6 @@
       "repo": "scimitar",
       "category": "Pseudotime and trajectory inference",
       "description": "Single Cell Inference of Morphing Trajectories and their Associated Regulation module (SCIMITAR) is a method for inferring biological properties from a pseudotemporal ordering. It can also be used to obtain progression-associated genes that vary along the trajectory, and genes that change their correlation structure over the trajectory; progression co-associated genes.",
-      "stars": 8
-    },
-    {
-      "name": "ChromA",
-      "url": "https://github.com/marianogabitto/ChromA",
-      "owner": "marianogabitto",
-      "repo": "ChromA",
-      "category": "Epigenomics",
-      "description": "Chromatin Accessibility Annotation Tool.",
       "stars": 8
     },
     {
@@ -2719,5 +2719,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-08 03:19:57 UTC"
+  "updated": "2026-07-09 03:44:19 UTC"
 }
