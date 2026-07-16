@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2516
+      "stars": 2518
     },
     {
       "name": "STAR",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 703
+      "stars": 705
     },
     {
       "name": "inferCNV",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 659
+      "stars": 661
     },
     {
       "name": "mLLMCelltype",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 650
+      "stars": 651
     },
     {
       "name": "ffq",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 449
+      "stars": 450
     },
     {
       "name": "LIGER",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 420
+      "stars": 421
     },
     {
       "name": "MAGIC",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 382
+      "stars": 383
     },
     {
       "name": "GEARS",
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 326
+      "stars": 327
     },
     {
       "name": "octopus",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 288
+      "stars": 287
     },
     {
       "name": "MOFA",
@@ -484,7 +484,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 244
+      "stars": 245
     },
     {
       "name": "BayesPrism",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 200
+      "stars": 201
     },
     {
       "name": "inferCNVpy",
@@ -739,21 +739,21 @@
       "stars": 143
     },
     {
-      "name": "singleCellNet",
-      "url": "https://github.com/pcahan1/singleCellNet/",
-      "owner": "pcahan1",
-      "repo": "singleCellNet",
-      "category": "Cell type identification and classification",
-      "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
-      "stars": 142
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 143
+    },
+    {
+      "name": "singleCellNet",
+      "url": "https://github.com/pcahan1/singleCellNet/",
+      "owner": "pcahan1",
+      "repo": "singleCellNet",
+      "category": "Cell type identification and classification",
+      "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
       "stars": 142
     },
     {
@@ -764,6 +764,15 @@
       "category": "Doublet Identification",
       "description": "[Multiplexed droplet single-cell RNA-sequencing using natural genetic variation](https://www.nature.com/articles/nbt.4042)",
       "stars": 138
+    },
+    {
+      "name": "memento-de",
+      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
+      "owner": "yelabucsf",
+      "repo": "scrna-parameter-estimation",
+      "category": "RNA-seq",
+      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
+      "stars": 136
     },
     {
       "name": "TraCeR",
@@ -791,15 +800,6 @@
       "category": "Other applications",
       "description": "A toolkit for working with aligned single-cell reads. Includes functions to split BAM files by cell barcode, add cell barcodes as read tags, move cell barcode information to read groups, and create a scATAC-seq fragment file from a BAM file.",
       "stars": 136
-    },
-    {
-      "name": "memento-de",
-      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
-      "owner": "yelabucsf",
-      "repo": "scrna-parameter-estimation",
-      "category": "RNA-seq",
-      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
-      "stars": 135
     },
     {
       "name": "novoSpaRc",
@@ -1150,7 +1150,7 @@
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 86
+      "stars": 88
     },
     {
       "name": "SCALEX",
@@ -1540,6 +1540,15 @@
       "stars": 41
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 41
+    },
+    {
       "name": "pseudodynamics",
       "url": "https://github.com/theislab/pseudodynamics",
       "owner": "theislab",
@@ -1555,15 +1564,6 @@
       "repo": "autozyme",
       "category": "Other applications",
       "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
-      "stars": 40
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 40
     },
     {
@@ -1738,6 +1738,15 @@
       "stars": 30
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 30
+    },
+    {
       "name": "netSmooth",
       "url": "https://github.com/BIMSBbioinfo/netSmooth",
       "owner": "BIMSBbioinfo",
@@ -1762,15 +1771,6 @@
       "repo": "celcomen",
       "category": "Cellular interactions/communication",
       "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
-      "stars": 29
-    },
-    {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 29
     },
     {
@@ -2692,6 +2692,15 @@
       "stars": 1
     },
     {
+      "name": "scAnalyzer",
+      "url": "https://github.com/ayyucedemirbas/scAnalyzer",
+      "owner": "ayyucedemirbas",
+      "repo": "scAnalyzer",
+      "category": "RNA-seq",
+      "description": "An end-to-end, modular, and lightweight toolkit for scRNA-seq analysis. It provides comprehensive functions for preprocessing, quality control, doublet detection, batch correction, cell cycle scoring, trajectory inference, dimensionality reduction, and interactive visualization.",
+      "stars": 1
+    },
+    {
       "name": "GPseudoClust",
       "url": "https://github.com/magStra/GPseudoClust",
       "owner": "magStra",
@@ -2728,15 +2737,6 @@
       "stars": 1
     },
     {
-      "name": "scAnalyzer",
-      "url": "https://github.com/ayyucedemirbas/scAnalyzer",
-      "owner": "ayyucedemirbas",
-      "repo": "scAnalyzer",
-      "category": "RNA-seq",
-      "description": "An end-to-end, modular, and lightweight toolkit for scRNA-seq analysis. It provides comprehensive functions for preprocessing, quality control, doublet detection, batch correction, cell cycle scoring, trajectory inference, dimensionality reduction, and interactive visualization.",
-      "stars": 0
-    },
-    {
       "name": "CellPLM",
       "url": "https://github.com/OmicsML/CellPLM?tab=readme-ov-file",
       "owner": "OmicsML",
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-15 02:49:23 UTC"
+  "updated": "2026-07-16 02:56:24 UTC"
 }
