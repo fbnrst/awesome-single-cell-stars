@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2768
+      "stars": 2767
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2518
+      "stars": 2520
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2222
+      "stars": 2223
     },
     {
       "name": "scVI",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 583
+      "stars": 584
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -304,7 +304,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 382
+      "stars": 383
     },
     {
       "name": "Giotto Suite",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 334
+      "stars": 335
     },
     {
       "name": "Palantir",
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 327
+      "stars": 328
     },
     {
       "name": "octopus",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 287
+      "stars": 288
     },
     {
       "name": "MOFA",
@@ -523,21 +523,21 @@
       "stars": 237
     },
     {
-      "name": "Numbat",
-      "url": "https://github.com/kharchenkolab/numbat",
-      "owner": "kharchenkolab",
-      "repo": "numbat",
-      "category": "Copy number analysis",
-      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 223
-    },
-    {
       "name": "SComatic",
       "url": "https://github.com/cortes-ciriano-lab/SComatic",
       "owner": "cortes-ciriano-lab",
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
+      "stars": 224
+    },
+    {
+      "name": "Numbat",
+      "url": "https://github.com/kharchenkolab/numbat",
+      "owner": "kharchenkolab",
+      "repo": "numbat",
+      "category": "Copy number analysis",
+      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
       "stars": 223
     },
     {
@@ -646,7 +646,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 179
+      "stars": 180
     },
     {
       "name": "scPRINT",
@@ -817,7 +817,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 133
+      "stars": 134
     },
     {
       "name": "CellTrek",
@@ -1261,15 +1261,6 @@
       "stars": 67
     },
     {
-      "name": "Scillus",
-      "url": "https://github.com/xmc811/Scillus",
-      "owner": "xmc811",
-      "repo": "Scillus",
-      "category": "RNA-seq",
-      "description": "[Scillus is an R wrapper package for enhanced processing and visualization of Seurat-based scRNA-seq data](https://scillus.netlify.app/).",
-      "stars": 67
-    },
-    {
       "name": "scDataviz",
       "url": "https://github.com/kevinblighe/scDataviz",
       "owner": "kevinblighe",
@@ -1277,6 +1268,15 @@
       "category": "Other applications",
       "description": "scDataviz: single cell dataviz and downstream analyses, with a primary focus on flow and mass cytometry.",
       "stars": 67
+    },
+    {
+      "name": "Scillus",
+      "url": "https://github.com/xmc811/Scillus",
+      "owner": "xmc811",
+      "repo": "Scillus",
+      "category": "RNA-seq",
+      "description": "[Scillus is an R wrapper package for enhanced processing and visualization of Seurat-based scRNA-seq data](https://scillus.netlify.app/).",
+      "stars": 66
     },
     {
       "name": "knn-smoothing",
@@ -1540,12 +1540,12 @@
       "stars": 41
     },
     {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 41
     },
     {
@@ -1558,12 +1558,12 @@
       "stars": 40
     },
     {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 40
     },
     {
@@ -1693,6 +1693,15 @@
       "stars": 32
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 32
+    },
+    {
       "name": "SCALE",
       "url": "https://github.com/yuchaojiang/SCALE",
       "owner": "yuchaojiang",
@@ -1735,15 +1744,6 @@
       "repo": "scTCRseq",
       "category": "RNA-seq",
       "description": "Map T-cell receptor (TCR) repertoires from single cell RNAseq.",
-      "stars": 30
-    },
-    {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 30
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-16 02:56:24 UTC"
+  "updated": "2026-07-17 02:58:26 UTC"
 }
