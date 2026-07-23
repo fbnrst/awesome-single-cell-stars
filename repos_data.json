@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2224
+      "stars": 2225
     },
     {
       "name": "scVI",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1178
+      "stars": 1179
     },
     {
       "name": "CellChat",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 677
+      "stars": 678
     },
     {
       "name": "NicheNet",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 504
+      "stars": 505
     },
     {
       "name": "SCENIC",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 451
+      "stars": 452
     },
     {
       "name": "LIGER",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 421
+      "stars": 422
     },
     {
       "name": "RAPIDS-singlecell",
@@ -286,7 +286,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 386
+      "stars": 388
     },
     {
       "name": "MAGIC",
@@ -322,7 +322,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 372
+      "stars": 373
     },
     {
       "name": "Tangram",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 298
+      "stars": 299
     },
     {
       "name": "zUMIs",
@@ -457,7 +457,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 264
+      "stars": 265
     },
     {
       "name": "Scirpy",
@@ -568,6 +568,15 @@
       "stars": 213
     },
     {
+      "name": "torchdr",
+      "url": "https://github.com/TorchDR/TorchDR",
+      "owner": "TorchDR",
+      "repo": "TorchDR",
+      "category": "Dimension reduction",
+      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 210
+    },
+    {
       "name": "SPOTlight",
       "url": "https://github.com/MarcElosua/SPOTlight",
       "owner": "MarcElosua",
@@ -575,15 +584,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 210
-    },
-    {
-      "name": "torchdr",
-      "url": "https://github.com/TorchDR/TorchDR",
-      "owner": "TorchDR",
-      "repo": "TorchDR",
-      "category": "Dimension reduction",
-      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 209
     },
     {
       "name": "Spectra",
@@ -907,7 +907,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 117
+      "stars": 118
     },
     {
       "name": "SAVER",
@@ -1126,6 +1126,15 @@
       "stars": 94
     },
     {
+      "name": "DeepSpot",
+      "url": "https://github.com/ratschlab/DeepSpot",
+      "owner": "ratschlab",
+      "repo": "DeepSpot",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 89
+    },
+    {
       "name": "BASiCS",
       "url": "https://github.com/catavallejos/BASiCS",
       "owner": "catavallejos",
@@ -1140,15 +1149,6 @@
       "owner": "Hoohm",
       "repo": "CITE-seq-Count",
       "category": "Multi-assay data integration",
-      "description": "",
-      "stars": 88
-    },
-    {
-      "name": "DeepSpot",
-      "url": "https://github.com/ratschlab/DeepSpot",
-      "owner": "ratschlab",
-      "repo": "DeepSpot",
-      "category": "Spatial transcriptomics",
       "description": "",
       "stars": 88
     },
@@ -1549,6 +1549,15 @@
       "stars": 41
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 41
+    },
+    {
       "name": "DSTG",
       "url": "https://github.com/Su-informatics-lab/DSTG",
       "owner": "Su-informatics-lab",
@@ -1564,15 +1573,6 @@
       "repo": "pseudodynamics",
       "category": "Pseudotime and trajectory inference",
       "description": "[Inferring population dynamics from single-cell RNA-sequencing time series data](https://www.nature.com/articles/s41587-019-0088-0)",
-      "stars": 40
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 40
     },
     {
@@ -1945,6 +1945,15 @@
       "stars": 23
     },
     {
+      "name": "FlashDeconv",
+      "url": "https://github.com/cafferychen777/flashdeconv",
+      "owner": "cafferychen777",
+      "repo": "flashdeconv",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 23
+    },
+    {
       "name": "spatialGE",
       "url": "https://github.com/FridleyLab/spatialGE",
       "owner": "FridleyLab",
@@ -1987,15 +1996,6 @@
       "repo": "CellWalkR",
       "category": "Multi-assay data integration",
       "description": "An R Package for integrating single-cell and bulk data to resolve regulatory elements.",
-      "stars": 22
-    },
-    {
-      "name": "FlashDeconv",
-      "url": "https://github.com/cafferychen777/flashdeconv",
-      "owner": "cafferychen777",
-      "repo": "flashdeconv",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 22
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-22 02:59:42 UTC"
+  "updated": "2026-07-23 03:21:32 UTC"
 }
