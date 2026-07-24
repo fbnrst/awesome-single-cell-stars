@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2772
+      "stars": 2774
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2522
+      "stars": 2523
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2225
+      "stars": 2226
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1666
+      "stars": 1667
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1666
+      "stars": 1667
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1666
+      "stars": 1667
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1666
+      "stars": 1667
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1666
+      "stars": 1667
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1666
+      "stars": 1667
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1606
+      "stars": 1607
     },
     {
       "name": "gget",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 585
+      "stars": 587
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 422
+      "stars": 423
     },
     {
       "name": "RAPIDS-singlecell",
@@ -295,7 +295,7 @@
       "repo": "MAGIC",
       "category": "Feature (Gene) imputation",
       "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 385
+      "stars": 386
     },
     {
       "name": "GEARS",
@@ -349,7 +349,7 @@
       "repo": "ivis",
       "category": "RNA-seq",
       "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
-      "stars": 344
+      "stars": 345
     },
     {
       "name": "slingshot",
@@ -367,7 +367,7 @@
       "repo": "immunarch",
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
-      "stars": 339
+      "stars": 340
     },
     {
       "name": "soupX",
@@ -601,7 +601,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 193
+      "stars": 194
     },
     {
       "name": "kb-python",
@@ -871,7 +871,7 @@
       "repo": "clustifyr",
       "category": "Cell type identification and classification",
       "description": "Classifies cells and clusters in single-cell RNA-seq experiments using external reference data, gene signatures, or marker gene lists.",
-      "stars": 125
+      "stars": 126
     },
     {
       "name": "MetaCell",
@@ -1126,15 +1126,6 @@
       "stars": 94
     },
     {
-      "name": "DeepSpot",
-      "url": "https://github.com/ratschlab/DeepSpot",
-      "owner": "ratschlab",
-      "repo": "DeepSpot",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 89
-    },
-    {
       "name": "BASiCS",
       "url": "https://github.com/catavallejos/BASiCS",
       "owner": "catavallejos",
@@ -1149,6 +1140,15 @@
       "owner": "Hoohm",
       "repo": "CITE-seq-Count",
       "category": "Multi-assay data integration",
+      "description": "",
+      "stars": 88
+    },
+    {
+      "name": "DeepSpot",
+      "url": "https://github.com/ratschlab/DeepSpot",
+      "owner": "ratschlab",
+      "repo": "DeepSpot",
+      "category": "Spatial transcriptomics",
       "description": "",
       "stars": 88
     },
@@ -1420,7 +1420,7 @@
       "repo": "MetaNeighbor",
       "category": "Other applications",
       "description": "[MetaNeighbor: a method to rapidly assess cell type identity using both functional and random gene sets](https://doi.org/10.1101/150524)",
-      "stars": 49
+      "stars": 50
     },
     {
       "name": "scExtract",
@@ -2521,6 +2521,24 @@
       "stars": 6
     },
     {
+      "name": "TorchGW",
+      "url": "https://github.com/chansigit/torchgw",
+      "owner": "chansigit",
+      "repo": "torchgw",
+      "category": "Multi-assay data integration",
+      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
+      "stars": 6
+    },
+    {
+      "name": "TorchGW",
+      "url": "https://github.com/chansigit/torchgw",
+      "owner": "chansigit",
+      "repo": "torchgw",
+      "category": "Spatial transcriptomics",
+      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Enables spatial slice alignment and cross-modality integration via graph distance matching. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
+      "stars": 6
+    },
+    {
       "name": "OEFinder",
       "url": "https://github.com/lengning/OEFinder",
       "owner": "lengning",
@@ -2539,30 +2557,12 @@
       "stars": 5
     },
     {
-      "name": "TorchGW",
-      "url": "https://github.com/chansigit/torchgw",
-      "owner": "chansigit",
-      "repo": "torchgw",
-      "category": "Multi-assay data integration",
-      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
-      "stars": 5
-    },
-    {
       "name": "SCIFIL",
       "url": "https://github.com/compbel/SCIFIL",
       "owner": "compbel",
       "repo": "SCIFIL",
       "category": "Other applications",
       "description": "SCIFIL: Single Cell Inference of FItness Landscape is a computational method for in vivo inference of clonal selection and estimate of fitness landscapes of heterogeneous cancer cell populations from single cell sequencing data.",
-      "stars": 5
-    },
-    {
-      "name": "TorchGW",
-      "url": "https://github.com/chansigit/torchgw",
-      "owner": "chansigit",
-      "repo": "torchgw",
-      "category": "Spatial transcriptomics",
-      "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Enables spatial slice alignment and cross-modality integration via graph distance matching. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
       "stars": 5
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-23 03:21:32 UTC"
+  "updated": "2026-07-24 03:14:25 UTC"
 }
