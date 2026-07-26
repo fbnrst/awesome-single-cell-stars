@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2523
+      "stars": 2522
     },
     {
       "name": "STAR",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 299
+      "stars": 298
     },
     {
       "name": "zUMIs",
@@ -1522,6 +1522,15 @@
       "stars": 42
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 42
+    },
+    {
       "name": "clusterExperiment",
       "url": "https://github.com/epurdom/clusterExperiment",
       "owner": "epurdom",
@@ -1546,15 +1555,6 @@
       "repo": "bindSC",
       "category": "Multi-assay data integration",
       "description": "bindSC (Bi-dimensional INtegration of multi-omics Data from Single Cell sequencing technologies) is an R package for single cell multi-omic integration analysis, developed and maintained by Ken chen's lab in MDACC. bindSC is developed to address the challenge of single-cell multi-omic data integration that consists of unpaired cells measured with unmatched features across modalities. [Bi-order multimodal integration of single-cell data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02679-x)",
-      "stars": 41
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 41
     },
     {
@@ -2215,6 +2215,15 @@
       "stars": 15
     },
     {
+      "name": "DeepSpot2Cell",
+      "url": "https://github.com/ratschlab/DeepSpot2Cell",
+      "owner": "ratschlab",
+      "repo": "DeepSpot2Cell",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 15
+    },
+    {
       "name": "embeddr",
       "url": "https://github.com/kieranrcampbell/embeddr",
       "owner": "kieranrcampbell",
@@ -2230,15 +2239,6 @@
       "repo": "trapes",
       "category": "Immune receptor profiling",
       "description": "TRAPeS (TCR Reconstruction Algorithm for Paired-End Single-cell), a software for reconstruction of T cell receptors (TCR) using short, paired-end single-cell RNA-sequencing.",
-      "stars": 14
-    },
-    {
-      "name": "DeepSpot2Cell",
-      "url": "https://github.com/ratschlab/DeepSpot2Cell",
-      "owner": "ratschlab",
-      "repo": "DeepSpot2Cell",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 14
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-25 03:13:10 UTC"
+  "updated": "2026-07-26 03:25:42 UTC"
 }
