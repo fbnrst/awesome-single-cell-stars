@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2522
+      "stars": 2523
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2226
+      "stars": 2228
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1608
+      "stars": 1609
     },
     {
       "name": "gget",
@@ -169,7 +169,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 601
+      "stars": 602
     },
     {
       "name": "squidpy",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 554
+      "stars": 555
     },
     {
       "name": "scVelo",
@@ -235,6 +235,15 @@
       "stars": 478
     },
     {
+      "name": "GLUE",
+      "url": "https://github.com/gao-lab/GLUE",
+      "owner": "gao-lab",
+      "repo": "GLUE",
+      "category": "Multi-assay data integration",
+      "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
+      "stars": 473
+    },
+    {
       "name": "RCTD",
       "url": "https://github.com/dmcable/spacexr",
       "owner": "dmcable",
@@ -242,15 +251,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 473
-    },
-    {
-      "name": "GLUE",
-      "url": "https://github.com/gao-lab/GLUE",
-      "owner": "gao-lab",
-      "repo": "GLUE",
-      "category": "Multi-assay data integration",
-      "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 472
     },
     {
       "name": "cell2location",
@@ -286,7 +286,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 388
+      "stars": 389
     },
     {
       "name": "MAGIC",
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 329
+      "stars": 330
     },
     {
       "name": "octopus",
@@ -601,7 +601,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 194
+      "stars": 195
     },
     {
       "name": "kb-python",
@@ -1054,6 +1054,15 @@
       "stars": 101
     },
     {
+      "name": "CASSIA",
+      "url": "https://github.com/ElliotXie/CASSIA",
+      "owner": "ElliotXie",
+      "repo": "CASSIA",
+      "category": "Cell type identification and classification",
+      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
+      "stars": 99
+    },
+    {
       "name": "geosketch",
       "url": "https://github.com/brianhie/geosketch",
       "owner": "brianhie",
@@ -1069,15 +1078,6 @@
       "repo": "MIMOSCA",
       "category": "RNA-seq",
       "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 98
-    },
-    {
-      "name": "CASSIA",
-      "url": "https://github.com/ElliotXie/CASSIA",
-      "owner": "ElliotXie",
-      "repo": "CASSIA",
-      "category": "Cell type identification and classification",
-      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
       "stars": 98
     },
     {
@@ -1999,6 +1999,15 @@
       "stars": 22
     },
     {
+      "name": "Splotch",
+      "url": "https://github.com/tare/Splotch",
+      "owner": "tare",
+      "repo": "Splotch",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 22
+    },
+    {
       "name": "Normalisr",
       "url": "https://github.com/lingfeiwang/normalisr",
       "owner": "lingfeiwang",
@@ -2041,15 +2050,6 @@
       "repo": "MEDALT",
       "category": "Copy number analysis",
       "description": "This package performs lineage tracing using copy number profile from single cell sequencing technology. It will infer: 1. An rooted directed minimal spanning tree (RDMST) to represent aneuploidy evolution of tumor cells. 2. The focal and broad copy number alterations associated with lineage expansion.",
-      "stars": 21
-    },
-    {
-      "name": "Splotch",
-      "url": "https://github.com/tare/Splotch",
-      "owner": "tare",
-      "repo": "Splotch",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 21
     },
     {
@@ -2170,6 +2170,15 @@
       "stars": 16
     },
     {
+      "name": "DeepSpot2Cell",
+      "url": "https://github.com/ratschlab/DeepSpot2Cell",
+      "owner": "ratschlab",
+      "repo": "DeepSpot2Cell",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 16
+    },
+    {
       "name": "robustSingleCell",
       "url": "https://github.com/asmagen/robustSingleCell",
       "owner": "asmagen",
@@ -2215,21 +2224,21 @@
       "stars": 15
     },
     {
-      "name": "DeepSpot2Cell",
-      "url": "https://github.com/ratschlab/DeepSpot2Cell",
-      "owner": "ratschlab",
-      "repo": "DeepSpot2Cell",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 15
-    },
-    {
       "name": "embeddr",
       "url": "https://github.com/kieranrcampbell/embeddr",
       "owner": "kieranrcampbell",
       "repo": "embeddr",
       "category": "RNA-seq",
       "description": "Embeddr creates a reduced dimensional representation of the gene space using a high-variance gene correlation graph and laplacian eigenmaps. It then fits a smooth pseudotime trajectory using principal curves.",
+      "stars": 14
+    },
+    {
+      "name": "scDiagnostics",
+      "url": "https://github.com/ccb-hms/scDiagnostics",
+      "owner": "ccb-hms",
+      "repo": "scDiagnostics",
+      "category": "Quality control",
+      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
       "stars": 14
     },
     {
@@ -2266,15 +2275,6 @@
       "repo": "singlet",
       "category": "RNA-seq",
       "description": "Single cell RNA-Seq analysis with phenotypes.",
-      "stars": 13
-    },
-    {
-      "name": "scDiagnostics",
-      "url": "https://github.com/ccb-hms/scDiagnostics",
-      "owner": "ccb-hms",
-      "repo": "scDiagnostics",
-      "category": "Quality control",
-      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
       "stars": 13
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-26 03:25:42 UTC"
+  "updated": "2026-07-27 03:35:19 UTC"
 }
