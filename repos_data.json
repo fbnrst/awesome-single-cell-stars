@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1179
+      "stars": 1180
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 794
+      "stars": 793
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 767
+      "stars": 768
     },
     {
       "name": "GSEApy",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 653
+      "stars": 654
     },
     {
       "name": "ffq",
@@ -268,7 +268,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 431
+      "stars": 432
     },
     {
       "name": "scFoundation",
@@ -550,6 +550,15 @@
       "stars": 215
     },
     {
+      "name": "cellassign",
+      "url": "https://github.com/irrationone/cellassign/",
+      "owner": "irrationone",
+      "repo": "cellassign",
+      "category": "Cell type identification and classification",
+      "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
+      "stars": 214
+    },
+    {
       "name": "alevin-fry",
       "url": "https://github.com/COMBINE-lab/alevin-fry",
       "owner": "COMBINE-lab",
@@ -559,22 +568,13 @@
       "stars": 213
     },
     {
-      "name": "cellassign",
-      "url": "https://github.com/irrationone/cellassign/",
-      "owner": "irrationone",
-      "repo": "cellassign",
-      "category": "Cell type identification and classification",
-      "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
-      "stars": 213
-    },
-    {
       "name": "torchdr",
       "url": "https://github.com/TorchDR/TorchDR",
       "owner": "TorchDR",
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 210
+      "stars": 211
     },
     {
       "name": "SPOTlight",
@@ -655,7 +655,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 155
+      "stars": 156
     },
     {
       "name": "scPRINT",
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 155
+      "stars": 156
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 155
+      "stars": 156
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 155
+      "stars": 156
     },
     {
       "name": "DeepCpg",
@@ -709,7 +709,7 @@
       "repo": "epiScanpy",
       "category": "Epigenomics",
       "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
-      "stars": 151
+      "stars": 152
     },
     {
       "name": "dropSeqPipe",
@@ -856,15 +856,6 @@
       "stars": 127
     },
     {
-      "name": "flotilla",
-      "url": "https://github.com/yeolab/flotilla",
-      "owner": "yeolab",
-      "repo": "flotilla",
-      "category": "RNA-seq",
-      "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
-      "stars": 126
-    },
-    {
       "name": "clustifyr",
       "url": "https://github.com/rnabioco/clustifyr",
       "owner": "rnabioco",
@@ -872,6 +863,15 @@
       "category": "Cell type identification and classification",
       "description": "Classifies cells and clusters in single-cell RNA-seq experiments using external reference data, gene signatures, or marker gene lists.",
       "stars": 126
+    },
+    {
+      "name": "flotilla",
+      "url": "https://github.com/yeolab/flotilla",
+      "owner": "yeolab",
+      "repo": "flotilla",
+      "category": "RNA-seq",
+      "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
+      "stars": 124
     },
     {
       "name": "MetaCell",
@@ -907,7 +907,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 117
+      "stars": 118
     },
     {
       "name": "SAVER",
@@ -1060,7 +1060,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
-      "stars": 99
+      "stars": 100
     },
     {
       "name": "geosketch",
@@ -1126,6 +1126,15 @@
       "stars": 94
     },
     {
+      "name": "DeepSpot",
+      "url": "https://github.com/ratschlab/DeepSpot",
+      "owner": "ratschlab",
+      "repo": "DeepSpot",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 89
+    },
+    {
       "name": "BASiCS",
       "url": "https://github.com/catavallejos/BASiCS",
       "owner": "catavallejos",
@@ -1140,15 +1149,6 @@
       "owner": "Hoohm",
       "repo": "CITE-seq-Count",
       "category": "Multi-assay data integration",
-      "description": "",
-      "stars": 88
-    },
-    {
-      "name": "DeepSpot",
-      "url": "https://github.com/ratschlab/DeepSpot",
-      "owner": "ratschlab",
-      "repo": "DeepSpot",
-      "category": "Spatial transcriptomics",
       "description": "",
       "stars": 88
     },
@@ -1441,6 +1441,15 @@
       "stars": 47
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 45
+    },
+    {
       "name": "CHETAH",
       "url": "https://github.com/jdekanter/CHETAH",
       "owner": "jdekanter",
@@ -1456,15 +1465,6 @@
       "repo": "cb_sniffer",
       "category": "Variant calling",
       "description": "Mutation barcode caller, calls mutant and ref barcodes from 10x single cell data.",
-      "stars": 44
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
       "stars": 44
     },
     {
@@ -1792,6 +1792,15 @@
       "stars": 28
     },
     {
+      "name": "SignacX",
+      "url": "https://github.com/mathewchamberlain/SignacX",
+      "owner": "mathewchamberlain",
+      "repo": "SignacX",
+      "category": "Cell type identification and classification",
+      "description": "Signac classifies the cellular phenotype for each individual cell in scRNA-seq data using neural networks trained with sorted bulk gene expression data from the Human Primary Cell Atlas. Signac can: map cells from one data set to another, classify non-human single cell data, identify novel cell types, and classify single cell data across many tissues, diseases and technologies. [Cell type classification and discovery across diseases, technologies and tissues reveals conserved gene signatures and enables standardized single-cell readouts](https://www.biorxiv.org/content/10.1101/2021.02.01.429207v3.full)",
+      "stars": 28
+    },
+    {
       "name": "SCICoNE",
       "url": "https://github.com/cbg-ethz/SCICoNE",
       "owner": "cbg-ethz",
@@ -1834,15 +1843,6 @@
       "repo": "SymSim",
       "category": "Simulation",
       "description": "SymSim (Synthetic model of multiple variability factors for Simulation) is an R package for simulation of single cell RNA-Seq data.",
-      "stars": 27
-    },
-    {
-      "name": "SignacX",
-      "url": "https://github.com/mathewchamberlain/SignacX",
-      "owner": "mathewchamberlain",
-      "repo": "SignacX",
-      "category": "Cell type identification and classification",
-      "description": "Signac classifies the cellular phenotype for each individual cell in scRNA-seq data using neural networks trained with sorted bulk gene expression data from the Human Primary Cell Atlas. Signac can: map cells from one data set to another, classify non-human single cell data, identify novel cell types, and classify single cell data across many tissues, diseases and technologies. [Cell type classification and discovery across diseases, technologies and tissues reveals conserved gene signatures and enables standardized single-cell readouts](https://www.biorxiv.org/content/10.1101/2021.02.01.429207v3.full)",
       "stars": 27
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-27 03:35:19 UTC"
+  "updated": "2026-07-28 02:52:18 UTC"
 }
