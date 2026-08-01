@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2528
+      "stars": 2529
     },
     {
       "name": "STAR",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1180
+      "stars": 1181
     },
     {
       "name": "CellChat",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 452
+      "stars": 453
     },
     {
       "name": "LIGER",
@@ -298,6 +298,15 @@
       "stars": 387
     },
     {
+      "name": "MAGIC",
+      "url": "https://github.com/KrishnaswamyLab/MAGIC",
+      "owner": "KrishnaswamyLab",
+      "repo": "MAGIC",
+      "category": "Feature (Gene) imputation",
+      "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
+      "stars": 386
+    },
+    {
       "name": "Giotto Suite",
       "url": "https://github.com/drieslab/Giotto",
       "owner": "drieslab",
@@ -305,15 +314,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 386
-    },
-    {
-      "name": "MAGIC",
-      "url": "https://github.com/KrishnaswamyLab/MAGIC",
-      "owner": "KrishnaswamyLab",
-      "repo": "MAGIC",
-      "category": "Feature (Gene) imputation",
-      "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 385
     },
     {
       "name": "scRepertoire",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 298
+      "stars": 299
     },
     {
       "name": "zUMIs",
@@ -736,7 +736,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 146
+      "stars": 147
     },
     {
       "name": "InMoose",
@@ -1195,7 +1195,7 @@
       "repo": "dynverse",
       "category": "Pseudotime and trajectory inference",
       "description": "[A comparison of single-cell trajectory inference methods: towards more accurate and robust tools](https://www.nature.com/articles/s41587-019-0071-9)",
-      "stars": 78
+      "stars": 77
     },
     {
       "name": "SCINA",
@@ -1990,6 +1990,15 @@
       "stars": 22
     },
     {
+      "name": "scMalignantFinder",
+      "url": "https://github.com/Jonyyqn/scMalignantFinder",
+      "owner": "Jonyyqn",
+      "repo": "scMalignantFinder",
+      "category": "Malignant cell identification",
+      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
+      "stars": 22
+    },
+    {
       "name": "CellWalkR",
       "url": "https://github.com/PFPrzytycki/CellWalkR",
       "owner": "PFPrzytycki",
@@ -2032,15 +2041,6 @@
       "repo": "DALI",
       "category": "Immune receptor profiling",
       "description": "Diversity Analysis Interface (DALI) is a tool that enables TCR and BCR analysis in the Seurat ecosystem. The functionality of the tool is also exposed via an interactive Shiny application.",
-      "stars": 21
-    },
-    {
-      "name": "scMalignantFinder",
-      "url": "https://github.com/Jonyyqn/scMalignantFinder",
-      "owner": "Jonyyqn",
-      "repo": "scMalignantFinder",
-      "category": "Malignant cell identification",
-      "description": "scMalignantFinder is a Python package designed for analyzing cancer single-cell RNA-seq and spatial transcriptomics datasets to distinguish malignant cells from their normal counterparts. Trained on over 400,000 high-quality single-cell transcriptomes, scMalignantFinder uses curated pan-cancer gene signatures for training set calibration and selects features by taking the union of differentially expressed genes across each dataset. [Communications Biology](https://doi.org/10.1038/s42003-025-07942-y)",
       "stars": 21
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-07-31 03:26:04 UTC"
+  "updated": "2026-08-01 03:23:59 UTC"
 }
