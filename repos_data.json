@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2782
+      "stars": 2783
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2533
+      "stars": 2535
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2228
+      "stars": 2229
     },
     {
       "name": "scVI",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1181
+      "stars": 1182
     },
     {
       "name": "CellChat",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 768
+      "stars": 769
     },
     {
       "name": "GSEApy",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 655
+      "stars": 656
     },
     {
       "name": "ffq",
@@ -196,7 +196,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 556
+      "stars": 557
     },
     {
       "name": "dynamo",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 423
+      "stars": 422
     },
     {
       "name": "RAPIDS-singlecell",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 335
+      "stars": 336
     },
     {
       "name": "Palantir",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 299
+      "stars": 300
     },
     {
       "name": "zUMIs",
@@ -475,7 +475,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 261
+      "stars": 262
     },
     {
       "name": "LIANA",
@@ -541,6 +541,15 @@
       "stars": 224
     },
     {
+      "name": "alevin-fry",
+      "url": "https://github.com/COMBINE-lab/alevin-fry",
+      "owner": "COMBINE-lab",
+      "repo": "alevin-fry",
+      "category": "RNA-seq",
+      "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
+      "stars": 214
+    },
+    {
       "name": "dittoSeq",
       "url": "https://github.com/dtm2451/dittoSeq",
       "owner": "dtm2451",
@@ -557,15 +566,6 @@
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
       "stars": 214
-    },
-    {
-      "name": "alevin-fry",
-      "url": "https://github.com/COMBINE-lab/alevin-fry",
-      "owner": "COMBINE-lab",
-      "repo": "alevin-fry",
-      "category": "RNA-seq",
-      "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 213
     },
     {
       "name": "torchdr",
@@ -880,7 +880,7 @@
       "repo": "metacell",
       "category": "RNA-seq",
       "description": "Analysis of single cell RNA-seq data by computing partitions of a cell similarity graph into small homogeneous groups of cells called metacells.",
-      "stars": 122
+      "stars": 123
     },
     {
       "name": "Clustergrammer2",
@@ -1132,7 +1132,7 @@
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 89
+      "stars": 90
     },
     {
       "name": "BASiCS",
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-03 03:26:09 UTC"
+  "updated": "2026-08-04 02:54:58 UTC"
 }
