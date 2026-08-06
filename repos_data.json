@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2536
+      "stars": 2537
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2228
+      "stars": 2229
     },
     {
       "name": "scVI",
@@ -136,6 +136,15 @@
       "stars": 678
     },
     {
+      "name": "NicheNet",
+      "url": "https://github.com/saeyslab/nichenetr",
+      "owner": "saeyslab",
+      "repo": "nichenetr",
+      "category": "Cellular interactions/communication",
+      "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
+      "stars": 667
+    },
+    {
       "name": "SCP",
       "url": "https://github.com/zhanghao-njmu/SCP",
       "owner": "zhanghao-njmu",
@@ -145,22 +154,13 @@
       "stars": 665
     },
     {
-      "name": "NicheNet",
-      "url": "https://github.com/saeyslab/nichenetr",
-      "owner": "saeyslab",
-      "repo": "nichenetr",
-      "category": "Cellular interactions/communication",
-      "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 665
-    },
-    {
       "name": "mLLMCelltype",
       "url": "https://github.com/cafferychen777/mLLMCelltype",
       "owner": "cafferychen777",
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 656
+      "stars": 657
     },
     {
       "name": "ffq",
@@ -295,7 +295,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 387
+      "stars": 388
     },
     {
       "name": "MAGIC",
@@ -304,7 +304,7 @@
       "repo": "MAGIC",
       "category": "Feature (Gene) imputation",
       "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 386
+      "stars": 387
     },
     {
       "name": "Giotto Suite",
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 330
+      "stars": 331
     },
     {
       "name": "octopus",
@@ -406,21 +406,21 @@
       "stars": 300
     },
     {
-      "name": "zUMIs",
-      "url": "https://github.com/sdparekh/zUMIs",
-      "owner": "sdparekh",
-      "repo": "zUMIs",
-      "category": "RNA-seq",
-      "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
-      "stars": 297
-    },
-    {
       "name": "BPCells",
       "url": "https://github.com/bnprks/BPCells",
       "owner": "bnprks",
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
+      "stars": 298
+    },
+    {
+      "name": "zUMIs",
+      "url": "https://github.com/sdparekh/zUMIs",
+      "owner": "sdparekh",
+      "repo": "zUMIs",
+      "category": "RNA-seq",
+      "description": "[zUMIs: A fast and flexible pipeline to process RNA-seq data with UMIs.](https://www.biorxiv.org/content/early/2017/10/18/153940)",
       "stars": 297
     },
     {
@@ -442,21 +442,21 @@
       "stars": 268
     },
     {
-      "name": "MAST",
-      "url": "https://github.com/RGLab/MAST",
-      "owner": "RGLab",
-      "repo": "MAST",
-      "category": "Count modelling and normalization",
-      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 265
-    },
-    {
       "name": "SpaGCN",
       "url": "https://github.com/jianhuupenn/SpaGCN",
       "owner": "jianhuupenn",
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 266
+    },
+    {
+      "name": "MAST",
+      "url": "https://github.com/RGLab/MAST",
+      "owner": "RGLab",
+      "repo": "MAST",
+      "category": "Count modelling and normalization",
+      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
       "stars": 265
     },
     {
@@ -529,7 +529,7 @@
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
-      "stars": 226
+      "stars": 228
     },
     {
       "name": "Numbat",
@@ -583,7 +583,7 @@
       "repo": "SPOTlight",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 210
+      "stars": 211
     },
     {
       "name": "Spectra",
@@ -775,6 +775,15 @@
       "stars": 138
     },
     {
+      "name": "AtacWorks",
+      "url": "https://github.com/clara-parabricks/AtacWorks",
+      "owner": "clara-parabricks",
+      "repo": "AtacWorks",
+      "category": "Epigenomics",
+      "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
+      "stars": 137
+    },
+    {
       "name": "memento-de",
       "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
       "owner": "yelabucsf",
@@ -790,15 +799,6 @@
       "repo": "tracer",
       "category": "Immune receptor profiling",
       "description": "Reconstruction of T-Cell receptor sequences from single-cell RNA-seq data.",
-      "stars": 136
-    },
-    {
-      "name": "AtacWorks",
-      "url": "https://github.com/clara-parabricks/AtacWorks",
-      "owner": "clara-parabricks",
-      "repo": "AtacWorks",
-      "category": "Epigenomics",
-      "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
       "stars": 136
     },
     {
@@ -1018,21 +1018,21 @@
       "stars": 104
     },
     {
-      "name": "HoneyBADGER",
-      "url": "https://github.com/JEFworks/HoneyBADGER",
-      "owner": "JEFworks",
-      "repo": "HoneyBADGER",
-      "category": "Copy number analysis",
-      "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
-      "stars": 103
-    },
-    {
       "name": "PASTE",
       "url": "https://github.com/raphael-group/paste",
       "owner": "raphael-group",
       "repo": "paste",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 104
+    },
+    {
+      "name": "HoneyBADGER",
+      "url": "https://github.com/JEFworks/HoneyBADGER",
+      "owner": "JEFworks",
+      "repo": "HoneyBADGER",
+      "category": "Copy number analysis",
+      "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
       "stars": 103
     },
     {
@@ -1108,6 +1108,15 @@
       "stars": 95
     },
     {
+      "name": "SLAT",
+      "url": "https://github.com/gao-lab/SLAT",
+      "owner": "gao-lab",
+      "repo": "SLAT",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 95
+    },
+    {
       "name": "dropEst",
       "url": "https://github.com/hms-dbmi/dropEst",
       "owner": "hms-dbmi",
@@ -1117,22 +1126,13 @@
       "stars": 94
     },
     {
-      "name": "SLAT",
-      "url": "https://github.com/gao-lab/SLAT",
-      "owner": "gao-lab",
-      "repo": "SLAT",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 94
-    },
-    {
       "name": "DeepSpot",
       "url": "https://github.com/ratschlab/DeepSpot",
       "owner": "ratschlab",
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 90
+      "stars": 91
     },
     {
       "name": "BASiCS",
@@ -1342,6 +1342,15 @@
       "stars": 54
     },
     {
+      "name": "STAGATE",
+      "url": "https://github.com/QIFEIDKN/STAGATE",
+      "owner": "QIFEIDKN",
+      "repo": "STAGATE",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 53
+    },
+    {
       "name": "STAligner",
       "url": "https://github.com/zhoux85/STAligner",
       "owner": "zhoux85",
@@ -1357,15 +1366,6 @@
       "repo": "ginkgo",
       "category": "Copy number analysis",
       "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
-      "stars": 52
-    },
-    {
-      "name": "STAGATE",
-      "url": "https://github.com/QIFEIDKN/STAGATE",
-      "owner": "QIFEIDKN",
-      "repo": "STAGATE",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 52
     },
     {
@@ -1432,21 +1432,21 @@
       "stars": 48
     },
     {
-      "name": "NetworkInference",
-      "url": "https://github.com/Tchanders/NetworkInference.jl",
-      "owner": "Tchanders",
-      "repo": "NetworkInference.jl",
-      "category": "RNA-seq",
-      "description": "Fast implementation of single-cell network inference algorithms: <a href=\"https://www.sciencedirect.com/science/article/pii/S2405471217303861\">Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures</a>",
-      "stars": 47
-    },
-    {
       "name": "scE2G",
       "url": "https://github.com/EngreitzLab/scE2G",
       "owner": "EngreitzLab",
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 48
+    },
+    {
+      "name": "NetworkInference",
+      "url": "https://github.com/Tchanders/NetworkInference.jl",
+      "owner": "Tchanders",
+      "repo": "NetworkInference.jl",
+      "category": "RNA-seq",
+      "description": "Fast implementation of single-cell network inference algorithms: <a href=\"https://www.sciencedirect.com/science/article/pii/S2405471217303861\">Gene Regulatory Network Inference from Single-Cell Data Using Multivariate Information Measures</a>",
       "stars": 47
     },
     {
@@ -1918,6 +1918,15 @@
       "stars": 24
     },
     {
+      "name": "FlashDeconv",
+      "url": "https://github.com/cafferychen777/flashdeconv",
+      "owner": "cafferychen777",
+      "repo": "flashdeconv",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 24
+    },
+    {
       "name": "SingleSplice",
       "url": "https://github.com/jw156605/SingleSplice",
       "owner": "jw156605",
@@ -1951,15 +1960,6 @@
       "repo": "MATCHER",
       "category": "Multi-assay data integration",
       "description": "[MATCHER: An algorithm for integrating single cell transcriptomic and epigenomic data using manifold alignment. MATCHER takes multiple types of single cell measurements performed on distinct single cells and infers single cell multi-omic profiles.](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1269-0)",
-      "stars": 23
-    },
-    {
-      "name": "FlashDeconv",
-      "url": "https://github.com/cafferychen777/flashdeconv",
-      "owner": "cafferychen777",
-      "repo": "flashdeconv",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 23
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-05 02:51:53 UTC"
+  "updated": "2026-08-06 02:55:00 UTC"
 }
