@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1183
+      "stars": 1184
     },
     {
       "name": "CellChat",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 679
+      "stars": 680
     },
     {
       "name": "NicheNet",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 666
+      "stars": 667
     },
     {
       "name": "mLLMCelltype",
@@ -1369,6 +1369,15 @@
       "stars": 52
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 52
+    },
+    {
       "name": "trendsceek",
       "url": "https://github.com/edsgard/trendsceek",
       "owner": "edsgard",
@@ -1393,15 +1402,6 @@
       "repo": "SCnorm",
       "category": "Count modelling and normalization",
       "description": "A quantile regression based approach for robust normalization of single cell RNA-seq data.",
-      "stars": 51
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
       "stars": 51
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-08 01:56:11 UTC"
+  "updated": "2026-08-09 02:03:24 UTC"
 }
