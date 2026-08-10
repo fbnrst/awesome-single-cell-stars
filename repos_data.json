@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2538
+      "stars": 2539
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1674
+      "stars": 1675
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1674
+      "stars": 1675
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1674
+      "stars": 1675
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1674
+      "stars": 1675
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1674
+      "stars": 1675
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1674
+      "stars": 1675
     },
     {
       "name": "scGPT",
@@ -280,6 +280,15 @@
       "stars": 423
     },
     {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
+      "stars": 390
+    },
+    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
@@ -287,15 +296,6 @@
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
       "stars": 390
-    },
-    {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 389
     },
     {
       "name": "MAGIC",
@@ -322,7 +322,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 373
+      "stars": 374
     },
     {
       "name": "Tangram",
@@ -367,7 +367,7 @@
       "repo": "immunarch",
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
-      "stars": 340
+      "stars": 341
     },
     {
       "name": "soupX",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 299
+      "stars": 300
     },
     {
       "name": "zUMIs",
@@ -502,7 +502,7 @@
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 243
+      "stars": 244
     },
     {
       "name": "Clustergrammer",
@@ -520,7 +520,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 239
+      "stars": 240
     },
     {
       "name": "SComatic",
@@ -802,21 +802,21 @@
       "stars": 136
     },
     {
-      "name": "novoSpaRc",
-      "url": "https://github.com/rajewsky-lab/novosparc",
-      "owner": "rajewsky-lab",
-      "repo": "novosparc",
-      "category": "RNA-seq",
-      "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
-      "stars": 134
-    },
-    {
       "name": "CyteType",
       "url": "https://github.com/NygenAnalytics/CyteType",
       "owner": "NygenAnalytics",
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
+      "stars": 135
+    },
+    {
+      "name": "novoSpaRc",
+      "url": "https://github.com/rajewsky-lab/novosparc",
+      "owner": "rajewsky-lab",
+      "repo": "novosparc",
+      "category": "RNA-seq",
+      "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
       "stars": 134
     },
     {
@@ -961,7 +961,7 @@
       "repo": "DeepSort",
       "category": "Cell type identification and classification",
       "description": "A reference-free cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
-      "stars": 109
+      "stars": 110
     },
     {
       "name": "HTSeq",
@@ -1333,6 +1333,15 @@
       "stars": 55
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 54
+    },
+    {
       "name": "FigR",
       "url": "https://github.com/buenrostrolab/FigR",
       "owner": "buenrostrolab",
@@ -1366,15 +1375,6 @@
       "repo": "ginkgo",
       "category": "Copy number analysis",
       "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
-      "stars": 52
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
       "stars": 52
     },
     {
@@ -1468,6 +1468,15 @@
       "stars": 44
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 44
+    },
+    {
       "name": "PASTE2",
       "url": "https://github.com/raphael-group/paste2",
       "owner": "raphael-group",
@@ -1483,15 +1492,6 @@
       "repo": "TSCAN",
       "category": "Pseudotime and trajectory inference",
       "description": "Pseudo-time reconstruction and evaluation in single-cell RNA-seq analysis.",
-      "stars": 43
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 43
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-09 02:03:24 UTC"
+  "updated": "2026-08-10 02:07:42 UTC"
 }
