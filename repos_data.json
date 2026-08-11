@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2229
+      "stars": 2230
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1612
+      "stars": 1613
     },
     {
       "name": "gget",
@@ -241,7 +241,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 474
+      "stars": 475
     },
     {
       "name": "RCTD",
@@ -250,7 +250,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 474
+      "stars": 475
     },
     {
       "name": "cell2location",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 455
+      "stars": 456
     },
     {
       "name": "LIGER",
@@ -280,21 +280,21 @@
       "stars": 423
     },
     {
-      "name": "RAPIDS-singlecell",
-      "url": "https://github.com/scverse/rapids_singlecell",
-      "owner": "scverse",
-      "repo": "rapids_singlecell",
-      "category": "RNA-seq",
-      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 390
-    },
-    {
       "name": "GEARS",
       "url": "https://github.com/snap-stanford/GEARS",
       "owner": "snap-stanford",
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
+      "stars": 391
+    },
+    {
+      "name": "RAPIDS-singlecell",
+      "url": "https://github.com/scverse/rapids_singlecell",
+      "owner": "scverse",
+      "repo": "rapids_singlecell",
+      "category": "RNA-seq",
+      "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
       "stars": 390
     },
     {
@@ -397,21 +397,21 @@
       "stars": 325
     },
     {
-      "name": "CopyKAT",
-      "url": "https://github.com/navinlabcode/copykat",
-      "owner": "navinlabcode",
-      "repo": "copykat",
-      "category": "Copy number analysis",
-      "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 300
-    },
-    {
       "name": "BPCells",
       "url": "https://github.com/bnprks/BPCells",
       "owner": "bnprks",
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
+      "stars": 301
+    },
+    {
+      "name": "CopyKAT",
+      "url": "https://github.com/navinlabcode/copykat",
+      "owner": "navinlabcode",
+      "repo": "copykat",
+      "category": "Copy number analysis",
+      "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
       "stars": 300
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-10 02:07:42 UTC"
+  "updated": "2026-08-11 02:03:00 UTC"
 }
