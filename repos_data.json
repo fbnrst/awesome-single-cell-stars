@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2539
+      "stars": 2542
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2232
+      "stars": 2233
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1675
+      "stars": 1673
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1675
+      "stars": 1673
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1675
+      "stars": 1673
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1675
+      "stars": 1673
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1675
+      "stars": 1673
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1675
+      "stars": 1673
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1615
+      "stars": 1612
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1184
+      "stars": 1182
     },
     {
       "name": "CellChat",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 671
+      "stars": 673
     },
     {
       "name": "SCP",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 589
+      "stars": 588
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 423
+      "stars": 422
     },
     {
       "name": "GEARS",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 391
+      "stars": 392
     },
     {
       "name": "RAPIDS-singlecell",
@@ -442,15 +442,6 @@
       "stars": 268
     },
     {
-      "name": "SpaGCN",
-      "url": "https://github.com/jianhuupenn/SpaGCN",
-      "owner": "jianhuupenn",
-      "repo": "SpaGCN",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 266
-    },
-    {
       "name": "MAST",
       "url": "https://github.com/RGLab/MAST",
       "owner": "RGLab",
@@ -466,6 +457,15 @@
       "repo": "scirpy",
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
+      "stars": 264
+    },
+    {
+      "name": "SpaGCN",
+      "url": "https://github.com/jianhuupenn/SpaGCN",
+      "owner": "jianhuupenn",
+      "repo": "SpaGCN",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 264
     },
     {
@@ -547,7 +547,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 214
+      "stars": 215
     },
     {
       "name": "dittoSeq",
@@ -727,7 +727,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 148
+      "stars": 149
     },
     {
       "name": "cisTopic",
@@ -808,7 +808,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 135
+      "stars": 136
     },
     {
       "name": "novoSpaRc",
@@ -844,7 +844,7 @@
       "repo": "sc3",
       "category": "Cell clustering",
       "description": "SC3 is a tool for the unsupervised clustering of cells from single cell RNA-Seq experiments.",
-      "stars": 129
+      "stars": 128
     },
     {
       "name": "clustifyr",
@@ -1018,21 +1018,21 @@
       "stars": 104
     },
     {
-      "name": "PASTE",
-      "url": "https://github.com/raphael-group/paste",
-      "owner": "raphael-group",
-      "repo": "paste",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 104
-    },
-    {
       "name": "HoneyBADGER",
       "url": "https://github.com/JEFworks/HoneyBADGER",
       "owner": "JEFworks",
       "repo": "HoneyBADGER",
       "category": "Copy number analysis",
       "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
+      "stars": 103
+    },
+    {
+      "name": "PASTE",
+      "url": "https://github.com/raphael-group/paste",
+      "owner": "raphael-group",
+      "repo": "paste",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 103
     },
     {
@@ -1324,21 +1324,21 @@
       "stars": 56
     },
     {
-      "name": "SCONE",
-      "url": "https://github.com/YosefLab/scone",
-      "owner": "YosefLab",
-      "repo": "scone",
-      "category": "Quality control",
-      "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
-      "stars": 55
-    },
-    {
       "name": "scE2G",
       "url": "https://github.com/EngreitzLab/scE2G",
       "owner": "EngreitzLab",
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 56
+    },
+    {
+      "name": "SCONE",
+      "url": "https://github.com/YosefLab/scone",
+      "owner": "YosefLab",
+      "repo": "scone",
+      "category": "Quality control",
+      "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
       "stars": 55
     },
     {
@@ -1621,6 +1621,15 @@
       "stars": 37
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 37
+    },
+    {
       "name": "FastProject",
       "url": "https://github.com/yoseflab/fastproject",
       "owner": "yoseflab",
@@ -1636,15 +1645,6 @@
       "repo": "GiniClust",
       "category": "Marker and differential gene expression identification",
       "description": "GiniClust is a clustering method implemented in Python and R for detecting rare cell-types from large-scale single-cell gene expression data. GiniClust can be applied to datasets originating from different platforms, such as multiplex qPCR data, traditional single-cell RNAseq or newly emerging UMI-based single-cell RNAseq, e.g. inDrops and Drop-seq.",
-      "stars": 36
-    },
-    {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 36
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-14 02:17:38 UTC"
+  "updated": "2026-08-15 01:27:45 UTC"
 }
