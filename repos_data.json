@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2544
+      "stars": 2543
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1675
+      "stars": 1676
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1675
+      "stars": 1676
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1675
+      "stars": 1676
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1675
+      "stars": 1676
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1675
+      "stars": 1676
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1675
+      "stars": 1676
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1613
+      "stars": 1614
     },
     {
       "name": "gget",
@@ -241,7 +241,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 477
+      "stars": 478
     },
     {
       "name": "GLUE",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 422
+      "stars": 423
     },
     {
       "name": "GEARS",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 360
+      "stars": 361
     },
     {
       "name": "ivis",
@@ -451,21 +451,21 @@
       "stars": 265
     },
     {
-      "name": "MAST",
-      "url": "https://github.com/RGLab/MAST",
-      "owner": "RGLab",
-      "repo": "MAST",
-      "category": "Count modelling and normalization",
-      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 264
-    },
-    {
       "name": "SpaGCN",
       "url": "https://github.com/jianhuupenn/SpaGCN",
       "owner": "jianhuupenn",
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 265
+    },
+    {
+      "name": "MAST",
+      "url": "https://github.com/RGLab/MAST",
+      "owner": "RGLab",
+      "repo": "MAST",
+      "category": "Count modelling and normalization",
+      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
       "stars": 264
     },
     {
@@ -619,7 +619,7 @@
       "repo": "SpatialDE",
       "category": "Spatial transcriptomics",
       "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
-      "stars": 188
+      "stars": 189
     },
     {
       "name": "BayesSpace",
@@ -712,21 +712,21 @@
       "stars": 152
     },
     {
-      "name": "dropSeqPipe",
-      "url": "https://github.com/Hoohm/dropSeqPipe",
-      "owner": "Hoohm",
-      "repo": "dropSeqPipe",
-      "category": "Other applications",
-      "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
-      "stars": 149
-    },
-    {
       "name": "Novae",
       "url": "https://github.com/MICS-Lab/novae",
       "owner": "MICS-Lab",
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
+      "stars": 150
+    },
+    {
+      "name": "dropSeqPipe",
+      "url": "https://github.com/Hoohm/dropSeqPipe",
+      "owner": "Hoohm",
+      "repo": "dropSeqPipe",
+      "category": "Other applications",
+      "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
       "stars": 149
     },
     {
@@ -1018,21 +1018,21 @@
       "stars": 104
     },
     {
-      "name": "HoneyBADGER",
-      "url": "https://github.com/JEFworks/HoneyBADGER",
-      "owner": "JEFworks",
-      "repo": "HoneyBADGER",
-      "category": "Copy number analysis",
-      "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
-      "stars": 103
-    },
-    {
       "name": "PASTE",
       "url": "https://github.com/raphael-group/paste",
       "owner": "raphael-group",
       "repo": "paste",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 104
+    },
+    {
+      "name": "HoneyBADGER",
+      "url": "https://github.com/JEFworks/HoneyBADGER",
+      "owner": "JEFworks",
+      "repo": "HoneyBADGER",
+      "category": "Copy number analysis",
+      "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
       "stars": 103
     },
     {
@@ -2755,5 +2755,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-19 01:28:40 UTC"
+  "updated": "2026-08-20 01:28:04 UTC"
 }
