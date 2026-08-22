@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2787
+      "stars": 2789
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2542
+      "stars": 2543
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1677
+      "stars": 1678
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1677
+      "stars": 1678
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1677
+      "stars": 1678
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1677
+      "stars": 1678
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1677
+      "stars": 1678
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1677
+      "stars": 1678
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1184
+      "stars": 1187
     },
     {
       "name": "CellChat",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 590
+      "stars": 591
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -241,7 +241,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 478
+      "stars": 479
     },
     {
       "name": "GLUE",
@@ -313,7 +313,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 387
+      "stars": 388
     },
     {
       "name": "scRepertoire",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 336
+      "stars": 337
     },
     {
       "name": "Palantir",
@@ -439,7 +439,7 @@
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 268
+      "stars": 267
     },
     {
       "name": "Scirpy",
@@ -568,6 +568,15 @@
       "stars": 215
     },
     {
+      "name": "torchdr",
+      "url": "https://github.com/TorchDR/TorchDR",
+      "owner": "TorchDR",
+      "repo": "TorchDR",
+      "category": "Dimension reduction",
+      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 212
+    },
+    {
       "name": "SPOTlight",
       "url": "https://github.com/MarcElosua/SPOTlight",
       "owner": "MarcElosua",
@@ -575,15 +584,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 212
-    },
-    {
-      "name": "torchdr",
-      "url": "https://github.com/TorchDR/TorchDR",
-      "owner": "TorchDR",
-      "repo": "TorchDR",
-      "category": "Dimension reduction",
-      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 211
     },
     {
       "name": "Spectra",
@@ -928,21 +928,21 @@
       "stars": 115
     },
     {
-      "name": "SCCAF",
-      "url": "https://github.com/SCCAF/sccaf",
-      "owner": "SCCAF",
-      "repo": "sccaf",
-      "category": "RNA-seq",
-      "description": "",
-      "stars": 111
-    },
-    {
       "name": "scLVM",
       "url": "https://github.com/PMBio/scLVM",
       "owner": "PMBio",
       "repo": "scLVM",
       "category": "RNA-seq",
       "description": "scLVM is a modelling framework for single-cell RNA-seq data that can be used to dissect the observed heterogeneity into different sources, thereby allowing for the correction of confounding sources of variation. scLVM was primarily designed to account for cell-cycle induced variations in single-cell RNA-seq data where cell cycle is the primary source of variability.",
+      "stars": 112
+    },
+    {
+      "name": "SCCAF",
+      "url": "https://github.com/SCCAF/sccaf",
+      "owner": "SCCAF",
+      "repo": "sccaf",
+      "category": "RNA-seq",
+      "description": "",
       "stars": 111
     },
     {
@@ -1168,7 +1168,7 @@
       "repo": "Sanity",
       "category": "Count modelling and normalization",
       "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
-      "stars": 81
+      "stars": 82
     },
     {
       "name": "SCope",
@@ -1612,21 +1612,21 @@
       "stars": 38
     },
     {
-      "name": "clonealign",
-      "url": "https://github.com/kieranrcampbell/clonealign/",
-      "owner": "kieranrcampbell",
-      "repo": "clonealign",
-      "category": "Multi-assay data integration",
-      "description": "Integrate single-cell RNA and single-cell DNA-seq measured in separate cells from the same tumour to infer cancer-clone-specific gene expression profiles [clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers, Genome Biology 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z)",
-      "stars": 37
-    },
-    {
       "name": "DeepSpot-M",
       "url": "https://github.com/ratschlab/DeepSpotM",
       "owner": "ratschlab",
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 38
+    },
+    {
+      "name": "clonealign",
+      "url": "https://github.com/kieranrcampbell/clonealign/",
+      "owner": "kieranrcampbell",
+      "repo": "clonealign",
+      "category": "Multi-assay data integration",
+      "description": "Integrate single-cell RNA and single-cell DNA-seq measured in separate cells from the same tumour to infer cancer-clone-specific gene expression profiles [clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers, Genome Biology 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z)",
       "stars": 37
     },
     {
@@ -2503,6 +2503,15 @@
       "stars": 7
     },
     {
+      "name": "SCSPARKL",
+      "url": "https://github.com/asif7adil/scSPARKL",
+      "owner": "asif7adil",
+      "repo": "scSPARKL",
+      "category": "RNA-seq",
+      "description": "An Apache spark based approach for performing of preprocessing and downstream analysis of scRNA-seq data.",
+      "stars": 6
+    },
+    {
       "name": "dropsim",
       "url": "https://github.com/marchinilab/dropsim",
       "owner": "marchinilab",
@@ -2755,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-21 01:38:09 UTC"
+  "updated": "2026-08-22 01:26:57 UTC"
 }
