@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2789
+      "stars": 2788
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2543
+      "stars": 2545
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "scGPT",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 680
+      "stars": 681
     },
     {
       "name": "NicheNet",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 591
+      "stars": 592
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 370
+      "stars": 371
     },
     {
       "name": "TRUST4",
@@ -1009,6 +1009,15 @@
       "stars": 104
     },
     {
+      "name": "HoneyBADGER",
+      "url": "https://github.com/JEFworks/HoneyBADGER",
+      "owner": "JEFworks",
+      "repo": "HoneyBADGER",
+      "category": "Copy number analysis",
+      "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
+      "stars": 104
+    },
+    {
       "name": "SCALE",
       "url": "https://github.com/jsxlei/SCALE",
       "owner": "jsxlei",
@@ -1025,15 +1034,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 104
-    },
-    {
-      "name": "HoneyBADGER",
-      "url": "https://github.com/JEFworks/HoneyBADGER",
-      "owner": "JEFworks",
-      "repo": "HoneyBADGER",
-      "category": "Copy number analysis",
-      "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
-      "stars": 103
     },
     {
       "name": "bustools",
@@ -1063,21 +1063,21 @@
       "stars": 101
     },
     {
-      "name": "MIMOSCA",
-      "url": "https://github.com/asncd/MIMOSCA",
-      "owner": "asncd",
-      "repo": "MIMOSCA",
-      "category": "RNA-seq",
-      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 98
-    },
-    {
       "name": "DoubletDetection",
       "url": "https://github.com/JonathanShor/DoubletDetection",
       "owner": "JonathanShor",
       "repo": "DoubletDetection",
       "category": "Doublet Identification",
       "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
+      "stars": 99
+    },
+    {
+      "name": "MIMOSCA",
+      "url": "https://github.com/asncd/MIMOSCA",
+      "owner": "asncd",
+      "repo": "MIMOSCA",
+      "category": "RNA-seq",
+      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
       "stars": 98
     },
     {
@@ -1132,7 +1132,7 @@
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 93
+      "stars": 94
     },
     {
       "name": "BASiCS",
@@ -1153,6 +1153,15 @@
       "stars": 87
     },
     {
+      "name": "Sanity",
+      "url": "https://github.com/jmbreda/Sanity",
+      "owner": "jmbreda",
+      "repo": "Sanity",
+      "category": "Count modelling and normalization",
+      "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
+      "stars": 83
+    },
+    {
       "name": "SCALEX",
       "url": "https://github.com/jsxlei/SCALEX",
       "owner": "jsxlei",
@@ -1160,15 +1169,6 @@
       "category": "Multi-assay data integration",
       "description": "SCALEX provides a VAE framework for integration of heterogeneous single-cell data by disentangling batch-invariant components from batch-related variations and projecting the batch-invariant components into a generalized, low-dimensional cell-embedding space. [Construction of continuously expandable single-cell atlases through integration of heterogeneous datasets in a generalized cell-embedding space](https://www.biorxiv.org/content/10.1101/2021.04.06.438536v1)",
       "stars": 83
-    },
-    {
-      "name": "Sanity",
-      "url": "https://github.com/jmbreda/Sanity",
-      "owner": "jmbreda",
-      "repo": "Sanity",
-      "category": "Count modelling and normalization",
-      "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
-      "stars": 82
     },
     {
       "name": "SCope",
@@ -1477,6 +1477,15 @@
       "stars": 44
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 44
+    },
+    {
       "name": "PASTE2",
       "url": "https://github.com/raphael-group/paste2",
       "owner": "raphael-group",
@@ -1501,15 +1510,6 @@
       "repo": "Sircel",
       "category": "Other applications",
       "description": "sircel (pronounced \"circle\") separates reads in a fastq file based on barcode sequences that occur at known positions of reads. This is an essential first step in analyzing single-cell genomics data from experiments such as Drop-Seq. Barcode sequences often contain deletion and/or mismatch errors that arise during barcode synthesis and sequencing, and we have designed our barcode recovery approach with these issues in mind. In addition to identifying barcodes in an unbiased manner, sircel also quantifies their abundances. [doi](https://doi.org/10.1101/136242)",
-      "stars": 43
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 43
     },
     {
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-22 01:26:57 UTC"
+  "updated": "2026-08-23 01:41:12 UTC"
 }
