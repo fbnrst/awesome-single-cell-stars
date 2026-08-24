@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2545
+      "stars": 2546
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2236
+      "stars": 2237
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1615
+      "stars": 1616
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1187
+      "stars": 1188
     },
     {
       "name": "CellChat",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 657
+      "stars": 658
     },
     {
       "name": "ffq",
@@ -181,21 +181,21 @@
       "stars": 592
     },
     {
-      "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
-      "url": "https://github.com/KrishnaswamyLab/PHATE",
-      "owner": "KrishnaswamyLab",
-      "repo": "PHATE",
-      "category": "Dimension reduction",
-      "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 558
-    },
-    {
       "name": "DoubletFinder",
       "url": "https://github.com/chris-mcginnis-ucsf/DoubletFinder",
       "owner": "chris-mcginnis-ucsf",
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
+      "stars": 559
+    },
+    {
+      "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
+      "url": "https://github.com/KrishnaswamyLab/PHATE",
+      "owner": "KrishnaswamyLab",
+      "repo": "PHATE",
+      "category": "Dimension reduction",
+      "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
       "stars": 558
     },
     {
@@ -214,7 +214,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 505
+      "stars": 506
     },
     {
       "name": "SCENIC",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 495
+      "stars": 496
     },
     {
       "name": "CellPhoneDB",
@@ -250,7 +250,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 475
+      "stars": 476
     },
     {
       "name": "cell2location",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 423
+      "stars": 424
     },
     {
       "name": "GEARS",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 395
+      "stars": 397
     },
     {
       "name": "RAPIDS-singlecell",
@@ -376,7 +376,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 337
+      "stars": 338
     },
     {
       "name": "Palantir",
@@ -394,7 +394,7 @@
       "repo": "octopus",
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
-      "stars": 325
+      "stars": 326
     },
     {
       "name": "CopyKAT",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 302
+      "stars": 303
     },
     {
       "name": "BPCells",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 301
+      "stars": 302
     },
     {
       "name": "zUMIs",
@@ -439,7 +439,7 @@
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
-      "stars": 267
+      "stars": 268
     },
     {
       "name": "Scirpy",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 247
+      "stars": 248
     },
     {
       "name": "LIANA",
@@ -538,7 +538,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 226
+      "stars": 227
     },
     {
       "name": "alevin-fry",
@@ -655,7 +655,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 156
+      "stars": 157
     },
     {
       "name": "scPRINT",
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 156
+      "stars": 157
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 156
+      "stars": 157
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 156
+      "stars": 157
     },
     {
       "name": "ceLLama",
@@ -709,7 +709,7 @@
       "repo": "epiScanpy",
       "category": "Epigenomics",
       "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
-      "stars": 152
+      "stars": 153
     },
     {
       "name": "Novae",
@@ -736,7 +736,7 @@
       "repo": "cisTopic",
       "category": "Epigenomics",
       "description": "A probabilistic framework used to simultaneously discover coaccessible enhancers and stable cell states from sparse single-cell epigenomics data. [cisTopic: cis-regulatory topic modeling on single-cell ATAC-seq data](https://www.nature.com/articles/s41592-019-0367-1)",
-      "stars": 147
+      "stars": 148
     },
     {
       "name": "InMoose",
@@ -1051,7 +1051,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
-      "stars": 101
+      "stars": 102
     },
     {
       "name": "scImpute",
@@ -1108,6 +1108,15 @@
       "stars": 95
     },
     {
+      "name": "DeepSpot",
+      "url": "https://github.com/ratschlab/DeepSpot",
+      "owner": "ratschlab",
+      "repo": "DeepSpot",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 95
+    },
+    {
       "name": "SLAT",
       "url": "https://github.com/gao-lab/SLAT",
       "owner": "gao-lab",
@@ -1123,15 +1132,6 @@
       "repo": "dropEst",
       "category": "Other applications",
       "description": "High-performance pipeline for initial analysis of droplet-based single-cell RNA-seq data (Drop-seq, inDrop, 10x and some others). Allows to estimate gene count matrix as well as diagnostic stats from fastq files with raw reads. Implements corrections for different noise sources.",
-      "stars": 94
-    },
-    {
-      "name": "DeepSpot",
-      "url": "https://github.com/ratschlab/DeepSpot",
-      "owner": "ratschlab",
-      "repo": "DeepSpot",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 94
     },
     {
@@ -1249,7 +1249,7 @@
       "repo": "CellNEST",
       "category": "Cellular interactions/communication",
       "description": "Cell Neural Networks on Spatial Transcriptomics (CellNEST) deciphers patterns of cell-cell communication by introducing relay-network detection that identifies ligand-receptor-ligand-receptor communication chains. Uses attention mechanisms to analyze spatial transcriptomics data, detect T cell homing signals, and predict new communication patterns in various cancer types. [Paper](https://www.nature.com/articles/s41592-025-02721-3)",
-      "stars": 70
+      "stars": 69
     },
     {
       "name": "outrigger",
@@ -1342,21 +1342,21 @@
       "stars": 55
     },
     {
-      "name": "SCONE",
-      "url": "https://github.com/YosefLab/scone",
-      "owner": "YosefLab",
-      "repo": "scone",
-      "category": "Quality control",
-      "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
-      "stars": 54
-    },
-    {
       "name": "STAGATE",
       "url": "https://github.com/QIFEIDKN/STAGATE",
       "owner": "QIFEIDKN",
       "repo": "STAGATE",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 55
+    },
+    {
+      "name": "SCONE",
+      "url": "https://github.com/YosefLab/scone",
+      "owner": "YosefLab",
+      "repo": "scone",
+      "category": "Quality control",
+      "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
       "stars": 54
     },
     {
@@ -1456,7 +1456,7 @@
       "repo": "autozyme",
       "category": "Other applications",
       "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
-      "stars": 46
+      "stars": 47
     },
     {
       "name": "CHETAH",
@@ -1603,6 +1603,15 @@
       "stars": 39
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 39
+    },
+    {
       "name": "Cellity",
       "url": "https://github.com/teichlab/cellity",
       "owner": "teichlab",
@@ -1612,22 +1621,13 @@
       "stars": 38
     },
     {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 38
-    },
-    {
       "name": "clonealign",
       "url": "https://github.com/kieranrcampbell/clonealign/",
       "owner": "kieranrcampbell",
       "repo": "clonealign",
       "category": "Multi-assay data integration",
       "description": "Integrate single-cell RNA and single-cell DNA-seq measured in separate cells from the same tumour to infer cancer-clone-specific gene expression profiles [clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers, Genome Biology 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z)",
-      "stars": 37
+      "stars": 38
     },
     {
       "name": "FastProject",
@@ -1891,22 +1891,13 @@
       "stars": 26
     },
     {
-      "name": "SCIPhi",
-      "url": "https://github.com/cbg-ethz/SCIPhI",
-      "owner": "cbg-ethz",
-      "repo": "SCIPhI",
-      "category": "Variant calling",
-      "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
-      "stars": 25
-    },
-    {
       "name": "AESTETIK",
       "url": "https://github.com/ratschlab/aestetik",
       "owner": "ratschlab",
       "repo": "aestetik",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 25
+      "stars": 26
     },
     {
       "name": "FlashDeconv",
@@ -1915,6 +1906,15 @@
       "repo": "flashdeconv",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 26
+    },
+    {
+      "name": "SCIPhi",
+      "url": "https://github.com/cbg-ethz/SCIPhI",
+      "owner": "cbg-ethz",
+      "repo": "SCIPhI",
+      "category": "Variant calling",
+      "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
       "stars": 25
     },
     {
@@ -2122,7 +2122,7 @@
       "repo": "DeepSpot2Cell",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 17
+      "stars": 18
     },
     {
       "name": "scbean",
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-23 01:41:12 UTC"
+  "updated": "2026-08-24 01:39:03 UTC"
 }
