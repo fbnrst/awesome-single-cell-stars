@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2548
+      "stars": 2549
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1620
+      "stars": 1621
     },
     {
       "name": "gget",
@@ -214,7 +214,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 507
+      "stars": 508
     },
     {
       "name": "SCENIC",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 459
+      "stars": 460
     },
     {
       "name": "LIGER",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 426
+      "stars": 427
     },
     {
       "name": "GEARS",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 398
+      "stars": 399
     },
     {
       "name": "RAPIDS-singlecell",
@@ -298,21 +298,21 @@
       "stars": 393
     },
     {
-      "name": "Giotto Suite",
-      "url": "https://github.com/drieslab/Giotto",
-      "owner": "drieslab",
-      "repo": "Giotto",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 389
-    },
-    {
       "name": "MAGIC",
       "url": "https://github.com/KrishnaswamyLab/MAGIC",
       "owner": "KrishnaswamyLab",
       "repo": "MAGIC",
       "category": "Feature (Gene) imputation",
       "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
+      "stars": 388
+    },
+    {
+      "name": "Giotto Suite",
+      "url": "https://github.com/drieslab/Giotto",
+      "owner": "drieslab",
+      "repo": "Giotto",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 388
     },
     {
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 331
+      "stars": 332
     },
     {
       "name": "octopus",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 248
+      "stars": 249
     },
     {
       "name": "LIANA",
@@ -610,7 +610,7 @@
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 191
+      "stars": 192
     },
     {
       "name": "SpatialDe",
@@ -691,7 +691,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 154
+      "stars": 155
     },
     {
       "name": "ceLLama",
@@ -1288,21 +1288,21 @@
       "stars": 62
     },
     {
-      "name": "knn-smoothing",
-      "url": "https://github.com/yanailab/knn-smoothing",
-      "owner": "yanailab",
-      "repo": "knn-smoothing",
-      "category": "RNA-seq",
-      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
-      "stars": 60
-    },
-    {
       "name": "scE2G",
       "url": "https://github.com/EngreitzLab/scE2G",
       "owner": "EngreitzLab",
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 61
+    },
+    {
+      "name": "knn-smoothing",
+      "url": "https://github.com/yanailab/knn-smoothing",
+      "owner": "yanailab",
+      "repo": "knn-smoothing",
+      "category": "RNA-seq",
+      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
       "stars": 60
     },
     {
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-27 08:28:53 UTC"
+  "updated": "2026-08-28 10:42:36 UTC"
 }
