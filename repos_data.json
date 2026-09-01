@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2791
+      "stars": 2792
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2242
+      "stars": 2243
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1191
+      "stars": 1195
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 793
+      "stars": 794
     },
     {
       "name": "kallisto",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 673
+      "stars": 674
     },
     {
       "name": "SCP",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 595
+      "stars": 596
     },
     {
       "name": "DoubletFinder",
@@ -199,21 +199,21 @@
       "stars": 558
     },
     {
-      "name": "dynamo",
-      "url": "https://github.com/aristoteleo/dynamo-release",
-      "owner": "aristoteleo",
-      "repo": "dynamo-release",
-      "category": "RNA-seq",
-      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 508
-    },
-    {
       "name": "scVelo",
       "url": "https://github.com/theislab/scvelo",
       "owner": "theislab",
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
+      "stars": 509
+    },
+    {
+      "name": "dynamo",
+      "url": "https://github.com/aristoteleo/dynamo-release",
+      "owner": "aristoteleo",
+      "repo": "dynamo-release",
+      "category": "RNA-seq",
+      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
       "stars": 508
     },
     {
@@ -475,7 +475,7 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 262
+      "stars": 263
     },
     {
       "name": "BayesPrism",
@@ -1099,21 +1099,21 @@
       "stars": 98
     },
     {
-      "name": "Cell_BLAST",
-      "url": "https://github.com/gao-lab/Cell_BLAST",
-      "owner": "gao-lab",
-      "repo": "Cell_BLAST",
-      "category": "RNA-seq",
-      "description": "A BLAST-like toolkit for scRNA-seq data querying and automated annotation.",
-      "stars": 95
-    },
-    {
       "name": "DeepSpot",
       "url": "https://github.com/ratschlab/DeepSpot",
       "owner": "ratschlab",
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 96
+    },
+    {
+      "name": "Cell_BLAST",
+      "url": "https://github.com/gao-lab/Cell_BLAST",
+      "owner": "gao-lab",
+      "repo": "Cell_BLAST",
+      "category": "RNA-seq",
+      "description": "A BLAST-like toolkit for scRNA-seq data querying and automated annotation.",
       "stars": 95
     },
     {
@@ -1441,21 +1441,21 @@
       "stars": 49
     },
     {
-      "name": "scExtract",
-      "url": "https://github.com/yxwucq/scExtract",
-      "owner": "yxwucq",
-      "repo": "scExtract",
-      "category": "Cell type identification and classification",
-      "description": "scExtract is a tool for automating annotation and integration of published single-cell RNA-seq datas. This tool uses LLMs agents to extract relevant information from scientific articles, process the data, and use annotations to guide multi-datasets integration.",
-      "stars": 48
-    },
-    {
       "name": "DeepSpot-M",
       "url": "https://github.com/ratschlab/DeepSpotM",
       "owner": "ratschlab",
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 49
+    },
+    {
+      "name": "scExtract",
+      "url": "https://github.com/yxwucq/scExtract",
+      "owner": "yxwucq",
+      "repo": "scExtract",
+      "category": "Cell type identification and classification",
+      "description": "scExtract is a tool for automating annotation and integration of published single-cell RNA-seq datas. This tool uses LLMs agents to extract relevant information from scientific articles, process the data, and use annotations to guide multi-datasets integration.",
       "stars": 48
     },
     {
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-08-31 04:45:22 UTC"
+  "updated": "2026-09-01 04:25:30 UTC"
 }
