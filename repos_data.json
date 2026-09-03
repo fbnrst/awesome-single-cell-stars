@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1195
+      "stars": 1197
     },
     {
       "name": "CellChat",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 709
+      "stars": 710
     },
     {
       "name": "inferCNV",
@@ -133,7 +133,16 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 682
+      "stars": 683
+    },
+    {
+      "name": "SCP",
+      "url": "https://github.com/zhanghao-njmu/SCP",
+      "owner": "zhanghao-njmu",
+      "repo": "SCP",
+      "category": "RNA-seq",
+      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
+      "stars": 674
     },
     {
       "name": "NicheNet",
@@ -145,22 +154,13 @@
       "stars": 674
     },
     {
-      "name": "SCP",
-      "url": "https://github.com/zhanghao-njmu/SCP",
-      "owner": "zhanghao-njmu",
-      "repo": "SCP",
-      "category": "RNA-seq",
-      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 673
-    },
-    {
       "name": "mLLMCelltype",
       "url": "https://github.com/cafferychen777/mLLMCelltype",
       "owner": "cafferychen777",
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 658
+      "stars": 659
     },
     {
       "name": "ffq",
@@ -187,7 +187,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 561
+      "stars": 562
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 508
+      "stars": 509
     },
     {
       "name": "SCENIC",
@@ -361,6 +361,15 @@
       "stars": 345
     },
     {
+      "name": "soupX",
+      "url": "https://github.com/constantAmateur/SoupX",
+      "owner": "constantAmateur",
+      "repo": "SoupX",
+      "category": "RNA-seq",
+      "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
+      "stars": 342
+    },
+    {
       "name": "immunarch",
       "url": "https://github.com/immunomind/immunarch",
       "owner": "immunomind",
@@ -368,15 +377,6 @@
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
       "stars": 342
-    },
-    {
-      "name": "soupX",
-      "url": "https://github.com/constantAmateur/SoupX",
-      "owner": "constantAmateur",
-      "repo": "SoupX",
-      "category": "RNA-seq",
-      "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 341
     },
     {
       "name": "Palantir",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 304
+      "stars": 305
     },
     {
       "name": "BPCells",
@@ -451,6 +451,15 @@
       "stars": 265
     },
     {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
+      "stars": 264
+    },
+    {
       "name": "MAST",
       "url": "https://github.com/RGLab/MAST",
       "owner": "RGLab",
@@ -467,15 +476,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 264
-    },
-    {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 263
     },
     {
       "name": "BayesPrism",
@@ -1000,6 +1000,15 @@
       "stars": 106
     },
     {
+      "name": "SCALE",
+      "url": "https://github.com/jsxlei/SCALE",
+      "owner": "jsxlei",
+      "repo": "SCALE",
+      "category": "Epigenomics",
+      "description": "SCALE is a deeplearning tool combining GMM with VAE for single-cell ATAC-seq analysis (visualization, clustering, imputation, batch effect removal, downstream analysis for celltype-specific TFs). [SCALE method for single-cell ATAC-seq analysis via latent feature extraction](https://www.nature.com/articles/s41467-019-12630-7)",
+      "stars": 105
+    },
+    {
       "name": "ICGS",
       "url": "https://github.com/nsalomonis/altanalyze",
       "owner": "nsalomonis",
@@ -1024,15 +1033,6 @@
       "repo": "HoneyBADGER",
       "category": "Copy number analysis",
       "description": "HoneyBADGER identifies and infers the presence of CNV and LOH events in single cells and reconstructs subclonal architecture using allele and expression information from single-cell RNA-sequencing data.",
-      "stars": 104
-    },
-    {
-      "name": "SCALE",
-      "url": "https://github.com/jsxlei/SCALE",
-      "owner": "jsxlei",
-      "repo": "SCALE",
-      "category": "Epigenomics",
-      "description": "SCALE is a deeplearning tool combining GMM with VAE for single-cell ATAC-seq analysis (visualization, clustering, imputation, batch effect removal, downstream analysis for celltype-specific TFs). [SCALE method for single-cell ATAC-seq analysis via latent feature extraction](https://www.nature.com/articles/s41467-019-12630-7)",
       "stars": 104
     },
     {
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-02 03:48:09 UTC"
+  "updated": "2026-09-03 03:48:24 UTC"
 }
