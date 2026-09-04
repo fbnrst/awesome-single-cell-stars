@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2243
+      "stars": 2244
     },
     {
       "name": "scVI",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 482
+      "stars": 483
     },
     {
       "name": "CellPhoneDB",
@@ -241,7 +241,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 481
+      "stars": 482
     },
     {
       "name": "GLUE",
@@ -322,7 +322,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 374
+      "stars": 375
     },
     {
       "name": "Tangram",
@@ -349,7 +349,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 346
+      "stars": 347
     },
     {
       "name": "ivis",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 249
+      "stars": 250
     },
     {
       "name": "LIANA",
@@ -574,7 +574,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 213
+      "stars": 214
     },
     {
       "name": "SPOTlight",
@@ -1954,6 +1954,15 @@
       "stars": 23
     },
     {
+      "name": "CellWalkR",
+      "url": "https://github.com/PFPrzytycki/CellWalkR",
+      "owner": "PFPrzytycki",
+      "repo": "CellWalkR",
+      "category": "Multi-assay data integration",
+      "description": "An R Package for integrating single-cell and bulk data to resolve regulatory elements.",
+      "stars": 23
+    },
+    {
       "name": "MATCHER",
       "url": "https://github.com/jw156605/MATCHER",
       "owner": "jw156605",
@@ -1996,15 +2005,6 @@
       "repo": "switchde",
       "category": "Marker and differential gene expression identification",
       "description": "Differential expression analysis across pseudotime. Identify genes that exhibit switch-like up or down regulation along single-cell trajectories along with where in the trajectory the regulation occurs.",
-      "stars": 22
-    },
-    {
-      "name": "CellWalkR",
-      "url": "https://github.com/PFPrzytycki/CellWalkR",
-      "owner": "PFPrzytycki",
-      "repo": "CellWalkR",
-      "category": "Multi-assay data integration",
-      "description": "An R Package for integrating single-cell and bulk data to resolve regulatory elements.",
       "stars": 22
     },
     {
@@ -2476,6 +2476,15 @@
       "stars": 8
     },
     {
+      "name": "Compocyte",
+      "url": "https://github.com/WALL-E-Lab/Compocyte",
+      "owner": "WALL-E-Lab",
+      "repo": "Compocyte",
+      "category": "Cell type identification and classification",
+      "description": "Compocyte is a composite classifier for modular hierarchical cell type annotation of single cell data. Using Compocyte you can build different hierarchical classifier architectures (local classifier per parent node, local classifer per node and local classifier per level) using all relevant models from pytorch, TensorFlow and keras. Local classifiers can be individually modified to account for alterations in classification taxonomies or selectively improve specific annotations in human-in-the-loop approaches.",
+      "stars": 8
+    },
+    {
       "name": "mfa",
       "url": "https://github.com/kieranrcampbell/mfa",
       "owner": "kieranrcampbell",
@@ -2491,15 +2500,6 @@
       "repo": "scTDA",
       "category": "RNA-seq",
       "description": "scTDA is an object oriented python library for topological data analysis of high-throughput single-cell RNA-seq data. It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.",
-      "stars": 7
-    },
-    {
-      "name": "Compocyte",
-      "url": "https://github.com/WALL-E-Lab/Compocyte",
-      "owner": "WALL-E-Lab",
-      "repo": "Compocyte",
-      "category": "Cell type identification and classification",
-      "description": "Compocyte is a composite classifier for modular hierarchical cell type annotation of single cell data. Using Compocyte you can build different hierarchical classifier architectures (local classifier per parent node, local classifer per node and local classifier per level) using all relevant models from pytorch, TensorFlow and keras. Local classifiers can be individually modified to account for alterations in classification taxonomies or selectively improve specific annotations in human-in-the-loop approaches.",
       "stars": 7
     },
     {
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-03 03:48:24 UTC"
+  "updated": "2026-09-04 03:48:49 UTC"
 }
