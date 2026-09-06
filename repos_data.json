@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2794
+      "stars": 2795
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2551
+      "stars": 2553
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1621
+      "stars": 1622
     },
     {
       "name": "gget",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 484
+      "stars": 485
     },
     {
       "name": "CellPhoneDB",
@@ -502,7 +502,7 @@
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 244
+      "stars": 245
     },
     {
       "name": "Clustergrammer",
@@ -547,7 +547,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 216
+      "stars": 217
     },
     {
       "name": "dittoSeq",
@@ -559,6 +559,15 @@
       "stars": 215
     },
     {
+      "name": "torchdr",
+      "url": "https://github.com/TorchDR/TorchDR",
+      "owner": "TorchDR",
+      "repo": "TorchDR",
+      "category": "Dimension reduction",
+      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 215
+    },
+    {
       "name": "cellassign",
       "url": "https://github.com/irrationone/cellassign/",
       "owner": "irrationone",
@@ -566,15 +575,6 @@
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
       "stars": 215
-    },
-    {
-      "name": "torchdr",
-      "url": "https://github.com/TorchDR/TorchDR",
-      "owner": "TorchDR",
-      "repo": "TorchDR",
-      "category": "Dimension reduction",
-      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 214
     },
     {
       "name": "SPOTlight",
@@ -946,21 +946,21 @@
       "stars": 112
     },
     {
-      "name": "ZIFA",
-      "url": "https://github.com/epierson9/ZIFA",
-      "owner": "epierson9",
-      "repo": "ZIFA",
-      "category": "Dimension reduction",
-      "description": "Zero-inflated dimensionality reduction algorithm for single-cell data.",
-      "stars": 110
-    },
-    {
       "name": "DeepSort",
       "url": "https://github.com/ZJUFanLab/DeepSort",
       "owner": "ZJUFanLab",
       "repo": "DeepSort",
       "category": "Cell type identification and classification",
       "description": "A reference-free cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
+      "stars": 111
+    },
+    {
+      "name": "ZIFA",
+      "url": "https://github.com/epierson9/ZIFA",
+      "owner": "epierson9",
+      "repo": "ZIFA",
+      "category": "Dimension reduction",
+      "description": "Zero-inflated dimensionality reduction algorithm for single-cell data.",
       "stars": 110
     },
     {
@@ -1414,6 +1414,15 @@
       "stars": 50
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 50
+    },
+    {
       "name": "MetaNeighbor",
       "url": "github.com/maggiecrow/MetaNeighbor",
       "owner": "maggiecrow",
@@ -1438,15 +1447,6 @@
       "repo": "psupertime",
       "category": "Pseudotime and trajectory inference",
       "description": "psupertime is an R package which uses single cell RNAseq data, where the cells have labels following a known sequence (e.g. a time series), to identify a small number of genes which place cells in that known order. It can be used for discovery of relevant genes, for exploration of unlabelled data, and assessment of one dataset with respect to the labels known for another dataset. - [preprint](https://www.biorxiv.org/content/10.1101/622001v1)",
-      "stars": 49
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 49
     },
     {
@@ -2764,5 +2764,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-05 03:47:50 UTC"
+  "updated": "2026-09-06 03:51:20 UTC"
 }
