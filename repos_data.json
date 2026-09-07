@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2553
+      "stars": 2554
     },
     {
       "name": "STAR",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 769
+      "stars": 770
     },
     {
       "name": "GSEApy",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 426
+      "stars": 427
     },
     {
       "name": "GEARS",
@@ -547,7 +547,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 217
+      "stars": 219
     },
     {
       "name": "dittoSeq",
@@ -601,7 +601,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 196
+      "stars": 197
     },
     {
       "name": "kb-python",
@@ -655,7 +655,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 157
+      "stars": 158
     },
     {
       "name": "scPRINT",
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 157
+      "stars": 158
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 157
+      "stars": 158
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 157
+      "stars": 158
     },
     {
       "name": "Novae",
@@ -835,7 +835,7 @@
       "repo": "dictys",
       "category": "Gene regulatory network identification",
       "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
-      "stars": 130
+      "stars": 131
     },
     {
       "name": "SCEVAN",
@@ -1096,7 +1096,7 @@
       "repo": "geosketch",
       "category": "Cell subsampling",
       "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 98
+      "stars": 97
     },
     {
       "name": "DeepSpot",
@@ -2746,6 +2746,15 @@
       "stars": 1
     },
     {
+      "name": "pbcheck",
+      "url": "https://github.com/s4s4s4s/pbcheck",
+      "owner": "s4s4s4s",
+      "repo": "pbcheck",
+      "category": "Marker and differential gene expression identification",
+      "description": "Audits a single-cell differential-expression design for pseudoreplication: checks donor nesting within condition, then runs a naive per-cell test and a donor-pseudobulk test against a donor-permutation null and reports each arm's permutation floor.",
+      "stars": 0
+    },
+    {
       "name": "CellPLM",
       "url": "https://github.com/OmicsML/CellPLM?tab=readme-ov-file",
       "owner": "OmicsML",
@@ -2764,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-06 03:51:20 UTC"
+  "updated": "2026-09-07 03:50:37 UTC"
 }
