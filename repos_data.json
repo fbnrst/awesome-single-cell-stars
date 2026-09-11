@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2558
+      "stars": 2559
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1684
+      "stars": 1685
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1625
+      "stars": 1626
     },
     {
       "name": "gget",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 770
+      "stars": 771
     },
     {
       "name": "GSEApy",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 597
+      "stars": 598
     },
     {
       "name": "DoubletFinder",
@@ -187,7 +187,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 563
+      "stars": 564
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -619,7 +619,7 @@
       "repo": "SpatialDE",
       "category": "Spatial transcriptomics",
       "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
-      "stars": 189
+      "stars": 190
     },
     {
       "name": "BayesSpace",
@@ -691,7 +691,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 155
+      "stars": 156
     },
     {
       "name": "ceLLama",
@@ -1006,7 +1006,7 @@
       "repo": "CASSIA",
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
-      "stars": 105
+      "stars": 106
     },
     {
       "name": "SCALE",
@@ -1105,7 +1105,7 @@
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 96
+      "stars": 97
     },
     {
       "name": "Cell_BLAST",
@@ -1378,6 +1378,15 @@
       "stars": 52
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 52
+    },
+    {
       "name": "trendsceek",
       "url": "https://github.com/edsgard/trendsceek",
       "owner": "edsgard",
@@ -1402,15 +1411,6 @@
       "repo": "SCnorm",
       "category": "Count modelling and normalization",
       "description": "A quantile regression based approach for robust normalization of single cell RNA-seq data.",
-      "stars": 51
-    },
-    {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 51
     },
     {
@@ -2089,6 +2089,15 @@
       "stars": 19
     },
     {
+      "name": "DeepSpot2Cell",
+      "url": "https://github.com/ratschlab/DeepSpot2Cell",
+      "owner": "ratschlab",
+      "repo": "DeepSpot2Cell",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 19
+    },
+    {
       "name": "BPSC",
       "url": "https://github.com/nghiavtr/BPSC",
       "owner": "nghiavtr",
@@ -2113,15 +2122,6 @@
       "repo": "sisua",
       "category": "Multi-assay data integration",
       "description": "In this study, we propose models based on the Bayesian generative approach, where protein quantification available as CITE-seq counts from the same cells are used to constrain the learning process, thus forming a semi-supervised model. The generative model is based on the deep variational autoencoder (VAE) neural network architecture. [bioRxiv](https://www.biorxiv.org/content/10.1101/631382v1)",
-      "stars": 18
-    },
-    {
-      "name": "DeepSpot2Cell",
-      "url": "https://github.com/ratschlab/DeepSpot2Cell",
-      "owner": "ratschlab",
-      "repo": "DeepSpot2Cell",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 18
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-10 03:58:31 UTC"
+  "updated": "2026-09-11 03:54:51 UTC"
 }
