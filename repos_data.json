@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2246
+      "stars": 2247
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1626
+      "stars": 1627
     },
     {
       "name": "gget",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 660
+      "stars": 661
     },
     {
       "name": "ffq",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 485
+      "stars": 486
     },
     {
       "name": "RCTD",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 427
+      "stars": 428
     },
     {
       "name": "GEARS",
@@ -298,15 +298,6 @@
       "stars": 394
     },
     {
-      "name": "MAGIC",
-      "url": "https://github.com/KrishnaswamyLab/MAGIC",
-      "owner": "KrishnaswamyLab",
-      "repo": "MAGIC",
-      "category": "Feature (Gene) imputation",
-      "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
-      "stars": 388
-    },
-    {
       "name": "Giotto Suite",
       "url": "https://github.com/drieslab/Giotto",
       "owner": "drieslab",
@@ -314,6 +305,15 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 388
+    },
+    {
+      "name": "MAGIC",
+      "url": "https://github.com/KrishnaswamyLab/MAGIC",
+      "owner": "KrishnaswamyLab",
+      "repo": "MAGIC",
+      "category": "Feature (Gene) imputation",
+      "description": "Markov Affinity-based Graph Imputation of Cells (MAGIC). A diffusion-based imputation method reveals gene-gene interactions in single-cell RNA-sequencing data. On [BioRviv](http://www.biorxiv.org/content/early/2017/02/25/111591) and [published in Cell](https://doi.org/10.1016/j.cell.2018.05.061).",
+      "stars": 387
     },
     {
       "name": "scRepertoire",
@@ -394,7 +394,7 @@
       "repo": "octopus",
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
-      "stars": 326
+      "stars": 325
     },
     {
       "name": "CopyKAT",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 304
+      "stars": 305
     },
     {
       "name": "zUMIs",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 291
+      "stars": 292
     },
     {
       "name": "MOFA",
@@ -538,7 +538,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 227
+      "stars": 228
     },
     {
       "name": "alevin-fry",
@@ -548,6 +548,15 @@
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
       "stars": 219
+    },
+    {
+      "name": "cellassign",
+      "url": "https://github.com/irrationone/cellassign/",
+      "owner": "irrationone",
+      "repo": "cellassign",
+      "category": "Cell type identification and classification",
+      "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
+      "stars": 216
     },
     {
       "name": "dittoSeq",
@@ -565,15 +574,6 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 215
-    },
-    {
-      "name": "cellassign",
-      "url": "https://github.com/irrationone/cellassign/",
-      "owner": "irrationone",
-      "repo": "cellassign",
-      "category": "Cell type identification and classification",
-      "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
       "stars": 215
     },
     {
@@ -811,21 +811,21 @@
       "stars": 135
     },
     {
-      "name": "novoSpaRc",
-      "url": "https://github.com/rajewsky-lab/novosparc",
-      "owner": "rajewsky-lab",
-      "repo": "novosparc",
-      "category": "RNA-seq",
-      "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
-      "stars": 134
-    },
-    {
       "name": "CellTrek",
       "url": "https://github.com/navinlabcode/CellTrek",
       "owner": "navinlabcode",
       "repo": "CellTrek",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 135
+    },
+    {
+      "name": "novoSpaRc",
+      "url": "https://github.com/rajewsky-lab/novosparc",
+      "owner": "rajewsky-lab",
+      "repo": "novosparc",
+      "category": "RNA-seq",
+      "description": "Predict locations of single cells in space by solely using single-cell RNA sequencing data. An existing reference database of marker genes is not required, but significantly enhances performance if available. [bioRxiv](https://www.biorxiv.org/content/early/2018/10/30/456350).",
       "stars": 134
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-11 03:54:51 UTC"
+  "updated": "2026-09-12 03:57:18 UTC"
 }
