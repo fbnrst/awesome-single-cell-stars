@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2559
+      "stars": 2560
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1685
+      "stars": 1688
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1685
+      "stars": 1688
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1685
+      "stars": 1688
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1685
+      "stars": 1688
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1685
+      "stars": 1688
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1685
+      "stars": 1688
     },
     {
       "name": "scGPT",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 771
+      "stars": 772
     },
     {
       "name": "GSEApy",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 497
+      "stars": 498
     },
     {
       "name": "CellPhoneDB",
@@ -502,7 +502,7 @@
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 245
+      "stars": 246
     },
     {
       "name": "Clustergrammer",
@@ -691,7 +691,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 156
+      "stars": 157
     },
     {
       "name": "DeepCpg",
@@ -970,7 +970,7 @@
       "repo": "htseq",
       "category": "RNA-seq",
       "description": "A Python library to facilitate programmatic analysis of data from high-throughput sequencing (HTS) experiments. A popular component of `HTSeq` is `htseq-count`, a script to quantify gene expression in bulk and single-cell RNA-Seq and similar experiments.",
-      "stars": 108
+      "stars": 109
     },
     {
       "name": "SWNE",
@@ -1090,21 +1090,21 @@
       "stars": 98
     },
     {
-      "name": "geosketch",
-      "url": "https://github.com/brianhie/geosketch",
-      "owner": "brianhie",
-      "repo": "geosketch",
-      "category": "Cell subsampling",
-      "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 97
-    },
-    {
       "name": "DeepSpot",
       "url": "https://github.com/ratschlab/DeepSpot",
       "owner": "ratschlab",
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 98
+    },
+    {
+      "name": "geosketch",
+      "url": "https://github.com/brianhie/geosketch",
+      "owner": "brianhie",
+      "repo": "geosketch",
+      "category": "Cell subsampling",
+      "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
       "stars": 97
     },
     {
@@ -1360,6 +1360,15 @@
       "stars": 54
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 53
+    },
+    {
       "name": "STAligner",
       "url": "https://github.com/zhoux85/STAligner",
       "owner": "zhoux85",
@@ -1375,15 +1384,6 @@
       "repo": "ginkgo",
       "category": "Copy number analysis",
       "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
-      "stars": 52
-    },
-    {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 52
     },
     {
@@ -1846,6 +1846,15 @@
       "stars": 27
     },
     {
+      "name": "AESTETIK",
+      "url": "https://github.com/ratschlab/aestetik",
+      "owner": "ratschlab",
+      "repo": "aestetik",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 27
+    },
+    {
       "name": "dropkick",
       "url": "https://github.com/KenLauLab/dropkick",
       "owner": "KenLauLab",
@@ -1888,15 +1897,6 @@
       "repo": "FiRE",
       "category": "Rare cell detection",
       "description": "Finder of rare entities (FiRE) helps identify rare cell types in voluminous single-cell datasets. Design of FiRE is inspired by the observation that rareness estimation of a particular data point is the flip side of measuring the density around it. In principle, FiRE uses the Sketching technique, a variant of locality sensitive hashing, to assign rareness score to every cell.",
-      "stars": 26
-    },
-    {
-      "name": "AESTETIK",
-      "url": "https://github.com/ratschlab/aestetik",
-      "owner": "ratschlab",
-      "repo": "aestetik",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 26
     },
     {
@@ -2071,6 +2071,15 @@
       "stars": 20
     },
     {
+      "name": "DeepSpot2Cell",
+      "url": "https://github.com/ratschlab/DeepSpot2Cell",
+      "owner": "ratschlab",
+      "repo": "DeepSpot2Cell",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 20
+    },
+    {
       "name": "DESCEND",
       "url": "https://github.com/jingshuw/descend",
       "owner": "jingshuw",
@@ -2086,15 +2095,6 @@
       "repo": "merlot",
       "category": "Pseudotime and trajectory inference",
       "description": "Reconstructing complex lineage trees from scRNA-seq data using MERLoT.",
-      "stars": 19
-    },
-    {
-      "name": "DeepSpot2Cell",
-      "url": "https://github.com/ratschlab/DeepSpot2Cell",
-      "owner": "ratschlab",
-      "repo": "DeepSpot2Cell",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 19
     },
     {
@@ -2125,21 +2125,21 @@
       "stars": 18
     },
     {
-      "name": "scbean",
-      "url": "https://github.com/jhu99/scbean",
-      "owner": "jhu99",
-      "repo": "scbean",
-      "category": "RNA-seq",
-      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
-      "stars": 16
-    },
-    {
       "name": "scDiagnostics",
       "url": "https://github.com/ccb-hms/scDiagnostics",
       "owner": "ccb-hms",
       "repo": "scDiagnostics",
       "category": "Quality control",
       "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
+      "stars": 17
+    },
+    {
+      "name": "scbean",
+      "url": "https://github.com/jhu99/scbean",
+      "owner": "jhu99",
+      "repo": "scbean",
+      "category": "RNA-seq",
+      "description": "Scbean integrates a range of models for single-cell data analysis, including dimensionality reduction, removing batch effects, and transferring well-annotated cell type labels from scRNA-seq to scATAC-seq and spatial resolved transcriptomics, and joint-analysis of paired multimodal single-cell data.",
       "stars": 16
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-13 04:06:28 UTC"
+  "updated": "2026-09-14 04:14:28 UTC"
 }
