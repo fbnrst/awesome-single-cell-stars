@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1688
+      "stars": 1689
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1688
+      "stars": 1689
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1688
+      "stars": 1689
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1688
+      "stars": 1689
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1688
+      "stars": 1689
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1688
+      "stars": 1689
     },
     {
       "name": "scGPT",
@@ -250,7 +250,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 477
+      "stars": 478
     },
     {
       "name": "cell2location",
@@ -505,21 +505,21 @@
       "stars": 246
     },
     {
-      "name": "Clustergrammer",
-      "url": "https://github.com/maayanlab/clustergrammer",
-      "owner": "maayanlab",
-      "repo": "clustergrammer",
-      "category": "RNA-seq",
-      "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
-      "stars": 240
-    },
-    {
       "name": "Muscat",
       "url": "https://github.com/HelenaLC/muscat",
       "owner": "HelenaLC",
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
+      "stars": 242
+    },
+    {
+      "name": "Clustergrammer",
+      "url": "https://github.com/maayanlab/clustergrammer",
+      "owner": "maayanlab",
+      "repo": "clustergrammer",
+      "category": "RNA-seq",
+      "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
       "stars": 240
     },
     {
@@ -547,7 +547,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 219
+      "stars": 220
     },
     {
       "name": "cellassign",
@@ -655,7 +655,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 160
+      "stars": 161
     },
     {
       "name": "scPRINT",
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 160
+      "stars": 161
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 160
+      "stars": 161
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 160
+      "stars": 161
     },
     {
       "name": "Novae",
@@ -1090,6 +1090,15 @@
       "stars": 98
     },
     {
+      "name": "geosketch",
+      "url": "https://github.com/brianhie/geosketch",
+      "owner": "brianhie",
+      "repo": "geosketch",
+      "category": "Cell subsampling",
+      "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
+      "stars": 98
+    },
+    {
       "name": "DeepSpot",
       "url": "https://github.com/ratschlab/DeepSpot",
       "owner": "ratschlab",
@@ -1097,15 +1106,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 98
-    },
-    {
-      "name": "geosketch",
-      "url": "https://github.com/brianhie/geosketch",
-      "owner": "brianhie",
-      "repo": "geosketch",
-      "category": "Cell subsampling",
-      "description": "Method to subsample massive scRNA-seq datasets while preserving rare cell states. Resulting \u201csketch\u201d accelerates clustering, visualization, and integration analyses. [Paper](https://doi.org/10.1016/j.cels.2019.05.003)",
-      "stars": 97
     },
     {
       "name": "Cell_BLAST",
@@ -1279,6 +1279,15 @@
       "stars": 65
     },
     {
+      "name": "scE2G",
+      "url": "https://github.com/EngreitzLab/scE2G",
+      "owner": "EngreitzLab",
+      "repo": "scE2G",
+      "category": "Epigenomics",
+      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 63
+    },
+    {
       "name": "cerebra",
       "url": "https://github.com/czbiohub/cerebra",
       "owner": "czbiohub",
@@ -1286,15 +1295,6 @@
       "category": "Variant calling",
       "description": "Cerebra is a tool for high-throughput summarizing of vcf entries following traditional variant calling for a sequencing experiment. Helps to extract relevant mutation information from among tens of thousands of vcf lines.",
       "stars": 62
-    },
-    {
-      "name": "scE2G",
-      "url": "https://github.com/EngreitzLab/scE2G",
-      "owner": "EngreitzLab",
-      "repo": "scE2G",
-      "category": "Epigenomics",
-      "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
-      "stars": 61
     },
     {
       "name": "knn-smoothing",
@@ -1720,6 +1720,15 @@
       "stars": 31
     },
     {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 31
+    },
+    {
       "name": "scGEAToolbox",
       "url": "https://github.com/jamesjcai/scGEAToolbox",
       "owner": "jamesjcai",
@@ -1744,15 +1753,6 @@
       "repo": "ouija",
       "category": "Pseudotime and trajectory inference",
       "description": "[A descriptive marker gene approach to single-cell pseudotime inference](https://doi.org/10.1101/060442)",
-      "stars": 30
-    },
-    {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
       "stars": 30
     },
     {
@@ -1801,6 +1801,15 @@
       "stars": 28
     },
     {
+      "name": "symsim",
+      "url": "https://github.com/YosefLab/SymSim",
+      "owner": "YosefLab",
+      "repo": "SymSim",
+      "category": "Simulation",
+      "description": "SymSim (Synthetic model of multiple variability factors for Simulation) is an R package for simulation of single cell RNA-Seq data.",
+      "stars": 28
+    },
+    {
       "name": "SCDIFF",
       "url": "https://github.com/phoenixding/scdiff",
       "owner": "phoenixding",
@@ -1834,15 +1843,6 @@
       "repo": "RSCORE",
       "category": "RNA-seq",
       "description": "[Enhancing single-cell cellular state inference by incorporating molecular network features](https://www.biorxiv.org/content/10.1101/699959v1).",
-      "stars": 27
-    },
-    {
-      "name": "symsim",
-      "url": "https://github.com/YosefLab/SymSim",
-      "owner": "YosefLab",
-      "repo": "SymSim",
-      "category": "Simulation",
-      "description": "SymSim (Synthetic model of multiple variability factors for Simulation) is an R package for simulation of single cell RNA-Seq data.",
       "stars": 27
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-14 04:14:28 UTC"
+  "updated": "2026-09-15 04:13:42 UTC"
 }
