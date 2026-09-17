@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2248
+      "stars": 2249
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1693
+      "stars": 1695
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1693
+      "stars": 1695
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1693
+      "stars": 1695
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1693
+      "stars": 1695
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1693
+      "stars": 1695
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1693
+      "stars": 1695
     },
     {
       "name": "scGPT",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 674
+      "stars": 675
     },
     {
       "name": "mLLMCelltype",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 510
+      "stars": 511
     },
     {
       "name": "SCENIC",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 428
+      "stars": 430
     },
     {
       "name": "GEARS",
@@ -889,7 +889,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 122
+      "stars": 123
     },
     {
       "name": "Clustergrammer2",
@@ -952,7 +952,7 @@
       "repo": "DeepSort",
       "category": "Cell type identification and classification",
       "description": "A reference-free cell-type annotation tool for single-cell RNA-seq data using deep learning with a weighted graph neural network, which is learned based on the most comprehensive single-cell transcriptomics atlases involving 764,741 cells across 88 tissues of human and mouse. [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.13.094953v1)",
-      "stars": 111
+      "stars": 112
     },
     {
       "name": "ZIFA",
@@ -1249,7 +1249,7 @@
       "repo": "CellNEST",
       "category": "Cellular interactions/communication",
       "description": "Cell Neural Networks on Spatial Transcriptomics (CellNEST) deciphers patterns of cell-cell communication by introducing relay-network detection that identifies ligand-receptor-ligand-receptor communication chains. Uses attention mechanisms to analyze spatial transcriptomics data, detect T cell homing signals, and predict new communication patterns in various cancer types. [Paper](https://www.nature.com/articles/s41592-025-02721-3)",
-      "stars": 69
+      "stars": 70
     },
     {
       "name": "scDataviz",
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-16 04:09:31 UTC"
+  "updated": "2026-09-17 04:16:43 UTC"
 }
