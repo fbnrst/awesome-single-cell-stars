@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 511
+      "stars": 510
     },
     {
       "name": "SCENIC",
@@ -349,7 +349,7 @@
       "repo": "slingshot",
       "category": "Pseudotime and trajectory inference",
       "description": "Functions for identifying and characterizing continuous developmental trajectories in single-cell sequencing data.",
-      "stars": 347
+      "stars": 349
     },
     {
       "name": "ivis",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 202
+      "stars": 203
     },
     {
       "name": "inferCNVpy",
@@ -619,7 +619,7 @@
       "repo": "SpatialDE",
       "category": "Spatial transcriptomics",
       "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
-      "stars": 191
+      "stars": 192
     },
     {
       "name": "BayesSpace",
@@ -1351,6 +1351,15 @@
       "stars": 54
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 54
+    },
+    {
       "name": "STAGATE",
       "url": "https://github.com/QIFEIDKN/STAGATE",
       "owner": "QIFEIDKN",
@@ -1360,13 +1369,13 @@
       "stars": 54
     },
     {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 53
+      "name": "Ginkgo",
+      "url": "https://github.com/robertaboukhalil/ginkgo",
+      "owner": "robertaboukhalil",
+      "repo": "ginkgo",
+      "category": "Copy number analysis",
+      "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
+      "stars": 52
     },
     {
       "name": "STAligner",
@@ -1375,15 +1384,6 @@
       "repo": "STAligner",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 53
-    },
-    {
-      "name": "Ginkgo",
-      "url": "https://github.com/robertaboukhalil/ginkgo",
-      "owner": "robertaboukhalil",
-      "repo": "ginkgo",
-      "category": "Copy number analysis",
-      "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
       "stars": 52
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-17 04:16:43 UTC"
+  "updated": "2026-09-18 04:01:13 UTC"
 }
