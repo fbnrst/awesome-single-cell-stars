@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2799
+      "stars": 2800
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2561
+      "stars": 2562
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2249
+      "stars": 2250
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1629
+      "stars": 1631
     },
     {
       "name": "gget",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 684
+      "stars": 685
     },
     {
       "name": "NicheNet",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 677
+      "stars": 678
     },
     {
       "name": "SCP",
@@ -523,6 +523,15 @@
       "stars": 240
     },
     {
+      "name": "Numbat",
+      "url": "https://github.com/kharchenkolab/numbat",
+      "owner": "kharchenkolab",
+      "repo": "numbat",
+      "category": "Copy number analysis",
+      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
+      "stars": 229
+    },
+    {
       "name": "SComatic",
       "url": "https://github.com/cortes-ciriano-lab/SComatic",
       "owner": "cortes-ciriano-lab",
@@ -530,15 +539,6 @@
       "category": "Variant calling",
       "description": "",
       "stars": 229
-    },
-    {
-      "name": "Numbat",
-      "url": "https://github.com/kharchenkolab/numbat",
-      "owner": "kharchenkolab",
-      "repo": "numbat",
-      "category": "Copy number analysis",
-      "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 228
     },
     {
       "name": "alevin-fry",
@@ -1285,7 +1285,7 @@
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
-      "stars": 64
+      "stars": 65
     },
     {
       "name": "cerebra",
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-18 04:01:13 UTC"
+  "updated": "2026-09-19 03:59:03 UTC"
 }
