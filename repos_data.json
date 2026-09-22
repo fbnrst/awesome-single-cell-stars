@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2249
+      "stars": 2251
     },
     {
       "name": "scVI",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 679
+      "stars": 680
     },
     {
       "name": "SCP",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 511
+      "stars": 512
     },
     {
       "name": "dynamo",
@@ -241,7 +241,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 485
+      "stars": 486
     },
     {
       "name": "GLUE",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 430
+      "stars": 431
     },
     {
       "name": "GEARS",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 395
+      "stars": 396
     },
     {
       "name": "Giotto Suite",
@@ -448,7 +448,7 @@
       "repo": "scirpy",
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 265
+      "stars": 266
     },
     {
       "name": "SpaGCN",
@@ -520,7 +520,7 @@
       "repo": "clustergrammer",
       "category": "RNA-seq",
       "description": "Interative web-based heatmap for visualizing and analyzing high dimensional biological data, including single-cell RNA-seq. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [example notebook](http://nbviewer.jupyter.org/github/MaayanLab/CCLE_Clustergrammer/blob/master/notebooks/Clustergrammer_CCLE_Notebook.ipynb).",
-      "stars": 240
+      "stars": 241
     },
     {
       "name": "Numbat",
@@ -691,7 +691,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 158
+      "stars": 159
     },
     {
       "name": "DeepCpg",
@@ -835,7 +835,7 @@
       "repo": "dictys",
       "category": "Gene regulatory network identification",
       "description": "Dictys reconstructs and analyzes context specific and dynamic Gene Regulatory Networks from scRNA-seq and scATAC-seq datasets. [Dictys: dynamic gene regulatory network dissects developmental continuum with single-cell multiomics](https://www.nature.com/articles/s41592-023-01971-3)",
-      "stars": 131
+      "stars": 132
     },
     {
       "name": "SCEVAN",
@@ -1855,21 +1855,21 @@
       "stars": 27
     },
     {
-      "name": "dropkick",
-      "url": "https://github.com/KenLauLab/dropkick",
-      "owner": "KenLauLab",
-      "repo": "dropkick",
-      "category": "RNA-seq",
-      "description": "Automated cell filtering for single-cell RNA sequencing data.",
-      "stars": 26
-    },
-    {
       "name": "scSemiProfiler",
       "url": "https://github.com/mcgilldinglab/scSemiProfiler",
       "owner": "mcgilldinglab",
       "repo": "scSemiProfiler",
       "category": "RNA-seq",
       "description": "Deep generative AI tool for cost-effective single-cell data generation. It has two main functions: 1. **Single-cell-level bulk deconvolution** \u2013 Generates single-cell gene expression profiles from bulk RNA-seq data using reference single-cell data from a similar tissue. 2. **Semi-profiling** \u2013 Use deep generative AI to generate single-cell data for a cohort with 1/10 to 1/3 of the original cost. This function takes as input cheaper bulk RNA-seq data from all cohort samples and single-cell RNA-seq data from a subset of representative samples selected by the active learning module.",
+      "stars": 27
+    },
+    {
+      "name": "dropkick",
+      "url": "https://github.com/KenLauLab/dropkick",
+      "owner": "KenLauLab",
+      "repo": "dropkick",
+      "category": "RNA-seq",
+      "description": "Automated cell filtering for single-cell RNA sequencing data.",
       "stars": 26
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-21 04:14:08 UTC"
+  "updated": "2026-09-22 04:10:01 UTC"
 }
