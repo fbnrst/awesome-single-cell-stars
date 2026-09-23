@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2563
+      "stars": 2564
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2251
+      "stars": 2252
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1632
+      "stars": 1634
     },
     {
       "name": "gget",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 685
+      "stars": 684
     },
     {
       "name": "NicheNet",
@@ -160,7 +160,7 @@
       "repo": "mLLMCelltype",
       "category": "Cell type identification and classification",
       "description": "A multi-model framework for single-cell RNA-seq cell type annotation using large language models (LLMs). It implements an interactive consensus mechanism where multiple LLMs collaborate to reach agreement on cell type annotations, with uncertainty quantification through consensus proportion and entropy metrics. Supports OpenAI, Anthropic, Google, and Alibaba models.",
-      "stars": 661
+      "stars": 662
     },
     {
       "name": "ffq",
@@ -187,7 +187,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 565
+      "stars": 566
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 409
+      "stars": 410
     },
     {
       "name": "RAPIDS-singlecell",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 362
+      "stars": 363
     },
     {
       "name": "slingshot",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 305
+      "stars": 307
     },
     {
       "name": "BPCells",
@@ -529,7 +529,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 229
+      "stars": 230
     },
     {
       "name": "SComatic",
@@ -550,6 +550,15 @@
       "stars": 220
     },
     {
+      "name": "torchdr",
+      "url": "https://github.com/TorchDR/TorchDR",
+      "owner": "TorchDR",
+      "repo": "TorchDR",
+      "category": "Dimension reduction",
+      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 216
+    },
+    {
       "name": "cellassign",
       "url": "https://github.com/irrationone/cellassign/",
       "owner": "irrationone",
@@ -565,15 +574,6 @@
       "repo": "dittoSeq",
       "category": "RNA-seq",
       "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
-      "stars": 215
-    },
-    {
-      "name": "torchdr",
-      "url": "https://github.com/TorchDR/TorchDR",
-      "owner": "TorchDR",
-      "repo": "TorchDR",
-      "category": "Dimension reduction",
-      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
       "stars": 215
     },
     {
@@ -691,7 +691,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 159
+      "stars": 160
     },
     {
       "name": "DeepCpg",
@@ -700,7 +700,7 @@
       "repo": "deepcpg",
       "category": "Epigenomics",
       "description": "DeepCpG is a deep neural network for predicting the methylation state of CpG dinucleotides in multiple cells. It allows to accurately impute incomplete DNA methylation profiles, to discover predictive sequence motifs, and to quantify the effect of sequence mutations.",
-      "stars": 154
+      "stars": 155
     },
     {
       "name": "ceLLama",
@@ -1063,21 +1063,21 @@
       "stars": 101
     },
     {
-      "name": "DoubletDetection",
-      "url": "https://github.com/JonathanShor/DoubletDetection",
-      "owner": "JonathanShor",
-      "repo": "DoubletDetection",
-      "category": "Doublet Identification",
-      "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
-      "stars": 99
-    },
-    {
       "name": "DeepSpot",
       "url": "https://github.com/ratschlab/DeepSpot",
       "owner": "ratschlab",
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 101
+    },
+    {
+      "name": "DoubletDetection",
+      "url": "https://github.com/JonathanShor/DoubletDetection",
+      "owner": "JonathanShor",
+      "repo": "DoubletDetection",
+      "category": "Doublet Identification",
+      "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
       "stars": 99
     },
     {
@@ -1324,6 +1324,15 @@
       "stars": 58
     },
     {
+      "name": "DeepSpot-M",
+      "url": "https://github.com/ratschlab/DeepSpotM",
+      "owner": "ratschlab",
+      "repo": "DeepSpotM",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 57
+    },
+    {
       "name": "BatchEffectRemoval",
       "url": "https://github.com/ushaham/BatchEffectRemoval",
       "owner": "ushaham",
@@ -1339,15 +1348,6 @@
       "repo": "FigR",
       "category": "Multi-assay data integration",
       "description": "FigR (Functional inference of gene Regulation) is a computational framework for supporting the integration of single cell chromatin accessibility and gene expression data to infer transcriptional regulators of target genes. [Functional inference of gene regulation using single-cell multi-omics](https://www.sciencedirect.com/science/article/pii/S2666979X22001082)",
-      "stars": 55
-    },
-    {
-      "name": "DeepSpot-M",
-      "url": "https://github.com/ratschlab/DeepSpotM",
-      "owner": "ratschlab",
-      "repo": "DeepSpotM",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 55
     },
     {
@@ -1414,21 +1414,21 @@
       "stars": 51
     },
     {
-      "name": "SCODE",
-      "url": "https://github.com/hmatsu1226/SCODE",
-      "owner": "hmatsu1226",
-      "repo": "SCODE",
-      "category": "RNA-seq",
-      "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
-      "stars": 50
-    },
-    {
       "name": "autozyme",
       "url": "https://github.com/ElliotXie/autozyme",
       "owner": "ElliotXie",
       "repo": "autozyme",
       "category": "Other applications",
       "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 51
+    },
+    {
+      "name": "SCODE",
+      "url": "https://github.com/hmatsu1226/SCODE",
+      "owner": "hmatsu1226",
+      "repo": "SCODE",
+      "category": "RNA-seq",
+      "description": "an efficient regulatory network inference algorithm from single-cell RNA-Seq during differentiation",
       "stars": 50
     },
     {
@@ -1531,6 +1531,15 @@
       "stars": 42
     },
     {
+      "name": "clusterExperiment",
+      "url": "https://github.com/epurdom/clusterExperiment",
+      "owner": "epurdom",
+      "repo": "clusterExperiment",
+      "category": "RNA-seq",
+      "description": "Functions for running and comparing many different clusterings of single-cell sequencing data. Meant to work with SCONE and slingshot.",
+      "stars": 42
+    },
+    {
       "name": "bindSC",
       "url": "https://github.com/KChen-lab/bindSC",
       "owner": "KChen-lab",
@@ -1547,15 +1556,6 @@
       "category": "Other applications",
       "description": "[Wishbone is an algorithm to identify bifurcating developmental trajectories from single cell data. Wishbone can applied to both single cell RNA-seq and mass cytometry datasets.](http://www.nature.com/nbt/journal/v34/n6/full/nbt.3569.html)",
       "stars": 42
-    },
-    {
-      "name": "clusterExperiment",
-      "url": "https://github.com/epurdom/clusterExperiment",
-      "owner": "epurdom",
-      "repo": "clusterExperiment",
-      "category": "RNA-seq",
-      "description": "Functions for running and comparing many different clusterings of single-cell sequencing data. Meant to work with SCONE and slingshot.",
-      "stars": 41
     },
     {
       "name": "Monet",
@@ -2062,21 +2062,21 @@
       "stars": 21
     },
     {
-      "name": "gene_network_evaluation",
-      "url": "https://github.com/EngreitzLab/gene_network_evaluation/",
-      "owner": "EngreitzLab",
-      "repo": "gene_network_evaluation",
-      "category": "Quality control",
-      "description": "A flexible framework to evaluate the plausibility of gene programs inferred from single-cell genomic data. The assessment is broken down into themes such as goodness of fit (ability to explain the data), co-regulation, mechanistic interactions etc. Under each theme, multiple evaluation tasks are conceptualised and implemented using appropriate statistical tests.",
-      "stars": 20
-    },
-    {
       "name": "DeepSpot2Cell",
       "url": "https://github.com/ratschlab/DeepSpot2Cell",
       "owner": "ratschlab",
       "repo": "DeepSpot2Cell",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 21
+    },
+    {
+      "name": "gene_network_evaluation",
+      "url": "https://github.com/EngreitzLab/gene_network_evaluation/",
+      "owner": "EngreitzLab",
+      "repo": "gene_network_evaluation",
+      "category": "Quality control",
+      "description": "A flexible framework to evaluate the plausibility of gene programs inferred from single-cell genomic data. The assessment is broken down into themes such as goodness of fit (ability to explain the data), co-regulation, mechanistic interactions etc. Under each theme, multiple evaluation tasks are conceptualised and implemented using appropriate statistical tests.",
       "stars": 20
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-22 04:10:01 UTC"
+  "updated": "2026-09-23 04:07:30 UTC"
 }
