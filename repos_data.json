@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2801
+      "stars": 2802
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2564
+      "stars": 2565
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2252
+      "stars": 2253
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1634
+      "stars": 1637
     },
     {
       "name": "gget",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 396
+      "stars": 397
     },
     {
       "name": "Giotto Suite",
@@ -451,6 +451,15 @@
       "stars": 266
     },
     {
+      "name": "MAST",
+      "url": "https://github.com/RGLab/MAST",
+      "owner": "RGLab",
+      "repo": "MAST",
+      "category": "Count modelling and normalization",
+      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
+      "stars": 265
+    },
+    {
       "name": "SpaGCN",
       "url": "https://github.com/jianhuupenn/SpaGCN",
       "owner": "jianhuupenn",
@@ -466,15 +475,6 @@
       "repo": "scenicplus",
       "category": "Gene regulatory network identification",
       "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 264
-    },
-    {
-      "name": "MAST",
-      "url": "https://github.com/RGLab/MAST",
-      "owner": "RGLab",
-      "repo": "MAST",
-      "category": "Count modelling and normalization",
-      "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
       "stars": 264
     },
     {
@@ -502,7 +502,7 @@
       "repo": "scCATCH",
       "category": "Cell type identification and classification",
       "description": "A single cell cluster-based annotation package from cluster marker genes identification to cluster annotation based on evidence-based score by matching the identified potential marker genes with known cell markers in tissue-specific cell taxonomy reference database (CellMatch) [Automatic Annotation on Cell Types of Clusters from Single-Cell RNA Sequencing Data. iScience (2020)](https://www.sciencedirect.com/science/article/pii/S2589004220300663)",
-      "stars": 246
+      "stars": 247
     },
     {
       "name": "Muscat",
@@ -550,21 +550,21 @@
       "stars": 220
     },
     {
-      "name": "torchdr",
-      "url": "https://github.com/TorchDR/TorchDR",
-      "owner": "TorchDR",
-      "repo": "TorchDR",
-      "category": "Dimension reduction",
-      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 216
-    },
-    {
       "name": "cellassign",
       "url": "https://github.com/irrationone/cellassign/",
       "owner": "irrationone",
       "repo": "cellassign",
       "category": "Cell type identification and classification",
       "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
+      "stars": 217
+    },
+    {
+      "name": "torchdr",
+      "url": "https://github.com/TorchDR/TorchDR",
+      "owner": "TorchDR",
+      "repo": "TorchDR",
+      "category": "Dimension reduction",
+      "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
       "stars": 216
     },
     {
@@ -628,7 +628,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 184
+      "stars": 185
     },
     {
       "name": "SCDE",
@@ -754,7 +754,7 @@
       "repo": "singleCellNet",
       "category": "Cell type identification and classification",
       "description": "A near-universal step in the analysis of single cell RNA-Seq data is to hypothesize the identity of each cell. Often, this is achieved by finding cells that express combinations of marker genes that had previously been implicated as being cell-type specific, an approach that is not quantitative and does not explicitly take advantage of other single cell RNA-Seq studies. SingleCellNet, which addresses these issues and enables the classification of query single cell RNA-Seq data in comparison to reference single cell RNA-Seq data. [bioRxiv](https://www.biorxiv.org/content/early/2018/12/31/508085)",
-      "stars": 141
+      "stars": 142
     },
     {
       "name": "demuxlet",
@@ -991,15 +991,6 @@
       "stars": 107
     },
     {
-      "name": "RNAnorm",
-      "url": "https://github.com/genialis/RNAnorm",
-      "owner": "genialis",
-      "repo": "RNAnorm",
-      "category": "RNA-seq",
-      "description": "Python implementation of common RNA-seq normalization methods (CPM, FPKM, TPM, UQ, CUF, TMM, CTF).",
-      "stars": 106
-    },
-    {
       "name": "CASSIA",
       "url": "https://github.com/ElliotXie/CASSIA",
       "owner": "ElliotXie",
@@ -1007,6 +998,15 @@
       "category": "Cell type identification and classification",
       "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
       "stars": 106
+    },
+    {
+      "name": "RNAnorm",
+      "url": "https://github.com/genialis/RNAnorm",
+      "owner": "genialis",
+      "repo": "RNAnorm",
+      "category": "RNA-seq",
+      "description": "Python implementation of common RNA-seq normalization methods (CPM, FPKM, TPM, UQ, CUF, TMM, CTF).",
+      "stars": 105
     },
     {
       "name": "SCALE",
@@ -1204,7 +1204,7 @@
       "repo": "SCINA",
       "category": "RNA-seq",
       "description": "A semi-supervised category identification and assignment tool.",
-      "stars": 75
+      "stars": 76
     },
     {
       "name": "DoubletDecon",
@@ -1474,7 +1474,7 @@
       "repo": "CHETAH",
       "category": "Cell type identification and classification",
       "description": "CHETAH: a selective, hierarchical cell type identification method for single-cell RNA sequencing. CHETAH (CHaracterization of cEll Types Aided by Hierarchical clustering) is an accurate cell type identification algorithm that is rapid and selective, including the possibility of intermediate or unassigned categories. Evidence for assignment is based on a classification tree of previously available scRNA-seq reference data and includes a confidence score based on the variance in gene expression per cell type. For cell types represented in the reference data, CHETAH's accuracy is as good as existing methods. Its specificity is superior when cells of an unknown type are encountered, such as malignant cells in tumor samples which it pinpoints as intermediate or unassigned. [bioRxiv](https://doi.org/10.1101/558908)",
-      "stars": 44
+      "stars": 45
     },
     {
       "name": "cb_sniffer",
@@ -2152,15 +2152,6 @@
       "stars": 16
     },
     {
-      "name": "scAAnet",
-      "url": "https://github.com/AprilYuge/scAAnet_latest",
-      "owner": "AprilYuge",
-      "repo": "scAAnet_latest",
-      "category": "Archetypal analysis",
-      "description": "scAAnet performs non-linear archetypal analysis through autoencoder networks to identify shared gene expression programs (GEPs) among heterogenous cell populations and infer relative activity of each GEP across cells.",
-      "stars": 16
-    },
-    {
       "name": "SLICER",
       "url": "https://github.com/jw156605/SLICER",
       "owner": "jw156605",
@@ -2212,6 +2203,15 @@
       "repo": "DECENT",
       "category": "Marker and differential gene expression identification",
       "description": "The unique features of scRNA-seq data have led to the development of novel methods for differential expression (DE) analysis. However, few of the existing DE methods for scRNA-seq data estimate the number of molecules pre-dropout and therefore do not explicitly distinguish technical and biological zeroes. We develop DECENT, a DE method for scRNA-seq data that adjusts for the imperfect capture efficiency by estimating the number of molecules pre-dropout.",
+      "stars": 15
+    },
+    {
+      "name": "scAAnet",
+      "url": "https://github.com/AprilYuge/scAAnet_latest",
+      "owner": "AprilYuge",
+      "repo": "scAAnet_latest",
+      "category": "Archetypal analysis",
+      "description": "scAAnet performs non-linear archetypal analysis through autoencoder networks to identify shared gene expression programs (GEPs) among heterogenous cell populations and infer relative activity of each GEP across cells.",
       "stars": 15
     },
     {
@@ -2503,6 +2503,15 @@
       "stars": 7
     },
     {
+      "name": "MINGL",
+      "url": "https://github.com/HickeyLab/Mingl/tree/main",
+      "owner": "HickeyLab",
+      "repo": "Mingl",
+      "category": "Spatial transcriptomics",
+      "description": "MINGL (Mixture-based Identification of Neighborhood Gradients with Likelihood estimates), a probabilistic framework that converts existing neighborhood annotations into continuous measures of tissue architecture.",
+      "stars": 7
+    },
+    {
       "name": "SCSPARKL",
       "url": "https://github.com/asif7adil/scSPARKL",
       "owner": "asif7adil",
@@ -2536,15 +2545,6 @@
       "repo": "torchgw",
       "category": "Multi-assay data integration",
       "description": "Fast Sampled Gromov-Wasserstein optimal transport solver in pure PyTorch with Triton GPU kernels. Aligns datasets across modalities by matching internal distance structures, even in different dimensions. 3-175x faster than POT. [Docs](https://chansigit.github.io/torchgw/)",
-      "stars": 6
-    },
-    {
-      "name": "MINGL",
-      "url": "https://github.com/HickeyLab/Mingl/tree/main",
-      "owner": "HickeyLab",
-      "repo": "Mingl",
-      "category": "Spatial transcriptomics",
-      "description": "MINGL (Mixture-based Identification of Neighborhood Gradients with Likelihood estimates), a probabilistic framework that converts existing neighborhood annotations into continuous measures of tissue architecture.",
       "stars": 6
     },
     {
@@ -2773,5 +2773,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-23 04:07:30 UTC"
+  "updated": "2026-09-24 04:01:46 UTC"
 }
