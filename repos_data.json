@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2572
+      "stars": 2575
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2253
+      "stars": 2255
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1637
+      "stars": 1638
     },
     {
       "name": "gget",
@@ -187,7 +187,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 567
+      "stars": 568
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 308
+      "stars": 309
     },
     {
       "name": "BPCells",
@@ -442,6 +442,15 @@
       "stars": 269
     },
     {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
+      "stars": 266
+    },
+    {
       "name": "Scirpy",
       "url": "https://github.com/icbi-lab/scirpy",
       "owner": "icbi-lab",
@@ -449,15 +458,6 @@
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
       "stars": 266
-    },
-    {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 265
     },
     {
       "name": "MAST",
@@ -1630,6 +1630,15 @@
       "stars": 38
     },
     {
+      "name": "bixverse",
+      "url": "https://github.com/GregorLueg/bixverse",
+      "owner": "GregorLueg",
+      "repo": "bixverse",
+      "category": "RNA-seq",
+      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
+      "stars": 37
+    },
+    {
       "name": "FastProject",
       "url": "https://github.com/yoseflab/fastproject",
       "owner": "yoseflab",
@@ -2773,5 +2782,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-27 04:36:38 UTC"
+  "updated": "2026-09-28 04:38:55 UTC"
 }
