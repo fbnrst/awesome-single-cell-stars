@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2576
+      "stars": 2578
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2255
+      "stars": 2257
     },
     {
       "name": "scVI",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 488
+      "stars": 489
     },
     {
       "name": "CellPhoneDB",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 461
+      "stars": 462
     },
     {
       "name": "LIGER",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 363
+      "stars": 364
     },
     {
       "name": "slingshot",
@@ -394,7 +394,7 @@
       "repo": "octopus",
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
-      "stars": 326
+      "stars": 327
     },
     {
       "name": "CopyKAT",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 293
+      "stars": 294
     },
     {
       "name": "MOFA",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 251
+      "stars": 250
     },
     {
       "name": "LIANA",
@@ -628,7 +628,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 185
+      "stars": 186
     },
     {
       "name": "SCDE",
@@ -1330,7 +1330,7 @@
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 57
+      "stars": 58
     },
     {
       "name": "BatchEffectRemoval",
@@ -1468,12 +1468,30 @@
       "stars": 47
     },
     {
+      "name": "ACTIONet",
+      "url": "https://github.com/shmohammadi86/ACTIONet",
+      "owner": "shmohammadi86",
+      "repo": "ACTIONet",
+      "category": "Archetypal analysis",
+      "description": "A multiresolution framework that combines archetypal analysis with manifold learning to characterize continuous single-cell state landscapes. [A multiresolution framework to characterize single-cell state landscapes](https://doi.org/10.1038/s41467-020-18416-6).",
+      "stars": 46
+    },
+    {
       "name": "CHETAH",
       "url": "https://github.com/jdekanter/CHETAH",
       "owner": "jdekanter",
       "repo": "CHETAH",
       "category": "Cell type identification and classification",
-      "description": "CHETAH: a selective, hierarchical cell type identification method for single-cell RNA sequencing. CHETAH (CHaracterization of cEll Types Aided by Hierarchical clustering) is an accurate cell type identification algorithm that is rapid and selective, including the possibility of intermediate or unassigned categories. Evidence for assignment is based on a classification tree of previously available scRNA-seq reference data and includes a confidence score based on the variance in gene expression per cell type. For cell types represented in the reference data, CHETAH's accuracy is as good as existing methods. Its specificity is superior when cells of an unknown type are encountered, such as malignant cells in tumor samples which it pinpoints as intermediate or unassigned. [bioRxiv](https://doi.org/10.1101/558908)",
+      "description": "CHETAH: a selective, hierarchical cell type identification method for single-cell RNA sequencing. CHETAH (CHaracterization of cEll Types Aided by Hierarchical clustering) is an accurate cell type identification algorithm that is rapid and selective, including the possibility of intermediate or unassigned categories. Evidence for assignment is based on a classification tree of previously available scRNA-seq reference data and includes a confidence score based on the variance in gene expression per cell type. For cell types represented in the reference data, CHETAH's accuracy is as good as existing methods. Its specificity is superior when cells of an unknown type are encountered, such as malignant cells in tumor samples which it pinpoints as intermediate or unassigned. [Nucleic Acids Research](https://doi.org/10.1093/nar/gkz543)",
+      "stars": 45
+    },
+    {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 45
     },
     {
@@ -1483,15 +1501,6 @@
       "repo": "cb_sniffer",
       "category": "Variant calling",
       "description": "Mutation barcode caller, calls mutant and ref barcodes from 10x single cell data.",
-      "stars": 44
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 44
     },
     {
@@ -1556,6 +1565,15 @@
       "category": "Other applications",
       "description": "[Wishbone is an algorithm to identify bifurcating developmental trajectories from single cell data. Wishbone can applied to both single cell RNA-seq and mass cytometry datasets.](http://www.nature.com/nbt/journal/v34/n6/full/nbt.3569.html)",
       "stars": 42
+    },
+    {
+      "name": "scedar",
+      "url": "https://github.com/TaylorResearchLab/scedar",
+      "owner": "TaylorResearchLab",
+      "repo": "scedar",
+      "category": "RNA-seq",
+      "description": "An easy-to-use package for normalization, clustering and visualization of large-scale scRNA-seq datasets. [Scedar: A scalable Python package for single-cell RNA-seq exploratory data analysis](https://doi.org/10.1371/journal.pcbi.1007794).",
+      "stars": 41
     },
     {
       "name": "Monet",
@@ -1864,6 +1882,15 @@
       "stars": 27
     },
     {
+      "name": "zinbwaveZinger",
+      "url": "https://github.com/statOmics/zinbwaveZinger",
+      "owner": "statOmics",
+      "repo": "zinbwaveZinger",
+      "category": "Count modelling and normalization",
+      "description": "We introduce a weighting strategy, based on a zero-inflated negative binomial model, that identifies excess zero counts and generates gene- and cell-specific weights to unlock bulk RNA-seq DE pipelines for zero-inflated data, boosting performance for scRNA-seq. https://doi.org/10.1186/s13059-018-1406-4",
+      "stars": 27
+    },
+    {
       "name": "SCDIFF",
       "url": "https://github.com/phoenixding/scdiff",
       "owner": "phoenixding",
@@ -1879,15 +1906,6 @@
       "repo": "dropkick",
       "category": "RNA-seq",
       "description": "Automated cell filtering for single-cell RNA sequencing data.",
-      "stars": 26
-    },
-    {
-      "name": "zinbwaveZinger",
-      "url": "https://github.com/statOmics/zinbwaveZinger",
-      "owner": "statOmics",
-      "repo": "zinbwaveZinger",
-      "category": "Count modelling and normalization",
-      "description": "We introduce a weighting strategy, based on a zero-inflated negative binomial model, that identifies excess zero counts and generates gene- and cell-specific weights to unlock bulk RNA-seq DE pipelines for zero-inflated data, boosting performance for scRNA-seq. https://doi.org/10.1186/s13059-018-1406-4",
       "stars": 26
     },
     {
@@ -2782,5 +2800,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-29 05:07:19 UTC"
+  "updated": "2026-09-30 04:53:41 UTC"
 }
