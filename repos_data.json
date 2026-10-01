@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2805
+      "stars": 2803
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2257
+      "stars": 2258
     },
     {
       "name": "scVI",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 793
+      "stars": 792
     },
     {
       "name": "kallisto",
@@ -142,7 +142,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 681
+      "stars": 682
     },
     {
       "name": "SCP",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 675
+      "stars": 676
     },
     {
       "name": "mLLMCelltype",
@@ -628,7 +628,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 186
+      "stars": 188
     },
     {
       "name": "SCDE",
@@ -802,21 +802,21 @@
       "stars": 136
     },
     {
-      "name": "memento-de",
-      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
-      "owner": "yelabucsf",
-      "repo": "scrna-parameter-estimation",
-      "category": "RNA-seq",
-      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
-      "stars": 135
-    },
-    {
       "name": "CellTrek",
       "url": "https://github.com/navinlabcode/CellTrek",
       "owner": "navinlabcode",
       "repo": "CellTrek",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 136
+    },
+    {
+      "name": "memento-de",
+      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
+      "owner": "yelabucsf",
+      "repo": "scrna-parameter-estimation",
+      "category": "RNA-seq",
+      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
       "stars": 135
     },
     {
@@ -997,7 +997,7 @@
       "repo": "single-cell-rna-seq",
       "category": "Other applications",
       "description": "An automated pipeline for single cell RNA-seq analysis.",
-      "stars": 107
+      "stars": 106
     },
     {
       "name": "RNAnorm",
@@ -1072,6 +1072,15 @@
       "stars": 101
     },
     {
+      "name": "MIMOSCA",
+      "url": "https://github.com/asncd/MIMOSCA",
+      "owner": "asncd",
+      "repo": "MIMOSCA",
+      "category": "RNA-seq",
+      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
+      "stars": 99
+    },
+    {
       "name": "DoubletDetection",
       "url": "https://github.com/JonathanShor/DoubletDetection",
       "owner": "JonathanShor",
@@ -1079,15 +1088,6 @@
       "category": "Doublet Identification",
       "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
       "stars": 99
-    },
-    {
-      "name": "MIMOSCA",
-      "url": "https://github.com/asncd/MIMOSCA",
-      "owner": "asncd",
-      "repo": "MIMOSCA",
-      "category": "RNA-seq",
-      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 98
     },
     {
       "name": "solo",
@@ -1690,7 +1690,7 @@
       "repo": "AMULET",
       "category": "Doublet Identification",
       "description": "A count based method for detecting multiplets from single nucleus ATAC-seq (snATAC-seq) data. [Genome Biology](https://doi.org/10.1186/s13059-021-02469-x)",
-      "stars": 34
+      "stars": 35
     },
     {
       "name": "SSrGE",
@@ -2800,5 +2800,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-09-30 04:53:41 UTC"
+  "updated": "2026-10-01 05:06:11 UTC"
 }
