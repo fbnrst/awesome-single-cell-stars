@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2258
+      "stars": 2259
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1698
+      "stars": 1699
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1698
+      "stars": 1699
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1698
+      "stars": 1699
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1698
+      "stars": 1699
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1698
+      "stars": 1699
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1698
+      "stars": 1699
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1639
+      "stars": 1640
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1202
+      "stars": 1204
     },
     {
       "name": "CellChat",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 398
+      "stars": 399
     },
     {
       "name": "Giotto Suite",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 306
+      "stars": 307
     },
     {
       "name": "zUMIs",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 250
+      "stars": 251
     },
     {
       "name": "LIANA",
@@ -2746,6 +2746,15 @@
       "stars": 1
     },
     {
+      "name": "scrnaseq-gene-specificity-screen",
+      "url": "https://github.com/Sculptor815/scrnaseq-gene-specificity-screen",
+      "owner": "Sculptor815",
+      "repo": "scrnaseq-gene-specificity-screen",
+      "category": "Marker and differential gene expression identification",
+      "description": "Screens a gene list for cell-type-specific expression against Human Protein Atlas single-cell RNA-seq (154 cell types) and tissue RNA (51 tissues), ranking each gene's peak cell type and emitting per-cell-type/per-tissue bar charts plus Excel/TSV reports.",
+      "stars": 1
+    },
+    {
       "name": "p-SNE",
       "url": "https://github.com/NogaMudrik/PSNE-Poisson-Stochastic-Neighbor-Embedding",
       "owner": "NogaMudrik",
@@ -2800,5 +2809,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-01 05:06:11 UTC"
+  "updated": "2026-10-02 04:55:39 UTC"
 }
