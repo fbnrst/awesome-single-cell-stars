@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2803
+      "stars": 2802
     },
     {
       "name": "Scanpy",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 792
+      "stars": 791
     },
     {
       "name": "kallisto",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 772
+      "stars": 773
     },
     {
       "name": "GSEApy",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 489
+      "stars": 490
     },
     {
       "name": "CellPhoneDB",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 294
+      "stars": 295
     },
     {
       "name": "MOFA",
@@ -511,7 +511,7 @@
       "repo": "muscat",
       "category": "RNA-seq",
       "description": "muscat (Multi-sample multi-group scRNA-seq analysis tools ) provides various methods for Differential State (DS) analyses in multi-sample, multi-group, multi-(cell-)subpopulation scRNA-seq data.",
-      "stars": 244
+      "stars": 245
     },
     {
       "name": "Clustergrammer",
@@ -763,7 +763,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 138
+      "stars": 139
     },
     {
       "name": "demuxlet",
@@ -865,21 +865,21 @@
       "stars": 127
     },
     {
-      "name": "flotilla",
-      "url": "https://github.com/yeolab/flotilla",
-      "owner": "yeolab",
-      "repo": "flotilla",
-      "category": "RNA-seq",
-      "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
-      "stars": 124
-    },
-    {
       "name": "geneformer",
       "url": "https://github.com/jkobject/geneformer",
       "owner": "jkobject",
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
+      "stars": 125
+    },
+    {
+      "name": "flotilla",
+      "url": "https://github.com/yeolab/flotilla",
+      "owner": "yeolab",
+      "repo": "flotilla",
+      "category": "RNA-seq",
+      "description": "Reproducible machine learning analysis of gene expression and alternative splicing data",
       "stars": 124
     },
     {
@@ -1756,6 +1756,15 @@
       "stars": 31
     },
     {
+      "name": "netSmooth",
+      "url": "https://github.com/BIMSBbioinfo/netSmooth",
+      "owner": "BIMSBbioinfo",
+      "repo": "netSmooth",
+      "category": "RNA-seq",
+      "description": "netSmooth is a network-diffusion based method that uses priors for the covariance structure of gene expression profiles on scRNA-seq experiments in order to smooth expression values. We demonstrate that netSmooth improves clustering results of scRNA-seq experiments from distinct cell populations, time-course experiments, and cancer genomics.",
+      "stars": 30
+    },
+    {
       "name": "scGEAToolbox",
       "url": "https://github.com/jamesjcai/scGEAToolbox",
       "owner": "jamesjcai",
@@ -1781,15 +1790,6 @@
       "category": "Pseudotime and trajectory inference",
       "description": "[A descriptive marker gene approach to single-cell pseudotime inference](https://doi.org/10.1101/060442)",
       "stars": 30
-    },
-    {
-      "name": "netSmooth",
-      "url": "https://github.com/BIMSBbioinfo/netSmooth",
-      "owner": "BIMSBbioinfo",
-      "repo": "netSmooth",
-      "category": "RNA-seq",
-      "description": "netSmooth is a network-diffusion based method that uses priors for the covariance structure of gene expression profiles on scRNA-seq experiments in order to smooth expression values. We demonstrate that netSmooth improves clustering results of scRNA-seq experiments from distinct cell populations, time-course experiments, and cancer genomics.",
-      "stars": 29
     },
     {
       "name": "SAKE",
@@ -2809,5 +2809,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-02 04:55:39 UTC"
+  "updated": "2026-10-03 04:39:12 UTC"
 }
