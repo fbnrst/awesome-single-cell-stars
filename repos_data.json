@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2259
+      "stars": 2260
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1641
+      "stars": 1645
     },
     {
       "name": "gget",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 684
+      "stars": 685
     },
     {
       "name": "NicheNet",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 599
+      "stars": 600
     },
     {
       "name": "DoubletFinder",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 490
+      "stars": 491
     },
     {
       "name": "CellPhoneDB",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 364
+      "stars": 365
     },
     {
       "name": "slingshot",
@@ -559,6 +559,15 @@
       "stars": 217
     },
     {
+      "name": "dittoSeq",
+      "url": "https://github.com/dtm2451/dittoSeq",
+      "owner": "dtm2451",
+      "repo": "dittoSeq",
+      "category": "RNA-seq",
+      "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
+      "stars": 216
+    },
+    {
       "name": "torchdr",
       "url": "https://github.com/TorchDR/TorchDR",
       "owner": "TorchDR",
@@ -566,15 +575,6 @@
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
       "stars": 216
-    },
-    {
-      "name": "dittoSeq",
-      "url": "https://github.com/dtm2451/dittoSeq",
-      "owner": "dtm2451",
-      "repo": "dittoSeq",
-      "category": "RNA-seq",
-      "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
-      "stars": 215
     },
     {
       "name": "SPOTlight",
@@ -628,16 +628,7 @@
       "repo": "BayesSpace",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 188
-    },
-    {
-      "name": "SCDE",
-      "url": "https://github.com/hms-dbmi/scde",
-      "owner": "hms-dbmi",
-      "repo": "scde",
-      "category": "Marker and differential gene expression identification",
-      "description": "Differential expression using error models and overdispersion-based identification of important gene sets.",
-      "stars": 180
+      "stars": 189
     },
     {
       "name": "Scrublet",
@@ -646,6 +637,15 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
+      "stars": 181
+    },
+    {
+      "name": "SCDE",
+      "url": "https://github.com/hms-dbmi/scde",
+      "owner": "hms-dbmi",
+      "repo": "scde",
+      "category": "Marker and differential gene expression identification",
+      "description": "Differential expression using error models and overdispersion-based identification of important gene sets.",
       "stars": 180
     },
     {
@@ -1144,6 +1144,15 @@
       "stars": 88
     },
     {
+      "name": "Sanity",
+      "url": "https://github.com/jmbreda/Sanity",
+      "owner": "jmbreda",
+      "repo": "Sanity",
+      "category": "Count modelling and normalization",
+      "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
+      "stars": 87
+    },
+    {
       "name": "CITE-seq-Count",
       "url": "https://github.com/Hoohm/CITE-seq-Count",
       "owner": "Hoohm",
@@ -1151,15 +1160,6 @@
       "category": "Multi-assay data integration",
       "description": "",
       "stars": 87
-    },
-    {
-      "name": "Sanity",
-      "url": "https://github.com/jmbreda/Sanity",
-      "owner": "jmbreda",
-      "repo": "Sanity",
-      "category": "Count modelling and normalization",
-      "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
-      "stars": 86
     },
     {
       "name": "SCALEX",
@@ -2809,5 +2809,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-04 05:10:15 UTC"
+  "updated": "2026-10-05 04:55:01 UTC"
 }
