@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2582
+      "stars": 2581
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1703
+      "stars": 1702
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1703
+      "stars": 1702
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1703
+      "stars": 1702
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1703
+      "stars": 1702
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1703
+      "stars": 1702
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1703
+      "stars": 1702
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1645
+      "stars": 1646
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1207
+      "stars": 1206
     },
     {
       "name": "CellChat",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 790
+      "stars": 789
     },
     {
       "name": "kallisto",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 711
+      "stars": 710
     },
     {
       "name": "inferCNV",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 684
+      "stars": 685
     },
     {
       "name": "NicheNet",
@@ -223,16 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 498
-    },
-    {
-      "name": "RCTD",
-      "url": "https://github.com/dmcable/spacexr",
-      "owner": "dmcable",
-      "repo": "spacexr",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 489
+      "stars": 497
     },
     {
       "name": "CellPhoneDB",
@@ -241,6 +232,15 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
+      "stars": 488
+    },
+    {
+      "name": "RCTD",
+      "url": "https://github.com/dmcable/spacexr",
+      "owner": "dmcable",
+      "repo": "spacexr",
+      "category": "Spatial transcriptomics",
+      "description": "",
       "stars": 488
     },
     {
@@ -259,16 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 463
-    },
-    {
-      "name": "LIGER",
-      "url": "https://github.com/welch-lab/liger",
-      "owner": "welch-lab",
-      "repo": "liger",
-      "category": "Multi-assay data integration",
-      "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 433
+      "stars": 462
     },
     {
       "name": "scFoundation",
@@ -277,6 +268,15 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
+      "stars": 434
+    },
+    {
+      "name": "LIGER",
+      "url": "https://github.com/welch-lab/liger",
+      "owner": "welch-lab",
+      "repo": "liger",
+      "category": "Multi-assay data integration",
+      "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
       "stars": 433
     },
     {
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 391
+      "stars": 392
     },
     {
       "name": "MAGIC",
@@ -322,7 +322,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 377
+      "stars": 376
     },
     {
       "name": "Tangram",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 295
+      "stars": 296
     },
     {
       "name": "MOFA",
@@ -547,7 +547,7 @@
       "repo": "alevin-fry",
       "category": "RNA-seq",
       "description": "Rapid, accurate and memory-frugal preprocessing of single-cell and single-nucleus RNA-seq data.",
-      "stars": 220
+      "stars": 219
     },
     {
       "name": "cellassign",
@@ -655,7 +655,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 162
+      "stars": 163
     },
     {
       "name": "scPRINT",
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 162
+      "stars": 163
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 162
+      "stars": 163
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 162
+      "stars": 163
     },
     {
       "name": "Novae",
@@ -862,7 +862,7 @@
       "repo": "SCEVAN",
       "category": "Copy number analysis",
       "description": "Easy-to-use package that starting from the raw count matrix of scRNA data automatically classifies the cells present in the biopsy by segregating non-malignant cells of tumor microenviroment from the malignant cells, outperforms _copyKAT_. It also infers the copy number profile of malignant cells, identifies subclonal structures and automatically analyses the specific and shared alterations of each subpopulation. [Preprint](https://www.biorxiv.org/content/10.1101/2021.11.20.469390v1)",
-      "stars": 127
+      "stars": 126
     },
     {
       "name": "Scarf",
@@ -880,7 +880,7 @@
       "repo": "geneformer",
       "category": "Single cell large model",
       "description": "",
-      "stars": 125
+      "stars": 126
     },
     {
       "name": "flotilla",
@@ -901,21 +901,21 @@
       "stars": 123
     },
     {
-      "name": "Clustergrammer2",
-      "url": "https://github.com/ismms-himc/clustergrammer2",
-      "owner": "ismms-himc",
-      "repo": "clustergrammer2",
-      "category": "RNA-seq",
-      "description": "Interative WebGL web-based heatmap for visualizing and analyzing single-cell high-dimensional and location-based biological data. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [case studies](https://clustergrammer.readthedocs.io/case_studies.html).",
-      "stars": 120
-    },
-    {
       "name": "scTE",
       "url": "https://github.com/JiekaiLab/scTE",
       "owner": "JiekaiLab",
       "repo": "scTE",
       "category": "Other applications",
       "description": "Quantifying transposable element expression from single-cell sequencing data.",
+      "stars": 121
+    },
+    {
+      "name": "Clustergrammer2",
+      "url": "https://github.com/ismms-himc/clustergrammer2",
+      "owner": "ismms-himc",
+      "repo": "clustergrammer2",
+      "category": "RNA-seq",
+      "description": "Interative WebGL web-based heatmap for visualizing and analyzing single-cell high-dimensional and location-based biological data. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [case studies](https://clustergrammer.readthedocs.io/case_studies.html).",
       "stars": 120
     },
     {
@@ -1360,21 +1360,21 @@
       "stars": 56
     },
     {
-      "name": "SCONE",
-      "url": "https://github.com/YosefLab/scone",
-      "owner": "YosefLab",
-      "repo": "scone",
-      "category": "Quality control",
-      "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
-      "stars": 54
-    },
-    {
       "name": "STAGATE",
       "url": "https://github.com/QIFEIDKN/STAGATE",
       "owner": "QIFEIDKN",
       "repo": "STAGATE",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 55
+    },
+    {
+      "name": "SCONE",
+      "url": "https://github.com/YosefLab/scone",
+      "owner": "YosefLab",
+      "repo": "scone",
+      "category": "Quality control",
+      "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
       "stars": 54
     },
     {
@@ -1531,15 +1531,6 @@
       "stars": 43
     },
     {
-      "name": "sircel",
-      "url": "https://github.com/pachterlab/Sircel",
-      "owner": "pachterlab",
-      "repo": "Sircel",
-      "category": "Other applications",
-      "description": "sircel (pronounced \"circle\") separates reads in a fastq file based on barcode sequences that occur at known positions of reads. This is an essential first step in analyzing single-cell genomics data from experiments such as Drop-Seq. Barcode sequences often contain deletion and/or mismatch errors that arise during barcode synthesis and sequencing, and we have designed our barcode recovery approach with these issues in mind. In addition to identifying barcodes in an unbiased manner, sircel also quantifies their abundances. [doi](https://doi.org/10.1101/136242)",
-      "stars": 43
-    },
-    {
       "name": "AnnSQL",
       "url": "https://github.com/ArpiarSaundersLab/annsql",
       "owner": "ArpiarSaundersLab",
@@ -1564,6 +1555,15 @@
       "repo": "bindSC",
       "category": "Multi-assay data integration",
       "description": "bindSC (Bi-dimensional INtegration of multi-omics Data from Single Cell sequencing technologies) is an R package for single cell multi-omic integration analysis, developed and maintained by Ken chen's lab in MDACC. bindSC is developed to address the challenge of single-cell multi-omic data integration that consists of unpaired cells measured with unmatched features across modalities. [Bi-order multimodal integration of single-cell data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-022-02679-x)",
+      "stars": 42
+    },
+    {
+      "name": "sircel",
+      "url": "https://github.com/pachterlab/Sircel",
+      "owner": "pachterlab",
+      "repo": "Sircel",
+      "category": "Other applications",
+      "description": "sircel (pronounced \"circle\") separates reads in a fastq file based on barcode sequences that occur at known positions of reads. This is an essential first step in analyzing single-cell genomics data from experiments such as Drop-Seq. Barcode sequences often contain deletion and/or mismatch errors that arise during barcode synthesis and sequencing, and we have designed our barcode recovery approach with these issues in mind. In addition to identifying barcodes in an unbiased manner, sircel also quantifies their abundances. [doi](https://doi.org/10.1101/136242)",
       "stars": 42
     },
     {
@@ -2818,5 +2818,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-08 05:24:01 UTC"
+  "updated": "2026-10-09 05:27:28 UTC"
 }
