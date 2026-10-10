@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2262
+      "stars": 2263
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1702
+      "stars": 1704
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1702
+      "stars": 1704
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1702
+      "stars": 1704
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1702
+      "stars": 1704
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1702
+      "stars": 1704
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1702
+      "stars": 1704
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1646
+      "stars": 1647
     },
     {
       "name": "gget",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 601
+      "stars": 603
     },
     {
       "name": "DoubletFinder",
@@ -196,7 +196,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 559
+      "stars": 560
     },
     {
       "name": "scVelo",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 510
+      "stars": 511
     },
     {
       "name": "SCENIC",
@@ -322,7 +322,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 376
+      "stars": 377
     },
     {
       "name": "Tangram",
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 338
+      "stars": 339
     },
     {
       "name": "octopus",
@@ -583,7 +583,7 @@
       "repo": "SPOTlight",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 214
+      "stars": 215
     },
     {
       "name": "Spectra",
@@ -844,7 +844,7 @@
       "repo": "sc3",
       "category": "Cell clustering",
       "description": "SC3 is a tool for the unsupervised clustering of cells from single cell RNA-Seq experiments.",
-      "stars": 127
+      "stars": 128
     },
     {
       "name": "clustifyr",
@@ -925,7 +925,7 @@
       "repo": "SAVER",
       "category": "RNA-seq",
       "description": "SAVER (Single-cell Analysis Via Expression Recovery) implements a regularized regression prediction and empirical Bayes method to recover the true gene expression profile in noisy and sparse single-cell RNA-seq data.",
-      "stars": 116
+      "stars": 117
     },
     {
       "name": "SIMLR",
@@ -1054,21 +1054,21 @@
       "stars": 104
     },
     {
-      "name": "bustools",
-      "url": "https://github.com/BUStools/bustools",
-      "owner": "BUStools",
-      "repo": "bustools",
-      "category": "RNA-seq",
-      "description": "A suite of tools for manipulating BUS files for single cell RNA-Seq pre-processing. bustools can be used to error correct barcodes, collapse UMIs, produce gene count or transcript compatibility count matrices, and is useful for many other tasks.",
-      "stars": 102
-    },
-    {
       "name": "scImpute",
       "url": "https://github.com/Vivianstats/scImpute",
       "owner": "Vivianstats",
       "repo": "scImpute",
       "category": "Feature (Gene) imputation",
       "description": "[scImpute: Accurate And Robust Imputation For Single Cell RNA-Seq Data](doi:10.1038/s41467-018-03405-7)",
+      "stars": 103
+    },
+    {
+      "name": "bustools",
+      "url": "https://github.com/BUStools/bustools",
+      "owner": "BUStools",
+      "repo": "bustools",
+      "category": "RNA-seq",
+      "description": "A suite of tools for manipulating BUS files for single cell RNA-Seq pre-processing. bustools can be used to error correct barcodes, collapse UMIs, produce gene count or transcript compatibility count matrices, and is useful for many other tasks.",
       "stars": 102
     },
     {
@@ -1279,21 +1279,21 @@
       "stars": 67
     },
     {
-      "name": "Scillus",
-      "url": "https://github.com/xmc811/Scillus",
-      "owner": "xmc811",
-      "repo": "Scillus",
-      "category": "RNA-seq",
-      "description": "[Scillus is an R wrapper package for enhanced processing and visualization of Seurat-based scRNA-seq data](https://scillus.netlify.app/).",
-      "stars": 65
-    },
-    {
       "name": "scE2G",
       "url": "https://github.com/EngreitzLab/scE2G",
       "owner": "EngreitzLab",
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
+      "stars": 66
+    },
+    {
+      "name": "Scillus",
+      "url": "https://github.com/xmc811/Scillus",
+      "owner": "xmc811",
+      "repo": "Scillus",
+      "category": "RNA-seq",
+      "description": "[Scillus is an R wrapper package for enhanced processing and visualization of Seurat-based scRNA-seq data](https://scillus.netlify.app/).",
       "stars": 65
     },
     {
@@ -1522,6 +1522,15 @@
       "stars": 44
     },
     {
+      "name": "AnnSQL",
+      "url": "https://github.com/ArpiarSaundersLab/annsql",
+      "owner": "ArpiarSaundersLab",
+      "repo": "annsql",
+      "category": "RNA-seq",
+      "description": "The AnnSQL package enables SQL based queries on AnnData objects using the DuckDB in-process database engine.",
+      "stars": 43
+    },
+    {
       "name": "TSCAN",
       "url": "https://github.com/zji90/TSCAN",
       "owner": "zji90",
@@ -1529,15 +1538,6 @@
       "category": "Pseudotime and trajectory inference",
       "description": "Pseudo-time reconstruction and evaluation in single-cell RNA-seq analysis.",
       "stars": 43
-    },
-    {
-      "name": "AnnSQL",
-      "url": "https://github.com/ArpiarSaundersLab/annsql",
-      "owner": "ArpiarSaundersLab",
-      "repo": "annsql",
-      "category": "RNA-seq",
-      "description": "The AnnSQL package enables SQL based queries on AnnData objects using the DuckDB in-process database engine.",
-      "stars": 42
     },
     {
       "name": "clusterExperiment",
@@ -1972,6 +1972,15 @@
       "stars": 23
     },
     {
+      "name": "switchde",
+      "url": "http://github.com/kieranrcampbell/switchde",
+      "owner": "kieranrcampbell",
+      "repo": "switchde",
+      "category": "Marker and differential gene expression identification",
+      "description": "Differential expression analysis across pseudotime. Identify genes that exhibit switch-like up or down regulation along single-cell trajectories along with where in the trajectory the regulation occurs.",
+      "stars": 23
+    },
+    {
       "name": "dropClust",
       "url": "https://github.com/debsin/dropClust",
       "owner": "debsin",
@@ -2041,15 +2050,6 @@
       "repo": "GPfates",
       "category": "RNA-seq",
       "description": "Model transcriptional cell fates as mixtures of Gaussian Processes",
-      "stars": 22
-    },
-    {
-      "name": "switchde",
-      "url": "http://github.com/kieranrcampbell/switchde",
-      "owner": "kieranrcampbell",
-      "repo": "switchde",
-      "category": "Marker and differential gene expression identification",
-      "description": "Differential expression analysis across pseudotime. Identify genes that exhibit switch-like up or down regulation along single-cell trajectories along with where in the trajectory the regulation occurs.",
       "stars": 22
     },
     {
@@ -2818,5 +2818,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-09 05:27:28 UTC"
+  "updated": "2026-10-10 05:10:52 UTC"
 }
