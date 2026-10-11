@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2581
+      "stars": 2582
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1647
+      "stars": 1648
     },
     {
       "name": "gget",
@@ -178,7 +178,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 603
+      "stars": 604
     },
     {
       "name": "DoubletFinder",
@@ -199,6 +199,15 @@
       "stars": 560
     },
     {
+      "name": "dynamo",
+      "url": "https://github.com/aristoteleo/dynamo-release",
+      "owner": "aristoteleo",
+      "repo": "dynamo-release",
+      "category": "RNA-seq",
+      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
+      "stars": 512
+    },
+    {
       "name": "scVelo",
       "url": "https://github.com/theislab/scvelo",
       "owner": "theislab",
@@ -206,15 +215,6 @@
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
       "stars": 512
-    },
-    {
-      "name": "dynamo",
-      "url": "https://github.com/aristoteleo/dynamo-release",
-      "owner": "aristoteleo",
-      "repo": "dynamo-release",
-      "category": "RNA-seq",
-      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 511
     },
     {
       "name": "SCENIC",
@@ -340,7 +340,7 @@
       "repo": "TRUST4",
       "category": "Immune receptor profiling",
       "description": "[TRUST4: immune repertoire reconstruction from bulk and single-cell RNA-seq data](https://www.nature.com/articles/s41592-021-01142-2)",
-      "stars": 365
+      "stars": 366
     },
     {
       "name": "slingshot",
@@ -385,7 +385,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 339
+      "stars": 340
     },
     {
       "name": "octopus",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 252
+      "stars": 253
     },
     {
       "name": "LIANA",
@@ -538,7 +538,7 @@
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
-      "stars": 228
+      "stars": 229
     },
     {
       "name": "alevin-fry",
@@ -2701,6 +2701,15 @@
       "stars": 2
     },
     {
+      "name": "scrnaseq-gene-specificity-screen",
+      "url": "https://github.com/Sculptor815/scrnaseq-gene-specificity-screen",
+      "owner": "Sculptor815",
+      "repo": "scrnaseq-gene-specificity-screen",
+      "category": "Marker and differential gene expression identification",
+      "description": "Screens a gene list for cell-type-specific expression against Human Protein Atlas single-cell RNA-seq (154 cell types) and tissue RNA (51 tissues), ranking each gene's peak cell type and emitting per-cell-type/per-tissue bar charts plus Excel/TSV reports.",
+      "stars": 2
+    },
+    {
       "name": "CytoSpill",
       "url": "https://github.com/KChen-lab/CytoSpill",
       "owner": "KChen-lab",
@@ -2752,15 +2761,6 @@
       "repo": "GPseudoClust",
       "category": "Marker and differential gene expression identification",
       "description": "Software that clusters genes for pseudotemporally ordered data and quantifies the uncertainty in cluster allocations arising from the uncertainty in the pseudotime ordering.",
-      "stars": 1
-    },
-    {
-      "name": "scrnaseq-gene-specificity-screen",
-      "url": "https://github.com/Sculptor815/scrnaseq-gene-specificity-screen",
-      "owner": "Sculptor815",
-      "repo": "scrnaseq-gene-specificity-screen",
-      "category": "Marker and differential gene expression identification",
-      "description": "Screens a gene list for cell-type-specific expression against Human Protein Atlas single-cell RNA-seq (154 cell types) and tissue RNA (51 tissues), ranking each gene's peak cell type and emitting per-cell-type/per-tissue bar charts plus Excel/TSV reports.",
       "stars": 1
     },
     {
@@ -2818,5 +2818,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-10 05:10:52 UTC"
+  "updated": "2026-10-11 05:01:47 UTC"
 }
