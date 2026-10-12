@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1704
+      "stars": 1705
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1704
+      "stars": 1705
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1704
+      "stars": 1705
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1704
+      "stars": 1705
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1704
+      "stars": 1705
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1704
+      "stars": 1705
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1648
+      "stars": 1652
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 710
+      "stars": 711
     },
     {
       "name": "inferCNV",
@@ -151,7 +151,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 679
+      "stars": 680
     },
     {
       "name": "mLLMCelltype",
@@ -703,15 +703,6 @@
       "stars": 155
     },
     {
-      "name": "ceLLama",
-      "url": "https://github.com/CelVoxes/ceLLama",
-      "owner": "CelVoxes",
-      "repo": "ceLLama",
-      "category": "Cell type identification and classification",
-      "description": "ceLLama is a streamlined automation pipeline for cell type annotations using local large-language models (LLMs).",
-      "stars": 153
-    },
-    {
       "name": "EpiScanpy",
       "url": "https://github.com/colomemaria/epiScanpy",
       "owner": "colomemaria",
@@ -719,6 +710,15 @@
       "category": "Epigenomics",
       "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
       "stars": 153
+    },
+    {
+      "name": "ceLLama",
+      "url": "https://github.com/CelVoxes/ceLLama",
+      "owner": "CelVoxes",
+      "repo": "ceLLama",
+      "category": "Cell type identification and classification",
+      "description": "ceLLama is a streamlined automation pipeline for cell type annotations using local large-language models (LLMs).",
+      "stars": 152
     },
     {
       "name": "cisTopic",
@@ -784,6 +784,15 @@
       "stars": 138
     },
     {
+      "name": "memento-de",
+      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
+      "owner": "yelabucsf",
+      "repo": "scrna-parameter-estimation",
+      "category": "RNA-seq",
+      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
+      "stars": 137
+    },
+    {
       "name": "AtacWorks",
       "url": "https://github.com/clara-parabricks/AtacWorks",
       "owner": "clara-parabricks",
@@ -791,15 +800,6 @@
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
       "stars": 137
-    },
-    {
-      "name": "memento-de",
-      "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
-      "owner": "yelabucsf",
-      "repo": "scrna-parameter-estimation",
-      "category": "RNA-seq",
-      "description": "Method-of-moments estimators for parameter estimation, with efficient resampling. Associated [paper](<https://www.cell.com/cell/fulltext/S0092-8674(24)01144-9>).",
-      "stars": 136
     },
     {
       "name": "TraCeR",
@@ -1081,21 +1081,21 @@
       "stars": 101
     },
     {
-      "name": "MIMOSCA",
-      "url": "https://github.com/asncd/MIMOSCA",
-      "owner": "asncd",
-      "repo": "MIMOSCA",
-      "category": "RNA-seq",
-      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 99
-    },
-    {
       "name": "DoubletDetection",
       "url": "https://github.com/JonathanShor/DoubletDetection",
       "owner": "JonathanShor",
       "repo": "DoubletDetection",
       "category": "Doublet Identification",
       "description": "A Python3 package to detect doublets (technical errors) in single-cell RNA-seq count matrices. An [R implementation](https://github.com/TomKellyGenetics/DoubletDetection) is in development.",
+      "stars": 100
+    },
+    {
+      "name": "MIMOSCA",
+      "url": "https://github.com/asncd/MIMOSCA",
+      "owner": "asncd",
+      "repo": "MIMOSCA",
+      "category": "RNA-seq",
+      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
       "stars": 99
     },
     {
@@ -2818,5 +2818,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-11 05:01:47 UTC"
+  "updated": "2026-10-12 05:16:03 UTC"
 }
