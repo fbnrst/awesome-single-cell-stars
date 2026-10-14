@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2584
+      "stars": 2585
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1707
+      "stars": 1708
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1707
+      "stars": 1708
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1707
+      "stars": 1708
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1707
+      "stars": 1708
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1707
+      "stars": 1708
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1707
+      "stars": 1708
     },
     {
       "name": "scGPT",
@@ -163,6 +163,15 @@
       "stars": 661
     },
     {
+      "name": "squidpy",
+      "url": "https://github.com/scverse/squidpy",
+      "owner": "scverse",
+      "repo": "squidpy",
+      "category": "Spatial transcriptomics",
+      "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
+      "stars": 606
+    },
+    {
       "name": "ffq",
       "url": "https://github.com/pachterlab/ffq",
       "owner": "pachterlab",
@@ -172,22 +181,13 @@
       "stars": 604
     },
     {
-      "name": "squidpy",
-      "url": "https://github.com/scverse/squidpy",
-      "owner": "scverse",
-      "repo": "squidpy",
-      "category": "Spatial transcriptomics",
-      "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 604
-    },
-    {
       "name": "DoubletFinder",
       "url": "https://github.com/chris-mcginnis-ucsf/DoubletFinder",
       "owner": "chris-mcginnis-ucsf",
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 570
+      "stars": 571
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -199,15 +199,6 @@
       "stars": 560
     },
     {
-      "name": "dynamo",
-      "url": "https://github.com/aristoteleo/dynamo-release",
-      "owner": "aristoteleo",
-      "repo": "dynamo-release",
-      "category": "RNA-seq",
-      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 512
-    },
-    {
       "name": "scVelo",
       "url": "https://github.com/theislab/scvelo",
       "owner": "theislab",
@@ -215,6 +206,15 @@
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
       "stars": 512
+    },
+    {
+      "name": "dynamo",
+      "url": "https://github.com/aristoteleo/dynamo-release",
+      "owner": "aristoteleo",
+      "repo": "dynamo-release",
+      "category": "RNA-seq",
+      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
+      "stars": 511
     },
     {
       "name": "SCENIC",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 400
+      "stars": 401
     },
     {
       "name": "Giotto Suite",
@@ -442,6 +442,15 @@
       "stars": 269
     },
     {
+      "name": "Scirpy",
+      "url": "https://github.com/icbi-lab/scirpy",
+      "owner": "icbi-lab",
+      "repo": "scirpy",
+      "category": "Immune receptor profiling",
+      "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
+      "stars": 267
+    },
+    {
       "name": "SCENIC+",
       "url": "https://github.com/aertslab/scenicplus",
       "owner": "aertslab",
@@ -451,22 +460,13 @@
       "stars": 266
     },
     {
-      "name": "Scirpy",
-      "url": "https://github.com/icbi-lab/scirpy",
-      "owner": "icbi-lab",
-      "repo": "scirpy",
-      "category": "Immune receptor profiling",
-      "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
-      "stars": 266
-    },
-    {
       "name": "MAST",
       "url": "https://github.com/RGLab/MAST",
       "owner": "RGLab",
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 265
+      "stars": 266
     },
     {
       "name": "SpaGCN",
@@ -709,7 +709,7 @@
       "repo": "epiScanpy",
       "category": "Epigenomics",
       "description": "EpiScanpy is the epigenomic extension of scRNA-seq analysis tool Scanpy. It analyses single-cell open chromatin (scATAC-seq) and single-cell DNA methylation (for example scBS-seq) data. [EpiScanpy: integrated single-cell epigenomic analysis](https://www.nature.com/articles/s41467-021-25131-3)",
-      "stars": 153
+      "stars": 152
     },
     {
       "name": "ceLLama",
@@ -718,7 +718,7 @@
       "repo": "ceLLama",
       "category": "Cell type identification and classification",
       "description": "ceLLama is a streamlined automation pipeline for cell type annotations using local large-language models (LLMs).",
-      "stars": 152
+      "stars": 151
     },
     {
       "name": "cisTopic",
@@ -1078,7 +1078,7 @@
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 101
+      "stars": 102
     },
     {
       "name": "DoubletDetection",
@@ -1387,6 +1387,15 @@
       "stars": 52
     },
     {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 52
+    },
+    {
       "name": "STAligner",
       "url": "https://github.com/zhoux85/STAligner",
       "owner": "zhoux85",
@@ -1420,15 +1429,6 @@
       "repo": "SCnorm",
       "category": "Count modelling and normalization",
       "description": "A quantile regression based approach for robust normalization of single cell RNA-seq data.",
-      "stars": 51
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 51
     },
     {
@@ -2017,6 +2017,15 @@
       "stars": 23
     },
     {
+      "name": "DeepSpot2Cell",
+      "url": "https://github.com/ratschlab/DeepSpot2Cell",
+      "owner": "ratschlab",
+      "repo": "DeepSpot2Cell",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 23
+    },
+    {
       "name": "spatialGE",
       "url": "https://github.com/FridleyLab/spatialGE",
       "owner": "FridleyLab",
@@ -2095,15 +2104,6 @@
       "repo": "MEDALT",
       "category": "Copy number analysis",
       "description": "This package performs lineage tracing using copy number profile from single cell sequencing technology. It will infer: 1. An rooted directed minimal spanning tree (RDMST) to represent aneuploidy evolution of tumor cells. 2. The focal and broad copy number alterations associated with lineage expansion.",
-      "stars": 21
-    },
-    {
-      "name": "DeepSpot2Cell",
-      "url": "https://github.com/ratschlab/DeepSpot2Cell",
-      "owner": "ratschlab",
-      "repo": "DeepSpot2Cell",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 21
     },
     {
@@ -2323,6 +2323,15 @@
       "stars": 13
     },
     {
+      "name": "scbs",
+      "url": "https://github.com/LKremer/scbs",
+      "owner": "LKremer",
+      "repo": "scbs",
+      "category": "Epigenomics",
+      "description": "A command line tool for the analysis of Single-Cell Bisulfite-Sequencing data. scbs makes it easy to obtain a cell\u00d7region methylation matrix (\u2248count matrix) from raw single-cell methylation files and enables efficient storage, quality control and visualization. Furthermore, scbs allows you to scan the entire genome for variably or differentially methylated regions (VMRs or DMRs), and implements a novel approach for more accurate quantification of methylation in genomic intervals. [bioR\u03c7iv](https://doi.org/10.1101/2022.06.15.496318)",
+      "stars": 13
+    },
+    {
       "name": "COMUNET",
       "url": "https://github.com/ScialdoneLab/COMUNET",
       "owner": "ScialdoneLab",
@@ -2365,15 +2374,6 @@
       "repo": "topslam",
       "category": "Pseudotime and trajectory inference",
       "description": "Extracting and using probabilistic Waddington's landscape recreation from single cell gene expression measurements",
-      "stars": 12
-    },
-    {
-      "name": "scbs",
-      "url": "https://github.com/LKremer/scbs",
-      "owner": "LKremer",
-      "repo": "scbs",
-      "category": "Epigenomics",
-      "description": "A command line tool for the analysis of Single-Cell Bisulfite-Sequencing data. scbs makes it easy to obtain a cell\u00d7region methylation matrix (\u2248count matrix) from raw single-cell methylation files and enables efficient storage, quality control and visualization. Furthermore, scbs allows you to scan the entire genome for variably or differentially methylated regions (VMRs or DMRs), and implements a novel approach for more accurate quantification of methylation in genomic intervals. [bioR\u03c7iv](https://doi.org/10.1101/2022.06.15.496318)",
       "stars": 12
     },
     {
@@ -2818,5 +2818,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-13 06:14:26 UTC"
+  "updated": "2026-10-14 04:16:24 UTC"
 }
