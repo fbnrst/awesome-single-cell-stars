@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2585
+      "stars": 2587
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2263
+      "stars": 2264
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1708
+      "stars": 1711
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1708
+      "stars": 1711
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1708
+      "stars": 1711
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1708
+      "stars": 1711
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1708
+      "stars": 1711
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1708
+      "stars": 1711
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1652
+      "stars": 1653
     },
     {
       "name": "gget",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 606
+      "stars": 607
     },
     {
       "name": "ffq",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 488
+      "stars": 489
     },
     {
       "name": "RCTD",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 401
+      "stars": 402
     },
     {
       "name": "Giotto Suite",
@@ -721,6 +721,15 @@
       "stars": 151
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 149
+    },
+    {
       "name": "cisTopic",
       "url": "https://github.com/aertslab/cisTopic",
       "owner": "aertslab",
@@ -737,15 +746,6 @@
       "category": "Other applications",
       "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
       "stars": 149
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 148
     },
     {
       "name": "singleCellNet",
@@ -907,7 +907,7 @@
       "repo": "scTE",
       "category": "Other applications",
       "description": "Quantifying transposable element expression from single-cell sequencing data.",
-      "stars": 121
+      "stars": 122
     },
     {
       "name": "Clustergrammer2",
@@ -1483,7 +1483,7 @@
       "repo": "ACTIONet",
       "category": "Archetypal analysis",
       "description": "A multiresolution framework that combines archetypal analysis with manifold learning to characterize continuous single-cell state landscapes. [A multiresolution framework to characterize single-cell state landscapes](https://doi.org/10.1038/s41467-020-18416-6).",
-      "stars": 46
+      "stars": 47
     },
     {
       "name": "CHETAH",
@@ -2539,6 +2539,15 @@
       "stars": 7
     },
     {
+      "name": "tchem",
+      "url": "https://github.com/Tussl-Co/TusslChemistry",
+      "owner": "Tussl-Co",
+      "repo": "TusslChemistry",
+      "category": "Quality control",
+      "description": "Names the kit, chemistry version, barcode list, cDNA strand and library type of a single-cell RNA library from the first reads of its FASTQ or BAM files (25 layouts from 11 vendors), and prints the matching Cell Ranger, STARsolo, simpleaf or kb command.",
+      "stars": 7
+    },
+    {
       "name": "MINGL",
       "url": "https://github.com/HickeyLab/Mingl/tree/main",
       "owner": "HickeyLab",
@@ -2818,5 +2827,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-14 04:16:24 UTC"
+  "updated": "2026-10-15 03:59:14 UTC"
 }
