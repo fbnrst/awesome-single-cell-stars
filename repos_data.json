@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2806
+      "stars": 2807
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2267
+      "stars": 2269
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1713
+      "stars": 1715
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1713
+      "stars": 1715
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1713
+      "stars": 1715
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1713
+      "stars": 1715
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1713
+      "stars": 1715
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1713
+      "stars": 1715
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1654
+      "stars": 1655
     },
     {
       "name": "gget",
@@ -136,6 +136,15 @@
       "stars": 686
     },
     {
+      "name": "SCP",
+      "url": "https://github.com/zhanghao-njmu/SCP",
+      "owner": "zhanghao-njmu",
+      "repo": "SCP",
+      "category": "RNA-seq",
+      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
+      "stars": 683
+    },
+    {
       "name": "NicheNet",
       "url": "https://github.com/saeyslab/nichenetr",
       "owner": "saeyslab",
@@ -143,15 +152,6 @@
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
       "stars": 682
-    },
-    {
-      "name": "SCP",
-      "url": "https://github.com/zhanghao-njmu/SCP",
-      "owner": "zhanghao-njmu",
-      "repo": "SCP",
-      "category": "RNA-seq",
-      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 681
     },
     {
       "name": "mLLMCelltype",
@@ -232,7 +232,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 490
+      "stars": 491
     },
     {
       "name": "RCTD",
@@ -370,6 +370,15 @@
       "stars": 345
     },
     {
+      "name": "Palantir",
+      "url": "https://github.com/dpeerlab/Palantir/",
+      "owner": "dpeerlab",
+      "repo": "Palantir",
+      "category": "Pseudotime and trajectory inference",
+      "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
+      "stars": 342
+    },
+    {
       "name": "immunarch",
       "url": "https://github.com/immunomind/immunarch",
       "owner": "immunomind",
@@ -377,15 +386,6 @@
       "category": "Other applications",
       "description": "R Package for Fast and Painless Exploration of Single-cell and Bulk T-cell/Antibody Immune Repertoires",
       "stars": 342
-    },
-    {
-      "name": "Palantir",
-      "url": "https://github.com/dpeerlab/Palantir/",
-      "owner": "dpeerlab",
-      "repo": "Palantir",
-      "category": "Pseudotime and trajectory inference",
-      "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 341
     },
     {
       "name": "octopus",
@@ -2395,6 +2395,15 @@
       "stars": 12
     },
     {
+      "name": "tchem",
+      "url": "https://github.com/Tussl-Co/TusslChemistry",
+      "owner": "Tussl-Co",
+      "repo": "TusslChemistry",
+      "category": "Quality control",
+      "description": "Names the kit, chemistry version, barcode list, cDNA strand and library type of a single-cell RNA library from the first reads of its FASTQ or BAM files (25 layouts from 11 vendors), and prints the matching Cell Ranger, STARsolo, simpleaf or kb command.",
+      "stars": 11
+    },
+    {
       "name": "Dino",
       "url": "https://github.com/JBrownBiostat/Dino",
       "owner": "JBrownBiostat",
@@ -2473,15 +2482,6 @@
       "repo": "scTOP",
       "category": "RNA-seq",
       "description": "Single-cell type order parameters. Physics-inspired method of processing single-cell RNA-seq and identifying cell fate, motivated by the epigenetic landscape.",
-      "stars": 9
-    },
-    {
-      "name": "tchem",
-      "url": "https://github.com/Tussl-Co/TusslChemistry",
-      "owner": "Tussl-Co",
-      "repo": "TusslChemistry",
-      "category": "Quality control",
-      "description": "Names the kit, chemistry version, barcode list, cDNA strand and library type of a single-cell RNA library from the first reads of its FASTQ or BAM files (25 layouts from 11 vendors), and prints the matching Cell Ranger, STARsolo, simpleaf or kb command.",
       "stars": 9
     },
     {
@@ -2827,5 +2827,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-19 04:00:54 UTC"
+  "updated": "2026-10-20 04:14:50 UTC"
 }
