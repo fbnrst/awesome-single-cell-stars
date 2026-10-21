@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2807
+      "stars": 2806
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2590
+      "stars": 2589
     },
     {
       "name": "STAR",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 682
+      "stars": 681
     },
     {
       "name": "mLLMCelltype",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 608
+      "stars": 609
     },
     {
       "name": "ffq",
@@ -178,7 +178,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 604
+      "stars": 605
     },
     {
       "name": "DoubletFinder",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 511
+      "stars": 510
     },
     {
       "name": "SCENIC",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 497
+      "stars": 498
     },
     {
       "name": "CellPhoneDB",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 434
+      "stars": 433
     },
     {
       "name": "GEARS",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 403
+      "stars": 405
     },
     {
       "name": "Giotto Suite",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 373
+      "stars": 374
     },
     {
       "name": "TRUST4",
@@ -352,21 +352,21 @@
       "stars": 348
     },
     {
-      "name": "soupX",
-      "url": "https://github.com/constantAmateur/SoupX",
-      "owner": "constantAmateur",
-      "repo": "SoupX",
-      "category": "RNA-seq",
-      "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 346
-    },
-    {
       "name": "ivis",
       "url": "https://github.com/beringresearch/ivis",
       "owner": "beringresearch",
       "repo": "ivis",
       "category": "RNA-seq",
       "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
+      "stars": 345
+    },
+    {
+      "name": "soupX",
+      "url": "https://github.com/constantAmateur/SoupX",
+      "owner": "constantAmateur",
+      "repo": "SoupX",
+      "category": "RNA-seq",
+      "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
       "stars": 345
     },
     {
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 309
+      "stars": 310
     },
     {
       "name": "BPCells",
@@ -442,6 +442,15 @@
       "stars": 269
     },
     {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
+      "stars": 268
+    },
+    {
       "name": "Scirpy",
       "url": "https://github.com/icbi-lab/scirpy",
       "owner": "icbi-lab",
@@ -449,15 +458,6 @@
       "category": "Immune receptor profiling",
       "description": "[A Scanpy extension for analyzing single-cell T-cell receptor (TCR) sequencing data](https://www.biorxiv.org/content/10.1101/2020.04.10.035865v1).",
       "stars": 268
-    },
-    {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 267
     },
     {
       "name": "MAST",
@@ -691,7 +691,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 162
+      "stars": 163
     },
     {
       "name": "DeepCpg",
@@ -2134,6 +2134,15 @@
       "stars": 19
     },
     {
+      "name": "scDiagnostics",
+      "url": "https://github.com/ccb-hms/scDiagnostics",
+      "owner": "ccb-hms",
+      "repo": "scDiagnostics",
+      "category": "Quality control",
+      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
+      "stars": 18
+    },
+    {
       "name": "BPSC",
       "url": "https://github.com/nghiavtr/BPSC",
       "owner": "nghiavtr",
@@ -2159,15 +2168,6 @@
       "category": "Multi-assay data integration",
       "description": "In this study, we propose models based on the Bayesian generative approach, where protein quantification available as CITE-seq counts from the same cells are used to constrain the learning process, thus forming a semi-supervised model. The generative model is based on the deep variational autoencoder (VAE) neural network architecture. [bioRxiv](https://www.biorxiv.org/content/10.1101/631382v1)",
       "stars": 18
-    },
-    {
-      "name": "scDiagnostics",
-      "url": "https://github.com/ccb-hms/scDiagnostics",
-      "owner": "ccb-hms",
-      "repo": "scDiagnostics",
-      "category": "Quality control",
-      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
-      "stars": 17
     },
     {
       "name": "scbean",
@@ -2827,5 +2827,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-20 04:14:50 UTC"
+  "updated": "2026-10-21 04:01:49 UTC"
 }
