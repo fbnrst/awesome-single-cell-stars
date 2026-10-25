@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1657
+      "stars": 1658
     },
     {
       "name": "gget",
@@ -133,7 +133,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 686
+      "stars": 685
     },
     {
       "name": "SCP",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 681
+      "stars": 682
     },
     {
       "name": "mLLMCelltype",
@@ -223,7 +223,7 @@
       "repo": "SCENIC",
       "category": "Gene regulatory network identification",
       "description": "SCENIC is an R package to infer Gene Regulatory Networks and cell types from single-cell RNA-seq data. [SCENIC: single-cell regulatory network inference and clustering](https://www.nature.com/articles/nmeth.4463)",
-      "stars": 498
+      "stars": 499
     },
     {
       "name": "CellPhoneDB",
@@ -268,7 +268,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 434
+      "stars": 435
     },
     {
       "name": "scFoundation",
@@ -394,7 +394,7 @@
       "repo": "octopus",
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
-      "stars": 327
+      "stars": 326
     },
     {
       "name": "CopyKAT",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 311
+      "stars": 312
     },
     {
       "name": "BPCells",
@@ -1384,7 +1384,7 @@
       "repo": "autozyme",
       "category": "Other applications",
       "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
-      "stars": 53
+      "stars": 54
     },
     {
       "name": "trendsceek",
@@ -2827,5 +2827,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-24 04:00:16 UTC"
+  "updated": "2026-10-25 03:59:43 UTC"
 }
