@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2598
+      "stars": 2599
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2276
+      "stars": 2277
     },
     {
       "name": "scVI",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1208
+      "stars": 1209
     },
     {
       "name": "CellChat",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 717
+      "stars": 718
     },
     {
       "name": "SCP",
@@ -241,7 +241,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 490
+      "stars": 491
     },
     {
       "name": "GLUE",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 432
+      "stars": 433
     },
     {
       "name": "GEARS",
@@ -376,7 +376,7 @@
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
-      "stars": 344
+      "stars": 345
     },
     {
       "name": "immunarch",
@@ -433,6 +433,15 @@
       "stars": 297
     },
     {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
+      "stars": 269
+    },
+    {
       "name": "MOFA",
       "url": "https://github.com/bioFAM/MOFA",
       "owner": "bioFAM",
@@ -440,15 +449,6 @@
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
       "stars": 269
-    },
-    {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 268
     },
     {
       "name": "Scirpy",
@@ -1144,21 +1144,21 @@
       "stars": 94
     },
     {
-      "name": "BASiCS",
-      "url": "https://github.com/catavallejos/BASiCS",
-      "owner": "catavallejos",
-      "repo": "BASiCS",
-      "category": "Count modelling and normalization",
-      "description": "Bayesian Analysis of single-cell RNA-seq data. Estimates cell-specific normalization constants. Technical variability is quantified based on spike-in genes. The total variability of the expression counts is decomposed into technical and biological components. BASiCS can also identify genes with differential expression/over-dispersion between two or more groups of cells.",
-      "stars": 88
-    },
-    {
       "name": "Sanity",
       "url": "https://github.com/jmbreda/Sanity",
       "owner": "jmbreda",
       "repo": "Sanity",
       "category": "Count modelling and normalization",
       "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
+      "stars": 89
+    },
+    {
+      "name": "BASiCS",
+      "url": "https://github.com/catavallejos/BASiCS",
+      "owner": "catavallejos",
+      "repo": "BASiCS",
+      "category": "Count modelling and normalization",
+      "description": "Bayesian Analysis of single-cell RNA-seq data. Estimates cell-specific normalization constants. Technical variability is quantified based on spike-in genes. The total variability of the expression counts is decomposed into technical and biological components. BASiCS can also identify genes with differential expression/over-dispersion between two or more groups of cells.",
       "stars": 88
     },
     {
@@ -1267,7 +1267,7 @@
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
-      "stars": 68
+      "stars": 69
     },
     {
       "name": "scDataviz",
@@ -1330,7 +1330,7 @@
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 59
+      "stars": 60
     },
     {
       "name": "BackSPIN",
@@ -1340,6 +1340,15 @@
       "category": "Cell clustering",
       "description": "Biclustering algorithm developed taking into account intrinsic features of single-cell RNA-seq experiments.",
       "stars": 58
+    },
+    {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 57
     },
     {
       "name": "BatchEffectRemoval",
@@ -1366,15 +1375,6 @@
       "repo": "scone",
       "category": "Quality control",
       "description": "SCONE (Single-Cell Overview of Normalized Expression), a package for single-cell RNA-seq data quality control (QC) and normalization. This data-driven framework uses summaries of expression data to assess the efficacy of normalization workflows.",
-      "stars": 55
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 55
     },
     {
@@ -2134,6 +2134,15 @@
       "stars": 19
     },
     {
+      "name": "scDiagnostics",
+      "url": "https://github.com/ccb-hms/scDiagnostics",
+      "owner": "ccb-hms",
+      "repo": "scDiagnostics",
+      "category": "Quality control",
+      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
+      "stars": 19
+    },
+    {
       "name": "MERLoT",
       "url": "https://github.com/soedinglab/merlot",
       "owner": "soedinglab",
@@ -2141,15 +2150,6 @@
       "category": "Pseudotime and trajectory inference",
       "description": "Reconstructing complex lineage trees from scRNA-seq data using MERLoT.",
       "stars": 19
-    },
-    {
-      "name": "scDiagnostics",
-      "url": "https://github.com/ccb-hms/scDiagnostics",
-      "owner": "ccb-hms",
-      "repo": "scDiagnostics",
-      "category": "Quality control",
-      "description": "Package specifically designed to evaluate the fidelity of annotation transfer in scRNA-seq data. scDiagnostics provides a comprehensive set of diagnostic tools that assess the compatibility between query and reference datasets, helping to identify and mitigate risks of erroneous annotations.",
-      "stars": 18
     },
     {
       "name": "BPSC",
@@ -2827,6 +2827,15 @@
       "stars": 1
     },
     {
+      "name": "Spatial-Continuum-Oncology",
+      "url": "https://github.com/Lukecele/spatial-continuum-oncology",
+      "owner": "Lukecele",
+      "repo": "spatial-continuum-oncology",
+      "category": "Spatial transcriptomics",
+      "description": "Biophysical reaction-diffusion transport framework and Bedside Clinical Sanctuary Score (CRI) integrating 10x Visium HD spatial transcriptomics with clinical trial decision engines in EGFR-mutant lung cancer. manuscript: [The Spatial-Genomic Oncology Continuum](https://doi.org/10.21203/rs.3.rs-11530312/v1).",
+      "stars": 1
+    },
+    {
       "name": "VOICE",
       "url": "https://github.com/Luosanj/VOICE_HE_ST_Pred",
       "owner": "Luosanj",
@@ -2872,5 +2881,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-29 05:06:33 UTC"
+  "updated": "2026-10-30 05:05:42 UTC"
 }
