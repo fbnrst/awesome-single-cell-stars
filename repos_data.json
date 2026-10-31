@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2599
+      "stars": 2600
     },
     {
       "name": "STAR",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1209
+      "stars": 1210
     },
     {
       "name": "CellChat",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 718
+      "stars": 719
     },
     {
       "name": "SCP",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 375
+      "stars": 376
     },
     {
       "name": "TRUST4",
@@ -358,7 +358,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 347
+      "stars": 346
     },
     {
       "name": "ivis",
@@ -394,7 +394,7 @@
       "repo": "octopus",
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
-      "stars": 326
+      "stars": 327
     },
     {
       "name": "CopyKAT",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 309
+      "stars": 310
     },
     {
       "name": "zUMIs",
@@ -430,7 +430,7 @@
       "repo": "sopa",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 297
+      "stars": 298
     },
     {
       "name": "SCENIC+",
@@ -550,15 +550,6 @@
       "stars": 220
     },
     {
-      "name": "cellassign",
-      "url": "https://github.com/irrationone/cellassign/",
-      "owner": "irrationone",
-      "repo": "cellassign",
-      "category": "Cell type identification and classification",
-      "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
-      "stars": 217
-    },
-    {
       "name": "dittoSeq",
       "url": "https://github.com/dtm2451/dittoSeq",
       "owner": "dtm2451",
@@ -574,6 +565,15 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 216
+    },
+    {
+      "name": "cellassign",
+      "url": "https://github.com/irrationone/cellassign/",
+      "owner": "irrationone",
+      "repo": "cellassign",
+      "category": "Cell type identification and classification",
+      "description": "Automated, probabilistic assignment of scRNA-seq to known types. `cellassign` automatically assigns single-cell RNA-seq data to known cell types across thousands of cells accounting for patient and batch specific effects. Information about a priori known markers for cell types is provided as input to the model. cellassign then probabilistically assigns each cell to a cell type, removing subjective biases from typical unsupervised clustering workflows. [bioRxiv](https://www.biorxiv.org/content/early/2019/01/16/521914)",
       "stars": 216
     },
     {
@@ -2791,6 +2791,15 @@
       "stars": 1
     },
     {
+      "name": "pbcheck",
+      "url": "https://github.com/s4s4s4s/pbcheck",
+      "owner": "s4s4s4s",
+      "repo": "pbcheck",
+      "category": "Marker and differential gene expression identification",
+      "description": "Audits a single-cell differential-expression design for pseudoreplication: checks donor nesting within condition, then runs a naive per-cell test and a donor-pseudobulk test against a donor-permutation null and reports each arm's permutation floor.",
+      "stars": 1
+    },
+    {
       "name": "p-SNE",
       "url": "https://github.com/NogaMudrik/PSNE-Poisson-Stochastic-Neighbor-Embedding",
       "owner": "NogaMudrik",
@@ -2845,15 +2854,6 @@
       "stars": 1
     },
     {
-      "name": "pbcheck",
-      "url": "https://github.com/s4s4s4s/pbcheck",
-      "owner": "s4s4s4s",
-      "repo": "pbcheck",
-      "category": "Marker and differential gene expression identification",
-      "description": "Audits a single-cell differential-expression design for pseudoreplication: checks donor nesting within condition, then runs a naive per-cell test and a donor-pseudobulk test against a donor-permutation null and reports each arm's permutation floor.",
-      "stars": 0
-    },
-    {
       "name": "crc-singlecell-reference-mapping",
       "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
       "owner": "MMatinGerami",
@@ -2881,5 +2881,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-10-30 05:05:42 UTC"
+  "updated": "2026-10-31 04:53:08 UTC"
 }
