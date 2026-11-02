@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2605
+      "stars": 2606
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2277
+      "stars": 2279
     },
     {
       "name": "scVI",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 683
+      "stars": 684
     },
     {
       "name": "mLLMCelltype",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 612
+      "stars": 613
     },
     {
       "name": "ffq",
@@ -475,7 +475,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 264
+      "stars": 265
     },
     {
       "name": "BayesPrism",
@@ -529,7 +529,7 @@
       "repo": "numbat",
       "category": "Copy number analysis",
       "description": "Numbat is a haplotype-aware CNV caller from single-cell and spatial transcriptomics data. It integrates signals from gene expression, allelic ratio, and population-derived haplotype information to accurately infer allele-specific CNVs in single cells and reconstruct their lineage relationship. [Paper](https://www.nature.com/articles/s41587-022-01468-y)",
-      "stars": 232
+      "stars": 233
     },
     {
       "name": "SComatic",
@@ -550,21 +550,21 @@
       "stars": 220
     },
     {
-      "name": "dittoSeq",
-      "url": "https://github.com/dtm2451/dittoSeq",
-      "owner": "dtm2451",
-      "repo": "dittoSeq",
-      "category": "RNA-seq",
-      "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
-      "stars": 216
-    },
-    {
       "name": "torchdr",
       "url": "https://github.com/TorchDR/TorchDR",
       "owner": "TorchDR",
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
+      "stars": 217
+    },
+    {
+      "name": "dittoSeq",
+      "url": "https://github.com/dtm2451/dittoSeq",
+      "owner": "dtm2451",
+      "repo": "dittoSeq",
+      "category": "RNA-seq",
+      "description": "Bioconductor package offering user friendly visualization tools for single-cell and Bulk RNA Sequencing. Color blindness friendly by default; novice coder friendly; highly customizable and powerful enough to build publication-ready figures; universal in that it works directly with Seurat, SingleCellExperiment, and SummarizedExperiment objects and has import capabilities for edgeR DGElists.",
       "stars": 216
     },
     {
@@ -2881,5 +2881,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-01 05:17:43 UTC"
+  "updated": "2026-11-02 05:17:30 UTC"
 }
