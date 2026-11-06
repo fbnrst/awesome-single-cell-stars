@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2811
+      "stars": 2812
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2608
+      "stars": 2609
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2283
+      "stars": 2284
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1662
+      "stars": 1663
     },
     {
       "name": "gget",
@@ -178,7 +178,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 605
+      "stars": 606
     },
     {
       "name": "DoubletFinder",
@@ -205,7 +205,7 @@
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
-      "stars": 514
+      "stars": 515
     },
     {
       "name": "dynamo",
@@ -250,7 +250,7 @@
       "repo": "GLUE",
       "category": "Multi-assay data integration",
       "description": "GLUE (Graph-Linked Unified Embedding) is a deep learning method for unpaired single-cell multi-omics data integration and regulatory inference ([Paper](https://www.nature.com/articles/s41587-022-01284-4)).",
-      "stars": 486
+      "stars": 487
     },
     {
       "name": "cell2location",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 422
+      "stars": 424
     },
     {
       "name": "RAPIDS-singlecell",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 375
+      "stars": 376
     },
     {
       "name": "TRUST4",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 310
+      "stars": 311
     },
     {
       "name": "zUMIs",
@@ -484,7 +484,7 @@
       "repo": "BayesPrism",
       "category": "RNA-seq",
       "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 254
+      "stars": 255
     },
     {
       "name": "LIANA",
@@ -1096,7 +1096,7 @@
       "repo": "MIMOSCA",
       "category": "RNA-seq",
       "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 100
+      "stars": 101
     },
     {
       "name": "solo",
@@ -1178,6 +1178,15 @@
       "category": "Multi-assay data integration",
       "description": "SCALEX provides a VAE framework for integration of heterogeneous single-cell data by disentangling batch-invariant components from batch-related variations and projecting the batch-invariant components into a generalized, low-dimensional cell-embedding space. [Construction of continuously expandable single-cell atlases through integration of heterogeneous datasets in a generalized cell-embedding space](https://www.biorxiv.org/content/10.1101/2021.04.06.438536v1)",
       "stars": 84
+    },
+    {
+      "name": "autozyme",
+      "url": "https://github.com/ElliotXie/autozyme",
+      "owner": "ElliotXie",
+      "repo": "autozyme",
+      "category": "Other applications",
+      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
+      "stars": 80
     },
     {
       "name": "SCope",
@@ -1267,7 +1276,7 @@
       "repo": "scE2G",
       "category": "Epigenomics",
       "description": "Family of models to predict enhancer-gene regulation based on single-cell data. These models use features derived from either single-cell ATAC-seq or multiomicRNA and ATAC-seq data in supervised classifiers trained on a new harmonized CRISPR perturbation dataset including over 13,000 examples.",
-      "stars": 69
+      "stars": 70
     },
     {
       "name": "scDataviz",
@@ -1339,15 +1348,6 @@
       "repo": "BackSPIN",
       "category": "Cell clustering",
       "description": "Biclustering algorithm developed taking into account intrinsic features of single-cell RNA-seq experiments.",
-      "stars": 58
-    },
-    {
-      "name": "autozyme",
-      "url": "https://github.com/ElliotXie/autozyme",
-      "owner": "ElliotXie",
-      "repo": "autozyme",
-      "category": "Other applications",
-      "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
       "stars": 58
     },
     {
@@ -1639,6 +1639,15 @@
       "stars": 39
     },
     {
+      "name": "bixverse",
+      "url": "https://github.com/GregorLueg/bixverse",
+      "owner": "GregorLueg",
+      "repo": "bixverse",
+      "category": "RNA-seq",
+      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
+      "stars": 38
+    },
+    {
       "name": "Cellity",
       "url": "https://github.com/teichlab/cellity",
       "owner": "teichlab",
@@ -1655,15 +1664,6 @@
       "category": "Multi-assay data integration",
       "description": "Integrate single-cell RNA and single-cell DNA-seq measured in separate cells from the same tumour to infer cancer-clone-specific gene expression profiles [clonealign: statistical integration of independent single-cell RNA and DNA sequencing data from human cancers, Genome Biology 2019](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1645-z)",
       "stars": 38
-    },
-    {
-      "name": "bixverse",
-      "url": "https://github.com/GregorLueg/bixverse",
-      "owner": "GregorLueg",
-      "repo": "bixverse",
-      "category": "RNA-seq",
-      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
-      "stars": 37
     },
     {
       "name": "FastProject",
@@ -2701,6 +2701,15 @@
       "stars": 3
     },
     {
+      "name": "crc-singlecell-reference-mapping",
+      "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
+      "owner": "MMatinGerami",
+      "repo": "crc-singlecell-reference-mapping",
+      "category": "Cell type identification and classification",
+      "description": "Cross-cohort cell-type annotation of colorectal cancer scRNA-seq with scVI, scANVI and scArches: `scmap annotate` maps a query cohort onto a 63k-cell reference, with abstention, a latent-distance novelty score and conformal prediction sets whose coverage is measured under cohort and hospital shift.",
+      "stars": 3
+    },
+    {
       "name": "G2S3",
       "url": "https://github.com/ZWang-Lab/G2S3",
       "owner": "ZWang-Lab",
@@ -2836,15 +2845,6 @@
       "stars": 1
     },
     {
-      "name": "crc-singlecell-reference-mapping",
-      "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
-      "owner": "MMatinGerami",
-      "repo": "crc-singlecell-reference-mapping",
-      "category": "Cell type identification and classification",
-      "description": "Cross-cohort cell-type annotation of colorectal cancer scRNA-seq with scVI, scANVI and scArches: `scmap annotate` maps a query cohort onto a 63k-cell reference, with abstention, a latent-distance novelty score and conformal prediction sets whose coverage is measured under cohort and hospital shift.",
-      "stars": 1
-    },
-    {
       "name": "NetDECODE",
       "url": "https://github.com/shmohammadi86/NetDECODE",
       "owner": "shmohammadi86",
@@ -2881,5 +2881,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-05 05:56:35 UTC"
+  "updated": "2026-11-06 05:53:35 UTC"
 }
