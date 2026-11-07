@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2609
+      "stars": 2610
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2284
+      "stars": 2281
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1720
+      "stars": 1722
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1720
+      "stars": 1722
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1720
+      "stars": 1722
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1720
+      "stars": 1722
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1720
+      "stars": 1722
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1720
+      "stars": 1722
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1211
+      "stars": 1212
     },
     {
       "name": "CellChat",
@@ -322,7 +322,7 @@
       "repo": "scRepertoire",
       "category": "Immune receptor profiling",
       "description": "[scRepertoire 2: Enhanced and efficient toolkit for single-cell immune profiling](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012760)",
-      "stars": 377
+      "stars": 378
     },
     {
       "name": "Tangram",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 208
+      "stars": 209
     },
     {
       "name": "inferCNVpy",
@@ -610,7 +610,7 @@
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 193
+      "stars": 194
     },
     {
       "name": "SpatialDe",
@@ -637,7 +637,7 @@
       "repo": "scrublet",
       "category": "Doublet Identification",
       "description": "Computational identification of cell doublets in single-cell transcriptomic data. [BioRxiv](https://www.biorxiv.org/content/early/2018/07/09/357368)",
-      "stars": 185
+      "stars": 186
     },
     {
       "name": "SCDE",
@@ -1324,21 +1324,21 @@
       "stars": 61
     },
     {
-      "name": "knn-smoothing",
-      "url": "https://github.com/yanailab/knn-smoothing",
-      "owner": "yanailab",
-      "repo": "knn-smoothing",
-      "category": "RNA-seq",
-      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
-      "stars": 60
-    },
-    {
       "name": "DeepSpot-M",
       "url": "https://github.com/ratschlab/DeepSpotM",
       "owner": "ratschlab",
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 61
+    },
+    {
+      "name": "knn-smoothing",
+      "url": "https://github.com/yanailab/knn-smoothing",
+      "owner": "yanailab",
+      "repo": "knn-smoothing",
+      "category": "RNA-seq",
+      "description": "The algorithm is based on the observation that across protocols, the technical noise exhibited by UMI-filtered scRNA-Seq data closely follows Poisson statistics. Smoothing is performed by first identifying the nearest neighbors of each cell in a step-wise fashion, based on variance-stabilized and partially smoothed expression profiles, and then aggregating their transcript counts.",
       "stars": 60
     },
     {
@@ -2674,6 +2674,15 @@
       "stars": 4
     },
     {
+      "name": "crc-singlecell-reference-mapping",
+      "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
+      "owner": "MMatinGerami",
+      "repo": "crc-singlecell-reference-mapping",
+      "category": "Cell type identification and classification",
+      "description": "Cross-cohort cell-type annotation of colorectal cancer scRNA-seq with scVI, scANVI and scArches: `scmap annotate` maps a query cohort onto a 63k-cell reference, with abstention, a latent-distance novelty score and conformal prediction sets whose coverage is measured under cohort and hospital shift.",
+      "stars": 4
+    },
+    {
       "name": "mtSC",
       "url": "https://github.com/bm2-lab/mtSC",
       "owner": "bm2-lab",
@@ -2698,15 +2707,6 @@
       "repo": "Citrus",
       "category": "Batch-effect removal",
       "description": "A normalization method to remove unwanted variation using both control and target genes. It takes advantage of the fact that genes in a scRNAseq study often can be naturally classified into two sets: a control set of genes that are free of effects of the predictor variables and a target set of genes that are of primary interest. By modeling the two sets of genes jointly using the partial least squares regression, scPLS is capable of making full use of the data to improve the inference of confounding effects. https://www.nature.com/articles/s41598-017-13665-w",
-      "stars": 3
-    },
-    {
-      "name": "crc-singlecell-reference-mapping",
-      "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
-      "owner": "MMatinGerami",
-      "repo": "crc-singlecell-reference-mapping",
-      "category": "Cell type identification and classification",
-      "description": "Cross-cohort cell-type annotation of colorectal cancer scRNA-seq with scVI, scANVI and scArches: `scmap annotate` maps a query cohort onto a 63k-cell reference, with abstention, a latent-distance novelty score and conformal prediction sets whose coverage is measured under cohort and hospital shift.",
       "stars": 3
     },
     {
@@ -2881,5 +2881,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-06 05:53:35 UTC"
+  "updated": "2026-11-07 05:23:57 UTC"
 }
