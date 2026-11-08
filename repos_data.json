@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2812
+      "stars": 2813
     },
     {
       "name": "Scanpy",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2281
+      "stars": 2282
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1663
+      "stars": 1664
     },
     {
       "name": "gget",
@@ -538,7 +538,7 @@
       "repo": "SComatic",
       "category": "Variant calling",
       "description": "",
-      "stars": 229
+      "stars": 228
     },
     {
       "name": "alevin-fry",
@@ -2854,6 +2854,15 @@
       "stars": 1
     },
     {
+      "name": "Spatial-Architecture-Osimertinib",
+      "url": "https://github.com/Lukecele/spatial-architecture-osimertinib",
+      "owner": "Lukecele",
+      "repo": "spatial-architecture-osimertinib",
+      "category": "Spatial transcriptomics",
+      "description": "Visium HD analysis of subcellular transport limits and microvascular decoupling in EGFR-mutant NSCLC. DOI: [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878).",
+      "stars": 1
+    },
+    {
       "name": "VOICE",
       "url": "https://github.com/Luosanj/VOICE_HE_ST_Pred",
       "owner": "Luosanj",
@@ -2881,5 +2890,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-07 05:23:57 UTC"
+  "updated": "2026-11-08 05:22:08 UTC"
 }
