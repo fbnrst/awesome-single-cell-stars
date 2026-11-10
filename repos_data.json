@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2611
+      "stars": 2612
     },
     {
       "name": "STAR",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1723
+      "stars": 1724
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1723
+      "stars": 1724
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1723
+      "stars": 1724
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1723
+      "stars": 1724
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1723
+      "stars": 1724
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1723
+      "stars": 1724
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1664
+      "stars": 1662
     },
     {
       "name": "gget",
@@ -124,7 +124,16 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 719
+      "stars": 720
+    },
+    {
+      "name": "SCP",
+      "url": "https://github.com/zhanghao-njmu/SCP",
+      "owner": "zhanghao-njmu",
+      "repo": "SCP",
+      "category": "RNA-seq",
+      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
+      "stars": 686
     },
     {
       "name": "inferCNV",
@@ -134,15 +143,6 @@
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
       "stars": 686
-    },
-    {
-      "name": "SCP",
-      "url": "https://github.com/zhanghao-njmu/SCP",
-      "owner": "zhanghao-njmu",
-      "repo": "SCP",
-      "category": "RNA-seq",
-      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 685
     },
     {
       "name": "NicheNet",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 612
+      "stars": 613
     },
     {
       "name": "ffq",
@@ -226,21 +226,21 @@
       "stars": 501
     },
     {
-      "name": "CellPhoneDB",
-      "url": "https://github.com/ventolab/CellphoneDB",
-      "owner": "ventolab",
-      "repo": "CellphoneDB",
-      "category": "Cellular interactions/communication",
-      "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 492
-    },
-    {
       "name": "RCTD",
       "url": "https://github.com/dmcable/spacexr",
       "owner": "dmcable",
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 493
+    },
+    {
+      "name": "CellPhoneDB",
+      "url": "https://github.com/ventolab/CellphoneDB",
+      "owner": "ventolab",
+      "repo": "CellphoneDB",
+      "category": "Cellular interactions/communication",
+      "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
       "stars": 492
     },
     {
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 424
+      "stars": 425
     },
     {
       "name": "RAPIDS-singlecell",
@@ -295,7 +295,7 @@
       "repo": "rapids_singlecell",
       "category": "RNA-seq",
       "description": "A GPU-accelerated tool leveraging RAPIDS for scRNA analysis. Seamless scverse compatibility for efficient single-cell data processing and analysis. Replcates features from Scanpy, while also incorporating select functionalities from Squidpy and Decoupler.",
-      "stars": 409
+      "stars": 410
     },
     {
       "name": "Giotto Suite",
@@ -394,7 +394,7 @@
       "repo": "octopus",
       "category": "Variant calling",
       "description": "Bayesian haplotype-based mutation calling with [single-cell calling model](https://github.com/luntergroup/octopus/wiki/Calling-models:-Cell). Identifies clonal and subclonal mutations using phylogeny inference and accounts for allelic dropout.",
-      "stars": 327
+      "stars": 328
     },
     {
       "name": "CopyKAT",
@@ -403,7 +403,7 @@
       "repo": "copykat",
       "category": "Copy number analysis",
       "description": "Inference of genomic copy number and subclonal structure from scRNA-seq data. Outperforms _inferCNV_. [Paper](https://doi.org/10.1038/s41587-020-00795-2)",
-      "stars": 315
+      "stars": 316
     },
     {
       "name": "BPCells",
@@ -433,21 +433,21 @@
       "stars": 299
     },
     {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 269
-    },
-    {
       "name": "MOFA",
       "url": "https://github.com/bioFAM/MOFA",
       "owner": "bioFAM",
       "repo": "MOFA",
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
+      "stars": 270
+    },
+    {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
       "stars": 269
     },
     {
@@ -466,7 +466,7 @@
       "repo": "MAST",
       "category": "Count modelling and normalization",
       "description": "Model-based Analysis of Single-cell Transcriptomics (MAST) fits a two-part, generalized linear models that are specially adapted for bimodal and/or zero-inflated single cell gene expression data.",
-      "stars": 266
+      "stars": 267
     },
     {
       "name": "SpaGCN",
@@ -1954,6 +1954,15 @@
       "stars": 25
     },
     {
+      "name": "RustScenic",
+      "url": "https://github.com/Ekin-Kahraman/rustscenic",
+      "owner": "Ekin-Kahraman",
+      "repo": "rustscenic",
+      "category": "Gene regulatory network identification",
+      "description": "Gene regulatory network inference, motif enrichment and regulon activity scoring for single-cell RNA-seq and multiome data.",
+      "stars": 24
+    },
+    {
       "name": "cyclum",
       "url": "https://github.com/KChen-lab/cyclum",
       "owner": "KChen-lab",
@@ -1969,15 +1978,6 @@
       "repo": "SingleSplice",
       "category": "RNA-seq",
       "description": "A tool for detecting biological variation in alternative splicing within a population of single cells. See [Welch et al. 2016](https://academic.oup.com/nar/article/44/8/e73/2465993/Robust-detection-of-alternative-splicing-in-a).",
-      "stars": 23
-    },
-    {
-      "name": "RustScenic",
-      "url": "https://github.com/Ekin-Kahraman/rustscenic",
-      "owner": "Ekin-Kahraman",
-      "repo": "rustscenic",
-      "category": "Gene regulatory network identification",
-      "description": "Gene regulatory network inference, motif enrichment and regulon activity scoring for single-cell RNA-seq and multiome data.",
       "stars": 23
     },
     {
@@ -2728,6 +2728,15 @@
       "stars": 3
     },
     {
+      "name": "VOICE",
+      "url": "https://github.com/Luosanj/VOICE_HE_ST_Pred",
+      "owner": "Luosanj",
+      "repo": "VOICE_HE_ST_Pred",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 3
+    },
+    {
       "name": "Marlene",
       "url": "https://github.com/euxhenh/Marlene",
       "owner": "euxhenh",
@@ -2779,15 +2788,6 @@
       "repo": "spatial-continuum-oncology",
       "category": "Spatial transcriptomics",
       "description": "Biophysical reaction-diffusion transport framework and Bedside Clinical Sanctuary Score (CRI) integrating 10x Visium HD spatial transcriptomics with clinical trial decision engines in EGFR-mutant lung cancer. manuscript: [The Spatial-Genomic Oncology Continuum](https://doi.org/10.21203/rs.3.rs-11530312/v1).",
-      "stars": 2
-    },
-    {
-      "name": "VOICE",
-      "url": "https://github.com/Luosanj/VOICE_HE_ST_Pred",
-      "owner": "Luosanj",
-      "repo": "VOICE_HE_ST_Pred",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 2
     },
     {
@@ -2890,5 +2890,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-09 05:32:40 UTC"
+  "updated": "2026-11-10 06:44:22 UTC"
 }
