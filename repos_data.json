@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2612
+      "stars": 2614
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1662
+      "stars": 1664
     },
     {
       "name": "gget",
@@ -106,7 +106,7 @@
       "repo": "CellChat",
       "category": "Cellular interactions/communication",
       "description": "It predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. Through manifold learning and quantitative contrasts, CellChat classifies signaling pathways and delineates conserved and context-specific pathways across different datasets. [Paper](https://www.nature.com/articles/s41467-021-21246-9)",
-      "stars": 789
+      "stars": 790
     },
     {
       "name": "kallisto",
@@ -151,7 +151,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 685
+      "stars": 686
     },
     {
       "name": "mLLMCelltype",
@@ -196,7 +196,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 561
+      "stars": 562
     },
     {
       "name": "scVelo",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 510
+      "stars": 511
     },
     {
       "name": "SCENIC",
@@ -268,7 +268,7 @@
       "repo": "liger",
       "category": "Multi-assay data integration",
       "description": "LIGER (Linked Inference of Genomic Experimental Relationships) is a package for integrating and analyzing multiple single-cell datasets. [Single-Cell Multi-omic Integration Compares and Contrasts Features of Brain Cell Identity](https://www.cell.com/cell/fulltext/S0092-8674%2819%2930504-5)",
-      "stars": 435
+      "stars": 436
     },
     {
       "name": "scFoundation",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 432
+      "stars": 433
     },
     {
       "name": "GEARS",
@@ -352,6 +352,15 @@
       "stars": 348
     },
     {
+      "name": "ivis",
+      "url": "https://github.com/beringresearch/ivis",
+      "owner": "beringresearch",
+      "repo": "ivis",
+      "category": "RNA-seq",
+      "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
+      "stars": 346
+    },
+    {
       "name": "soupX",
       "url": "https://github.com/constantAmateur/SoupX",
       "owner": "constantAmateur",
@@ -359,15 +368,6 @@
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
       "stars": 346
-    },
-    {
-      "name": "ivis",
-      "url": "https://github.com/beringresearch/ivis",
-      "owner": "beringresearch",
-      "repo": "ivis",
-      "category": "RNA-seq",
-      "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
-      "stars": 345
     },
     {
       "name": "Palantir",
@@ -433,6 +433,15 @@
       "stars": 299
     },
     {
+      "name": "SCENIC+",
+      "url": "https://github.com/aertslab/scenicplus",
+      "owner": "aertslab",
+      "repo": "scenicplus",
+      "category": "Gene regulatory network identification",
+      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
+      "stars": 270
+    },
+    {
       "name": "MOFA",
       "url": "https://github.com/bioFAM/MOFA",
       "owner": "bioFAM",
@@ -440,15 +449,6 @@
       "category": "Multi-assay data integration",
       "description": "Multi\u2010Omics Factor Analysis, a framework for unsupervised integration of multi\u2010omics data sets. MOFA is a method for disentangling the different sources of heterogeneity in bulk and single-cell multi-omics data sets. It identifies the latent factors that drive unique and shared variability in the different assays. The factors can be used for visualisation, pseudotime reconstruction, imputation, among other functionalities. [Paper](http://msb.embopress.org/content/14/6/e8124)",
       "stars": 270
-    },
-    {
-      "name": "SCENIC+",
-      "url": "https://github.com/aertslab/scenicplus",
-      "owner": "aertslab",
-      "repo": "scenicplus",
-      "category": "Gene regulatory network identification",
-      "description": "SCENIC+ is a python package to build gene regulatory networks using combined or separate scRNA-seq and scATAC-seq data. [SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks](https://www.biorxiv.org/content/10.1101/2022.08.19.504505v1)",
-      "stars": 269
     },
     {
       "name": "Scirpy",
@@ -1729,6 +1729,15 @@
       "stars": 33
     },
     {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
+      "stars": 32
+    },
+    {
       "name": "Connectome",
       "url": "https://github.com/msraredon/Connectome",
       "owner": "msraredon",
@@ -1753,15 +1762,6 @@
       "repo": "BIRD",
       "category": "Epigenomics",
       "description": "BIRD is a tool for predicting chromatin accessibility and inferring regulatory element activities in single cells using scRNA-seq. [Global prediction of chromatin accessibility using small-cell-number and single-cell RNA-seq](https://academic.oup.com/nar/article/47/19/e121/5552071)",
-      "stars": 31
-    },
-    {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
       "stars": 31
     },
     {
@@ -2602,6 +2602,15 @@
       "stars": 6
     },
     {
+      "name": "crc-singlecell-reference-mapping",
+      "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
+      "owner": "MMatinGerami",
+      "repo": "crc-singlecell-reference-mapping",
+      "category": "Cell type identification and classification",
+      "description": "Cross-cohort cell-type annotation of colorectal cancer scRNA-seq with scVI, scANVI and scArches: `scmap annotate` maps a query cohort onto a 63k-cell reference, with abstention, a latent-distance novelty score and conformal prediction sets whose coverage is measured under cohort and hospital shift.",
+      "stars": 6
+    },
+    {
       "name": "TorchGW",
       "url": "https://github.com/chansigit/torchgw",
       "owner": "chansigit",
@@ -2635,15 +2644,6 @@
       "repo": "SEPA",
       "category": "Marker and differential gene expression identification",
       "description": "SEPA provides convenient functions for users to assign genes into different gene expression patterns such as constant, monotone increasing and increasing then decreasing. SEPA then performs GO enrichment analysis to analysis the functional roles of genes with same or similar patterns.",
-      "stars": 5
-    },
-    {
-      "name": "crc-singlecell-reference-mapping",
-      "url": "https://github.com/MMatinGerami/crc-singlecell-reference-mapping",
-      "owner": "MMatinGerami",
-      "repo": "crc-singlecell-reference-mapping",
-      "category": "Cell type identification and classification",
-      "description": "Cross-cohort cell-type annotation of colorectal cancer scRNA-seq with scVI, scANVI and scArches: `scmap annotate` maps a query cohort onto a 63k-cell reference, with abstention, a latent-distance novelty score and conformal prediction sets whose coverage is measured under cohort and hospital shift.",
       "stars": 5
     },
     {
@@ -2782,6 +2782,15 @@
       "stars": 2
     },
     {
+      "name": "Spatial-Architecture-Osimertinib",
+      "url": "https://github.com/Lukecele/spatial-architecture-osimertinib",
+      "owner": "Lukecele",
+      "repo": "spatial-architecture-osimertinib",
+      "category": "Spatial transcriptomics",
+      "description": "Visium HD analysis of subcellular transport limits and microvascular decoupling in EGFR-mutant NSCLC. DOI: [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878).",
+      "stars": 2
+    },
+    {
       "name": "Spatial-Continuum-Oncology",
       "url": "https://github.com/Lukecele/spatial-continuum-oncology",
       "owner": "Lukecele",
@@ -2863,15 +2872,6 @@
       "stars": 1
     },
     {
-      "name": "Spatial-Architecture-Osimertinib",
-      "url": "https://github.com/Lukecele/spatial-architecture-osimertinib",
-      "owner": "Lukecele",
-      "repo": "spatial-architecture-osimertinib",
-      "category": "Spatial transcriptomics",
-      "description": "Visium HD analysis of subcellular transport limits and microvascular decoupling in EGFR-mutant NSCLC. DOI: [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878).",
-      "stars": 1
-    },
-    {
       "name": "CellPLM",
       "url": "https://github.com/OmicsML/CellPLM?tab=readme-ov-file",
       "owner": "OmicsML",
@@ -2890,5 +2890,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-10 06:44:22 UTC"
+  "updated": "2026-11-11 05:30:47 UTC"
 }
