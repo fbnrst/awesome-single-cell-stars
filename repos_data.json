@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 494
+      "stars": 495
     },
     {
       "name": "CellPhoneDB",
@@ -1150,7 +1150,7 @@
       "repo": "Sanity",
       "category": "Count modelling and normalization",
       "description": "(SAmpling-Noise-corrected Inference of Transcription ActivitY) is a Bayesian procedure that infers the log expression levels (log transcription quotients) of genes by filtering out Poisson noise from UMI count matrices. It estimates expression values and error bars directly without tunable parameters. [Bayesian inference of gene expression states from single-cell RNA-seq data. _Nature Biotechnology_ (2021](https://doi.org/10.1038/s41587-021-00875-x)",
-      "stars": 89
+      "stars": 90
     },
     {
       "name": "BASiCS",
@@ -1945,6 +1945,15 @@
       "stars": 26
     },
     {
+      "name": "RustScenic",
+      "url": "https://github.com/Ekin-Kahraman/rustscenic",
+      "owner": "Ekin-Kahraman",
+      "repo": "rustscenic",
+      "category": "Gene regulatory network identification",
+      "description": "Gene regulatory network inference, motif enrichment and regulon activity scoring for single-cell RNA-seq and multiome data.",
+      "stars": 25
+    },
+    {
       "name": "SCIPhi",
       "url": "https://github.com/cbg-ethz/SCIPhI",
       "owner": "cbg-ethz",
@@ -1952,15 +1961,6 @@
       "category": "Variant calling",
       "description": "[Single-cell mutation identification via phylogenetic inference (SCIPhI) is a new approach to mutation detection in individual tumor cells by leveraging the evolutionary relationship among cells.](https://www.biorxiv.org/content/early/2018/03/28/290908)",
       "stars": 25
-    },
-    {
-      "name": "RustScenic",
-      "url": "https://github.com/Ekin-Kahraman/rustscenic",
-      "owner": "Ekin-Kahraman",
-      "repo": "rustscenic",
-      "category": "Gene regulatory network identification",
-      "description": "Gene regulatory network inference, motif enrichment and regulon activity scoring for single-cell RNA-seq and multiome data.",
-      "stars": 24
     },
     {
       "name": "cyclum",
@@ -2890,5 +2890,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-14 05:43:34 UTC"
+  "updated": "2026-11-15 05:43:03 UTC"
 }
