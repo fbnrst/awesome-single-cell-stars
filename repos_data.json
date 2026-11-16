@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2615
+      "stars": 2616
     },
     {
       "name": "STAR",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1212
+      "stars": 1213
     },
     {
       "name": "CellChat",
@@ -133,7 +133,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 690
+      "stars": 691
     },
     {
       "name": "SCP",
@@ -142,7 +142,7 @@
       "repo": "SCP",
       "category": "RNA-seq",
       "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 688
+      "stars": 689
     },
     {
       "name": "inferCNV",
@@ -493,7 +493,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 254
+      "stars": 255
     },
     {
       "name": "Muscat",
@@ -964,6 +964,15 @@
       "stars": 111
     },
     {
+      "name": "CASSIA",
+      "url": "https://github.com/ElliotXie/CASSIA",
+      "owner": "ElliotXie",
+      "repo": "CASSIA",
+      "category": "Cell type identification and classification",
+      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
+      "stars": 111
+    },
+    {
       "name": "HTSeq",
       "url": "https://github.com/htseq/htseq",
       "owner": "htseq",
@@ -979,15 +988,6 @@
       "repo": "ZIFA",
       "category": "Dimension reduction",
       "description": "Zero-inflated dimensionality reduction algorithm for single-cell data.",
-      "stars": 110
-    },
-    {
-      "name": "CASSIA",
-      "url": "https://github.com/ElliotXie/CASSIA",
-      "owner": "ElliotXie",
-      "repo": "CASSIA",
-      "category": "Cell type identification and classification",
-      "description": "CASSIA is a multi-agent large language model (LLM) framework for automated, reference-free, and interpretable cell type annotation of single-cell RNA-seq data. It includes dedicated agents for annotation, validation, formatting, quality scoring, and reporting, along with optional modules for subclustering, uncertainty quantification, retrieval-augmented generation (RAG), and annotation refinement via the Annotation Boost agent. CASSIA has been applied to correct errors in gold-standard annotations, detect mixed cell types, and accurately annotate rare cell populations across diverse species. [CASSIA: a multi-agent large language model for automated and interpretable cell annotation (Nature Communications 2025)](https://www.nature.com/articles/s41467-025-67084-x)",
       "stars": 110
     },
     {
@@ -1468,6 +1468,15 @@
       "stars": 48
     },
     {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "owner": "cafferychen777",
+      "repo": "ChatSpatial",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 48
+    },
+    {
       "name": "NetworkInference",
       "url": "https://github.com/Tchanders/NetworkInference.jl",
       "owner": "Tchanders",
@@ -1483,15 +1492,6 @@
       "repo": "ACTIONet",
       "category": "Archetypal analysis",
       "description": "A multiresolution framework that combines archetypal analysis with manifold learning to characterize continuous single-cell state landscapes. [A multiresolution framework to characterize single-cell state landscapes](https://doi.org/10.1038/s41467-020-18416-6).",
-      "stars": 47
-    },
-    {
-      "name": "ChatSpatial",
-      "url": "https://github.com/cafferychen777/ChatSpatial",
-      "owner": "cafferychen777",
-      "repo": "ChatSpatial",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 47
     },
     {
@@ -2764,6 +2764,15 @@
       "stars": 2
     },
     {
+      "name": "OpenOmicsBench",
+      "url": "https://github.com/vxxqv/openomicsbench",
+      "owner": "vxxqv",
+      "repo": "openomicsbench",
+      "category": "Other applications",
+      "description": "A 90-cell synthetic single-cell benchmark with offline clustering scores (ARI, NMI, purity, and cell coverage).",
+      "stars": 2
+    },
+    {
       "name": "VisCello",
       "url": "https://github.com/qinzhu/VisCello",
       "owner": "qinzhu",
@@ -2890,5 +2899,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-15 05:43:03 UTC"
+  "updated": "2026-11-16 05:42:44 UTC"
 }
