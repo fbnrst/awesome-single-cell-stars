@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2617
+      "stars": 2619
     },
     {
       "name": "STAR",
@@ -25,25 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2283
-    },
-    {
-      "name": "TotalVI",
-      "url": "https://github.com/YosefLab/scVI",
-      "owner": "YosefLab",
-      "repo": "scVI",
-      "category": "Multi-assay data integration",
-      "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1730
-    },
-    {
-      "name": "DestVI",
-      "url": "https://github.com/scverse/scvi-tools",
-      "owner": "scverse",
-      "repo": "scvi-tools",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 1730
+      "stars": 2285
     },
     {
       "name": "scVI",
@@ -52,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1729
+      "stars": 1732
     },
     {
       "name": "scANVI",
@@ -61,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1729
+      "stars": 1732
     },
     {
       "name": "gimVI",
@@ -70,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1729
+      "stars": 1732
     },
     {
       "name": "MultiVI",
@@ -79,7 +61,25 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1729
+      "stars": 1732
+    },
+    {
+      "name": "TotalVI",
+      "url": "https://github.com/YosefLab/scVI",
+      "owner": "YosefLab",
+      "repo": "scVI",
+      "category": "Multi-assay data integration",
+      "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
+      "stars": 1732
+    },
+    {
+      "name": "DestVI",
+      "url": "https://github.com/scverse/scvi-tools",
+      "owner": "scverse",
+      "repo": "scvi-tools",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 1732
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1667
+      "stars": 1668
     },
     {
       "name": "gget",
@@ -124,7 +124,7 @@
       "repo": "GSEApy",
       "category": "RNA-seq",
       "description": "GSEApy: Gene Set Enrichment Analysis in Python. GSEApy is a Python/Rust implementation for GSEA and wrapper for Enrichr. GSEApy can be used for RNA-seq, ChIP-seq, Microarray data. It can be used for convenient GO enrichment and to produce publication quality figures in python.",
-      "stars": 721
+      "stars": 722
     },
     {
       "name": "NicheNet",
@@ -133,7 +133,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 691
+      "stars": 692
     },
     {
       "name": "SCP",
@@ -178,7 +178,7 @@
       "repo": "ffq",
       "category": "Other applications",
       "description": "Fetch run and metadata information for single-cell genomics datasets.",
-      "stars": 606
+      "stars": 607
     },
     {
       "name": "DoubletFinder",
@@ -196,7 +196,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 562
+      "stars": 563
     },
     {
       "name": "scVelo",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 512
+      "stars": 513
     },
     {
       "name": "SCENIC",
@@ -412,7 +412,7 @@
       "repo": "BPCells",
       "category": "Other applications",
       "description": "A package for high performance single cell analysis of RNA-seq and ATAC-seq datasets. BPCells provides disk-backed streaming calculations that reduce memory requirements for normalization and PCA of large scRNA-seq datasets by nearly 100-fold compared to in-memory workflows such as Scanpy.",
-      "stars": 314
+      "stars": 315
     },
     {
       "name": "zUMIs",
@@ -784,6 +784,15 @@
       "stars": 138
     },
     {
+      "name": "CellTrek",
+      "url": "https://github.com/navinlabcode/CellTrek",
+      "owner": "navinlabcode",
+      "repo": "CellTrek",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 138
+    },
+    {
       "name": "memento-de",
       "url": "https://github.com/yelabucsf/scrna-parameter-estimation",
       "owner": "yelabucsf",
@@ -799,15 +808,6 @@
       "repo": "AtacWorks",
       "category": "Epigenomics",
       "description": "AtacWorks is a deep learning tool to denoise and identify accessible chromatin regions from low-coverage, low cell count, or low-quality ATAC-seq data. AtacWorks can denoise signal and identify peaks from rare cellular subtypes in a mixed population. [Biorxiv](https://www.biorxiv.org/content/10.1101/829481v2)",
-      "stars": 137
-    },
-    {
-      "name": "CellTrek",
-      "url": "https://github.com/navinlabcode/CellTrek",
-      "owner": "navinlabcode",
-      "repo": "CellTrek",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 137
     },
     {
@@ -1387,21 +1387,21 @@
       "stars": 55
     },
     {
-      "name": "trendsceek",
-      "url": "https://github.com/edsgard/trendsceek",
-      "owner": "edsgard",
-      "repo": "trendsceek",
-      "category": "RNA-seq",
-      "description": "[Identification of spatial expression trends in single-cell gene expression data](https://www.nature.com/articles/nmeth.4634)",
-      "stars": 52
-    },
-    {
       "name": "Ginkgo",
       "url": "https://github.com/robertaboukhalil/ginkgo",
       "owner": "robertaboukhalil",
       "repo": "ginkgo",
       "category": "Copy number analysis",
       "description": "Ginkgo is a web application for single-cell copy-number variation analysis.",
+      "stars": 53
+    },
+    {
+      "name": "trendsceek",
+      "url": "https://github.com/edsgard/trendsceek",
+      "owner": "edsgard",
+      "repo": "trendsceek",
+      "category": "RNA-seq",
+      "description": "[Identification of spatial expression trends in single-cell gene expression data](https://www.nature.com/articles/nmeth.4634)",
       "stars": 52
     },
     {
@@ -2737,6 +2737,15 @@
       "stars": 3
     },
     {
+      "name": "OpenOmicsBench",
+      "url": "https://github.com/vxxqv/openomicsbench",
+      "owner": "vxxqv",
+      "repo": "openomicsbench",
+      "category": "Other applications",
+      "description": "A 90-cell synthetic single-cell benchmark with offline clustering scores (ARI, NMI, purity, and cell coverage).",
+      "stars": 3
+    },
+    {
       "name": "sasc",
       "url": "https://github.com/sciccolella/sasc",
       "owner": "sciccolella",
@@ -2761,15 +2770,6 @@
       "repo": "CytoSpill",
       "category": "Other applications",
       "description": "The goal of CytoSpill is to estimate and compensate spillover noises in CyTOF data, without requiring any training data.",
-      "stars": 2
-    },
-    {
-      "name": "OpenOmicsBench",
-      "url": "https://github.com/vxxqv/openomicsbench",
-      "owner": "vxxqv",
-      "repo": "openomicsbench",
-      "category": "Other applications",
-      "description": "A 90-cell synthetic single-cell benchmark with offline clustering scores (ARI, NMI, purity, and cell coverage).",
       "stars": 2
     },
     {
@@ -2899,5 +2899,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-17 07:20:07 UTC"
+  "updated": "2026-11-18 06:44:32 UTC"
 }
