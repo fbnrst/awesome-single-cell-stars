@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2285
+      "stars": 2286
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1668
+      "stars": 1669
     },
     {
       "name": "gget",
@@ -196,7 +196,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 563
+      "stars": 564
     },
     {
       "name": "scVelo",
@@ -214,7 +214,7 @@
       "repo": "dynamo-release",
       "category": "RNA-seq",
       "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 513
+      "stars": 514
     },
     {
       "name": "SCENIC",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 396
+      "stars": 395
     },
     {
       "name": "MAGIC",
@@ -478,21 +478,21 @@
       "stars": 265
     },
     {
-      "name": "BayesPrism",
-      "url": "https://github.com/Danko-Lab/BayesPrism",
-      "owner": "Danko-Lab",
-      "repo": "BayesPrism",
-      "category": "RNA-seq",
-      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
-      "stars": 255
-    },
-    {
       "name": "LIANA",
       "url": "https://github.com/saezlab/liana/",
       "owner": "saezlab",
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
+      "stars": 256
+    },
+    {
+      "name": "BayesPrism",
+      "url": "https://github.com/Danko-Lab/BayesPrism",
+      "owner": "Danko-Lab",
+      "repo": "BayesPrism",
+      "category": "RNA-seq",
+      "description": "Bayesian cell Proportion Reconstruction Inferred using Statistical Marginalization (BayesPrism): A Fully Bayesian Inference of Tumor Microenvironment composition and gene expression.",
       "stars": 255
     },
     {
@@ -763,7 +763,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 139
+      "stars": 140
     },
     {
       "name": "demuxlet",
@@ -1594,6 +1594,15 @@
       "stars": 41
     },
     {
+      "name": "bixverse",
+      "url": "https://github.com/GregorLueg/bixverse",
+      "owner": "GregorLueg",
+      "repo": "bixverse",
+      "category": "RNA-seq",
+      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
+      "stars": 40
+    },
+    {
       "name": "schist",
       "url": "https://github.com/dawe/schist",
       "owner": "dawe",
@@ -1619,15 +1628,6 @@
       "category": "Spatial transcriptomics",
       "description": "",
       "stars": 40
-    },
-    {
-      "name": "bixverse",
-      "url": "https://github.com/GregorLueg/bixverse",
-      "owner": "GregorLueg",
-      "repo": "bixverse",
-      "category": "RNA-seq",
-      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
-      "stars": 39
     },
     {
       "name": "Falco",
@@ -1729,21 +1729,21 @@
       "stars": 33
     },
     {
-      "name": "Celcomen",
-      "url": "https://github.com/Teichlab/celcomen",
-      "owner": "Teichlab",
-      "repo": "celcomen",
-      "category": "Cellular interactions/communication",
-      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
-      "stars": 32
-    },
-    {
       "name": "Connectome",
       "url": "https://github.com/msraredon/Connectome",
       "owner": "msraredon",
       "repo": "Connectome",
       "category": "Cellular interactions/communication",
       "description": "Software package that facilitates calculation and visualization of cell-cell signaling network topologies in single-cell RNA-seq data. Supports analysis of ligand-receptor interactions, differential connectomics between tissue systems, and interactive exploration of cellular communication patterns. [Paper](https://www.nature.com/articles/s41598-022-07959-x)",
+      "stars": 33
+    },
+    {
+      "name": "Celcomen",
+      "url": "https://github.com/Teichlab/celcomen",
+      "owner": "Teichlab",
+      "repo": "celcomen",
+      "category": "Cellular interactions/communication",
+      "description": "Causal generative model that disentangles intra- and inter-cellular gene regulation programs in spatial transcriptomics and single-cell data through a generative graph neural network. Can generate post-perturbation counterfactual spatial transcriptomics. [Paper](https://arxiv.org/abs/2409.05804)",
       "stars": 32
     },
     {
@@ -2899,5 +2899,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-18 06:44:32 UTC"
+  "updated": "2026-11-19 06:45:37 UTC"
 }
