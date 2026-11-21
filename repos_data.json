@@ -133,7 +133,7 @@
       "repo": "nichenetr",
       "category": "Cellular interactions/communication",
       "description": "To study intercellular communication from a computational perspective. It uses human or mouse gene expression data of interacting cells as input and combines this with a prior model that integrates existing knowledge on ligand-to-target signaling paths. This allows to predict ligand-receptor interactions that might drive gene expression changes in cells of interest. [Paper](https://www.nature.com/articles/s41592-019-0667-5)",
-      "stars": 692
+      "stars": 693
     },
     {
       "name": "SCP",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 614
+      "stars": 615
     },
     {
       "name": "ffq",
@@ -199,6 +199,15 @@
       "stars": 563
     },
     {
+      "name": "dynamo",
+      "url": "https://github.com/aristoteleo/dynamo-release",
+      "owner": "aristoteleo",
+      "repo": "dynamo-release",
+      "category": "RNA-seq",
+      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
+      "stars": 515
+    },
+    {
       "name": "scVelo",
       "url": "https://github.com/theislab/scvelo",
       "owner": "theislab",
@@ -206,15 +215,6 @@
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
       "stars": 515
-    },
-    {
-      "name": "dynamo",
-      "url": "https://github.com/aristoteleo/dynamo-release",
-      "owner": "aristoteleo",
-      "repo": "dynamo-release",
-      "category": "RNA-seq",
-      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 514
     },
     {
       "name": "SCENIC",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 427
+      "stars": 428
     },
     {
       "name": "RAPIDS-singlecell",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 395
+      "stars": 396
     },
     {
       "name": "MAGIC",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 211
+      "stars": 212
     },
     {
       "name": "inferCNVpy",
@@ -655,7 +655,7 @@
       "repo": "novae",
       "category": "Spatial transcriptomics",
       "description": "Graph-based foundation model for spatial transcriptomics data. Zero-shot spatial domain inference, batch-effect correction, and many other features.",
-      "stars": 165
+      "stars": 167
     },
     {
       "name": "scPRINT",
@@ -1186,7 +1186,7 @@
       "repo": "autozyme",
       "category": "Other applications",
       "description": "Autonomous multi-agent framework that speeds up single-cell software (e.g. Scanpy, Seurat) and other scientific code on CPUs while preserving the original results.",
-      "stars": 80
+      "stars": 81
     },
     {
       "name": "SCope",
@@ -1312,7 +1312,7 @@
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 63
+      "stars": 65
     },
     {
       "name": "cerebra",
@@ -2854,6 +2854,24 @@
       "stars": 1
     },
     {
+      "name": "InSituGame",
+      "url": "https://github.com/Lukecele/spatial-game-assay",
+      "owner": "Lukecele",
+      "repo": "spatial-game-assay",
+      "category": "Spatial transcriptomics",
+      "description": "In situ spatial evolutionary game assay for inferring tumor subclonal payoff matrices and adaptive therapy regimens from intact spatial transcriptomics. manuscript: [In Situ Spatial Evolutionary Game Assay](https://doi.org/10.5281/zenodo.23585216).",
+      "stars": 1
+    },
+    {
+      "name": "Spatial-Architecture-Osimertinib",
+      "url": "https://github.com/Lukecele/spatial-architecture-osimertinib",
+      "owner": "Lukecele",
+      "repo": "spatial-architecture-osimertinib",
+      "category": "Spatial transcriptomics",
+      "description": "Visium HD analysis of subcellular transport limits and microvascular decoupling in EGFR-mutant NSCLC. DOI: [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878).",
+      "stars": 1
+    },
+    {
       "name": "Spatial-Continuum-Oncology",
       "url": "https://github.com/Lukecele/spatial-continuum-oncology",
       "owner": "Lukecele",
@@ -2879,25 +2897,7 @@
       "category": "Other applications",
       "description": "Approach for analysis of LINE-1 mRNA expression in single cells at a single locus resolution.",
       "stars": 0
-    },
-    {
-      "name": "InSituGame",
-      "url": "https://github.com/Lukecele/spatial-game-assay",
-      "owner": "Lukecele",
-      "repo": "spatial-game-assay",
-      "category": "Spatial transcriptomics",
-      "description": "In situ spatial evolutionary game assay for inferring tumor subclonal payoff matrices and adaptive therapy regimens from intact spatial transcriptomics. manuscript: [In Situ Spatial Evolutionary Game Assay](https://doi.org/10.5281/zenodo.23585216).",
-      "stars": 0
-    },
-    {
-      "name": "Spatial-Architecture-Osimertinib",
-      "url": "https://github.com/Lukecele/spatial-architecture-osimertinib",
-      "owner": "Lukecele",
-      "repo": "spatial-architecture-osimertinib",
-      "category": "Spatial transcriptomics",
-      "description": "Visium HD analysis of subcellular transport limits and microvascular decoupling in EGFR-mutant NSCLC. DOI: [10.5281/zenodo.23620878](https://doi.org/10.5281/zenodo.23620878).",
-      "stars": 0
     }
   ],
-  "updated": "2026-11-20 06:34:10 UTC"
+  "updated": "2026-11-21 06:25:04 UTC"
 }
