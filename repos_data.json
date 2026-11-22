@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1732
+      "stars": 1733
     },
     {
       "name": "scGPT",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 433
+      "stars": 434
     },
     {
       "name": "GEARS",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 428
+      "stars": 429
     },
     {
       "name": "RAPIDS-singlecell",
@@ -361,21 +361,21 @@
       "stars": 346
     },
     {
-      "name": "ivis",
-      "url": "https://github.com/beringresearch/ivis",
-      "owner": "beringresearch",
-      "repo": "ivis",
-      "category": "RNA-seq",
-      "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
-      "stars": 345
-    },
-    {
       "name": "Palantir",
       "url": "https://github.com/dpeerlab/Palantir/",
       "owner": "dpeerlab",
       "repo": "Palantir",
       "category": "Pseudotime and trajectory inference",
       "description": "[Characterization of cell fate probabilities in single-cell data with Palantir](https://www.nature.com/articles/s41587-019-0068-4)",
+      "stars": 346
+    },
+    {
+      "name": "ivis",
+      "url": "https://github.com/beringresearch/ivis",
+      "owner": "beringresearch",
+      "repo": "ivis",
+      "category": "RNA-seq",
+      "description": "Structure-preserving dimensionality reduction in single-cell datasets.",
       "stars": 345
     },
     {
@@ -664,7 +664,7 @@
       "repo": "scPRINT",
       "category": "Gene regulatory network identification",
       "description": "scPRINT is pretrained on 50M cells to predict robust gene networks from single cell RNAseq data. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 164
+      "stars": 165
     },
     {
       "name": "scPRINT",
@@ -673,7 +673,7 @@
       "repo": "scPRINT",
       "category": "Dimension reduction",
       "description": "scPRINT is pretrained on 50M cells and generates multiple cell embeddings from single cell RNAseq profiles. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 164
+      "stars": 165
     },
     {
       "name": "scPRINT",
@@ -682,7 +682,7 @@
       "repo": "scPRINT",
       "category": "Cell type identification and classification",
       "description": "scPRINT is pretrained on 50M cells to predict multiple cell labels de novo, from any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 164
+      "stars": 165
     },
     {
       "name": "scPRINT",
@@ -691,7 +691,7 @@
       "repo": "scPRINT",
       "category": "Feature (Gene) imputation",
       "description": "scPRINT is pretrained on 50M cells to denoise and perform zero imputation of any single cell RNAseq profile. [scPRINT: pre-training on 50 million cells allows robust gene network predictions](https://www.biorxiv.org/content/10.1101/2024.07.29.605556v1)",
-      "stars": 164
+      "stars": 165
     },
     {
       "name": "DeepCpg",
@@ -2179,6 +2179,15 @@
       "stars": 18
     },
     {
+      "name": "SCMarker",
+      "url": "https://github.com/KChen-lab/SCMarker",
+      "owner": "KChen-lab",
+      "repo": "SCMarker",
+      "category": "Marker and differential gene expression identification",
+      "description": "SCMarker is a method performing ab initial marker gene set selection from scRNA-seq data to achieve improved clustering/cell-typing results. [SCMarker: ab initio marker selection for single cell transcriptome profiling](https://www.biorxiv.org/content/early/2018/07/04/356634).",
+      "stars": 17
+    },
+    {
       "name": "scbean",
       "url": "https://github.com/jhu99/scbean",
       "owner": "jhu99",
@@ -2194,15 +2203,6 @@
       "repo": "DECENT",
       "category": "Marker and differential gene expression identification",
       "description": "The unique features of scRNA-seq data have led to the development of novel methods for differential expression (DE) analysis. However, few of the existing DE methods for scRNA-seq data estimate the number of molecules pre-dropout and therefore do not explicitly distinguish technical and biological zeroes. We develop DECENT, a DE method for scRNA-seq data that adjusts for the imperfect capture efficiency by estimating the number of molecules pre-dropout.",
-      "stars": 16
-    },
-    {
-      "name": "SCMarker",
-      "url": "https://github.com/KChen-lab/SCMarker",
-      "owner": "KChen-lab",
-      "repo": "SCMarker",
-      "category": "Marker and differential gene expression identification",
-      "description": "SCMarker is a method performing ab initial marker gene set selection from scRNA-seq data to achieve improved clustering/cell-typing results. [SCMarker: ab initio marker selection for single cell transcriptome profiling](https://www.biorxiv.org/content/early/2018/07/04/356634).",
       "stars": 16
     },
     {
@@ -2899,5 +2899,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-21 06:25:04 UTC"
+  "updated": "2026-11-22 05:56:24 UTC"
 }
