@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2618
+      "stars": 2620
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2287
+      "stars": 2288
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1733
+      "stars": 1734
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1733
+      "stars": 1734
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1733
+      "stars": 1734
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1733
+      "stars": 1734
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1733
+      "stars": 1734
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1733
+      "stars": 1734
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1671
+      "stars": 1673
     },
     {
       "name": "gget",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 615
+      "stars": 616
     },
     {
       "name": "ffq",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 494
+      "stars": 495
     },
     {
       "name": "CellPhoneDB",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 467
+      "stars": 468
     },
     {
       "name": "LIGER",
@@ -286,7 +286,7 @@
       "repo": "GEARS",
       "category": "Cellular interactions/communication",
       "description": "Graph-enhanced gene activation and repression simulator that predicts transcriptional responses to both single and multigene perturbations. Integrates deep learning with knowledge graphs of gene-gene relationships to predict outcomes of novel gene perturbations not seen experimentally. Shows high precision in predicting genetic interaction subtypes. [Paper](https://www.nature.com/articles/s41587-023-01905-6)",
-      "stars": 429
+      "stars": 432
     },
     {
       "name": "RAPIDS-singlecell",
@@ -763,7 +763,7 @@
       "repo": "CyteType",
       "category": "Cell type identification and classification",
       "description": "CyteType is a Python package for deep chracterization of cell clusters from single-cell RNA-seq data. This package interfaces with Anndata objects to call CyteType API.",
-      "stars": 140
+      "stars": 142
     },
     {
       "name": "demuxlet",
@@ -1009,21 +1009,21 @@
       "stars": 107
     },
     {
-      "name": "Snakemake single-cell-rna-seq workflow",
-      "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
-      "owner": "snakemake-workflows",
-      "repo": "single-cell-rna-seq",
-      "category": "Other applications",
-      "description": "An automated pipeline for single cell RNA-seq analysis.",
-      "stars": 106
-    },
-    {
       "name": "DeepSpot",
       "url": "https://github.com/ratschlab/DeepSpot",
       "owner": "ratschlab",
       "repo": "DeepSpot",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 107
+    },
+    {
+      "name": "Snakemake single-cell-rna-seq workflow",
+      "url": "https://github.com/snakemake-workflows/single-cell-rna-seq",
+      "owner": "snakemake-workflows",
+      "repo": "single-cell-rna-seq",
+      "category": "Other applications",
+      "description": "An automated pipeline for single cell RNA-seq analysis.",
       "stars": 106
     },
     {
@@ -1072,6 +1072,15 @@
       "stars": 102
     },
     {
+      "name": "MIMOSCA",
+      "url": "https://github.com/asncd/MIMOSCA",
+      "owner": "asncd",
+      "repo": "MIMOSCA",
+      "category": "RNA-seq",
+      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
+      "stars": 102
+    },
+    {
       "name": "DoubletDetection",
       "url": "https://github.com/JonathanShor/DoubletDetection",
       "owner": "JonathanShor",
@@ -1088,15 +1097,6 @@
       "category": "Feature (Gene) imputation",
       "description": "[scImpute: Accurate And Robust Imputation For Single Cell RNA-Seq Data](doi:10.1038/s41467-018-03405-7)",
       "stars": 102
-    },
-    {
-      "name": "MIMOSCA",
-      "url": "https://github.com/asncd/MIMOSCA",
-      "owner": "asncd",
-      "repo": "MIMOSCA",
-      "category": "RNA-seq",
-      "description": "A repository for the design and analysis of pooled single cell RNA-seq perturbation experiments (Perturb-seq).",
-      "stars": 101
     },
     {
       "name": "solo",
@@ -1297,21 +1297,21 @@
       "stars": 67
     },
     {
-      "name": "Scillus",
-      "url": "https://github.com/xmc811/Scillus",
-      "owner": "xmc811",
-      "repo": "Scillus",
-      "category": "RNA-seq",
-      "description": "[Scillus is an R wrapper package for enhanced processing and visualization of Seurat-based scRNA-seq data](https://scillus.netlify.app/).",
-      "stars": 65
-    },
-    {
       "name": "DeepSpot-M",
       "url": "https://github.com/ratschlab/DeepSpotM",
       "owner": "ratschlab",
       "repo": "DeepSpotM",
       "category": "Spatial transcriptomics",
       "description": "",
+      "stars": 67
+    },
+    {
+      "name": "Scillus",
+      "url": "https://github.com/xmc811/Scillus",
+      "owner": "xmc811",
+      "repo": "Scillus",
+      "category": "RNA-seq",
+      "description": "[Scillus is an R wrapper package for enhanced processing and visualization of Seurat-based scRNA-seq data](https://scillus.netlify.app/).",
       "stars": 65
     },
     {
@@ -2899,5 +2899,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-22 05:56:24 UTC"
+  "updated": "2026-11-23 06:45:24 UTC"
 }
