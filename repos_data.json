@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2288
+      "stars": 2290
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1734
+      "stars": 1735
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1734
+      "stars": 1735
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1734
+      "stars": 1735
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1734
+      "stars": 1735
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1734
+      "stars": 1735
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1734
+      "stars": 1735
     },
     {
       "name": "scGPT",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1673
+      "stars": 1675
     },
     {
       "name": "gget",
@@ -115,7 +115,7 @@
       "repo": "kallisto",
       "category": "RNA-seq",
       "description": "kallisto is a program for quantifying abundances of transcripts or genes from bulk or single-cell RNA-Seq data, or more generally of target sequences using high-throughput sequencing reads. It is based on pseudoalignment for rapidly determining the compatibility of reads with targets, without the need for alignment.",
-      "stars": 777
+      "stars": 778
     },
     {
       "name": "GSEApy",
@@ -136,21 +136,21 @@
       "stars": 693
     },
     {
-      "name": "SCP",
-      "url": "https://github.com/zhanghao-njmu/SCP",
-      "owner": "zhanghao-njmu",
-      "repo": "SCP",
-      "category": "RNA-seq",
-      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
-      "stars": 689
-    },
-    {
       "name": "inferCNV",
       "url": "https://github.com/broadinstitute/inferCNV",
       "owner": "broadinstitute",
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
+      "stars": 690
+    },
+    {
+      "name": "SCP",
+      "url": "https://github.com/zhanghao-njmu/SCP",
+      "owner": "zhanghao-njmu",
+      "repo": "SCP",
+      "category": "RNA-seq",
+      "description": "SCP(Single Cell Pipeline) is an R package that provides a comprehensive set of tools for single cell data processing and downstream analysis.",
       "stars": 689
     },
     {
@@ -187,7 +187,7 @@
       "repo": "DoubletFinder",
       "category": "Doublet Identification",
       "description": "Doublet detection in single-cell RNA sequencing data using artificial nearest neighbors. [BioRxiv](https://www.biorxiv.org/content/early/2018/06/20/352484)",
-      "stars": 574
+      "stars": 575
     },
     {
       "name": "PHATE - Potential of Heat-diffusion for Affinity-based Transition Embedding",
@@ -196,7 +196,7 @@
       "repo": "PHATE",
       "category": "Dimension reduction",
       "description": "PHATE is a tool for visualizing high dimensional single-cell data with natural progressions or trajectories. PHATE uses a novel conceptual framework for learning and visualizing the manifold inherent to biological systems in which smooth transitions mark the progressions of cells from one state to another.",
-      "stars": 563
+      "stars": 564
     },
     {
       "name": "dynamo",
@@ -241,7 +241,7 @@
       "repo": "CellphoneDB",
       "category": "Cellular interactions/communication",
       "description": "Publicly available repository of curated receptors, ligands and their interactions in humam (subunit architecture is included for both ligands and receptors, representing heteromeric complexes accurately). [Paper](https://www.nature.com/articles/s41596-020-0292-x)",
-      "stars": 492
+      "stars": 493
     },
     {
       "name": "GLUE",
@@ -277,7 +277,7 @@
       "repo": "scFoundation",
       "category": "Single cell large model",
       "description": "",
-      "stars": 434
+      "stars": 435
     },
     {
       "name": "GEARS",
@@ -484,7 +484,7 @@
       "repo": "liana",
       "category": "Cellular interactions/communication",
       "description": "LIANA enables the use of any combination of ligand-receptor methods and resources, and their consensus. [Paper](https://www.nature.com/articles/s41467-022-30755-0)",
-      "stars": 256
+      "stars": 257
     },
     {
       "name": "BayesPrism",
@@ -556,7 +556,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 217
+      "stars": 218
     },
     {
       "name": "SPOTlight",
@@ -592,7 +592,7 @@
       "repo": "spectra",
       "category": "Gene regulatory network identification",
       "description": "Spectra is factor analysis method that infers cell type specific and global gene programs in scRNA-seq data using gene sets for cellular processes from our scRNA-seq knowledge base [Cytopus](https://github.com/wallet-maker/cytopus) and cell type annotations. [Spectra factors generalize across tens of studies, hundreds of patients and millions of cells.](https://doi.org/10.1038/s41587-023-01940-3)",
-      "stars": 212
+      "stars": 213
     },
     {
       "name": "inferCNVpy",
@@ -2897,7 +2897,16 @@
       "category": "Other applications",
       "description": "Approach for analysis of LINE-1 mRNA expression in single cells at a single locus resolution.",
       "stars": 0
+    },
+    {
+      "name": "DeepSpot-M kidney (KPMP)",
+      "url": "https://github.com/ratschlab/projects2026-kidney-kpmp-analysis",
+      "owner": "ratschlab",
+      "repo": "projects2026-kidney-kpmp-analysis",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 0
     }
   ],
-  "updated": "2026-11-23 06:45:24 UTC"
+  "updated": "2026-11-24 09:13:22 UTC"
 }
