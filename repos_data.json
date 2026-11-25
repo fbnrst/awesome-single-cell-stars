@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2819
+      "stars": 2822
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2620
+      "stars": 2622
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2290
+      "stars": 2291
     },
     {
       "name": "scVI",
@@ -34,7 +34,7 @@
       "repo": "scVI",
       "category": "RNA-seq",
       "description": "scVI is a ready-to-use scalable framework for the probabilistic representation and analysis of gene expression in single cells (batch correction, visualization, clustering, and differential expression). [Deep generative modeling for single-cell transcriptomics](https://www.nature.com/articles/s41592-018-0229-2)",
-      "stars": 1735
+      "stars": 1737
     },
     {
       "name": "scANVI",
@@ -43,7 +43,7 @@
       "repo": "scVI",
       "category": "Cell type identification and classification",
       "description": "single-cell ANnotation using Variational Inference (scANVI) is a semi-supervised variant of scVI designed to leverage any available cell state annotations \u2014 for instance when only one data set in a cohort is annotated, or when only a few cells in a single data set can be labeled using marker genes. [Harmonization and Annotation of Single-cell Transcriptomics data with Deep Generative Models](https://www.biorxiv.org/content/biorxiv/early/2019/01/29/532895.full)",
-      "stars": 1735
+      "stars": 1737
     },
     {
       "name": "gimVI",
@@ -52,7 +52,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "gimVI is a joint generative model for imputation of missing genes in spatial transcriptomics assay from unpaired scRNA-seq data. [A joint model of unpaired data from scRNA-seq and spatial transcriptomics for",
-      "stars": 1735
+      "stars": 1737
     },
     {
       "name": "MultiVI",
@@ -61,7 +61,7 @@
       "repo": "scvi-tools",
       "category": "Multi-assay data integration",
       "description": "MultiVI is a probabilistic framework that leverages deep neural networks to jointly analyze scRNA, scATAC and multiomic (scRNA + scATAC) data. [MultiVI: deep generative model for the integration of multi-modal data](https://www.biorxiv.org/content/10.1101/2021.08.20.457057v1)",
-      "stars": 1735
+      "stars": 1737
     },
     {
       "name": "TotalVI",
@@ -70,7 +70,7 @@
       "repo": "scVI",
       "category": "Multi-assay data integration",
       "description": "Total Variational Inference (totalVI) is a coupled generative model and inference procedure for CITE-seq data. TotalVI deals with modelisation of the background noise of protein measurements, harmonization of multiple CITE-seq experiments and imputation of missing proteins. [A Joint Model of RNA Expression and Surface Protein Abundance in Single Cells](https://www.biorxiv.org/content/biorxiv/early/2019/10/07/791947.full)",
-      "stars": 1735
+      "stars": 1737
     },
     {
       "name": "DestVI",
@@ -79,7 +79,7 @@
       "repo": "scvi-tools",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 1735
+      "stars": 1737
     },
     {
       "name": "scGPT",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1212
+      "stars": 1214
     },
     {
       "name": "CellChat",
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 495
+      "stars": 496
     },
     {
       "name": "CellPhoneDB",
@@ -601,7 +601,7 @@
       "repo": "infercnvpy",
       "category": "Copy number analysis",
       "description": "A Python/Scanpy re-implementation of `inferCNV`. Significantly faster than the R version.",
-      "stars": 203
+      "stars": 204
     },
     {
       "name": "kb-python",
@@ -721,6 +721,15 @@
       "stars": 151
     },
     {
+      "name": "InMoose",
+      "url": "https://github.com/epigenelabs/inmoose",
+      "owner": "epigenelabs",
+      "repo": "inmoose",
+      "category": "RNA-seq",
+      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
+      "stars": 150
+    },
+    {
       "name": "cisTopic",
       "url": "https://github.com/aertslab/cisTopic",
       "owner": "aertslab",
@@ -737,15 +746,6 @@
       "category": "Other applications",
       "description": "An automatic data handling pipeline for drop-seq/scrb-seq data. It runs from raw fastq.gz data until the final count matrix with QC plots along the way.",
       "stars": 150
-    },
-    {
-      "name": "InMoose",
-      "url": "https://github.com/epigenelabs/inmoose",
-      "owner": "epigenelabs",
-      "repo": "inmoose",
-      "category": "RNA-seq",
-      "description": "InMoose is the Integrated Multi Omic Open Source Environment. It is a collection of tools for the analysis of omic data. Allows for batch effect correction, cohort QC, Differential Expression Analysis and Consensus Clustering.",
-      "stars": 149
     },
     {
       "name": "singleCellNet",
@@ -991,6 +991,15 @@
       "stars": 110
     },
     {
+      "name": "DeepSpot",
+      "url": "https://github.com/ratschlab/DeepSpot",
+      "owner": "ratschlab",
+      "repo": "DeepSpot",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 108
+    },
+    {
       "name": "SWNE",
       "url": "https://github.com/yanwu2014/swne",
       "owner": "yanwu2014",
@@ -1006,15 +1015,6 @@
       "repo": "SCALE",
       "category": "Epigenomics",
       "description": "SCALE is a deeplearning tool combining GMM with VAE for single-cell ATAC-seq analysis (visualization, clustering, imputation, batch effect removal, downstream analysis for celltype-specific TFs). [SCALE method for single-cell ATAC-seq analysis via latent feature extraction](https://www.nature.com/articles/s41467-019-12630-7)",
-      "stars": 107
-    },
-    {
-      "name": "DeepSpot",
-      "url": "https://github.com/ratschlab/DeepSpot",
-      "owner": "ratschlab",
-      "repo": "DeepSpot",
-      "category": "Spatial transcriptomics",
-      "description": "",
       "stars": 107
     },
     {
@@ -2854,6 +2854,15 @@
       "stars": 1
     },
     {
+      "name": "DeepSpot-M kidney (KPMP)",
+      "url": "https://github.com/ratschlab/projects2026-kidney-kpmp-analysis",
+      "owner": "ratschlab",
+      "repo": "projects2026-kidney-kpmp-analysis",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 1
+    },
+    {
       "name": "InSituGame",
       "url": "https://github.com/Lukecele/spatial-game-assay",
       "owner": "Lukecele",
@@ -2897,16 +2906,7 @@
       "category": "Other applications",
       "description": "Approach for analysis of LINE-1 mRNA expression in single cells at a single locus resolution.",
       "stars": 0
-    },
-    {
-      "name": "DeepSpot-M kidney (KPMP)",
-      "url": "https://github.com/ratschlab/projects2026-kidney-kpmp-analysis",
-      "owner": "ratschlab",
-      "repo": "projects2026-kidney-kpmp-analysis",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 0
     }
   ],
-  "updated": "2026-11-24 09:13:22 UTC"
+  "updated": "2026-11-25 07:48:47 UTC"
 }
