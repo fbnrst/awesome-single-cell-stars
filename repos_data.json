@@ -7,7 +7,7 @@
       "repo": "seurat",
       "category": "RNA-seq",
       "description": "It contains easy-to-use implementations of commonly used analytical techniques, including the identification of highly variable genes, dimensionality reduction (PCA, ICA, t-SNE), standard unsupervised clustering algorithms (density clustering, hierarchical clustering, k-means), and the discovery of differentially expressed genes and markers.",
-      "stars": 2822
+      "stars": 2821
     },
     {
       "name": "Scanpy",
@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2622
+      "stars": 2625
     },
     {
       "name": "STAR",
@@ -25,7 +25,7 @@
       "repo": "STAR",
       "category": "RNA-seq",
       "description": "Splice-aware aligner for RNA-seq data, capable of mapping reads to a reference genome with high accuracy and speed.",
-      "stars": 2291
+      "stars": 2293
     },
     {
       "name": "scVI",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1675
+      "stars": 1678
     },
     {
       "name": "gget",
@@ -97,7 +97,7 @@
       "repo": "gget",
       "category": "Other applications",
       "description": "`gget` is a free, open-source command-line tool and Python package that enables efficient querying of genomic databases. `gget` consists of a collection of separate but interoperable modules, each designed to facilitate one type of database querying in a single line of code.",
-      "stars": 1214
+      "stars": 1215
     },
     {
       "name": "CellChat",
@@ -142,7 +142,7 @@
       "repo": "inferCNV",
       "category": "Copy number analysis",
       "description": "Part of the TrinityCTAT (Trinity Cancer Transcriptome Analysis Toolkit). Provides tools for copy-number inference from single-cell RNA-seq data.",
-      "stars": 690
+      "stars": 691
     },
     {
       "name": "SCP",
@@ -169,7 +169,7 @@
       "repo": "squidpy",
       "category": "Spatial transcriptomics",
       "description": "Squidpy is a Python package for the analysis and visualization of spatial molecular data. It provides tools to process, analyze, and visualize spatial transcriptomics data, including spatially resolved transcriptomics and spatial proteomics. [Squidpy: a scalable framework for spatial omics data analysis](https://www.nature.com/articles/s41592-021-01264-7).",
-      "stars": 616
+      "stars": 617
     },
     {
       "name": "ffq",
@@ -199,21 +199,21 @@
       "stars": 564
     },
     {
-      "name": "dynamo",
-      "url": "https://github.com/aristoteleo/dynamo-release",
-      "owner": "aristoteleo",
-      "repo": "dynamo-release",
-      "category": "RNA-seq",
-      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
-      "stars": 515
-    },
-    {
       "name": "scVelo",
       "url": "https://github.com/theislab/scvelo",
       "owner": "theislab",
       "repo": "scvelo",
       "category": "Pseudotime and trajectory inference",
       "description": "scVelo is a scalable toolkit for RNA velocity analysis in single cells. It generalizes the concept of RNA velocity by relaxing previously made assumptions with a dynamical model. It allows to identify putative driver genes, infer a latent time, estimate reaction rates of transcription, splicing and degradation, and detect competing kinetics.",
+      "stars": 516
+    },
+    {
+      "name": "dynamo",
+      "url": "https://github.com/aristoteleo/dynamo-release",
+      "owner": "aristoteleo",
+      "repo": "dynamo-release",
+      "category": "RNA-seq",
+      "description": "Inclusive model of expression dynamics with scSLAM-seq and multiomics, vector field reconstruction and potential landscape mapping.",
       "stars": 515
     },
     {
@@ -232,7 +232,7 @@
       "repo": "spacexr",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 496
+      "stars": 497
     },
     {
       "name": "CellPhoneDB",
@@ -259,7 +259,7 @@
       "repo": "cell2location",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 468
+      "stars": 469
     },
     {
       "name": "LIGER",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 396
+      "stars": 397
     },
     {
       "name": "MAGIC",
@@ -331,7 +331,7 @@
       "repo": "Tangram",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 377
+      "stars": 378
     },
     {
       "name": "TRUST4",
@@ -358,7 +358,7 @@
       "repo": "SoupX",
       "category": "RNA-seq",
       "description": "An R package for the estimation and removal of cell free mRNA contamination in droplet based single cell RNA-seq data. The problem this package attempts to solve is that all droplet based single cell RNA-seq experiments also capture ambient mRNAs present in the input solution along with cell specific mRNAs of interest.",
-      "stars": 346
+      "stars": 347
     },
     {
       "name": "Palantir",
@@ -475,7 +475,7 @@
       "repo": "SpaGCN",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 265
+      "stars": 266
     },
     {
       "name": "LIANA",
@@ -556,7 +556,7 @@
       "repo": "TorchDR",
       "category": "Dimension reduction",
       "description": "Dimensionality reduction toolbox using PyTorch, featuring various algorithms such as TSNE, UMAP, and more. Supports GPU acceleration to maximize computational efficiency.",
-      "stars": 218
+      "stars": 219
     },
     {
       "name": "SPOTlight",
@@ -610,7 +610,16 @@
       "repo": "kb_python",
       "category": "RNA-seq",
       "description": "`kb-python` is a python package for processing single-cell RNA-sequencing. It wraps the [`kallisto` | `bustools`](https://www.kallistobus.tools) single-cell RNA-seq command line tools in order to unify multiple processing workflows.",
-      "stars": 194
+      "stars": 195
+    },
+    {
+      "name": "BayesSpace",
+      "url": "https://github.com/edward130603/BayesSpace",
+      "owner": "edward130603",
+      "repo": "BayesSpace",
+      "category": "Spatial transcriptomics",
+      "description": "",
+      "stars": 193
     },
     {
       "name": "SpatialDe",
@@ -620,15 +629,6 @@
       "category": "Spatial transcriptomics",
       "description": "[SpatialDE](https://www.nature.com/articles/nmeth.4636) is a statistical test to identify genes with spatial patterns of expression variation from multiplexed imaging or spatial RNA-sequencing data.",
       "stars": 193
-    },
-    {
-      "name": "BayesSpace",
-      "url": "https://github.com/edward130603/BayesSpace",
-      "owner": "edward130603",
-      "repo": "BayesSpace",
-      "category": "Spatial transcriptomics",
-      "description": "",
-      "stars": 192
     },
     {
       "name": "Scrublet",
@@ -1576,6 +1576,15 @@
       "stars": 42
     },
     {
+      "name": "bixverse",
+      "url": "https://github.com/GregorLueg/bixverse",
+      "owner": "GregorLueg",
+      "repo": "bixverse",
+      "category": "RNA-seq",
+      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
+      "stars": 41
+    },
+    {
       "name": "scedar",
       "url": "https://github.com/TaylorResearchLab/scedar",
       "owner": "TaylorResearchLab",
@@ -1592,15 +1601,6 @@
       "category": "Cell projection and unimodal integration",
       "description": "A package for analyzing and integrating scRNA-Seq data using PCA-based latent spaces.",
       "stars": 41
-    },
-    {
-      "name": "bixverse",
-      "url": "https://github.com/GregorLueg/bixverse",
-      "owner": "GregorLueg",
-      "repo": "bixverse",
-      "category": "RNA-seq",
-      "description": "Rust-accelerated R package with a streaming single cell engine. Counts stay on disk and are processed in chunks, so a million cell data set goes from raw counts to clusters in minutes on a laptop. Methods cover preprocessing (QC, doublet detection, ambient RNA removal), batch correction and reference mapping (Harmony, fastMNN, BBKNN, Symphony), gene set scoring (AUCell, VISION) and gene modules and regulons (hotspot, SCENIC, NMF, LDA).",
-      "stars": 40
     },
     {
       "name": "schist",
@@ -2908,5 +2908,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-25 07:48:47 UTC"
+  "updated": "2026-11-26 07:39:51 UTC"
 }
