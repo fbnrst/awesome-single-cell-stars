@@ -16,7 +16,7 @@
       "repo": "scanpy",
       "category": "RNA-seq",
       "description": "Scanpy provides computationally efficient tools that scale up to very large data sets and enables simple integration of advanced machine learning algorithms.",
-      "stars": 2625
+      "stars": 2626
     },
     {
       "name": "STAR",
@@ -88,7 +88,7 @@
       "repo": "scGPT",
       "category": "Single cell large model",
       "description": "",
-      "stars": 1678
+      "stars": 1679
     },
     {
       "name": "gget",
@@ -304,7 +304,7 @@
       "repo": "Giotto",
       "category": "Spatial transcriptomics",
       "description": "",
-      "stars": 398
+      "stars": 399
     },
     {
       "name": "MAGIC",
@@ -646,7 +646,7 @@
       "repo": "scde",
       "category": "Marker and differential gene expression identification",
       "description": "Differential expression using error models and overdispersion-based identification of important gene sets.",
-      "stars": 180
+      "stars": 181
     },
     {
       "name": "Novae",
@@ -916,7 +916,7 @@
       "repo": "clustergrammer2",
       "category": "RNA-seq",
       "description": "Interative WebGL web-based heatmap for visualizing and analyzing single-cell high-dimensional and location-based biological data. Clustergrammer can be used within a Jupyter notebook as an interative widget that can be shared using GitHub and NBviewer, see [case studies](https://clustergrammer.readthedocs.io/case_studies.html).",
-      "stars": 120
+      "stars": 121
     },
     {
       "name": "SAVER",
@@ -2908,5 +2908,5 @@
       "stars": 0
     }
   ],
-  "updated": "2026-11-27 07:37:53 UTC"
+  "updated": "2026-11-28 07:05:09 UTC"
 }
